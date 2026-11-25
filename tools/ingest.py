@@ -19,6 +19,7 @@ import argparse
 import datetime
 import hashlib
 import json
+import logging
 import re
 import shutil
 import subprocess
@@ -26,6 +27,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+logging.getLogger("pdfminer").setLevel(logging.ERROR)  # font warnings that change nothing read
 REPORTS = ROOT / "reports"
 
 
@@ -115,6 +117,7 @@ def main():
         subprocess.run(
             ["pdftoppm", "-r", "110", "-png", str(folder / "source.pdf"), str(folder / "pages" / "p")],
             check=True,
+            stderr=subprocess.DEVNULL,
         )
         for png in sorted((folder / "pages").glob("p-*.png")):
             number = int(png.stem.split("-")[-1])
