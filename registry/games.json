@@ -1,0 +1,499 @@
+{
+ "version": 1,
+ "updated": "2026-11-25T16:38:13Z",
+ "games": [
+  {
+   "id": "bigbart-wild-wagon",
+   "name": "Wild Wagon",
+   "provider": "Big Bart Company",
+   "providerKey": "bigbart",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://slotslaunch.com/big-bart-company/wild-wagon",
+    "from": "intelligate-ai records/competitor-gdds/2026-11-24-1056-bigbart-wild-wagon"
+   },
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "gdd",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-24-1056-bigbart-wild-wagon"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "elk-pirots-4",
+   "name": "Pirots 4",
+   "provider": "ELK Studios",
+   "providerKey": "elk",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 12,
+     "as": "Pirots 4 and the Pirots series"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "evolution-crazy-time",
+   "name": "Crazy Time",
+   "provider": "Evolution",
+   "providerKey": "evolution",
+   "type": "live game show",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 10
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "hacksaw-le-bandit",
+   "name": "Le Bandit",
+   "provider": "Hacksaw Gaming",
+   "providerKey": "hacksaw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 4,
+     "as": "Le Bandit and the Le series"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "hacksaw-wanted-dead-or-a-wild",
+   "name": "Wanted Dead or a Wild",
+   "provider": "Hacksaw Gaming",
+   "providerKey": "hacksaw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 3
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "igt-cash-eruption",
+   "name": "Cash Eruption",
+   "provider": "IGT",
+   "providerKey": "igt",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 11
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "inout-chicken-road",
+   "name": "Chicken Road",
+   "provider": "InOut Games",
+   "providerKey": "inout",
+   "type": "instant (crash-style)",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 17
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "jili-super-ace",
+   "name": "Super Ace",
+   "provider": "JILI",
+   "providerKey": "jili",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 16
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "lnw-huff-n-puff",
+   "name": "Huff N’ Puff",
+   "provider": "Light & Wonder",
+   "providerKey": "lnw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 15,
+     "as": "Huff N’ Puff series"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pgsoft-fortune-tiger",
+   "name": "Fortune Tiger",
+   "provider": "PG Soft",
+   "providerKey": "pgsoft",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 13
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pragmatic-big-bass-bonanza",
+   "name": "Big Bass Bonanza",
+   "provider": "Reel Kingdom (Pragmatic Play)",
+   "providerKey": "pragmatic",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 6,
+     "as": "Big Bass Bonanza series"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pragmatic-gates-of-olympus",
+   "name": "Gates of Olympus",
+   "provider": "Pragmatic Play",
+   "providerKey": "pragmatic",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympgate&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+    "from": "intelligate-ai records/competitor-gdds/2026-11-22-1215-pragmatic-gates-of-olympus"
+   },
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 1
+    },
+    {
+     "kind": "gdd",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-22-1215-pragmatic-gates-of-olympus"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pragmatic-sugar-rush-1000",
+   "name": "Sugar Rush 1000",
+   "provider": "Pragmatic Play",
+   "providerKey": "pragmatic",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 5
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pragmatic-sweet-bonanza",
+   "name": "Sweet Bonanza",
+   "provider": "Pragmatic Play",
+   "providerKey": "pragmatic",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 2
+    },
+    {
+     "kind": "gdd",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-19-1745-pragmatic-sweet-bonanza"
+    },
+    {
+     "kind": "gdd",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-20-1143-pragmatic-sweet-bonanza"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "pragmatic-zeus-vs-hades-pop",
+   "name": "Zeus vs Hades POP",
+   "provider": "Pragmatic Play",
+   "providerKey": "pragmatic",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10zsvhdspp&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+    "from": "intelligate-ai records/competitor-gdds/2026-11-24-0913-pragmatic-zeus-vs-hades-pop"
+   },
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "gdd",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-24-0913-pragmatic-zeus-vs-hades-pop"
+    },
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-24-1733-pragmatic-zeus-vs-hades-pop"
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "complete",
+     "run": "2026-11-24-1733-pragmatic-zeus-vs-hades-pop",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/96wro8Y9MyK4QWBugK7H9y",
+     "completed": "2026-11-25T16:38:13Z",
+     "drive": "https://drive.google.com/drive/folders/1XPe7sU56fa9Vb-j0Vx_klbJaTN_-1Drv",
+     "miro": "https://miro.com/app/board/uXjVEJmer50=/"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "roxor-double-bubble",
+   "name": "Double Bubble",
+   "provider": "Roxor Gaming",
+   "providerKey": "roxor",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 14
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "spribe-aviator",
+   "name": "Aviator",
+   "provider": "Spribe",
+   "providerKey": "spribe",
+   "type": "crash",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 9
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "stake-dice",
+   "name": "Dice",
+   "provider": "Stake Originals",
+   "providerKey": "stake",
+   "type": "instant (originals)",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 8
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "stake-plinko",
+   "name": "Plinko",
+   "provider": "Stake Originals",
+   "providerKey": "stake",
+   "type": "instant (originals)",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [
+    {
+     "kind": "research",
+     "repo": "IntelligateStudios/intelligate-ai",
+     "run": "2026-11-21-1102-most-popular-casino-game",
+     "position": 7
+    }
+   ],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-25T16:38:13Z"
+  }
+ ]
+}

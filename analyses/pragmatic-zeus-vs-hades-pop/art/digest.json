@@ -1,0 +1,582 @@
+{
+ "run": "2026-11-24-1733-pragmatic-zeus-vs-hades-pop",
+ "game": "Zeus vs Hades POP",
+ "started": "2026-11-24T17:33:37.666Z",
+ "reader": "uht",
+ "counts": {
+  "textures": 243,
+  "components": 3550,
+  "spines": 39,
+  "fonts": 22
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 29
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 8
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 8
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 10
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 16
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 23
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 13
+  }
+ ],
+ "measured": {
+  "brightness": 0.499,
+  "saturation": 0.632,
+  "contrast": 0.451,
+  "warm": 0.538,
+  "cool": 0.404,
+  "colourShare": 0.873,
+  "softEdge": 0.197,
+  "highlights": 0.098,
+  "palette": [
+   {
+    "hex": "#540e19",
+    "share": 0.07,
+    "name": "dark red"
+   },
+   {
+    "hex": "#f49419",
+    "share": 0.062,
+    "name": "orange"
+   },
+   {
+    "hex": "#f3f4f2",
+    "share": 0.059,
+    "name": "white"
+   },
+   {
+    "hex": "#8e1f15",
+    "share": 0.045,
+    "name": "red"
+   },
+   {
+    "hex": "#2b2c64",
+    "share": 0.041,
+    "name": "dark blue"
+   },
+   {
+    "hex": "#f9ea77",
+    "share": 0.04,
+    "name": "gold"
+   },
+   {
+    "hex": "#0e0509",
+    "share": 0.035,
+    "name": "black"
+   },
+   {
+    "hex": "#1cf2f7",
+    "share": 0.015,
+    "name": "cyan"
+   }
+  ],
+  "hues": {
+   "blue": 0.285,
+   "red": 0.261,
+   "orange": 0.2,
+   "cyan": 0.087
+  },
+  "lightFrom": {
+   "top": 134,
+   "top-left": 127,
+   "bottom-right": 94
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.334,
+   "saturation": 0.102,
+   "contrast": 0.497,
+   "warm": 0.231,
+   "cool": 0.049,
+   "palette": [
+    {
+     "hex": "#030303",
+     "share": 0.574,
+     "name": "black"
+    },
+    {
+     "hex": "#fefefd",
+     "share": 0.203,
+     "name": "white"
+    },
+    {
+     "hex": "#686867",
+     "share": 0.055,
+     "name": "grey"
+    },
+    {
+     "hex": "#f7a613",
+     "share": 0.049,
+     "name": "orange"
+    },
+    {
+     "hex": "#2b2a29",
+     "share": 0.034,
+     "name": "grey"
+    },
+    {
+     "hex": "#fcd936",
+     "share": 0.017,
+     "name": "gold"
+    },
+    {
+     "hex": "#afaead",
+     "share": 0.015,
+     "name": "grey"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.771,
+   "saturation": 0.439,
+   "contrast": 0.482,
+   "warm": 0.829,
+   "cool": 0.17,
+   "palette": [
+    {
+     "hex": "#feffff",
+     "share": 0.422,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#ef9021",
+     "share": 0.369,
+     "name": "orange"
+    },
+    {
+     "hex": "#87baf3",
+     "share": 0.041,
+     "name": "blue"
+    },
+    {
+     "hex": "#b0e3e8",
+     "share": 0.03,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#6d7ac5",
+     "share": 0.023,
+     "name": "blue"
+    },
+    {
+     "hex": "#28b4fb",
+     "share": 0.019,
+     "name": "blue"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.39,
+   "saturation": 0.685,
+   "contrast": 0.436,
+   "warm": 0.352,
+   "cool": 0.636,
+   "palette": [
+    {
+     "hex": "#3b82cd",
+     "share": 0.323,
+     "name": "blue"
+    },
+    {
+     "hex": "#2d4e9f",
+     "share": 0.169,
+     "name": "blue"
+    },
+    {
+     "hex": "#a43633",
+     "share": 0.16,
+     "name": "red"
+    },
+    {
+     "hex": "#4a121f",
+     "share": 0.097,
+     "name": "dark red"
+    },
+    {
+     "hex": "#e58340",
+     "share": 0.077,
+     "name": "orange"
+    },
+    {
+     "hex": "#33397d",
+     "share": 0.048,
+     "name": "blue"
+    },
+    {
+     "hex": "#73759c",
+     "share": 0.028,
+     "name": "blue"
+    },
+    {
+     "hex": "#0b2cb3",
+     "share": 0.016,
+     "name": "blue"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.373,
+   "saturation": 0.88,
+   "contrast": 0.641,
+   "warm": 0.787,
+   "cool": 0.209,
+   "palette": [
+    {
+     "hex": "#ca0915",
+     "share": 0.298,
+     "name": "red"
+    },
+    {
+     "hex": "#08888e",
+     "share": 0.195,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#e53a31",
+     "share": 0.143,
+     "name": "red"
+    },
+    {
+     "hex": "#f5c527",
+     "share": 0.117,
+     "name": "gold"
+    },
+    {
+     "hex": "#d65d72",
+     "share": 0.085,
+     "name": "red"
+    },
+    {
+     "hex": "#480504",
+     "share": 0.073,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.526,
+   "saturation": 0.6,
+   "contrast": 0.534,
+   "warm": 0.5,
+   "cool": 0.424,
+   "palette": [
+    {
+     "hex": "#faa110",
+     "share": 0.111,
+     "name": "orange"
+    },
+    {
+     "hex": "#040304",
+     "share": 0.099,
+     "name": "black"
+    },
+    {
+     "hex": "#a2e7fb",
+     "share": 0.069,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#3eaff8",
+     "share": 0.067,
+     "name": "blue"
+    },
+    {
+     "hex": "#f45513",
+     "share": 0.066,
+     "name": "orange"
+    },
+    {
+     "hex": "#f2fbf5",
+     "share": 0.06,
+     "name": "light green"
+    },
+    {
+     "hex": "#fac8af",
+     "share": 0.037,
+     "name": "light orange"
+    },
+    {
+     "hex": "#08feff",
+     "share": 0.025,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.457,
+   "saturation": 0.651,
+   "contrast": 0.457,
+   "warm": 0.716,
+   "cool": 0.246,
+   "palette": [
+    {
+     "hex": "#8e2e23",
+     "share": 0.24,
+     "name": "red"
+    },
+    {
+     "hex": "#eb701f",
+     "share": 0.143,
+     "name": "orange"
+    },
+    {
+     "hex": "#f5b533",
+     "share": 0.06,
+     "name": "orange"
+    },
+    {
+     "hex": "#cb4226",
+     "share": 0.052,
+     "name": "red"
+    },
+    {
+     "hex": "#2d3d8b",
+     "share": 0.051,
+     "name": "blue"
+    },
+    {
+     "hex": "#100508",
+     "share": 0.042,
+     "name": "black"
+    },
+    {
+     "hex": "#edf2f1",
+     "share": 0.039,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#421820",
+     "share": 0.034,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.26,
+   "saturation": 0.76,
+   "contrast": 0.188,
+   "warm": 0.554,
+   "cool": 0.367,
+   "palette": [
+    {
+     "hex": "#45000d",
+     "share": 0.419,
+     "name": "dark red"
+    },
+    {
+     "hex": "#1f215a",
+     "share": 0.235,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#6dc0e2",
+     "share": 0.061,
+     "name": "cyan"
+    },
+    {
+     "hex": "#b82228",
+     "share": 0.049,
+     "name": "red"
+    },
+    {
+     "hex": "#fb69a2",
+     "share": 0.038,
+     "name": "red"
+    },
+    {
+     "hex": "#eeeeee",
+     "share": 0.033,
+     "name": "white"
+    },
+    {
+     "hex": "#e1f221",
+     "share": 0.026,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.525,
+   "saturation": 0.677,
+   "contrast": 0.469,
+   "warm": 0.625,
+   "cool": 0.334,
+   "palette": [
+    {
+     "hex": "#881209",
+     "share": 0.137,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f6ecf0",
+     "share": 0.082,
+     "name": "light magenta"
+    },
+    {
+     "hex": "#4f2c66",
+     "share": 0.048,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#21e9fd",
+     "share": 0.041,
+     "name": "cyan"
+    },
+    {
+     "hex": "#120410",
+     "share": 0.032,
+     "name": "black"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.563,
+   "saturation": 0.596,
+   "contrast": 0.434,
+   "warm": 0.551,
+   "cool": 0.367,
+   "palette": [
+    {
+     "hex": "#efb341",
+     "share": 0.093,
+     "name": "orange"
+    },
+    {
+     "hex": "#f3f3f1",
+     "share": 0.085,
+     "name": "white"
+    },
+    {
+     "hex": "#580f1d",
+     "share": 0.084,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f7e879",
+     "share": 0.066,
+     "name": "gold"
+    },
+    {
+     "hex": "#5a306e",
+     "share": 0.055,
+     "name": "purple"
+    },
+    {
+     "hex": "#4087ec",
+     "share": 0.051,
+     "name": "blue"
+    },
+    {
+     "hex": "#e484a2",
+     "share": 0.038,
+     "name": "red"
+    },
+    {
+     "hex": "#8c220e",
+     "share": 0.025,
+     "name": "red"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, from the run's contact sheets, animation frames and the real game screens; first written 24 Nov 2026 and checked again on 25 Nov against the corrected parts. The per-unit readings were written, and re-checked, by three reviewers, one per group of art components.",
+  "summary": "A two-sided cartoon mythology: Zeus's blue storm sky against Hades's red lava underworld, drawn as stylised 3D-look paintings with polished gold as the trim that holds both sides together, and a third, candy-bright register reserved for the POP prize feature.",
+  "style": "Stylised 3D-look digital painting in a family-animation manner. Characters have large heads, barrel torsos and big hands; Zeus is round and friendly, Hades angular with spikes, pointed ears and claws; Pegasus is cute and pastel. Low symbols are extruded slab-serif letters. Architecture (temple, prize bar, logo slab) is chunky carved stone with Greek key borders.",
+  "rendering": "Smooth gradients that read like a soft 3D render, clean hard silhouettes and no line outlines anywhere. Detail is concentrated in faces, gold trim and jewellery; backgrounds are soft-focus paintings kept low in detail so the board reads first. Effects are the opposite: thin, sharp, bright shapes with glow.",
+  "colour": "Two opposed families and one shared metal. Zeus and the base game: cyan and blue (#22efff, #2b7cf2, #3986ce, #324382). Hades and free spins: red, orange and dark crimson (#8e1f15, #540e19, #d92d11, #f49419). Gold (#f9ea77, #f49419) trims every symbol and frame on both sides. Purple marks what belongs to neither god (the VS coin's galaxy, the Ace, cloth shadows). Lime, pink and cyan neon appear only on the three POP prize fields. Measured over the game's own art: vivid (saturation 63%), mid-tone, warm 54% against cool 40%.",
+  "lighting": "Each side is lit by its own element: cool cyan light from lightning on Zeus pieces, warm light from fire on Hades pieces, usually against the opposite temperature in the shadows (purple-blue shadows on warm skin). Bevels are top-lit. Lightning, fire, frame edges and eyes are emissive and drawn as separate additive layers, so glow is a layer, not paint.",
+  "ambience": "A playful rivalry rather than a solemn myth: loud, bright, friendly menace. The base game is an airy storm sky, calm between flashes; free spins is a hot, busy underworld of lava falls, chains and stone pillars. POP moments switch to soap bubbles and pastel rainbow, closer to a casual mobile game than to the Greek set.",
+  "shapes": "Rounded and chunky throughout, with angular accents (spikes, zigzag lightning, flames) reserved for power and danger. Frames are thin rails with Greek-key corners; figures break out of their frames.",
+  "materials": "Polished gold with engraved Greek key, white cloth in broad folds, matte skin, sculpted hair in large locks, blue marble and ice-blue crystal, cut gems, lava and fire, cloud, bone and skulls, soap bubbles and glossy candy plastic for POP.",
+  "typography": "Display lettering is drawn art, not type: ice-blue faceted ZEUS, gold flaming HADES and a gold bubble POP in the logo; bevelled gold words for the win tiers; extruded letters with a gold rim for A, K, Q and J. Seventeen typefaces are embedded for running text and numbers, most of them the provider's interface faces.",
+  "motion": "Spine 3.7 skeletons carry almost all movement: symbols have landing (0.5 s), win (1.5 s) and sometimes idle and anticipation animations; the two mascots have six each (idle, idle break, two annoyed, two win). Fire, lightning, hair and sparkle are short hand-drawn frame sequences (3 to 21 frames) played inside the rigs. The expanding VS symbol plays as a duel with two outcomes, fire for Hades and lightning for Zeus. The scene transition is a video-like run of 25 full frames that shows Hades, then Zeus, then breaks open from the centre.",
+  "variants": "Nearly everything exists twice, as a blue base-game version and a red free-spins recolour: backgrounds, reel frame, backing, rails, bars, reel highlights and win-meter effects. Each reel symbol ships as a sharp still, a vertically smeared still (probably the spin blur: inference) and a skeleton. Win tiers are split between the gods: Zeus carries Mega and Sensational, Hades carries Nice and Superb. The three POP result banners (Burst magenta, Spark blue, Snap green) are one design recoloured.",
+  "construction": "3,550 named sprites on 243 textures, 39 skeletons. A character is 73 to 221 parts, with a painted shadow piece for nearly every overlapping part and separate additive glow layers; meshes are used for cloth, hair and faces, regions for rigid parts. The four royals share one 9 to 10 part template: a coloured letter face with flickering lightning at rest, and a lava-cell picture that fills the face, clipped to the letter, during the win. Atlas textures are shipped at 50 to 69% of the source art and as 8-bit palette PNGs. The reel board is deliberately plain (flat backing, thin frame, gold dividers); the prize bar is its one decorated piece.",
+  "consistency": "The Greek set is tight: one rendering manner, one frame construction, one gold. Three things sit outside it and look like shared platform art or a different hand: the POP bubble symbol and banners (glossy candy style), the flat gold title plates in the big-win atlas, and loose shared sprites such as number fonts, coins and a red envelope (inference).",
+  "takeaways": [
+   "Colour does the storytelling: one hue family per side, the opposite temperature in the shadows, and one metal shared by both. A recolour of the same asset is enough to say which mode you are in.",
+   "Glow, shadow and fire are separate layers on every character. That is what lets a painted figure animate in Spine without repainting, and it is the part a generated image does not give you by itself.",
+   "The board is kept quiet so that symbols and characters carry the detail; decoration is spent on one piece (the prize bar).",
+   "A feature can have its own visual register (POP's candy pastel) as long as it is confined to that feature's symbols, bar fields and banners."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-main.webp",
+   "width": 280,
+   "height": 420,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game idle: the SNAP / BURST / SPARK jackpot bar, 3 reels of 5 rows, PLACE YOUR BETS!, spin with − / +, i, autoplay, speed, bet menu, menu; CREDIT $100,000.00, BET $2.00."
+  },
+  {
+   "file": "base-01-spin-in-motion.webp",
+   "width": 280,
+   "height": 420,
+   "stage": "base",
+   "screen": "Spin in motion",
+   "caption": "Reels scrolling, GOOD LUCK!, the stop square in place of the spin button."
+  },
+  {
+   "file": "fs1-03-free-spin-counter.webp",
+   "width": 280,
+   "height": 420,
+   "stage": "feature",
+   "screen": "Counter",
+   "caption": "FREE SPINS LEFT 3 under the reels and in the box."
+  },
+  {
+   "file": "celebration-01-sensational-200-counted.webp",
+   "width": 280,
+   "height": 420,
+   "stage": "celebration",
+   "screen": "SENSATIONAL! counted",
+   "caption": "The counter reaching $200.00."
+  }
+ ]
+}
