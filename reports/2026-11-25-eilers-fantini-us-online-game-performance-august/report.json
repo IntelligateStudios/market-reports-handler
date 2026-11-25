@@ -1,0 +1,242 @@
+{
+ "id": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+ "file": "0e8749c7-EILERS-FANTINI_U.S._Online_Game_Performance_Report_-_August_.pdf",
+ "sha256": "071ed3c64bd40f598525ba0454bb17d4e70861381ec5eed8022ca49a7e834998",
+ "bytes": 5719041,
+ "pages": 80,
+ "received": "2026-11-25",
+ "taken": "2026-11-25T16:48:24Z",
+ "status": "unified",
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, August 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through July 2026",
+ "published": "2026-08-25",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "unified": "2026-11-25T16:50:31Z",
+ "leaders": [
+  {
+   "game": "igt-cash-eruption",
+   "points": 20,
+   "best": {
+    "list": "slots",
+    "rank": 1
+   },
+   "lists": 2,
+   "position": 1
+  },
+  {
+   "game": "lnw-huff-n-even-more-puff-grand",
+   "points": 19,
+   "best": {
+    "list": "new-slots",
+    "rank": 1
+   },
+   "lists": 3,
+   "position": 2
+  },
+  {
+   "game": "gamesglobal-fire-and-roses-gold-blitz-fortune-tower",
+   "points": 18,
+   "best": {
+    "list": "new-slots",
+    "rank": 2
+   },
+   "lists": 3,
+   "position": 3
+  },
+  {
+   "game": "aristocrat-lightning-link-high-stakes",
+   "points": 17,
+   "best": {
+    "list": "new-slots",
+    "rank": 3
+   },
+   "lists": 3,
+   "position": 4
+  },
+  {
+   "game": "whitehat-7s-fire-blitz-power-force-5",
+   "points": 16,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 3
+   },
+   "lists": 3,
+   "position": 5
+  },
+  {
+   "game": "gamesglobal-rome-fight-for-gold-the-tigers-rage",
+   "points": 15,
+   "best": {
+    "list": "new-slots",
+    "rank": 5
+   },
+   "lists": 3,
+   "position": 6
+  },
+  {
+   "game": "octoplay-fire-rail-express-hold-and-win",
+   "points": 14,
+   "best": {
+    "list": "slots",
+    "rank": 7
+   },
+   "lists": 1,
+   "position": 7
+  },
+  {
+   "game": "gamesglobal-dark-waters-3-power-combo-the-cursed-voyage",
+   "points": 13,
+   "best": {
+    "list": "new-slots",
+    "rank": 6
+   },
+   "lists": 3,
+   "position": 8
+  },
+  {
+   "game": "evolution-divine-fortune-gold",
+   "points": 12,
+   "best": {
+    "list": "new-slots",
+    "rank": 7
+   },
+   "lists": 3,
+   "position": 9
+  },
+  {
+   "game": "igt-triple-cash-eruption",
+   "points": 11,
+   "best": {
+    "list": "slots",
+    "rank": 10
+   },
+   "lists": 2,
+   "position": 10
+  },
+  {
+   "game": "whitehat-7s-fire-blitz-hotstepper-2",
+   "points": 10,
+   "best": {
+    "list": "new-slots",
+    "rank": 8
+   },
+   "lists": 3,
+   "position": 11
+  },
+  {
+   "game": "octoplay-777-hot-reels-megacharged",
+   "points": 9,
+   "best": {
+    "list": "new-slots",
+    "rank": 9
+   },
+   "lists": 2,
+   "position": 12
+  },
+  {
+   "game": "reelplay-hypernova-megaways",
+   "points": 8,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 11
+   },
+   "lists": 2,
+   "position": 13
+  },
+  {
+   "game": "ags-capital-gains",
+   "points": 7,
+   "best": {
+    "list": "slots",
+    "rank": 14
+   },
+   "lists": 2,
+   "position": 14
+  },
+  {
+   "game": "gamesglobal-hot-as-hades-power-combo",
+   "points": 6,
+   "best": {
+    "list": "new-slots",
+    "rank": 10
+   },
+   "lists": 2,
+   "position": 15
+  },
+  {
+   "game": "gamesglobal-mega-eagle-power-combo",
+   "points": 5,
+   "best": {
+    "list": "new-slots",
+    "rank": 11
+   },
+   "lists": 3,
+   "position": 16
+  },
+  {
+   "game": "igt-cleopatra",
+   "points": 4,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 13
+   },
+   "lists": 2,
+   "position": 17
+  },
+  {
+   "game": "lnw-huff-n-puff-money-mansion",
+   "points": 3,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 12
+   },
+   "lists": 2,
+   "position": 18
+  },
+  {
+   "game": "igt-money-gong-emperor",
+   "points": 2,
+   "best": {
+    "list": "new-slots",
+    "rank": 12
+   },
+   "lists": 3,
+   "position": 19
+  },
+  {
+   "game": "igt-cash-eruption-high-stakes",
+   "points": 1,
+   "best": {
+    "list": "slots",
+    "rank": 20
+   },
+   "lists": 1,
+   "position": 20
+  }
+ ],
+ "lists": 3,
+ "games": 57,
+ "newGames": [
+  "1x2-3-apex-treasures",
+  "ags-rakin-bacon-triple-oink-san-shen-zhu",
+  "aristocrat-buffalo-triple-power",
+  "aristocrat-lightning-link-high-stakes",
+  "evolution-parthenon-quest-for-immortality",
+  "gamesglobal-dark-waters-3-power-combo-the-cursed-voyage",
+  "gamesglobal-fire-and-roses-gold-blitz-fortune-tower",
+  "gamesglobal-firework-fusion",
+  "gamesglobal-hot-as-hades-power-combo",
+  "gamesglobal-rome-fight-for-gold-the-tigers-rage",
+  "high5-candy-burst",
+  "igt-magic-treasures-dragon",
+  "igt-money-gong-emperor",
+  "lnw-huff-n-xtra-puff",
+  "lnw-money-link-ultimate-8",
+  "octoplay-777-hot-reels-megacharged",
+  "whitehat-7s-fire-blitz-power-force-5",
+  "whitehat-big-catch-even-bigger-bass-3-megaways-jackpot-royale-express"
+ ]
+}

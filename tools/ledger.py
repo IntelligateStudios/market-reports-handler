@@ -254,7 +254,7 @@ def cmd_unify(args):
     header = json.loads(header_path.read_text())
     rankings = json.loads(rankings_path.read_text())
     ledger = load()
-    _, lookup = load_providers()
+    table, lookup = load_providers()
 
     for g in ledger["games"]:  # a second unify of the same report replaces its first
         g["appearances"] = [a for a in g["appearances"] if a["report"] != args.report]
@@ -280,10 +280,15 @@ def cmd_unify(args):
                 asks.append((lst["id"], e, game))
                 continue
             if verdict == "new":
-                game = new_game(e["game"], e.get("provider"), key, e.get("type", "slot"))
-                if any(g["id"] == game["id"] for g in ledger["games"]):
-                    sys.exit(f"'{e['game']}' is marked new but {game['id']} exists. Use \"is\": \"{game['id']}\".")
-                ledger["games"].append(game)
+                # The provider is kept in its usual spelling (the first in providers.json), the title as the report prints it.
+                game = new_game(e["game"], table[key][0] if key in table else e.get("provider"), key, e.get("type", "slot"))
+                # "new" answers "none of the games you offered". The same answer on the game's second
+                # list, or in a later report, finds the game the first one made.
+                made = next((g for g in ledger["games"] if g["id"] == game["id"]), None)
+                if made:
+                    verdict, game = "match", made
+                else:
+                    ledger["games"].append(game)
             elif norm(e["game"]) not in names_of(game):
                 game["aliases"].append(e["game"])
             if key and not game["providerKey"]:

@@ -1,52 +1,214 @@
 {
  "about": "One key per provider and every way a report may write its name. The key is the provider part of a game's id and of its art run's folder in Games-AI-art. Add a spelling here when a report uses a new one; ledger.py unify names any provider it does not know.",
  "providers": {
-  "pragmatic": ["Pragmatic Play", "Pragmatic", "PragmaticPlay", "Reel Kingdom", "Reel Kingdom (Pragmatic Play)"],
-  "hacksaw": ["Hacksaw Gaming", "Hacksaw"],
-  "playngo": ["Play'n GO", "Play n GO", "Playn GO", "PlaynGO"],
-  "netent": ["NetEnt", "Net Entertainment"],
-  "nolimit": ["Nolimit City", "NoLimit City", "Nolimit"],
-  "relax": ["Relax Gaming", "Relax"],
-  "push": ["Push Gaming", "Push"],
-  "elk": ["ELK Studios", "ELK"],
-  "btg": ["Big Time Gaming", "BTG"],
-  "redtiger": ["Red Tiger", "Red Tiger Gaming"],
-  "evolution": ["Evolution", "Evolution Gaming"],
-  "playtech": ["Playtech"],
-  "gamesglobal": ["Games Global", "Microgaming"],
-  "igt": ["IGT", "International Game Technology"],
-  "lnw": ["Light & Wonder", "Light and Wonder", "L&W", "Scientific Games", "SG Digital"],
-  "aristocrat": ["Aristocrat", "Aristocrat Gaming", "Aristocrat Interactive"],
-  "konami": ["Konami", "Konami Gaming"],
-  "everi": ["Everi"],
-  "ags": ["AGS", "PlayAGS"],
-  "ainsworth": ["Ainsworth"],
-  "inspired": ["Inspired", "Inspired Entertainment", "Inspired Gaming"],
-  "blueprint": ["Blueprint Gaming", "Blueprint"],
-  "greentube": ["Greentube", "Novomatic"],
-  "high5": ["High 5 Games", "High5 Games", "High 5"],
-  "pgsoft": ["PG Soft", "PGSoft", "Pocket Games Soft"],
-  "jili": ["JILI", "Jili Games"],
-  "bgaming": ["BGaming"],
-  "spribe": ["Spribe"],
-  "booming": ["Booming Games"],
-  "3oaks": ["3 Oaks Gaming", "3 Oaks"],
-  "playson": ["Playson"],
-  "bigbart": ["Big Bart Company", "Big Bart"],
-  "roxor": ["Roxor Gaming", "Roxor"],
-  "inout": ["InOut Games", "InOut"],
-  "stake": ["Stake Originals", "Stake"],
-  "octoplay": ["Octoplay"],
-  "wazdan": ["Wazdan"],
-  "thunderkick": ["Thunderkick"],
-  "yggdrasil": ["Yggdrasil", "Yggdrasil Gaming"],
-  "quickspin": ["Quickspin"],
-  "print": ["Print Studios"],
-  "avatarux": ["AvatarUX"],
-  "bragg": ["Bragg", "Bragg Gaming", "Oryx Gaming"],
-  "fortunefactory": ["Fortune Factory Studios"],
-  "bally": ["Bally", "Bally's Interactive"],
-  "wms": ["WMS"],
-  "intelligate": ["Intelligate Studios", "Intelligate"]
+  "pragmatic": [
+   "Pragmatic Play",
+   "Pragmatic",
+   "PragmaticPlay",
+   "Reel Kingdom",
+   "Reel Kingdom (Pragmatic Play)"
+  ],
+  "hacksaw": [
+   "Hacksaw Gaming",
+   "Hacksaw"
+  ],
+  "playngo": [
+   "Play'n GO",
+   "Play n GO",
+   "Playn GO",
+   "PlaynGO"
+  ],
+  "netent": [
+   "NetEnt",
+   "Net Entertainment"
+  ],
+  "nolimit": [
+   "Nolimit City",
+   "NoLimit City",
+   "Nolimit"
+  ],
+  "relax": [
+   "Relax Gaming",
+   "Relax"
+  ],
+  "push": [
+   "Push Gaming",
+   "Push"
+  ],
+  "elk": [
+   "ELK Studios",
+   "ELK"
+  ],
+  "btg": [
+   "Big Time Gaming",
+   "BTG"
+  ],
+  "redtiger": [
+   "Red Tiger",
+   "Red Tiger Gaming"
+  ],
+  "evolution": [
+   "Evolution",
+   "Evolution Gaming"
+  ],
+  "playtech": [
+   "Playtech"
+  ],
+  "gamesglobal": [
+   "Games Global",
+   "Microgaming"
+  ],
+  "igt": [
+   "IGT",
+   "International Game Technology"
+  ],
+  "lnw": [
+   "Light & Wonder",
+   "Light and Wonder",
+   "L&W",
+   "Scientific Games",
+   "SG Digital"
+  ],
+  "aristocrat": [
+   "Aristocrat",
+   "Aristocrat Gaming",
+   "Aristocrat Interactive"
+  ],
+  "konami": [
+   "Konami",
+   "Konami Gaming"
+  ],
+  "everi": [
+   "Everi"
+  ],
+  "ags": [
+   "AGS",
+   "PlayAGS"
+  ],
+  "ainsworth": [
+   "Ainsworth"
+  ],
+  "inspired": [
+   "Inspired",
+   "Inspired Entertainment",
+   "Inspired Gaming"
+  ],
+  "blueprint": [
+   "Blueprint Gaming",
+   "Blueprint"
+  ],
+  "greentube": [
+   "Greentube",
+   "Novomatic"
+  ],
+  "high5": [
+   "High 5 Games",
+   "High5 Games",
+   "High 5"
+  ],
+  "pgsoft": [
+   "PG Soft",
+   "PGSoft",
+   "Pocket Games Soft"
+  ],
+  "jili": [
+   "JILI",
+   "Jili Games"
+  ],
+  "bgaming": [
+   "BGaming"
+  ],
+  "spribe": [
+   "Spribe"
+  ],
+  "booming": [
+   "Booming Games"
+  ],
+  "3oaks": [
+   "3 Oaks Gaming",
+   "3 Oaks"
+  ],
+  "playson": [
+   "Playson"
+  ],
+  "bigbart": [
+   "Big Bart Company",
+   "Big Bart"
+  ],
+  "roxor": [
+   "Roxor Gaming",
+   "Roxor"
+  ],
+  "inout": [
+   "InOut Games",
+   "InOut"
+  ],
+  "stake": [
+   "Stake Originals",
+   "Stake"
+  ],
+  "octoplay": [
+   "Octoplay"
+  ],
+  "wazdan": [
+   "Wazdan"
+  ],
+  "thunderkick": [
+   "Thunderkick"
+  ],
+  "yggdrasil": [
+   "Yggdrasil",
+   "Yggdrasil Gaming"
+  ],
+  "quickspin": [
+   "Quickspin"
+  ],
+  "print": [
+   "Print Studios"
+  ],
+  "avatarux": [
+   "AvatarUX"
+  ],
+  "bragg": [
+   "Bragg",
+   "Bragg Gaming",
+   "Oryx Gaming"
+  ],
+  "fortunefactory": [
+   "Fortune Factory Studios"
+  ],
+  "bally": [
+   "Bally",
+   "Bally's Interactive"
+  ],
+  "wms": [
+   "WMS"
+  ],
+  "intelligate": [
+   "Intelligate Studios",
+   "Intelligate"
+  ],
+  "whitehat": [
+   "White Hat Studios",
+   "White Hat Gaming"
+  ],
+  "reelplay": [
+   "Reel Play",
+   "ReelPlay"
+  ],
+  "1x2": [
+   "1x2 Network",
+   "1X2 Network",
+   "1x2 Gaming"
+  ],
+  "gamingrealms": [
+   "Gaming Realms"
+  ],
+  "atlanticdigital": [
+   "Atlantic Digital"
+  ],
+  "internal": [
+   "Internal"
+  ]
  }
 }

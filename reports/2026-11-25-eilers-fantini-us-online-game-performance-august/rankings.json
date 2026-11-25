@@ -1,0 +1,711 @@
+{
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, August 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through July 2026",
+ "published": "2026-08-25",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "notes": "Read from the page pictures: the ranking tables are images. Taken: the slot ranking (ranks 1 to 50), the overall GGR ranking and the new-slots ranking. Only the slot ranking counts towards the leaders (weight 1); the other two re-rank the same games, by total GGR and among games under 191 days in the database, and are kept for reference (weight 0). Left out: the overall rank by Theo Win Index (page 42, the slot ranking with table and live games mixed in), the rankings of table games, live casino, video poker, lottery, instant win, bingo/keno, crash and arcade (pages 47 to 54), the other new-game rankings (pages 56, 58 to 60) and the supplier and game-type summaries. The publisher states that its data is a sample and may not represent the whole market (page 2). Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game (its glossary, page 76).",
+ "lists": [
+  {
+   "id": "slots",
+   "title": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "market": "United States",
+   "page": 45,
+   "weight": 1,
+   "entries": [
+    {
+     "rank": 1,
+     "game": "Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 47.65x"
+    },
+    {
+     "rank": 2,
+     "game": "Huff N Even More Puff Grand",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 41.28x",
+     "new": true
+    },
+    {
+     "rank": 3,
+     "game": "Fire And Roses Gold Blitz Fortune Tower",
+     "provider": "Games Global",
+     "value": "Theo Win Index 34.39x"
+    },
+    {
+     "rank": 4,
+     "game": "Lightning Link High Stakes",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 34.14x"
+    },
+    {
+     "rank": 5,
+     "game": "7s Fire Blitz Power Force 5",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 24.67x",
+     "new": true
+    },
+    {
+     "rank": 6,
+     "game": "Rome Fight For Gold The Tigers Rage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 23.13x"
+    },
+    {
+     "rank": 7,
+     "game": "Fire Rail Express Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 22.78x"
+    },
+    {
+     "rank": 8,
+     "game": "Dark Waters 3 Power Combo The Cursed Voyage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 21.57x"
+    },
+    {
+     "rank": 9,
+     "game": "Divine Fortune Gold",
+     "provider": "Evolution",
+     "value": "Theo Win Index 21.52x"
+    },
+    {
+     "rank": 10,
+     "game": "Triple Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 20.20x",
+     "new": true
+    },
+    {
+     "rank": 11,
+     "game": "7s Fire Blitz Hotstepper 2",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 18.65x",
+     "new": true
+    },
+    {
+     "rank": 12,
+     "game": "777 Hot Reels Megacharged",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 17.70x"
+    },
+    {
+     "rank": 13,
+     "game": "Hypernova Megaways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 16.76x"
+    },
+    {
+     "rank": 14,
+     "game": "Capital Gains",
+     "provider": "Ags",
+     "value": "Theo Win Index 16.35x"
+    },
+    {
+     "rank": 15,
+     "game": "Hot As Hades Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 15.69x",
+     "new": true
+    },
+    {
+     "rank": 16,
+     "game": "Mega Eagle Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 15.52x",
+     "new": true
+    },
+    {
+     "rank": 17,
+     "game": "Cleopatra",
+     "provider": "Igt",
+     "value": "Theo Win Index 15.21x"
+    },
+    {
+     "rank": 18,
+     "game": "Huff N Puff Money Mansion",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 14.58x",
+     "new": true
+    },
+    {
+     "rank": 19,
+     "game": "Money Gong Emperor",
+     "provider": "Igt",
+     "value": "Theo Win Index 14.12x"
+    },
+    {
+     "rank": 20,
+     "game": "Cash Eruption High Stakes",
+     "provider": "Igt",
+     "value": "Theo Win Index 14.11x",
+     "new": true
+    },
+    {
+     "rank": 21,
+     "game": "Gold Blitz Express",
+     "provider": "Games Global",
+     "value": "Theo Win Index 13.84x",
+     "new": true
+    },
+    {
+     "rank": 22,
+     "game": "Huff N Lots Of Goals",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 13.72x",
+     "new": true
+    },
+    {
+     "rank": 23,
+     "game": "Money Link Ultimate 8",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 13.56x"
+    },
+    {
+     "rank": 24,
+     "game": "Coin Collect Piggy Patrons",
+     "provider": "Games Global",
+     "value": "Theo Win Index 13.21x"
+    },
+    {
+     "rank": 25,
+     "game": "88 Fortunes",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 12.83x"
+    },
+    {
+     "rank": 26,
+     "game": "Mystery Of The Lamp Secret Bazaar",
+     "provider": "Igt",
+     "value": "Theo Win Index 12.30x",
+     "page": 46
+    },
+    {
+     "rank": 27,
+     "game": "(Casino Branded) Goal Goal Goal Cash Collect",
+     "provider": "Playtech",
+     "value": "Theo Win Index 11.93x",
+     "page": 46
+    },
+    {
+     "rank": 28,
+     "game": "7s Fire Blitz Hot Stepper",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 11.78x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 29,
+     "game": "Buffalo Triple Power",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 11.72x",
+     "page": 46
+    },
+    {
+     "rank": 30,
+     "game": "Firework Fusion",
+     "provider": "Games Global",
+     "value": "Theo Win Index 11.54x",
+     "page": 46
+    },
+    {
+     "rank": 31,
+     "game": "Wolf It Up Again",
+     "provider": "Inspired",
+     "value": "Theo Win Index 11.53x",
+     "page": 46
+    },
+    {
+     "rank": 32,
+     "game": "Mega Cash Boost Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 11.15x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 33,
+     "game": "Rakin Bacon Triple Oink San Shen Zhu",
+     "provider": "Ags",
+     "value": "Theo Win Index 10.94x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 34,
+     "game": "Mo Mummy Mighty Pyramid",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 10.76x",
+     "page": 46
+    },
+    {
+     "rank": 35,
+     "game": "3 Apex Treasures",
+     "provider": "1x2 Network",
+     "value": "Theo Win Index 10.59x",
+     "page": 46
+    },
+    {
+     "rank": 36,
+     "game": "12 Masks Of Fire Drum Frenzy",
+     "provider": "Games Global",
+     "value": "Theo Win Index 10.50x",
+     "page": 46
+    },
+    {
+     "rank": 37,
+     "game": "Oink Oink Oink",
+     "provider": "Playtech",
+     "value": "Theo Win Index 10.49x",
+     "page": 46
+    },
+    {
+     "rank": 38,
+     "game": "Quick Hit Link Fire",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 10.41x",
+     "page": 46
+    },
+    {
+     "rank": 39,
+     "game": "Cash Eruption Slingo",
+     "provider": "Gaming Realms",
+     "value": "Theo Win Index 10.25x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 40,
+     "game": "Candy Burst",
+     "provider": "High 5 Games",
+     "value": "Theo Win Index 10.19x",
+     "page": 46
+    },
+    {
+     "rank": 41,
+     "game": "Lion Link Wealth Of The Dragon",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 10.17x",
+     "page": 46
+    },
+    {
+     "rank": 42,
+     "game": "10000 Wonders 10k Ways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 9.81x",
+     "page": 46
+    },
+    {
+     "rank": 43,
+     "game": "7s Fire Blitz Power 5 Jackpot Royale Express",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 9.69x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 44,
+     "game": "Huff N Puff High Rise",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 9.58x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 45,
+     "game": "Huff N Xtra Puff",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 9.54x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 46,
+     "game": "Jin Ji Bao Xi Endless Treasure",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 9.04x",
+     "page": 46
+    },
+    {
+     "rank": 47,
+     "game": "Almighty Mustang Express",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 9.02x",
+     "page": 46
+    },
+    {
+     "rank": 48,
+     "game": "Big Catch Even Bigger Bass 3 Megaways Jackpot Royale Express",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 8.62x",
+     "page": 46
+    },
+    {
+     "rank": 49,
+     "game": "Bigger Piggy Bank",
+     "provider": "Inspired",
+     "value": "Theo Win Index 8.56x",
+     "page": 46,
+     "new": true
+    },
+    {
+     "rank": 50,
+     "game": "Parthenon Quest For Immortality",
+     "provider": "Evolution",
+     "value": "Theo Win Index 8.33x",
+     "page": 46
+    }
+   ]
+  },
+  {
+   "id": "ggr-overall",
+   "title": "Top Games by GGR – Overall",
+   "metric": "Share of total GGR, all game types",
+   "market": "United States",
+   "page": 43,
+   "weight": 0,
+   "entries": [
+    {
+     "rank": 1,
+     "game": "Cash Eruption",
+     "provider": "Igt",
+     "value": "1.78% of total GGR"
+    },
+    {
+     "rank": 2,
+     "game": "Huff N Even More Puff Grand",
+     "provider": "Light & Wonder",
+     "value": "1.57% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 3,
+     "game": "7s Fire Blitz Power Force 5",
+     "provider": "White Hat Studios",
+     "value": "0.86% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 4,
+     "game": "Crazy Time Live",
+     "provider": "Evolution",
+     "value": "0.81% of total GGR",
+     "type": "live",
+     "is": "evolution-crazy-time"
+    },
+    {
+     "rank": 5,
+     "game": "Lightning Roulette Live",
+     "provider": "Evolution",
+     "value": "0.78% of total GGR",
+     "type": "live",
+     "new": true
+    },
+    {
+     "rank": 6,
+     "game": "Rome Fight For Gold The Tigers Rage",
+     "provider": "Games Global",
+     "value": "0.78% of total GGR"
+    },
+    {
+     "rank": 7,
+     "game": "Lightning Link High Stakes",
+     "provider": "Aristocrat",
+     "value": "0.75% of total GGR"
+    },
+    {
+     "rank": 8,
+     "game": "Divine Fortune Gold",
+     "provider": "Evolution",
+     "value": "0.74% of total GGR"
+    },
+    {
+     "rank": 9,
+     "game": "7s Fire Blitz Hotstepper 2",
+     "provider": "White Hat Studios",
+     "value": "0.68% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 10,
+     "game": "Fire And Roses Gold Blitz Fortune Tower",
+     "provider": "Games Global",
+     "value": "0.67% of total GGR"
+    },
+    {
+     "rank": 11,
+     "game": "Hypernova Megaways",
+     "provider": "Reel Play",
+     "value": "0.62% of total GGR"
+    },
+    {
+     "rank": 12,
+     "game": "Huff N Puff Money Mansion",
+     "provider": "Light & Wonder",
+     "value": "0.61% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 13,
+     "game": "Cleopatra",
+     "provider": "Igt",
+     "value": "0.60% of total GGR"
+    },
+    {
+     "rank": 14,
+     "game": "Huff N Lots Of Goals",
+     "provider": "Light & Wonder",
+     "value": "0.59% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 15,
+     "game": "Money Gong Emperor",
+     "provider": "Igt",
+     "value": "0.59% of total GGR"
+    },
+    {
+     "rank": 16,
+     "game": "Blackjack",
+     "provider": "Igt",
+     "value": "0.58% of total GGR",
+     "type": "table",
+     "new": true
+    },
+    {
+     "rank": 17,
+     "game": "Triple Cash Eruption",
+     "provider": "Igt",
+     "value": "0.57% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 18,
+     "game": "Speed Baccarat Live",
+     "provider": "Evolution",
+     "value": "0.56% of total GGR",
+     "type": "live",
+     "new": true
+    },
+    {
+     "rank": 19,
+     "game": "Craps",
+     "provider": "Internal",
+     "value": "0.56% of total GGR",
+     "type": "table"
+    },
+    {
+     "rank": 20,
+     "game": "Capital Gains",
+     "provider": "Ags",
+     "value": "0.53% of total GGR"
+    },
+    {
+     "rank": 21,
+     "game": "Dark Waters 3 Power Combo The Cursed Voyage",
+     "provider": "Games Global",
+     "value": "0.52% of total GGR"
+    },
+    {
+     "rank": 22,
+     "game": "7s Fire Blitz Hot Stepper",
+     "provider": "White Hat Studios",
+     "value": "0.52% of total GGR",
+     "new": true
+    },
+    {
+     "rank": 23,
+     "game": "Money Link Ultimate 8",
+     "provider": "Light & Wonder",
+     "value": "0.47% of total GGR"
+    },
+    {
+     "rank": 24,
+     "game": "Magic Treasures Dragon",
+     "provider": "Igt",
+     "value": "0.47% of total GGR"
+    },
+    {
+     "rank": 25,
+     "game": "Mega Eagle Power Combo",
+     "provider": "Games Global",
+     "value": "0.43% of total GGR",
+     "new": true
+    }
+   ]
+  },
+  {
+   "id": "new-slots",
+   "title": "NEW Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index, games under 191 days in the database",
+   "market": "United States",
+   "page": 57,
+   "weight": 0,
+   "entries": [
+    {
+     "rank": 1,
+     "game": "Huff N Even More Puff Grand",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 41.28x",
+     "new": true
+    },
+    {
+     "rank": 2,
+     "game": "Fire And Roses Gold Blitz Fortune Tower",
+     "provider": "Games Global",
+     "value": "Theo Win Index 34.39x"
+    },
+    {
+     "rank": 3,
+     "game": "Lightning Link High Stakes",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 34.14x"
+    },
+    {
+     "rank": 4,
+     "game": "7s Fire Blitz Power Force 5",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 24.67x",
+     "new": true
+    },
+    {
+     "rank": 5,
+     "game": "Rome Fight For Gold The Tigers Rage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 23.13x"
+    },
+    {
+     "rank": 6,
+     "game": "Dark Waters 3 Power Combo The Cursed Voyage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 21.57x"
+    },
+    {
+     "rank": 7,
+     "game": "Divine Fortune Gold",
+     "provider": "Evolution",
+     "value": "Theo Win Index 21.52x"
+    },
+    {
+     "rank": 8,
+     "game": "7s Fire Blitz Hotstepper 2",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 18.65x",
+     "new": true
+    },
+    {
+     "rank": 9,
+     "game": "777 Hot Reels Megacharged",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 17.70x"
+    },
+    {
+     "rank": 10,
+     "game": "Hot As Hades Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 15.69x",
+     "new": true
+    },
+    {
+     "rank": 11,
+     "game": "Mega Eagle Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 15.52x",
+     "new": true
+    },
+    {
+     "rank": 12,
+     "game": "Money Gong Emperor",
+     "provider": "Igt",
+     "value": "Theo Win Index 14.12x"
+    },
+    {
+     "rank": 13,
+     "game": "Gold Blitz Express",
+     "provider": "Games Global",
+     "value": "Theo Win Index 13.84x",
+     "new": true
+    },
+    {
+     "rank": 14,
+     "game": "Huff N Lots Of Goals",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 13.72x",
+     "new": true
+    },
+    {
+     "rank": 15,
+     "game": "Money Link Ultimate 8",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 13.56x"
+    },
+    {
+     "rank": 16,
+     "game": "Wheel Of Fortune Gold Spin Deluxe Triple Stars",
+     "provider": "Igt",
+     "value": "Theo Win Index 13.44x"
+    },
+    {
+     "rank": 17,
+     "game": "Coin Collect Piggy Patrons",
+     "provider": "Games Global",
+     "value": "Theo Win Index 13.21x"
+    },
+    {
+     "rank": 18,
+     "game": "Mystery Of The Lamp Secret Bazaar",
+     "provider": "Igt",
+     "value": "Theo Win Index 12.30x"
+    },
+    {
+     "rank": 19,
+     "game": "(Casino Branded) Goal Goal Goal Cash Collect",
+     "provider": "Playtech",
+     "value": "Theo Win Index 11.93x"
+    },
+    {
+     "rank": 20,
+     "game": "Buffalo Triple Power",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 11.72x"
+    },
+    {
+     "rank": 21,
+     "game": "Firework Fusion",
+     "provider": "Games Global",
+     "value": "Theo Win Index 11.54x"
+    },
+    {
+     "rank": 22,
+     "game": "Mega Cash Boost Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 11.15x",
+     "new": true
+    },
+    {
+     "rank": 23,
+     "game": "Rakin Bacon Triple Oink San Shen Zhu",
+     "provider": "Ags",
+     "value": "Theo Win Index 10.94x",
+     "new": true
+    },
+    {
+     "rank": 24,
+     "game": "3 Apex Treasures",
+     "provider": "1x2 Network",
+     "value": "Theo Win Index 10.59x"
+    },
+    {
+     "rank": 25,
+     "game": "12 Masks Of Fire Drum Frenzy",
+     "provider": "Games Global",
+     "value": "Theo Win Index 10.50x"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "id": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+ "file": "4afcc939-EILERS-FANTINI_U.S._Online_Game_Performance_Report_-_July_2_2.pdf",
+ "sha256": "eb77317ea08620a6d8a59ab53687a7951d2ac64156b1358b4484bd6cb7dbea7c",
+ "bytes": 5665463,
+ "pages": 80,
+ "received": "2026-11-25",
+ "taken": "2026-11-25T16:48:09Z",
+ "status": "unified",
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, July 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through June 2026",
+ "published": "2026-07-21",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "unified": "2026-11-25T16:50:31Z",
+ "leaders": [
+  {
+   "game": "igt-cash-eruption",
+   "points": 20,
+   "best": {
+    "list": "slots",
+    "rank": 1
+   },
+   "lists": 2,
+   "position": 1
+  },
+  {
+   "game": "lnw-huff-n-even-more-puff-grand",
+   "points": 19,
+   "best": {
+    "list": "new-slots",
+    "rank": 1
+   },
+   "lists": 3,
+   "position": 2
+  },
+  {
+   "game": "octoplay-fire-rail-express-hold-and-win",
+   "points": 18,
+   "best": {
+    "list": "new-slots",
+    "rank": 2
+   },
+   "lists": 2,
+   "position": 3
+  },
+  {
+   "game": "gamesglobal-coin-collect-piggy-patrons",
+   "points": 17,
+   "best": {
+    "list": "new-slots",
+    "rank": 3
+   },
+   "lists": 3,
+   "position": 4
+  },
+  {
+   "game": "octoplay-mega-cash-boost-hold-and-win",
+   "points": 16,
+   "best": {
+    "list": "new-slots",
+    "rank": 4
+   },
+   "lists": 2,
+   "position": 5
+  },
+  {
+   "game": "lnw-huff-n-lots-of-goals",
+   "points": 15,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 5
+   },
+   "lists": 3,
+   "position": 6
+  },
+  {
+   "game": "gamesglobal-gold-blitz-express",
+   "points": 14,
+   "best": {
+    "list": "new-slots",
+    "rank": 6
+   },
+   "lists": 3,
+   "position": 7
+  },
+  {
+   "game": "whitehat-7s-fire-blitz-hotstepper-2",
+   "points": 13,
+   "best": {
+    "list": "new-slots",
+    "rank": 7
+   },
+   "lists": 3,
+   "position": 8
+  },
+  {
+   "game": "igt-triple-cash-eruption",
+   "points": 12,
+   "best": {
+    "list": "slots",
+    "rank": 9
+   },
+   "lists": 2,
+   "position": 9
+  },
+  {
+   "game": "inspired-bigger-piggy-bank-superwheel",
+   "points": 11,
+   "best": {
+    "list": "new-slots",
+    "rank": 8
+   },
+   "lists": 2,
+   "position": 10
+  },
+  {
+   "game": "gamesglobal-mega-eagle-power-combo",
+   "points": 10,
+   "best": {
+    "list": "new-slots",
+    "rank": 9
+   },
+   "lists": 2,
+   "position": 11
+  },
+  {
+   "game": "reelplay-hypernova-megaways",
+   "points": 9,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 8
+   },
+   "lists": 2,
+   "position": 12
+  },
+  {
+   "game": "gamesglobal-12-masks-of-fire-drum-frenzy",
+   "points": 8,
+   "best": {
+    "list": "new-slots",
+    "rank": 10
+   },
+   "lists": 3,
+   "position": 13
+  },
+  {
+   "game": "igt-cleopatra",
+   "points": 7,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 6
+   },
+   "lists": 2,
+   "position": 14
+  },
+  {
+   "game": "igt-mystery-of-the-lamp-secret-bazaar",
+   "points": 6,
+   "best": {
+    "list": "new-slots",
+    "rank": 11
+   },
+   "lists": 3,
+   "position": 15
+  },
+  {
+   "game": "octoplay-the-lucky-fella-hold-and-win",
+   "points": 5,
+   "best": {
+    "list": "new-slots",
+    "rank": 12
+   },
+   "lists": 2,
+   "position": 16
+  },
+  {
+   "game": "octoplay-serpent-gold-hold-and-win",
+   "points": 4,
+   "best": {
+    "list": "new-slots",
+    "rank": 13
+   },
+   "lists": 2,
+   "position": 17
+  },
+  {
+   "game": "ags-capital-gains",
+   "points": 3,
+   "best": {
+    "list": "ggr-overall",
+    "rank": 14
+   },
+   "lists": 2,
+   "position": 18
+  },
+  {
+   "game": "octoplay-super-cash-boost-big-bad-bonus",
+   "points": 2,
+   "best": {
+    "list": "new-slots",
+    "rank": 14
+   },
+   "lists": 2,
+   "position": 19
+  },
+  {
+   "game": "evolution-divine-fortune-gold",
+   "points": 1,
+   "best": {
+    "list": "new-slots",
+    "rank": 15
+   },
+   "lists": 2,
+   "position": 20
+  }
+ ],
+ "lists": 3,
+ "games": 58,
+ "newGames": [
+  "1x2-4-dragon-pots",
+  "ags-3x-ultra-diamond",
+  "ags-capital-gains",
+  "ags-rakin-bacon-triple-oink-soda-fountain-fortunes",
+  "aristocrat-mo-mummy-mighty-pyramid",
+  "atlanticdigital-jewel-boom-triple-drop",
+  "evolution-baccarat-live",
+  "evolution-divine-fortune-gold",
+  "evolution-lightning-roulette-live",
+  "evolution-speed-baccarat-live",
+  "evolution-speed-blackjack-live",
+  "gamesglobal-12-masks-of-fire-drum-frenzy",
+  "gamesglobal-blazing-bison-gold-blitz-ultimate-double-x",
+  "gamesglobal-coin-collect-piggy-patrons",
+  "gamesglobal-gold-blitz-express",
+  "gamesglobal-mega-eagle-power-combo",
+  "gamingrealms-cash-eruption-slingo",
+  "igt-blackjack",
+  "igt-cash-eruption-high-stakes",
+  "igt-cleopatra",
+  "igt-megajackpots-cash-eruption",
+  "igt-mystery-of-the-lamp-secret-bazaar",
+  "igt-rising-rockets-emperor",
+  "igt-triple-cash-eruption",
+  "igt-wheel-of-fortune-gold-spin-deluxe-triple-stars",
+  "inspired-bigger-piggy-bank",
+  "inspired-bigger-piggy-bank-superwheel",
+  "inspired-wolf-it-up-again",
+  "internal-craps",
+  "lnw-88-fortunes",
+  "lnw-huff-n-even-more-puff-grand",
+  "lnw-huff-n-lots-of-goals",
+  "lnw-huff-n-puff-high-rise",
+  "lnw-huff-n-puff-money-mansion",
+  "lnw-jin-ji-bao-xi-endless-treasure",
+  "lnw-lion-link-wealth-of-the-dragon",
+  "lnw-quick-hit-link-fire",
+  "octoplay-american-star-coins-hold-and-win",
+  "octoplay-break-more-piggy-banks",
+  "octoplay-fire-rail-express-hold-and-win",
+  "octoplay-mega-cash-boost-hold-and-win",
+  "octoplay-serpent-gold-hold-and-win",
+  "octoplay-super-cash-boost-big-bad-bonus",
+  "octoplay-the-lucky-fella-hold-and-win",
+  "playtech-casino-branded-goal-goal-goal-cash-collect",
+  "playtech-oink-oink-oink",
+  "reelplay-10000-wonders-10k-ways",
+  "reelplay-hypernova-megaways",
+  "whitehat-7s-fire-blitz-hot-stepper",
+  "whitehat-7s-fire-blitz-hotstepper-2",
+  "whitehat-7s-fire-blitz-power-5-jackpot-royale-express",
+  "whitehat-almighty-mustang-express",
+  "whitehat-big-money-frenzy-cash-gains",
+  "whitehat-lucky-fire-blitz-power-5",
+  "whitehat-shimmering-sands-jackpot-royale-express",
+  "whitehat-the-goonies-megaways-quest-for-treasure-jack"
+ ]
+}

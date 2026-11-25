@@ -1,0 +1,802 @@
+[
+ {
+  "list": "slots",
+  "rank": 1,
+  "written": "Cash Eruption",
+  "provider": "Igt",
+  "game": "igt-cash-eruption",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 2,
+  "written": "Huff N Even More Puff Grand",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-even-more-puff-grand",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 3,
+  "written": "Fire And Roses Gold Blitz Fortune Tower",
+  "provider": "Games Global",
+  "game": "gamesglobal-fire-and-roses-gold-blitz-fortune-tower",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 4,
+  "written": "Lightning Link High Stakes",
+  "provider": "Aristocrat",
+  "game": "aristocrat-lightning-link-high-stakes",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 5,
+  "written": "7s Fire Blitz Power Force 5",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-power-force-5",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 6,
+  "written": "Rome Fight For Gold The Tigers Rage",
+  "provider": "Games Global",
+  "game": "gamesglobal-rome-fight-for-gold-the-tigers-rage",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 7,
+  "written": "Fire Rail Express Hold And Win",
+  "provider": "Octoplay",
+  "game": "octoplay-fire-rail-express-hold-and-win",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 8,
+  "written": "Dark Waters 3 Power Combo The Cursed Voyage",
+  "provider": "Games Global",
+  "game": "gamesglobal-dark-waters-3-power-combo-the-cursed-voyage",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 9,
+  "written": "Divine Fortune Gold",
+  "provider": "Evolution",
+  "game": "evolution-divine-fortune-gold",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 10,
+  "written": "Triple Cash Eruption",
+  "provider": "Igt",
+  "game": "igt-triple-cash-eruption",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 11,
+  "written": "7s Fire Blitz Hotstepper 2",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hotstepper-2",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 12,
+  "written": "777 Hot Reels Megacharged",
+  "provider": "Octoplay",
+  "game": "octoplay-777-hot-reels-megacharged",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 13,
+  "written": "Hypernova Megaways",
+  "provider": "Reel Play",
+  "game": "reelplay-hypernova-megaways",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 14,
+  "written": "Capital Gains",
+  "provider": "Ags",
+  "game": "ags-capital-gains",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 15,
+  "written": "Hot As Hades Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-hot-as-hades-power-combo",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 16,
+  "written": "Mega Eagle Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-mega-eagle-power-combo",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 17,
+  "written": "Cleopatra",
+  "provider": "Igt",
+  "game": "igt-cleopatra",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 18,
+  "written": "Huff N Puff Money Mansion",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-puff-money-mansion",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 19,
+  "written": "Money Gong Emperor",
+  "provider": "Igt",
+  "game": "igt-money-gong-emperor",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 20,
+  "written": "Cash Eruption High Stakes",
+  "provider": "Igt",
+  "game": "igt-cash-eruption-high-stakes",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 21,
+  "written": "Gold Blitz Express",
+  "provider": "Games Global",
+  "game": "gamesglobal-gold-blitz-express",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 22,
+  "written": "Huff N Lots Of Goals",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-lots-of-goals",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 23,
+  "written": "Money Link Ultimate 8",
+  "provider": "Light & Wonder",
+  "game": "lnw-money-link-ultimate-8",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 24,
+  "written": "Coin Collect Piggy Patrons",
+  "provider": "Games Global",
+  "game": "gamesglobal-coin-collect-piggy-patrons",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 25,
+  "written": "88 Fortunes",
+  "provider": "Light & Wonder",
+  "game": "lnw-88-fortunes",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 26,
+  "written": "Mystery Of The Lamp Secret Bazaar",
+  "provider": "Igt",
+  "game": "igt-mystery-of-the-lamp-secret-bazaar",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 27,
+  "written": "(Casino Branded) Goal Goal Goal Cash Collect",
+  "provider": "Playtech",
+  "game": "playtech-casino-branded-goal-goal-goal-cash-collect",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 28,
+  "written": "7s Fire Blitz Hot Stepper",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hot-stepper",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 29,
+  "written": "Buffalo Triple Power",
+  "provider": "Aristocrat",
+  "game": "aristocrat-buffalo-triple-power",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 30,
+  "written": "Firework Fusion",
+  "provider": "Games Global",
+  "game": "gamesglobal-firework-fusion",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 31,
+  "written": "Wolf It Up Again",
+  "provider": "Inspired",
+  "game": "inspired-wolf-it-up-again",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 32,
+  "written": "Mega Cash Boost Hold And Win",
+  "provider": "Octoplay",
+  "game": "octoplay-mega-cash-boost-hold-and-win",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 33,
+  "written": "Rakin Bacon Triple Oink San Shen Zhu",
+  "provider": "Ags",
+  "game": "ags-rakin-bacon-triple-oink-san-shen-zhu",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 34,
+  "written": "Mo Mummy Mighty Pyramid",
+  "provider": "Aristocrat",
+  "game": "aristocrat-mo-mummy-mighty-pyramid",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 35,
+  "written": "3 Apex Treasures",
+  "provider": "1x2 Network",
+  "game": "1x2-3-apex-treasures",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 36,
+  "written": "12 Masks Of Fire Drum Frenzy",
+  "provider": "Games Global",
+  "game": "gamesglobal-12-masks-of-fire-drum-frenzy",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 37,
+  "written": "Oink Oink Oink",
+  "provider": "Playtech",
+  "game": "playtech-oink-oink-oink",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 38,
+  "written": "Quick Hit Link Fire",
+  "provider": "Light & Wonder",
+  "game": "lnw-quick-hit-link-fire",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 39,
+  "written": "Cash Eruption Slingo",
+  "provider": "Gaming Realms",
+  "game": "gamingrealms-cash-eruption-slingo",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 40,
+  "written": "Candy Burst",
+  "provider": "High 5 Games",
+  "game": "high5-candy-burst",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 41,
+  "written": "Lion Link Wealth Of The Dragon",
+  "provider": "Light & Wonder",
+  "game": "lnw-lion-link-wealth-of-the-dragon",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 42,
+  "written": "10000 Wonders 10k Ways",
+  "provider": "Reel Play",
+  "game": "reelplay-10000-wonders-10k-ways",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 43,
+  "written": "7s Fire Blitz Power 5 Jackpot Royale Express",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-power-5-jackpot-royale-express",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 44,
+  "written": "Huff N Puff High Rise",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-puff-high-rise",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 45,
+  "written": "Huff N Xtra Puff",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-xtra-puff",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 46,
+  "written": "Jin Ji Bao Xi Endless Treasure",
+  "provider": "Light & Wonder",
+  "game": "lnw-jin-ji-bao-xi-endless-treasure",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 47,
+  "written": "Almighty Mustang Express",
+  "provider": "White Hat Studios",
+  "game": "whitehat-almighty-mustang-express",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 48,
+  "written": "Big Catch Even Bigger Bass 3 Megaways Jackpot Royale Express",
+  "provider": "White Hat Studios",
+  "game": "whitehat-big-catch-even-bigger-bass-3-megaways-jackpot-royale-express",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 49,
+  "written": "Bigger Piggy Bank",
+  "provider": "Inspired",
+  "game": "inspired-bigger-piggy-bank",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 50,
+  "written": "Parthenon Quest For Immortality",
+  "provider": "Evolution",
+  "game": "evolution-parthenon-quest-for-immortality",
+  "how": "new"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 1,
+  "written": "Cash Eruption",
+  "provider": "Igt",
+  "game": "igt-cash-eruption",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 2,
+  "written": "Huff N Even More Puff Grand",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-even-more-puff-grand",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 3,
+  "written": "7s Fire Blitz Power Force 5",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-power-force-5",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 4,
+  "written": "Crazy Time Live",
+  "provider": "Evolution",
+  "game": "evolution-crazy-time",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 5,
+  "written": "Lightning Roulette Live",
+  "provider": "Evolution",
+  "game": "evolution-lightning-roulette-live",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 6,
+  "written": "Rome Fight For Gold The Tigers Rage",
+  "provider": "Games Global",
+  "game": "gamesglobal-rome-fight-for-gold-the-tigers-rage",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 7,
+  "written": "Lightning Link High Stakes",
+  "provider": "Aristocrat",
+  "game": "aristocrat-lightning-link-high-stakes",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 8,
+  "written": "Divine Fortune Gold",
+  "provider": "Evolution",
+  "game": "evolution-divine-fortune-gold",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 9,
+  "written": "7s Fire Blitz Hotstepper 2",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hotstepper-2",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 10,
+  "written": "Fire And Roses Gold Blitz Fortune Tower",
+  "provider": "Games Global",
+  "game": "gamesglobal-fire-and-roses-gold-blitz-fortune-tower",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 11,
+  "written": "Hypernova Megaways",
+  "provider": "Reel Play",
+  "game": "reelplay-hypernova-megaways",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 12,
+  "written": "Huff N Puff Money Mansion",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-puff-money-mansion",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 13,
+  "written": "Cleopatra",
+  "provider": "Igt",
+  "game": "igt-cleopatra",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 14,
+  "written": "Huff N Lots Of Goals",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-lots-of-goals",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 15,
+  "written": "Money Gong Emperor",
+  "provider": "Igt",
+  "game": "igt-money-gong-emperor",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 16,
+  "written": "Blackjack",
+  "provider": "Igt",
+  "game": "igt-blackjack",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 17,
+  "written": "Triple Cash Eruption",
+  "provider": "Igt",
+  "game": "igt-triple-cash-eruption",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 18,
+  "written": "Speed Baccarat Live",
+  "provider": "Evolution",
+  "game": "evolution-speed-baccarat-live",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 19,
+  "written": "Craps",
+  "provider": "Internal",
+  "game": "internal-craps",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 20,
+  "written": "Capital Gains",
+  "provider": "Ags",
+  "game": "ags-capital-gains",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 21,
+  "written": "Dark Waters 3 Power Combo The Cursed Voyage",
+  "provider": "Games Global",
+  "game": "gamesglobal-dark-waters-3-power-combo-the-cursed-voyage",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 22,
+  "written": "7s Fire Blitz Hot Stepper",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hot-stepper",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 23,
+  "written": "Money Link Ultimate 8",
+  "provider": "Light & Wonder",
+  "game": "lnw-money-link-ultimate-8",
+  "how": "match"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 24,
+  "written": "Magic Treasures Dragon",
+  "provider": "Igt",
+  "game": "igt-magic-treasures-dragon",
+  "how": "new"
+ },
+ {
+  "list": "ggr-overall",
+  "rank": 25,
+  "written": "Mega Eagle Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-mega-eagle-power-combo",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 1,
+  "written": "Huff N Even More Puff Grand",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-even-more-puff-grand",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 2,
+  "written": "Fire And Roses Gold Blitz Fortune Tower",
+  "provider": "Games Global",
+  "game": "gamesglobal-fire-and-roses-gold-blitz-fortune-tower",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 3,
+  "written": "Lightning Link High Stakes",
+  "provider": "Aristocrat",
+  "game": "aristocrat-lightning-link-high-stakes",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 4,
+  "written": "7s Fire Blitz Power Force 5",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-power-force-5",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 5,
+  "written": "Rome Fight For Gold The Tigers Rage",
+  "provider": "Games Global",
+  "game": "gamesglobal-rome-fight-for-gold-the-tigers-rage",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 6,
+  "written": "Dark Waters 3 Power Combo The Cursed Voyage",
+  "provider": "Games Global",
+  "game": "gamesglobal-dark-waters-3-power-combo-the-cursed-voyage",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 7,
+  "written": "Divine Fortune Gold",
+  "provider": "Evolution",
+  "game": "evolution-divine-fortune-gold",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 8,
+  "written": "7s Fire Blitz Hotstepper 2",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hotstepper-2",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 9,
+  "written": "777 Hot Reels Megacharged",
+  "provider": "Octoplay",
+  "game": "octoplay-777-hot-reels-megacharged",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 10,
+  "written": "Hot As Hades Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-hot-as-hades-power-combo",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 11,
+  "written": "Mega Eagle Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-mega-eagle-power-combo",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 12,
+  "written": "Money Gong Emperor",
+  "provider": "Igt",
+  "game": "igt-money-gong-emperor",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 13,
+  "written": "Gold Blitz Express",
+  "provider": "Games Global",
+  "game": "gamesglobal-gold-blitz-express",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 14,
+  "written": "Huff N Lots Of Goals",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-lots-of-goals",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 15,
+  "written": "Money Link Ultimate 8",
+  "provider": "Light & Wonder",
+  "game": "lnw-money-link-ultimate-8",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 16,
+  "written": "Wheel Of Fortune Gold Spin Deluxe Triple Stars",
+  "provider": "Igt",
+  "game": "igt-wheel-of-fortune-gold-spin-deluxe-triple-stars",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 17,
+  "written": "Coin Collect Piggy Patrons",
+  "provider": "Games Global",
+  "game": "gamesglobal-coin-collect-piggy-patrons",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 18,
+  "written": "Mystery Of The Lamp Secret Bazaar",
+  "provider": "Igt",
+  "game": "igt-mystery-of-the-lamp-secret-bazaar",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 19,
+  "written": "(Casino Branded) Goal Goal Goal Cash Collect",
+  "provider": "Playtech",
+  "game": "playtech-casino-branded-goal-goal-goal-cash-collect",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 20,
+  "written": "Buffalo Triple Power",
+  "provider": "Aristocrat",
+  "game": "aristocrat-buffalo-triple-power",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 21,
+  "written": "Firework Fusion",
+  "provider": "Games Global",
+  "game": "gamesglobal-firework-fusion",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 22,
+  "written": "Mega Cash Boost Hold And Win",
+  "provider": "Octoplay",
+  "game": "octoplay-mega-cash-boost-hold-and-win",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 23,
+  "written": "Rakin Bacon Triple Oink San Shen Zhu",
+  "provider": "Ags",
+  "game": "ags-rakin-bacon-triple-oink-san-shen-zhu",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 24,
+  "written": "3 Apex Treasures",
+  "provider": "1x2 Network",
+  "game": "1x2-3-apex-treasures",
+  "how": "match"
+ },
+ {
+  "list": "new-slots",
+  "rank": 25,
+  "written": "12 Masks Of Fire Drum Frenzy",
+  "provider": "Games Global",
+  "game": "gamesglobal-12-masks-of-fire-drum-frenzy",
+  "how": "match"
+ }
+]
