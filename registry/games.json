@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:52:53Z",
+ "updated": "2026-11-26T15:39:04Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1298,7 +1298,11 @@
    "providerKey": "igt",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://platform.ka.rgsgames.com/skb/gateway?skincode=AG01&countrycode=US&nscode=AGLC&language=en&technology=HTML&currencycode=FPY&softwareid=200-1173-001&presenttype=STD",
+    "from": "set by hand",
+    "at": "2026-11-26T15:39:04Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1329,15 +1333,25 @@
      "page": 43
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1045-igt-cleopatra"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:35:31Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1045-igt-cleopatra",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/8PsZLHxhMg8NBvAaTzzro4",
+     "completed": "2026-11-26T15:39:04Z",
+     "started": "2026-11-26T10:35:31Z"
     }
    },
-   "added": "2026-11-25T16:50:31Z"
+   "added": "2026-11-25T16:50:31Z",
+   "notes": "The capture named itself a desktop Chrome browser, because IGT's client gives a browser named HeadlessChrome its half-size mobile art pack. The demo opens either way."
   },
   {
    "id": "igt-magic-treasures-dragon",

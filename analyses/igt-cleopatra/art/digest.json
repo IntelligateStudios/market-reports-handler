@@ -1,0 +1,528 @@
+{
+ "run": "2026-11-26-1045-igt-cleopatra",
+ "game": "Cleopatra",
+ "started": "2026-11-26T10:45:51.217Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 19,
+  "components": 705,
+  "spines": 0,
+  "fonts": 2
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 2
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 3
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 4
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 1
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.48,
+  "saturation": 0.763,
+  "contrast": 0.752,
+  "warm": 0.902,
+  "cool": 0.057,
+  "colourShare": 0.849,
+  "softEdge": 0.052,
+  "highlights": 0.105,
+  "palette": [
+   {
+    "hex": "#f0c70a",
+    "share": 0.155,
+    "name": "gold"
+   },
+   {
+    "hex": "#de7f25",
+    "share": 0.133,
+    "name": "orange"
+   },
+   {
+    "hex": "#120a04",
+    "share": 0.117,
+    "name": "black"
+   },
+   {
+    "hex": "#eeca79",
+    "share": 0.096,
+    "name": "orange"
+   },
+   {
+    "hex": "#67370a",
+    "share": 0.089,
+    "name": "brown"
+   },
+   {
+    "hex": "#861425",
+    "share": 0.086,
+    "name": "red"
+   },
+   {
+    "hex": "#f9e9bc",
+    "share": 0.073,
+    "name": "light orange"
+   }
+  ],
+  "hues": {
+   "orange": 0.527,
+   "yellow": 0.246,
+   "red": 0.147,
+   "magenta": 0.039
+  },
+  "lightFrom": {
+   "top": 94,
+   "bottom": 33,
+   "left": 33
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm",
+   "high contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.708,
+   "saturation": 1.0,
+   "contrast": 0.003,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#ffb100",
+     "share": 1.0,
+     "name": "orange"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.533,
+   "saturation": 0.767,
+   "contrast": 0.492,
+   "warm": 0.84,
+   "cool": 0.138,
+   "palette": [
+    {
+     "hex": "#e8b213",
+     "share": 0.294,
+     "name": "orange"
+    },
+    {
+     "hex": "#c07017",
+     "share": 0.176,
+     "name": "orange"
+    },
+    {
+     "hex": "#f2cf58",
+     "share": 0.071,
+     "name": "gold"
+    },
+    {
+     "hex": "#050c34",
+     "share": 0.053,
+     "name": "black"
+    },
+    {
+     "hex": "#e3260a",
+     "share": 0.034,
+     "name": "red"
+    },
+    {
+     "hex": "#0538b0",
+     "share": 0.031,
+     "name": "blue"
+    },
+    {
+     "hex": "#f2de93",
+     "share": 0.029,
+     "name": "light gold"
+    },
+    {
+     "hex": "#de914d",
+     "share": 0.027,
+     "name": "orange"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.179,
+   "saturation": 0.894,
+   "contrast": 0.151,
+   "warm": 0.599,
+   "cool": 0.228,
+   "palette": [
+    {
+     "hex": "#850d35",
+     "share": 0.559,
+     "name": "dark red"
+    },
+    {
+     "hex": "#9d1cae",
+     "share": 0.181,
+     "name": "magenta"
+    },
+    {
+     "hex": "#6a0cca",
+     "share": 0.167,
+     "name": "purple"
+    },
+    {
+     "hex": "#3a0619",
+     "share": 0.064,
+     "name": "dark red"
+    },
+    {
+     "hex": "#8a1777",
+     "share": 0.028,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.455,
+   "saturation": 0.654,
+   "contrast": 0.614,
+   "warm": 0.818,
+   "cool": 0.067,
+   "palette": [
+    {
+     "hex": "#0c0403",
+     "share": 0.223,
+     "name": "black"
+    },
+    {
+     "hex": "#fccd5c",
+     "share": 0.223,
+     "name": "orange"
+    },
+    {
+     "hex": "#f66a2b",
+     "share": 0.218,
+     "name": "orange"
+    },
+    {
+     "hex": "#e12214",
+     "share": 0.086,
+     "name": "red"
+    },
+    {
+     "hex": "#fff6a4",
+     "share": 0.07,
+     "name": "light gold"
+    },
+    {
+     "hex": "#34276d",
+     "share": 0.038,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.652,
+   "saturation": 0.503,
+   "contrast": 0.572,
+   "warm": 0.966,
+   "cool": 0.029,
+   "palette": [
+    {
+     "hex": "#e5c487",
+     "share": 0.282,
+     "name": "orange"
+    },
+    {
+     "hex": "#fce9cc",
+     "share": 0.255,
+     "name": "light orange"
+    },
+    {
+     "hex": "#904715",
+     "share": 0.187,
+     "name": "brown"
+    },
+    {
+     "hex": "#9d7039",
+     "share": 0.133,
+     "name": "orange"
+    },
+    {
+     "hex": "#dca721",
+     "share": 0.079,
+     "name": "orange"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.503,
+   "saturation": 0.714,
+   "contrast": 0.839,
+   "warm": 0.96,
+   "cool": 0.031,
+   "palette": [
+    {
+     "hex": "#db882b",
+     "share": 0.251,
+     "name": "orange"
+    },
+    {
+     "hex": "#89180b",
+     "share": 0.136,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f8e7bb",
+     "share": 0.102,
+     "name": "light orange"
+    },
+    {
+     "hex": "#180c05",
+     "share": 0.094,
+     "name": "black"
+    },
+    {
+     "hex": "#e9c67a",
+     "share": 0.084,
+     "name": "orange"
+    },
+    {
+     "hex": "#fbed1b",
+     "share": 0.068,
+     "name": "gold"
+    },
+    {
+     "hex": "#47210d",
+     "share": 0.041,
+     "name": "brown"
+    },
+    {
+     "hex": "#f5d338",
+     "share": 0.027,
+     "name": "gold"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.505,
+   "saturation": 0.847,
+   "contrast": 0.874,
+   "warm": 0.923,
+   "cool": 0.047,
+   "palette": [
+    {
+     "hex": "#efc605",
+     "share": 0.292,
+     "name": "gold"
+    },
+    {
+     "hex": "#cd7a05",
+     "share": 0.137,
+     "name": "orange"
+    },
+    {
+     "hex": "#0c0d02",
+     "share": 0.129,
+     "name": "black"
+    },
+    {
+     "hex": "#6b3c05",
+     "share": 0.111,
+     "name": "brown"
+    },
+    {
+     "hex": "#edd190",
+     "share": 0.079,
+     "name": "orange"
+    },
+    {
+     "hex": "#c43106",
+     "share": 0.061,
+     "name": "red"
+    },
+    {
+     "hex": "#f9e8c4",
+     "share": 0.018,
+     "name": "light orange"
+    },
+    {
+     "hex": "#155502",
+     "share": 0.016,
+     "name": "dark green"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.5,
+   "saturation": 0.716,
+   "contrast": 0.922,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fce780",
+     "share": 0.259,
+     "name": "gold"
+    },
+    {
+     "hex": "#270c04",
+     "share": 0.208,
+     "name": "black"
+    },
+    {
+     "hex": "#743015",
+     "share": 0.186,
+     "name": "brown"
+    },
+    {
+     "hex": "#f1b350",
+     "share": 0.144,
+     "name": "orange"
+    },
+    {
+     "hex": "#e97a33",
+     "share": 0.119,
+     "name": "orange"
+    },
+    {
+     "hex": "#b05324",
+     "share": 0.067,
+     "name": "orange"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.36,
+   "saturation": 0.668,
+   "contrast": 0.524,
+   "warm": 0.888,
+   "cool": 0.043,
+   "palette": [
+    {
+     "hex": "#773f10",
+     "share": 0.34,
+     "name": "brown"
+    },
+    {
+     "hex": "#150a03",
+     "share": 0.236,
+     "name": "black"
+    },
+    {
+     "hex": "#a97a39",
+     "share": 0.12,
+     "name": "orange"
+    },
+    {
+     "hex": "#eba827",
+     "share": 0.057,
+     "name": "orange"
+    },
+    {
+     "hex": "#f9f9f5",
+     "share": 0.05,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#7a7a7a",
+     "share": 0.03,
+     "name": "grey"
+    },
+    {
+     "hex": "#382314",
+     "share": 0.026,
+     "name": "brown"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened, with strips of every frame sequence), the game's own files and real screens of a played free-play session. One reader wrote all units; there were no sub-reviewers.",
+  "summary": "A land-based classic kept almost as it was: a gold and red-lacquer Egyptian shrine of 5x3 reels on a one-colour purple dusk, gold-and-enamel symbols each on its own coloured cloth, and a single face, Cleopatra's green eyes under a jewelled headdress, as key art, logo and wild.",
+  "style": "Casino cabinet glass art: comic-style glamour illustration with hard outlines for Cleopatra and the logo, airbrushed gold-and-enamel objects for the picture symbols, gold Art Nouveau letters with lotus buds for the card ranks, and a flat poster-like Sphinx for the scatter. The cabinet and plaques are cleaner, smoother illustration; the backdrop is a one-hue tinted photo-based picture (inference); the one fire effect is naturalistic.",
+  "rendering": "Hard-edged throughout (soft edge 0.05 over the game's art), smooth airbrushed gradients inside thin dark outlines, white streak highlights on gold, a woven texture on the symbol cloths and a fibre texture on the free-spin papyrus. Everything is a flat finished picture: nothing is layered or lit by the scene.",
+  "colour": "Gold on purple. Measured over the game's own art the palette is gold #f0c70a (15%), orange #de7f25 (13%), near-black #120a04, sand #eeca79, brown #67370a, red #861425 and cream #f9e9bc; saturation 0.76, warm 90% against cool 6%. The backdrop is the counter-colour, magenta #9d1cae and purple #6a0cca in the base game, and turns dark red #880d30 in the free spins. The reel cells are cream #f8e6bf in the base game and tan #e8c684 in the free spins. Each picture symbol owns a cloth colour (scarab green #3a8467, lotus violet #753e7e, cartouche blue #3f55b1, crook and flail yellow #e8ad1e, eye red #b92911) and each of the 20 paylines owns a bead colour that its line and cell frames repeat.",
+  "lighting": "No scene lighting. Each object carries its own frontal highlight; the cabinet has banded reflections like polished metal; the Sphinx (scatter and Big Win) and the fire are self-lit. The backdrop is a plain vertical gradient with no sun or lamp.",
+  "ambience": "Opulent, calm and familiar: a jewel box at dusk. The base game is cool purple around warm gold; the free spins heat the whole screen to crimson and age the reels to tan papyrus. Nothing moves until a win, so the game feels like a machine rather than a scene.",
+  "shapes": "Square opaque cells in a strict grid; a symmetrical shrine frame with a curved cornice, two lotus columns and a boat-shaped base with fan prows; round beads and round buttons; the lotus fan as the repeating ornament (on the letters, the logo, the cabinet, the plaque).",
+  "materials": "Polished gold, blue and turquoise enamel, cut gems, red lacquer, woven cloth, cream paper and tan papyrus, sandstone, glass beads and glass-dome buttons, fire.",
+  "typography": "The wordmark is drawn: red capitals with a yellow inner line, a blue band and a gold rim, the C and the R enlarged, in the same comic manner as the face. The words on symbols (SCATTER, BONUS, DOUBLE) are fat cartoon capitals in red-to-yellow or red on violet. Everything else is live text in two embedded sans-serif fonts, Lato Bold and Roboto Regular: yellow for the free-spin messages, blue capitals for BIG WIN, white amounts, orange labels and green win figures on the meter bar. The paytable is a plain white web page with a blue-headed table.",
+  "motion": "No skeletons and no timelines in the files: all animation is frame by frame, as full pictures. The wild has an 80-frame sequence in which the cell turns gold and two hands cross and open over the logo plate to show DOUBLE (and a second 80-frame version that keeps the logo); the Sphinx has 40-frame sequences in which the face glows, flames rise and SCATTER or BONUS wipes in; the Big Win is a 40-frame glow pulse of a Sphinx over a plaque with a counting number; the transition into and out of the free spins is 32 frames of fire inside a gold frame on black; a payline bead gets a 30-frame sparkle. The regular symbols do not animate: a win greys every other cell, frames the winning cells in the line's colour, draws the line to its bead and shows the amount in a small black tag (seen on the screens). The backdrop and cabinet never move.",
+  "variants": "Two modes made by recolour: backdrop purple or crimson, cabinet window cream or tan, every symbol on a cream or tan ground, and each animated sequence shipped once per ground. Scatter in two words (SCATTER, BONUS), wild in two plates (DOUBLE, Cleopatra). Twenty bead colours and a grey. Buttons in four states. The client ships a desktop pack (symbols 244x244, backdrop 1920x1080, read here) and a mobile pack with the same art at half size in fewer atlases (symbols 122x122; captured first by mistake, see the record).",
+  "construction": "A small package: 19 textures, 705 named sprites, 14 frame sequences with 611 frames, 2 fonts. Every atlas is a TexturePacker JSON with the studio's own names. Symbols are untrimmed opaque 244x244 cells with the ground baked in; the cabinet is one 1645x1080 picture per mode with the window painted in and a divider grid laid over the symbols; the backdrop is one mirrored JPEG per mode. Mode differences are made by whole second copies, not by layers or tints: 320 of the 611 animation frames are the wild, and half of all animation frames exist only to change a cell margin from cream to tan. Text is live, so the art holds no language.",
+  "consistency": "The identity is tight where it matters: one face and one wordmark serve as key art, logo and wild, and gold with lotus ornament runs through symbols, cabinet and plaques. Around that the manners differ openly: outlined comic face, airbrushed objects, flat Sphinx, smooth vector-like cabinet, tinted photo backdrop, naturalistic fire, and generic blue and red web buttons for autospin. The game reads as one because of its strict grid, its gold and its single counter-colour, not because the rendering is uniform.",
+  "takeaways": [
+   "A top-20 game in this report runs on 19 textures and frame-by-frame art with no skeletons, no particles and a backdrop that never moves: at this end of the market, recognition and readability outweigh production depth. Inference: its rank rests on the brand's long history, not on the art's finish.",
+   "One colour per symbol. Each picture symbol sits on its own cloth colour and each rank has its own inlay, so the board is read by colour before shape; worth copying in any dense 5x3 set.",
+   "One key image used three ways (loading picture, logo, wild) gives a simple game a strong face. Plan the wild, the logo and the key art as one drawing.",
+   "The rule is shown on the symbol: the wild's plate changes to DOUBLE when it doubles a win, and the scatter writes SCATTER or BONUS on itself. Stating the mechanic in the art, at the point the player is looking, replaces a popup.",
+   "A feature mode from recolour alone: backdrop hue, cell ground and meter bar change, nothing else. It is cheap and it reads at once; with layered symbols and a tint it would cost a fraction of the copies shipped here.",
+   "Payline colour as the win language (bead, line and cell frame in one colour, everything else greyed) is clear with one line and gets muddy with several close colours; a modern version would keep the idea with fewer, better separated colours.",
+   "For AI art work: the set is a clean reference for 'classic land-based Egyptian' as a style target (gold and enamel objects on coloured cloth, Art Nouveau gold letters, comic glamour face), and its flat, unlayered cells are easy to match piece for piece in a concept."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the logo on the cornice of a gold and red-brown cabinet, 5 reels of 3 rows on cream cells, ten coloured payline beads down each side, lotus boat-prow ends, the meter bar (Lines 20, Line Bet 1.00, Total Bet 20.00, round gold spin button, Win, Balance 200.00, autospin) over a purple sky with pink temple columns."
+  },
+  {
+   "file": "05-scatters-landed.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Three Sphinx symbols landed",
+   "caption": "Three Sphinx scatter symbols on the bottom row of reels 3, 4 and 5, before the trigger plays."
+  },
+  {
+   "file": "00-loading.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Loading picture and sound question",
+   "caption": "Loading picture on black: Cleopatra's eyes and gold headdress above the red and gold logo, lotus flowers at the corners, the IGT mark, a loading bar and the plain 'Would you like sound?' box (No, Yes)."
+  }
+ ]
+}
