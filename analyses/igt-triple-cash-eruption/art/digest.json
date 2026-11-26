@@ -1,0 +1,606 @@
+{
+ "run": "2026-11-26-1019-igt-triple-cash-eruption",
+ "game": "Triple Cash Eruption",
+ "started": "2026-11-26T10:19:31.731Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 76,
+  "components": 1913,
+  "spines": 7,
+  "fonts": 5
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 13
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 9
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 2
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 7
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 9
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 4
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 27
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 2
+  }
+ ],
+ "measured": {
+  "brightness": 0.366,
+  "saturation": 0.594,
+  "contrast": 0.421,
+  "warm": 0.754,
+  "cool": 0.047,
+  "colourShare": 0.644,
+  "softEdge": 0.047,
+  "highlights": 0.117,
+  "palette": [
+   {
+    "hex": "#180908",
+    "share": 0.241,
+    "name": "black"
+   },
+   {
+    "hex": "#581413",
+    "share": 0.141,
+    "name": "dark red"
+   },
+   {
+    "hex": "#faf9f6",
+    "share": 0.091,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#88172c",
+    "share": 0.087,
+    "name": "red"
+   },
+   {
+    "hex": "#504e4a",
+    "share": 0.047,
+    "name": "grey"
+   },
+   {
+    "hex": "#d4cdc5",
+    "share": 0.031,
+    "name": "light orange"
+   }
+  ],
+  "hues": {
+   "red": 0.49,
+   "orange": 0.291,
+   "yellow": 0.099,
+   "magenta": 0.062
+  },
+  "lightFrom": {
+   "top": 62,
+   "top-left": 37,
+   "top-right": 29
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.359,
+   "saturation": 0.624,
+   "contrast": 0.541,
+   "warm": 0.583,
+   "cool": 0.33,
+   "palette": [
+    {
+     "hex": "#130416",
+     "share": 0.303,
+     "name": "black"
+    },
+    {
+     "hex": "#453242",
+     "share": 0.149,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#eeeeef",
+     "share": 0.091,
+     "name": "white"
+    },
+    {
+     "hex": "#0728d9",
+     "share": 0.027,
+     "name": "blue"
+    },
+    {
+     "hex": "#f81313",
+     "share": 0.016,
+     "name": "red"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.223,
+   "saturation": 0.77,
+   "contrast": 0.374,
+   "warm": 0.827,
+   "cool": 0.087,
+   "palette": [
+    {
+     "hex": "#770b2a",
+     "share": 0.368,
+     "name": "dark red"
+    },
+    {
+     "hex": "#290a10",
+     "share": 0.317,
+     "name": "black"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.467,
+   "saturation": 0.856,
+   "contrast": 0.861,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#ee6f1c",
+     "share": 0.176,
+     "name": "orange"
+    },
+    {
+     "hex": "#741906",
+     "share": 0.158,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fde50f",
+     "share": 0.128,
+     "name": "gold"
+    },
+    {
+     "hex": "#1d0b01",
+     "share": 0.1,
+     "name": "black"
+    },
+    {
+     "hex": "#e31408",
+     "share": 0.098,
+     "name": "red"
+    },
+    {
+     "hex": "#f4b136",
+     "share": 0.075,
+     "name": "orange"
+    },
+    {
+     "hex": "#ad4c12",
+     "share": 0.046,
+     "name": "brown"
+    },
+    {
+     "hex": "#4b3e09",
+     "share": 0.036,
+     "name": "brown"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.343,
+   "saturation": 0.79,
+   "contrast": 0.894,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#050200",
+     "share": 0.444,
+     "name": "black"
+    },
+    {
+     "hex": "#f39804",
+     "share": 0.158,
+     "name": "orange"
+    },
+    {
+     "hex": "#ffe004",
+     "share": 0.121,
+     "name": "gold"
+    },
+    {
+     "hex": "#fad248",
+     "share": 0.09,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f4503",
+     "share": 0.066,
+     "name": "brown"
+    },
+    {
+     "hex": "#bb6f09",
+     "share": 0.037,
+     "name": "orange"
+    },
+    {
+     "hex": "#4c1801",
+     "share": 0.031,
+     "name": "brown"
+    },
+    {
+     "hex": "#ce0200",
+     "share": 0.024,
+     "name": "red"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.218,
+   "saturation": 0.81,
+   "contrast": 0.354,
+   "warm": 0.939,
+   "cool": 0.023,
+   "palette": [
+    {
+     "hex": "#310a07",
+     "share": 0.568,
+     "name": "black"
+    },
+    {
+     "hex": "#871b0f",
+     "share": 0.115,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fe0401",
+     "share": 0.088,
+     "name": "red"
+    },
+    {
+     "hex": "#faeb9a",
+     "share": 0.023,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fdfbed",
+     "share": 0.017,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.501,
+   "saturation": 0.351,
+   "contrast": 0.493,
+   "warm": 0.363,
+   "cool": 0.138,
+   "palette": [
+    {
+     "hex": "#0c0706",
+     "share": 0.147,
+     "name": "black"
+    },
+    {
+     "hex": "#f5f5f3",
+     "share": 0.145,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#7a7677",
+     "share": 0.136,
+     "name": "grey"
+    },
+    {
+     "hex": "#cfcac6",
+     "share": 0.099,
+     "name": "grey"
+    },
+    {
+     "hex": "#3f3839",
+     "share": 0.074,
+     "name": "grey"
+    },
+    {
+     "hex": "#b1a1a4",
+     "share": 0.039,
+     "name": "grey"
+    },
+    {
+     "hex": "#ee2e1f",
+     "share": 0.035,
+     "name": "red"
+    },
+    {
+     "hex": "#079990",
+     "share": 0.024,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.305,
+   "saturation": 0.543,
+   "contrast": 0.411,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#110b0a",
+     "share": 0.417,
+     "name": "black"
+    },
+    {
+     "hex": "#e3b83e",
+     "share": 0.113,
+     "name": "orange"
+    },
+    {
+     "hex": "#4c2f1d",
+     "share": 0.111,
+     "name": "brown"
+    },
+    {
+     "hex": "#8e7146",
+     "share": 0.095,
+     "name": "orange"
+    },
+    {
+     "hex": "#e47129",
+     "share": 0.079,
+     "name": "orange"
+    },
+    {
+     "hex": "#a7581e",
+     "share": 0.059,
+     "name": "orange"
+    },
+    {
+     "hex": "#f6ea6c",
+     "share": 0.029,
+     "name": "gold"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.426,
+   "saturation": 0.548,
+   "contrast": 0.426,
+   "warm": 0.783,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#140905",
+     "share": 0.227,
+     "name": "black"
+    },
+    {
+     "hex": "#fcfbf8",
+     "share": 0.14,
+     "name": "light orange"
+    },
+    {
+     "hex": "#582110",
+     "share": 0.129,
+     "name": "dark red"
+    },
+    {
+     "hex": "#973118",
+     "share": 0.124,
+     "name": "red"
+    },
+    {
+     "hex": "#f7741e",
+     "share": 0.104,
+     "name": "orange"
+    },
+    {
+     "hex": "#555044",
+     "share": 0.043,
+     "name": "grey"
+    },
+    {
+     "hex": "#d3cac6",
+     "share": 0.024,
+     "name": "light orange"
+    },
+    {
+     "hex": "#9c9b96",
+     "share": 0.016,
+     "name": "grey"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.42,
+   "saturation": 0.824,
+   "contrast": 0.427,
+   "warm": 0.771,
+   "cool": 0.179,
+   "palette": [
+    {
+     "hex": "#fdbf06",
+     "share": 0.28,
+     "name": "gold"
+    },
+    {
+     "hex": "#610e0d",
+     "share": 0.106,
+     "name": "dark red"
+    },
+    {
+     "hex": "#130b0a",
+     "share": 0.103,
+     "name": "black"
+    },
+    {
+     "hex": "#0504a4",
+     "share": 0.07,
+     "name": "blue"
+    },
+    {
+     "hex": "#a9130e",
+     "share": 0.05,
+     "name": "red"
+    },
+    {
+     "hex": "#fef419",
+     "share": 0.031,
+     "name": "gold"
+    },
+    {
+     "hex": "#feed59",
+     "share": 0.026,
+     "name": "gold"
+    },
+    {
+     "hex": "#0d0c5a",
+     "share": 0.019,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.633,
+   "saturation": 0.642,
+   "contrast": 0.451,
+   "warm": 0.781,
+   "cool": 0.219,
+   "palette": [
+    {
+     "hex": "#fd6f1f",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#fccc59",
+     "share": 0.251,
+     "name": "orange"
+    },
+    {
+     "hex": "#60687a",
+     "share": 0.104,
+     "name": "grey"
+    },
+    {
+     "hex": "#ecedef",
+     "share": 0.08,
+     "name": "white"
+    },
+    {
+     "hex": "#fff094",
+     "share": 0.022,
+     "name": "light gold"
+    },
+    {
+     "hex": "#969aa6",
+     "share": 0.02,
+     "name": "grey"
+    },
+    {
+     "hex": "#bdc1c8",
+     "share": 0.015,
+     "name": "grey"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from this run's contact sheets (every sheet outside the provider's interface opened) and from real screens of the demo played the same day: the opening, the base game, line wins, a fireball collected, the paytable, the bonus buy panel, the bonus trigger and the bonus in play. One reader wrote all units. The game's 13 skeletons are Spine 4.0 binary files this project's tools do not draw, so motion is read from frame sequences, animation names in the layout and the real screens.",
+  "summary": "A classic fruit machine set inside a volcano: glossy fruit, bells and sevens on calm teal cells, with all the heat, glow and budget given to four colours of burning fireball, three small colour-coded volcanoes and a great deal of simulated fire.",
+  "style": "Two registers side by side. The symbols are a traditional fruit set (two sevens, bell, melon, grapes, plum, orange, lemon, cherries) drawn as rounded, glossy 3D-look objects with a small engraved swirl each. The world around them is flat, hard-edged poster painting: a ruined temple for the base game, a crater under a spiral sky for the bonus. The feature pieces (fireballs, lava, eruptions) look simulated rather than drawn.",
+  "rendering": "Symbols: smooth airbrushed volume, a hard white specular spot, a four-point sparkle, a thin gold rim on the premium ones, no outlines. Backgrounds: a few flat tones per shape, crisp edges, strong vignette to black. Effects: soft glowing frames on black grounds. Interface plates are clean teal enamel with a gold rim.",
+  "colour": "Warm and dark overall. Measured over the game's own art: black #180908 24%, dark red #581413 14%, red #88172c 8%. Against that the reel cells are teal (#079a8f, #04655d), the one cool field in the base game, so warm symbols sit on their complement. Colour is also the rule system: red is the Multiplier volcano and fireball, green is Collect, blue is Double, orange is plain cash; the jackpots are orange (Grand), magenta (Major), blue (Minor) and green (Mini), and the multipliers are 2X blue, 3X green, 5X magenta. Fire leans to magenta and pink in the sky and haze (#780539, #d1065e) rather than staying orange.",
+  "lighting": "Symbols are lit from the top left with a soft shadow below. Everything that pays is self-lit: fireballs, lava, halos and frames glow past their own edges. Both backgrounds are lit from one hot source in the middle (the crack in the temple wall, the lava lake) and fall dark at the sides, which keeps the panels and the board readable.",
+  "ambience": "Familiar and safe on the reels, loud and hot around them. The base game is an expectant temple chamber; the bonus drops into the crater, darker and redder, where gold numbers in fire rings are the only bright things. The opening is a short disaster film: eruption, flaming rocks at the camera, title, wipe to yellow.",
+  "shapes": "Round and soft for everything collectable (fruit, bell, globes); square for everything structural (cells, frames, plates); the volcano cone is the one triangle and it is used as the game's badge. Frames are hairlines; the reel board has almost no body of its own.",
+  "materials": "Enamel-like fruit, polished gold, lacquered sevens, plasma globes, lava and lava rock with glowing cracks, carved stone, cloud and smoke, teal enamel with gold rims.",
+  "typography": "The logo and the labels MULTIPLIER, COLLECT, DOUBLE and the jackpot names are one flared serif display face with bevel and gold rim, coloured by meaning. Win amounts use a bitmap font of marbled gold serif numerals; fireball values use a second bitmap font, very condensed black figures with a yellow and orange outline. Five font files are embedded for running text (QTFrizQuad Bold, Noto Sans Condensed Bold, an Oswald cut with currency glyphs, and the provider's Lato and Gilroy).",
+  "motion": "Thirteen Spine 4.0 skeletons (binary) drive the scene, but most of what moves is frame sequences inside them: 30-frame loops for each fireball and each flame border, 30-frame fire frames for wins and anticipation, 22 to 38 frame bursts for hits, landings and eruptions, and 20 burning frames per letter of the win words. Seen in play: reels spin as vertical smears; a win dims the board, puts fire frames on the winning cells and counts a gold number up; a fireball flies from its cell to the volcano of its colour and the lava on that cone rises; at the trigger all three volcanoes erupt, rocks fly at the camera and the screen burns to the bonus, where two 5x3 reel sets respin and lock orange fireballs with values.",
+  "variants": "One cone, three colours; one fireball, four colours, each with a matching flame border; one flared serif, six colour codes. Every reel symbol ships as a still, a spin-blur copy and as layers (body, gold contour, shadow). Backgrounds and menus have landscape and portrait versions. The bonus buy offers two cards: a mystery card and a hotter super card.",
+  "construction": "The 7 skeletons in the counts above are JSON files of a promotional overlay the demo host loads beside the game (listed under the provider interface, not read); the game's own 13 skeletons are binary files the tools do not count or draw. 76 textures and 1,913 named sprites were captured, 63 units of this game's art among them. Effects take most of the texture space: of 51 Spine atlas pages, 34 are opaque pages of frames on black (named _jpg, to be added as light) and several large effects ship as a colour page plus a black-and-white matte page instead of one page with alpha. The same small sequences are packed more than once (the hit burst three times, the embers twice), one copy per skeleton. Pages are WebP at quality 80 (as their names say), up to 2048 px. Symbol stills are about 150x130 px in a 180x158 cell.",
+  "consistency": "Strong where it matters: the colour code is never broken, teal with gold is every number plate, the flared serif is every label. Three hands show otherwise: glossy rounded symbols, flat poster backgrounds and one soft painterly vortex behind the panels, and they are kept apart by where they appear, so they do not clash.",
+  "takeaways": [
+   "A leading game can be a plain fruit set: nine fruit-machine symbols and a wild. The art effort goes into the money objects (four fireballs) and the feature's targets (three volcanoes), not into the paytable.",
+   "Colour as rules: red, green and blue each mean one feature everywhere (fireball, border, volcano, label, buy card), and the jackpots and multipliers have fixed colours too. A player reads the state of the game from colour alone at thumbnail size.",
+   "Put warm symbols on a cool cell. The teal reel ground is the only large cool area and it makes every fruit and fireball stand off the board; the board itself is a hairline frame.",
+   "A meter can be a character: the lava level on each cone is the feature's progress display, and a halo over the crater says it is live. No figure was drawn for this game.",
+   "Change the place, not only the tint, for the bonus: temple interior for the base game, the crater for the bonus, each lit from one hot spot in the middle with dark sides for the panels.",
+   "Effects are frame sequences on black added as light, in 20 to 38 frames at about 150 to 500 px. That is a production method an AI art pipeline can follow: generate short fire and burst loops on black, no alpha needed.",
+   "Two number styles that cannot be confused: marbled gold serif numerals for wins, condensed black figures with a fire outline for values on fireballs.",
+   "What to avoid copying: the same sequences packed several times and mattes shipped as separate pages cost texture memory; our own packages should share one copy."
+  ]
+ },
+ "screens": [
+  {
+   "file": "main-01-base-at-rest.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game: 5 reels of 3 rows on teal cells in the temple; the three volcanoes MULTIPLIER, COLLECT, DOUBLE above; GRAND 2000.00, MAJOR 200.00, MINOR 50.00, MINI 20.00 at the left; BONUS BUY, spin, auto spin and bet controls at the right; BALANCE 1000.00, BET 2.00."
+  },
+  {
+   "file": "base-01-spin-in-motion.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Spin in motion",
+   "caption": "Reels turning and landing; a green and a blue fireball among the fruit."
+  },
+  {
+   "file": "intro-01-loading.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Loading screen",
+   "caption": "Loading: the TRIPLE CASH ERUPTION logo over a burning globe above the crater, the provider's mark, the progress bar and the sound question."
+  },
+  {
+   "file": "trigger-01-fireballs-fly.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "trigger",
+   "screen": "Trigger: three fireballs",
+   "caption": "After the super bonus buy (play money): a red, a green and a blue fireball leave their cells for the three volcanoes."
+  }
+ ]
+}

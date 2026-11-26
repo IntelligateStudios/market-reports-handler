@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T15:53:42Z",
+ "updated": "2026-11-26T18:16:55Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1559,7 +1559,11 @@
    "providerKey": "igt",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://platform.ka.rgsgames.com/skb/gateway?channel=INT&countrycode=AT&currencycode=FPY&language=en&nscode=OLGP&skincode=OLB1&softwareid=200-1700-082&uniqueid=0&locale=en&technology=HTML&presenttype=STD",
+    "from": "set by hand",
+    "at": "2026-11-26T18:16:55Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1590,12 +1594,21 @@
      "page": 43
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1019-igt-triple-cash-eruption"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:10:47Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1019-igt-triple-cash-eruption",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/8eUsnKAu5vP1bkAQkZhJ43",
+     "completed": "2026-11-26T18:16:55Z",
+     "started": "2026-11-26T10:10:47Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"
