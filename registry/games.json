@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T15:39:04Z",
+ "updated": "2026-11-26T15:39:27Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1286,7 +1286,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T15:39:27Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
