@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:17:14Z",
+ "updated": "2026-11-26T10:33:11Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -132,7 +132,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:33:11Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1197,7 +1199,11 @@
    "providerKey": "igt",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://platform.ka.rgsgames.com/skb/gateway?channel=INT&countrycode=AT&currencycode=FPY&language=en&nscode=OLGP&skincode=OLB1&softwareid=200-1551-002&uniqueid=0&locale=en&technology=HTML&presenttype=STD",
+    "from": "set by hand",
+    "at": "2026-11-26T10:33:11Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1234,13 +1240,21 @@
      "repo": "IntelligateStudios/intelligate-ai",
      "run": "2026-11-21-1102-most-popular-casino-game",
      "position": 11
+    },
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-25-1658-igt-cash-eruption"
     }
    ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-25T16:55:41Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-25-1658-igt-cash-eruption",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/2xpmqJTsQg3pGCbasziMGn",
+     "completed": "2026-11-26T10:33:11Z",
+     "started": "2026-11-25T16:55:41Z"
     }
    },
    "added": "2026-11-25T16:38:13Z"
