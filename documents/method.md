@@ -1,4 +1,4 @@
-How a market report becomes this ledger. Every step is a tool in the repository `roei-aviv-studio/market-reports-handler`; the procedure is its skill `handle-market-report`.
+How a market report becomes this ledger. Every step is a tool in the repository `IntelligateStudios/market-reports-handler`; the procedure is its skill `handle-market-report`.
 
 ### 1. The report is taken
 
