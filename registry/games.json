@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:33:11Z",
+ "updated": "2026-11-26T10:35:31Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1332,7 +1332,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:35:31Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -2802,8 +2804,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:17:14Z",
+     "status": "blocked",
+     "reason": "Public demos of the exact game open, but the game stops before the reels because its client cannot reach the game server from this container (26 Nov 2026): Slotslaunch's Relax Gaming launcher and PokerListings' Light & Wonder launcher both fail on their first call to a staging game server. Whether this container's network or the servers refuse it is not known (inference). It can be run from a network that reaches those servers; the links are in Games-AI-art records/2026-11-25-reelplay-hypernova-megaways.md",
+     "at": "2026-11-26T10:35:31Z",
      "run": null
     }
    },
