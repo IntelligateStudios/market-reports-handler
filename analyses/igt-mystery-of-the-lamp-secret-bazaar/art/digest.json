@@ -1,0 +1,608 @@
+{
+ "run": "2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar",
+ "game": "Mystery Of The Lamp Secret Bazaar",
+ "started": "2026-11-26T16:02:46.865Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 77,
+  "components": 1011,
+  "spines": 10,
+  "fonts": 10
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 12
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 13
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 5
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 22
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 6
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 10
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 2
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 4
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.343,
+  "saturation": 0.554,
+  "contrast": 0.446,
+  "warm": 0.439,
+  "cool": 0.317,
+  "colourShare": 0.669,
+  "softEdge": 0.06,
+  "highlights": 0.1,
+  "palette": [
+   {
+    "hex": "#0a0509",
+    "share": 0.261,
+    "name": "black"
+   },
+   {
+    "hex": "#501614",
+    "share": 0.084,
+    "name": "dark red"
+   },
+   {
+    "hex": "#2c2842",
+    "share": 0.08,
+    "name": "dark blue"
+   },
+   {
+    "hex": "#f7f8f5",
+    "share": 0.057,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#f6d117",
+    "share": 0.044,
+    "name": "gold"
+   },
+   {
+    "hex": "#f9f15c",
+    "share": 0.036,
+    "name": "gold"
+   },
+   {
+    "hex": "#7c777e",
+    "share": 0.026,
+    "name": "grey"
+   },
+   {
+    "hex": "#ecc7bf",
+    "share": 0.017,
+    "name": "light red"
+   }
+  ],
+  "hues": {
+   "blue": 0.321,
+   "red": 0.24,
+   "orange": 0.159,
+   "yellow": 0.143
+  },
+  "lightFrom": {
+   "top": 81,
+   "top-left": 66,
+   "top-right": 41
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.306,
+   "saturation": 0.547,
+   "contrast": 0.63,
+   "warm": 0.247,
+   "cool": 0.671,
+   "palette": [
+    {
+     "hex": "#1b142b",
+     "share": 0.531,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#fcfcfc",
+     "share": 0.077,
+     "name": "white"
+    },
+    {
+     "hex": "#f5c85f",
+     "share": 0.073,
+     "name": "orange"
+    },
+    {
+     "hex": "#3e314e",
+     "share": 0.069,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#4231b4",
+     "share": 0.033,
+     "name": "blue"
+    },
+    {
+     "hex": "#1e4e62",
+     "share": 0.018,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#0c48a2",
+     "share": 0.017,
+     "name": "blue"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.566,
+   "saturation": 0.518,
+   "contrast": 0.541,
+   "warm": 0.611,
+   "cool": 0.158,
+   "palette": [
+    {
+     "hex": "#fffcfe",
+     "share": 0.221,
+     "name": "light magenta"
+    },
+    {
+     "hex": "#58271d",
+     "share": 0.138,
+     "name": "dark red"
+    },
+    {
+     "hex": "#cd8b6a",
+     "share": 0.112,
+     "name": "orange"
+    },
+    {
+     "hex": "#7b28c6",
+     "share": 0.091,
+     "name": "purple"
+    },
+    {
+     "hex": "#a2470d",
+     "share": 0.064,
+     "name": "brown"
+    },
+    {
+     "hex": "#ebab17",
+     "share": 0.062,
+     "name": "orange"
+    },
+    {
+     "hex": "#e84c7b",
+     "share": 0.048,
+     "name": "red"
+    },
+    {
+     "hex": "#f1b5cf",
+     "share": 0.034,
+     "name": "light magenta"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.503,
+   "saturation": 0.657,
+   "contrast": 0.835,
+   "warm": 0.911,
+   "cool": 0.05,
+   "palette": [
+    {
+     "hex": "#070403",
+     "share": 0.179,
+     "name": "black"
+    },
+    {
+     "hex": "#8c5921",
+     "share": 0.145,
+     "name": "brown"
+    },
+    {
+     "hex": "#f7d710",
+     "share": 0.137,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbf467",
+     "share": 0.094,
+     "name": "gold"
+    },
+    {
+     "hex": "#f9f4ea",
+     "share": 0.075,
+     "name": "light orange"
+    },
+    {
+     "hex": "#ef7f0b",
+     "share": 0.07,
+     "name": "orange"
+    },
+    {
+     "hex": "#531f12",
+     "share": 0.05,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f1e9b5",
+     "share": 0.022,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.63,
+   "saturation": 0.405,
+   "contrast": 0.395,
+   "warm": 0.565,
+   "cool": 0.005,
+   "palette": [
+    {
+     "hex": "#f9f9f9",
+     "share": 0.281,
+     "name": "white"
+    },
+    {
+     "hex": "#632f25",
+     "share": 0.219,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fbf061",
+     "share": 0.081,
+     "name": "gold"
+    },
+    {
+     "hex": "#f4c61e",
+     "share": 0.072,
+     "name": "gold"
+    },
+    {
+     "hex": "#cacac9",
+     "share": 0.042,
+     "name": "grey"
+    },
+    {
+     "hex": "#9a9998",
+     "share": 0.038,
+     "name": "grey"
+    },
+    {
+     "hex": "#6a6967",
+     "share": 0.032,
+     "name": "grey"
+    },
+    {
+     "hex": "#12100e",
+     "share": 0.021,
+     "name": "black"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.306,
+   "saturation": 0.279,
+   "contrast": 0.38,
+   "warm": 0.228,
+   "cool": 0.178,
+   "palette": [
+    {
+     "hex": "#050403",
+     "share": 0.487,
+     "name": "black"
+    },
+    {
+     "hex": "#f7f8f5",
+     "share": 0.093,
+     "name": "light green"
+    },
+    {
+     "hex": "#342e2f",
+     "share": 0.074,
+     "name": "grey"
+    },
+    {
+     "hex": "#53596d",
+     "share": 0.05,
+     "name": "blue"
+    },
+    {
+     "hex": "#715008",
+     "share": 0.028,
+     "name": "brown"
+    },
+    {
+     "hex": "#fcf698",
+     "share": 0.025,
+     "name": "light gold"
+    },
+    {
+     "hex": "#919296",
+     "share": 0.024,
+     "name": "grey"
+    },
+    {
+     "hex": "#bec1cd",
+     "share": 0.022,
+     "name": "light blue"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.209,
+   "saturation": 0.916,
+   "contrast": 0.539,
+   "warm": 0.78,
+   "cool": 0.118,
+   "palette": [
+    {
+     "hex": "#360106",
+     "share": 0.569,
+     "name": "black"
+    },
+    {
+     "hex": "#6c080a",
+     "share": 0.088,
+     "name": "dark red"
+    },
+    {
+     "hex": "#e39814",
+     "share": 0.08,
+     "name": "orange"
+    },
+    {
+     "hex": "#fbe41b",
+     "share": 0.022,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.503,
+   "saturation": 0.707,
+   "contrast": 0.608,
+   "warm": 0.533,
+   "cool": 0.411,
+   "palette": [
+    {
+     "hex": "#2f4988",
+     "share": 0.168,
+     "name": "blue"
+    },
+    {
+     "hex": "#faf54e",
+     "share": 0.127,
+     "name": "gold"
+    },
+    {
+     "hex": "#fac911",
+     "share": 0.102,
+     "name": "gold"
+    },
+    {
+     "hex": "#180c11",
+     "share": 0.057,
+     "name": "black"
+    },
+    {
+     "hex": "#541008",
+     "share": 0.04,
+     "name": "dark red"
+    },
+    {
+     "hex": "#ecf6f7",
+     "share": 0.037,
+     "name": "light cyan"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.665,
+   "saturation": 0.178,
+   "contrast": 0.336,
+   "warm": 0.119,
+   "cool": 0.337,
+   "palette": [
+    {
+     "hex": "#fbf9fc",
+     "share": 0.445,
+     "name": "light purple"
+    },
+    {
+     "hex": "#29252b",
+     "share": 0.204,
+     "name": "grey"
+    },
+    {
+     "hex": "#b273f3",
+     "share": 0.137,
+     "name": "purple"
+    },
+    {
+     "hex": "#aba7a8",
+     "share": 0.062,
+     "name": "grey"
+    },
+    {
+     "hex": "#69636a",
+     "share": 0.035,
+     "name": "grey"
+    },
+    {
+     "hex": "#7c4bc6",
+     "share": 0.031,
+     "name": "purple"
+    },
+    {
+     "hex": "#ddcede",
+     "share": 0.03,
+     "name": "light magenta"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.29,
+   "saturation": 0.622,
+   "contrast": 0.278,
+   "warm": 0.418,
+   "cool": 0.536,
+   "palette": [
+    {
+     "hex": "#45202c",
+     "share": 0.296,
+     "name": "dark red"
+    },
+    {
+     "hex": "#474cbc",
+     "share": 0.265,
+     "name": "blue"
+    },
+    {
+     "hex": "#6c3c4a",
+     "share": 0.086,
+     "name": "red"
+    },
+    {
+     "hex": "#c25342",
+     "share": 0.084,
+     "name": "red"
+    },
+    {
+     "hex": "#080e2a",
+     "share": 0.038,
+     "name": "black"
+    },
+    {
+     "hex": "#febebc",
+     "share": 0.031,
+     "name": "light red"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.154,
+   "saturation": 0.824,
+   "contrast": 0.385,
+   "warm": 0.195,
+   "cool": 0.791,
+   "palette": [
+    {
+     "hex": "#071026",
+     "share": 0.574,
+     "name": "black"
+    },
+    {
+     "hex": "#0a2f62",
+     "share": 0.161,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#104ea3",
+     "share": 0.037,
+     "name": "blue"
+    },
+    {
+     "hex": "#50140f",
+     "share": 0.035,
+     "name": "dark red"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the names inside the game's own files and real screens of two played free-play sessions. One reader wrote all units; there were no sub-reviewers.",
+  "summary": "An Arabian-nights market at dusk in red, gold and violet: realistic still-life wares and three gold-mounted gems on a velvet-red board under three glowing bottle lamps, with one friendly 3D genie and coloured smoke as the thread that ties every part together.",
+  "style": "Painterly realism for the scene and the picture symbols (market goods drawn as still lifes), rendered 3D for everything that moves in space (the genie, lamps, coins, gems, tiles), and ornamental gold scrollwork on deep red for the frame and plaques. The lettering is a family of its own: storybook display scripts with 3D extrusion.",
+  "rendering": "No outlines anywhere. Objects are softly lit and detailed; each picture symbol sits in a halo of coloured smoke instead of a tile. Gold is thin, crisp and bright; glass buttons and lamps have a hard top highlight. Effects are photographic smoke, fire and lightning added over the art.",
+  "colour": "Measured over the game's own art, the palette is led by near-black #0a0509 (26%), dark red #501614 (8%) and dark blue-violet #2c2842 (8%), then near-white #f7f8f5 and golds #f6d117 and #f9f15c. On screen the board is deep red with gold, the street warm orange and rose with violet-blue shadow, and the controls violet and blue with yellow glyphs. Colour carries meaning: each picture symbol has one smoke colour (violet, yellow, orange-red, green), each lamp one glass colour (blue Collect, pearl Jackpot, orange Ignite), each of the five prizes one title colour (red Grand, green Major, magenta Maxi, cyan Minor, orange Mini), and magenta-pink is kept for money won (the win frame and the win digits). The bonus cave turns the whole palette cool: blue #474ebe leads it at 56%.",
+  "lighting": "Two lights in the base scene: warm lantern light from the stalls and the ground, cool dusk from above. Symbols are lit softly from the upper left with their smoke as a back light. Lamps glow from inside. The cave is lit by blue shafts from above.",
+  "ambience": "A warm, rich evening market with a secret in it; friendly rather than mysterious, because the genie smiles and the smoke is pink. The cave is the cold, magical counter-scene.",
+  "shapes": "Round and generous: bottle-bellied lamps, dome buttons, coins, cushion and heart-shaped gems, fat rounded royals. The frame answers with thin straight rails ending in curls. Smoke puffs and spirals soften every edge.",
+  "materials": "Polished and chased gold, red velvet or damask, blown glass, cut gemstones, brass, fruit, olive oil, woven carpet, stone and wood in the street, smoke, fire and lightning.",
+  "typography": "Four lettering families, all gold-based. The wordmarks: Mystery of the Lamp in a gold storybook serif with swashes, Secret Bazaar in red and gold slab capitals. The lamp words (Collect, Jackpot, Ignite) in a yellow decorative script with coloured 3D sides. The prize titles in a round seventies-style script, one colour each. Numerals in a tall fat Didone-like serif as bitmap fonts: gold chrome with a coloured edge for each prize, pink chrome for wins, ivory, yellow and orange for coin values. Big-win words are plain fat sans capitals in gold on a deep layered extrusion. Labels (TOTAL BET, WIN, BALANCE) are live text in Oswald; Yeseva One is embedded too.",
+  "motion": "Spine 4.0 skeletons throughout (18 binary skeleton files, each with an opaque and an alpha page), mixing rigged parts with short frame sequences. The tools here read only JSON skeletons of older versions, so none was drawn, and the 10 skeletons counted at the top of this report are JSON files of a promotional overlay loaded by the demo host (prize tickets, chests, cards), not this game's. What follows is from the frame sequences, the names in the files and the real screens. Reels use pre-blurred copies of every symbol. Gems land wrapped in white lightning and send small gems up to their lamp, whose gold pile grows in three steps. The wild is a rolled carpet that unrolls over 39 frames to show WILD or 2X. Wins darken the board, put a magenta neon frame with a running light on each winning cell and count the amount in pink digits. The genie is a rig with IK that sways over a billowing smoke column, her hands glowing. Smoke (two puffs, many tints) loops behind the logo, the lamp words and the prize plaques. The big-win words are built letter by letter in five tiers; a coin stream and a spinning lamp are the transitions (inference from their skeletons; not reached in play).",
+  "variants": "Two scenes (bazaar, cave), each in landscape and portrait. Every symbol as a still and a blurred copy; picture symbols also as object and halo apart. One lamp design in three colours, one treasure pile in three sizes for each. One prize plaque in five titles, one numeral face in nine colourings. One button design in four states for every function. One bonus tile in blue and gold.",
+  "construction": "987 named sprites on 54 atlas pages (1,011 components and 77 textures with the fonts, loose pictures and the demo host's overlay), 43 frame sequences holding 664 frames, 4 embedded fonts of the game. The client served its sheets from a folder named mobile: symbol cells are 164x145 and buttons 200x200, close to what a 1280x720 screen shows, while backgrounds are 2040x1410. Whether a larger pack exists for other devices is not known from this capture. Art is split by blend, not by subject: each skeleton has a page of opaque plates for additive light and a page with alpha. Greyscale and white effect art is tinted in the engine. Much is pre-rendered from 3D (gem turns, tile tumbles, word swings, coin flips) rather than rigged.",
+  "consistency": "High. One palette rule (red and gold board, violet controls, magenta for wins), one material set and one binding motif, smoke, run from the loading picture to the smallest effect. The lettering is the loosest part: five display faces share only their gold. Two file names for symbols do not match their pictures, a trace of an earlier symbol set (inference).",
+  "takeaways": [
+   "Smoke is the system: two white puffs and a spiral, tinted and looped, give the logo, the lamps, the prizes, the symbols' halos and the transitions one common atmosphere at almost no texture cost.",
+   "Picture symbols need no tile. A soft halo in the symbol's own colour separates it from the board and codes it at a glance; the royals are kept in one red so they recede.",
+   "Colour is assigned once and reused: one hue per lamp feature, per prize tier and per symbol, and one hue (magenta-pink) reserved for money won. A player can read the state of the game from colour alone.",
+   "The feature is always on screen: three lamps with growing gold piles sit on the reel frame from the first spin, so the promise of the bonus is part of the base composition, not a separate meter.",
+   "Split art by blend mode: an opaque page of light effects on black and an alpha page per animation. It keeps files small and is a pattern worth copying in our own pipeline.",
+   "Pre-rendered 3D in short sequences (11 to 39 frames) does the work of complex rigs for gems, coins, tiles and word turns; only the genie has a real character rig, and even she fakes her turn from rendered views (inference).",
+   "Build win words from letters with separate extruded backs: five tier titles fit on one small page and can animate letter by letter.",
+   "For AI-assisted art: the still-life symbols and the two matte-painting scenes are the kind of picture an image model makes well; the value this game adds is in the strict colour coding, the gold ornament drawn clean, and the motion design, which still need an artist's system."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-main.webp",
+   "width": 420,
+   "height": 226,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the wordmark in pink smoke over five prize plaques (Grand 2250.00, Major 1200.00, Maxi 150.00, Minor 37.50, Mini 15.00) and the teal lamp medallion; 5 reels of 3 rows in a thin gold frame on dark red; the three lamps with their gold piles on top of the frame; autospin, spin and settings buttons at the right; TOTAL BET 1.20, WIN, BALANCE."
+  },
+  {
+   "file": "base-01-spin.webp",
+   "width": 420,
+   "height": 226,
+   "stage": "base",
+   "screen": "Reels turning",
+   "caption": "Reels turning: the symbols are shown as their blurred copies, a blue gem is landing on reel four; the spin button is greyed."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 226,
+   "stage": "intro",
+   "screen": "Intro panel",
+   "caption": "Intro panel over the bazaar: the violet genie with her teal lamp on a column of pink smoke at the left; both wordmarks; COLLECT GEMS with the three gold-mounted gems wrapped in white lightning; TO TRIGGER THE MYSTERY OF THE LAMP BONUS; the Collect, Jackpot and Ignite lamps WITH 1-3 FEATURES ACTIVE; the violet play button and the DO NOT SHOW AGAIN switch."
+  }
+ ]
+}

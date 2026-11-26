@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T18:41:30Z",
+ "updated": "2026-11-26T22:02:53Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1479,7 +1479,11 @@
    "providerKey": "igt",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://rgs-awsdemo01.lab.wagerworks.com/skb/gateway?channel=INT&countrycode=GB&currencycode=FPY&language=en&nscode=SKB&skincode=MKW&softwareid=200-1813-001&uniqueid=0&technology=HTML&presenttype=STD",
+    "from": "set by hand",
+    "at": "2026-11-26T22:02:53Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1517,15 +1521,25 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T15:53:42Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/V4pSxhupuAeAjg99n6tUdy",
+     "completed": "2026-11-26T22:02:53Z",
+     "started": "2026-11-26T15:53:42Z"
     }
    },
-   "added": "2026-11-25T16:50:31Z"
+   "added": "2026-11-25T16:50:31Z",
+   "notes": "Captured before the capture named itself desktop Chrome: IGT served its mobile art pack (symbol cell 164x145). The bonus never came in about 145 spins, so its pieces are read from the files only."
   },
   {
    "id": "igt-rising-rockets-emperor",
