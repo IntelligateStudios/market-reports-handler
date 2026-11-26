@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T15:49:58Z",
+ "updated": "2026-11-26T15:53:42Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -98,7 +98,11 @@
    "providerKey": "ags",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://eu-rgs.gameiom.com/games/launch?operatorId=41&gameCode=capital_gains&partnerid=63&moneymode=fun&channel=desktop&language=en_US",
+    "from": "set by hand",
+    "at": "2026-11-26T15:53:41Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -129,12 +133,21 @@
      "page": 43
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1037-ags-capital-gains"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:33:11Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1037-ags-capital-gains",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/4h4UHNvQ3xnRwu5uhhrqKh",
+     "completed": "2026-11-26T15:53:42Z",
+     "started": "2026-11-26T10:33:11Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1507,7 +1520,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T15:53:42Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"

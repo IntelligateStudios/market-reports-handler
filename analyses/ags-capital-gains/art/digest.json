@@ -1,0 +1,488 @@
+{
+ "run": "2026-11-26-1037-ags-capital-gains",
+ "game": "Capital Gains",
+ "started": "2026-11-26T10:37:42.271Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 29,
+  "components": 1188,
+  "spines": 0,
+  "fonts": 25
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 5
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 13
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 4
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.336,
+  "saturation": 0.666,
+  "contrast": 0.563,
+  "warm": 0.39,
+  "cool": 0.405,
+  "colourShare": 0.65,
+  "softEdge": 0.12,
+  "highlights": 0.088,
+  "palette": [
+   {
+    "hex": "#060f09",
+    "share": 0.331,
+    "name": "black"
+   },
+   {
+    "hex": "#0e3e2f",
+    "share": 0.104,
+    "name": "dark cyan"
+   },
+   {
+    "hex": "#e79510",
+    "share": 0.098,
+    "name": "orange"
+   },
+   {
+    "hex": "#f3f9f8",
+    "share": 0.049,
+    "name": "light cyan"
+   },
+   {
+    "hex": "#0d6d06",
+    "share": 0.036,
+    "name": "dark green"
+   },
+   {
+    "hex": "#514e49",
+    "share": 0.035,
+    "name": "grey"
+   },
+   {
+    "hex": "#0366f6",
+    "share": 0.031,
+    "name": "blue"
+   },
+   {
+    "hex": "#06a04b",
+    "share": 0.022,
+    "name": "green"
+   }
+  ],
+  "hues": {
+   "green": 0.309,
+   "orange": 0.215,
+   "blue": 0.126,
+   "yellow": 0.121
+  },
+  "lightFrom": {
+   "top": 354,
+   "top-right": 81,
+   "top-left": 55
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.731,
+   "saturation": 0.0,
+   "contrast": 0.738,
+   "warm": 0.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fcfcfc",
+     "share": 0.464,
+     "name": "white"
+    },
+    {
+     "hex": "#ababab",
+     "share": 0.206,
+     "name": "grey"
+    },
+    {
+     "hex": "#767676",
+     "share": 0.112,
+     "name": "grey"
+    },
+    {
+     "hex": "#4a4a4a",
+     "share": 0.08,
+     "name": "grey"
+    },
+    {
+     "hex": "#d4d4d4",
+     "share": 0.065,
+     "name": "grey"
+    },
+    {
+     "hex": "#070707",
+     "share": 0.05,
+     "name": "black"
+    },
+    {
+     "hex": "#292929",
+     "share": 0.023,
+     "name": "grey"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.314,
+   "saturation": 0.885,
+   "contrast": 0.553,
+   "warm": 0.285,
+   "cool": 0.398,
+   "palette": [
+    {
+     "hex": "#042310",
+     "share": 0.382,
+     "name": "black"
+    },
+    {
+     "hex": "#0a7123",
+     "share": 0.208,
+     "name": "dark green"
+    },
+    {
+     "hex": "#d98d09",
+     "share": 0.127,
+     "name": "orange"
+    },
+    {
+     "hex": "#ce110a",
+     "share": 0.061,
+     "name": "red"
+    },
+    {
+     "hex": "#05ae52",
+     "share": 0.049,
+     "name": "green"
+    },
+    {
+     "hex": "#930d07",
+     "share": 0.016,
+     "name": "red"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.399,
+   "saturation": 0.701,
+   "contrast": 0.706,
+   "warm": 0.59,
+   "cool": 0.263,
+   "palette": [
+    {
+     "hex": "#151d0e",
+     "share": 0.297,
+     "name": "black"
+    },
+    {
+     "hex": "#a30c03",
+     "share": 0.085,
+     "name": "red"
+    },
+    {
+     "hex": "#f4fbf7",
+     "share": 0.081,
+     "name": "light green"
+    },
+    {
+     "hex": "#f39e0b",
+     "share": 0.062,
+     "name": "orange"
+    },
+    {
+     "hex": "#494943",
+     "share": 0.06,
+     "name": "grey"
+    },
+    {
+     "hex": "#fee310",
+     "share": 0.055,
+     "name": "gold"
+    },
+    {
+     "hex": "#076c0b",
+     "share": 0.037,
+     "name": "dark green"
+    },
+    {
+     "hex": "#5a0904",
+     "share": 0.035,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.149,
+   "saturation": 0.446,
+   "contrast": 0.267,
+   "warm": 0.096,
+   "cool": 0.608,
+   "palette": [
+    {
+     "hex": "#030707",
+     "share": 0.588,
+     "name": "black"
+    },
+    {
+     "hex": "#0e353c",
+     "share": 0.24,
+     "name": "dark cyan"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.34,
+   "saturation": 0.541,
+   "contrast": 0.803,
+   "warm": 0.471,
+   "cool": 0.457,
+   "palette": [
+    {
+     "hex": "#040408",
+     "share": 0.328,
+     "name": "black"
+    },
+    {
+     "hex": "#4c1e6c",
+     "share": 0.106,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#fce615",
+     "share": 0.06,
+     "name": "gold"
+    },
+    {
+     "hex": "#e9ebf2",
+     "share": 0.053,
+     "name": "light blue"
+    },
+    {
+     "hex": "#130a4a",
+     "share": 0.047,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#b4bfe4",
+     "share": 0.034,
+     "name": "light blue"
+    },
+    {
+     "hex": "#fdf797",
+     "share": 0.028,
+     "name": "light gold"
+    },
+    {
+     "hex": "#0a5c12",
+     "share": 0.019,
+     "name": "dark green"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.527,
+   "saturation": 0.723,
+   "contrast": 0.714,
+   "warm": 0.735,
+   "cool": 0.173,
+   "palette": [
+    {
+     "hex": "#ef9819",
+     "share": 0.287,
+     "name": "orange"
+    },
+    {
+     "hex": "#092707",
+     "share": 0.182,
+     "name": "black"
+    },
+    {
+     "hex": "#f9e648",
+     "share": 0.111,
+     "name": "gold"
+    },
+    {
+     "hex": "#fcfa98",
+     "share": 0.08,
+     "name": "light gold"
+    },
+    {
+     "hex": "#b8530f",
+     "share": 0.063,
+     "name": "orange"
+    },
+    {
+     "hex": "#6a4a44",
+     "share": 0.061,
+     "name": "red"
+    },
+    {
+     "hex": "#f0e9f5",
+     "share": 0.05,
+     "name": "light purple"
+    },
+    {
+     "hex": "#461a12",
+     "share": 0.046,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.59,
+   "saturation": 0.712,
+   "contrast": 0.654,
+   "warm": 0.003,
+   "cool": 0.997,
+   "palette": [
+    {
+     "hex": "#0269f7",
+     "share": 0.516,
+     "name": "blue"
+    },
+    {
+     "hex": "#f4fdff",
+     "share": 0.22,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#0db4ff",
+     "share": 0.101,
+     "name": "cyan"
+    },
+    {
+     "hex": "#a7ecff",
+     "share": 0.051,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#68daff",
+     "share": 0.047,
+     "name": "cyan"
+    },
+    {
+     "hex": "#11f4ff",
+     "share": 0.03,
+     "name": "cyan"
+    },
+    {
+     "hex": "#55abfd",
+     "share": 0.021,
+     "name": "blue"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.036,
+   "saturation": 0.12,
+   "contrast": 0.311,
+   "warm": 0.504,
+   "cool": 0.248,
+   "palette": [
+    {
+     "hex": "#000000",
+     "share": 0.867,
+     "name": "black"
+    },
+    {
+     "hex": "#8c0e0a",
+     "share": 0.053,
+     "name": "dark red"
+    },
+    {
+     "hex": "#35391c",
+     "share": 0.03,
+     "name": "brown"
+    },
+    {
+     "hex": "#5f8451",
+     "share": 0.016,
+     "name": "green"
+    },
+    {
+     "hex": "#299c38",
+     "share": 0.015,
+     "name": "green"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the game's own files and real screens of played free-play sessions. One reader wrote all units; there were no sub-reviewers.",
+  "summary": "A money-themed slot with no character and no place: glossy gold, cash and gem icons on a black reel window over a flat banknote-green field, with one loud counter-colour, the electric blue lightning of its Money Charge Jackpots feature.",
+  "style": "Casino-floor object illustration, carried over from a land-based cabinet (inference from the cabinet-style signage, credit-based pays and bet-level buttons). Everything is a thing of wealth shown as an icon: vault door, diamond, gold bars, banknotes, coins, money bag, currency signs, card letters. The setting is an abstract banknote pattern, not a scene; the only place the game ever shows is the gold-ringed vault chamber of the bonus.",
+  "rendering": "Smooth airbrushed gradients, hard silhouettes and bright specular streaks; 12% of edges measure soft over the whole game. High symbols sit on a rounded tile of their own colour; low symbols are bevelled letters with a white edge and a black outline. Titles are extruded, bevelled display lettering. Lightning is the one soft, glowing family (77% soft edges).",
+  "colour": "Green, gold and black, with blue as the charge. Measured over the game's own art: black #060f09 33%, black-teal #0e3e2f 10%, orange-gold #e79510 10%, white #f3f9f8 5%, dark green #0d6d06 4%, blue #0366f6 3%, green #06a04b 2%; saturation 0.67, warm 39% against cool 41%; hues green 31%, orange 22%, blue 13%, yellow 12%. The base background is two greens only (#046c31, #04af53). Each high symbol owns a tile colour (diamond red, gold bars blue, notes purple, coins dark green) and each letter one flat colour (A red, K blue, Q yellow, J green). The free spins swap the field to red (#ce110a). Jackpot tiers: Grand red, Major green, Minor blue, Mini purple. Lightning is #0269f7 with a white core.",
+  "lighting": "A plain light from above on nearly everything (top on 354 parts measured, top-right 81, top-left 55), with white streak highlights on gold. No scene lighting, no cast light between objects. Lightning and the vault symbol's landing flash are self-lit.",
+  "ambience": "Bright, clean and blunt: the promise is money itself. Calm in the base game, hotter by colour alone in the free spins, and charged when the lightning locks the green discs in the bonus.",
+  "shapes": "Round and heavy: discs, coins, the vault wheel, the sack, the ring of the vault chamber. Rounded square tiles for high symbols. Slab-serif letters. The background's only ornament is banknote engraving: guilloche curves and scrollwork.",
+  "materials": "Polished gold above all; cut diamond; printed paper money; enamel-coloured letters; black glass panels with hairline rainbow edges and gold corner beads; a dark neutral plastic for the console.",
+  "typography": "The logo is gold slab-serif capitals on two arches with a red-brown extrusion and a laurel; MONEY CHARGE is white-violet italic capitals over yellow JACKPOTS on a purple extrusion; WILD is cream western slab lettering; the disc values are cream slab numerals baked into each picture. Help pages set live text in red-orange outlined serif small capitals. 25 font files are embedded (among them Cinzel, Alfa Slab One, Bodoni, Trajan Pro, Bebas Neue, Roboto, Myriad Pro, Dollar Bill); which of them this game draws with was not traced, and a list this long reads as a provider's shared set (inference).",
+  "motion": "Frame sequences only: no skeleton and no Spine file is shipped, so the empty assembled folder says nothing more than that. 45 sequences hold 854 frames: every symbol has a pre-rendered win animation (14 frames for the diamond, 24 for the other high symbols, 38 for each low symbol), the wild and the vault also a landing animation, the vault door swings open in 50 frames, lightning runs in 14 looping sets (276 frames, the largest), and coins and gems tumble in 24 frames each for the big win. Symbols mostly stay in place while a highlight crosses them; the energy comes from flashes and lightning, not from deforming art.",
+  "variants": "Every symbol in three states: still, dimmed copy (drawn, about a quarter as bright) and animation. The Money Charge disc in 29 baked values, lit and dimmed. Reel window with a green or a red edge; background in green, red, paytable and loading versions. Titles with and without the word JACKPOTS, for markets without the jackpot. Only the desktop landscape layout was captured; the files name portrait cuts as well.",
+  "construction": "29 texture pages, 1,188 named sprites in TexturePacker atlases, one atlas per symbol animation and one per screen (base game, preloader, paytable, vault gateway, Money Charge, menus, autoplay). Backgrounds are four JPEGs at 1440x810. Everything is a bitmap or a frame sequence; values and pay rows are baked pictures; labels and meters are live text. The console and the autoplay panel are a neutral dark kit that is not themed to the game.",
+  "consistency": "Very consistent and very narrow: one rendering manner for every object, one green for the world, gold for value, blue lightning for the feature. The console is the one foreign body, grey-violet and unthemed. The feature's brand (Money Charge Jackpots, violet and yellow) deliberately does not match the game's green and gold, so it reads as a badge shared across games (inference).",
+  "takeaways": [
+   "A leading US online slot can carry no character, no world and no story: this one ranks on thirteen clear money icons, a jackpot panel and one feature effect. Clarity of symbols on black beats scenery here.",
+   "The black reel window with a coloured tile behind each high symbol is a cheap, strong recipe for legibility: every symbol is identifiable by colour alone at thumbnail size.",
+   "One effect family, used everywhere, gives the feature its identity: blue lightning frames the meters, the title, each locked symbol and the total. It is the only cold colour in the game, so it never competes with the art.",
+   "Production is frame sequences and stills only, with no rigging: 854 frames, most of them a highlight crossing a still picture. This is art an image pipeline can produce directly: a still per symbol, a dimmed copy, and a short shine or flash sequence.",
+   "Feature variants are done by recolour, not new art: the free spins are the same background in red and the same reel window with a red edge.",
+   "Values baked into pictures (29 discs, twice) cost sprites but guarantee the look of the numerals; live text is kept for meters and rules.",
+   "The loading screen sells the three features as three captioned cards before play; it is the clearest statement of what the game wants the player to hope for."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the Money Charge Jackpots title and the four meters (Grand 10,000, Major 500, Minor 50, Mini 10) on the left with blue lightning at their corners, the Capital Gains logo above a black 5x3 reel window with a green edge, the flat green banknote ground, and the dark console below."
+  }
+ ]
+}
