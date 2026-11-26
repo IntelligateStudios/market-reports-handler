@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:10:47Z",
+ "updated": "2026-11-26T10:17:14Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -499,8 +499,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:10:47Z",
+     "status": "blocked",
+     "reason": "The demo does not open from this container (26 Nov 2026). Every host that offers it (Slotslaunch, playin.com's embed, vegasslotsonline, bigwinboard) sends it through Evolution's entry server, which answers Access Denied here, and NetEnt's embed also puts an 18+ confirmation in front of the game, which was not pressed. It needs a machine Evolution serves and Roei's decision on the 18+ confirmation. Details: Games-AI-art records/2026-11-25-evolution-divine-fortune-gold.md",
+     "at": "2026-11-26T10:17:14Z",
      "run": null
     }
    },
@@ -2787,7 +2788,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:17:14Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
