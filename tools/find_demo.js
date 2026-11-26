@@ -12,7 +12,7 @@ const { chromium } = require('playwright');
   await p.waitForTimeout(3000);
   const btns = await p.$$eval('button, a', els => els.map(e => (e.innerText||'').trim()).filter(t => /play|demo|free/i.test(t)).slice(0, 12));
   console.log('buttons', JSON.stringify(btns));
-  for (const sel of ['text=/play (for )?free/i', 'text=/free play/i', 'text=/play demo/i', '.play-button', '#play-button', 'button:has-text("Play")']) {
+  for (const sel of ['button.js-free-play', 'text=/play (for )?free/i', 'text=/free play/i', 'text=/play demo/i', '.play-button', '#play-button', 'button:has-text("Play")']) {
     const el = await p.$(sel);
     if (el) { try { await el.click({ timeout: 4000 }); console.log('clicked', sel); break; } catch (e) { console.log('click failed', sel); } }
   }

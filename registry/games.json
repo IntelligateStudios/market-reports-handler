@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:35:31Z",
+ "updated": "2026-11-26T10:52:53Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1423,7 +1423,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:52:53Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1849,8 +1851,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-25T16:55:41Z",
+     "status": "blocked",
+     "reason": "The exact game has a public free-play demo (https://slotslaunch.com/light-and-wonder/huff-n-even-more-puff-grand, opening Light & Wonder's own client), but its game server answers 403 to the capture's browser, which names itself HeadlessChrome (26 Nov 2026). With an ordinary Chrome name the demo answers; doing the run that way was refused by the session's permission check and needs Roei's decision. After that, three tool gaps remain: the generic reader does not read this client's sheets, render_spine.py twists Spine 4.1 rigs, and the client is too slow to play on a busy container. Details: Games-AI-art records/2026-11-25-lnw-huff-n-even-more-puff-grand.md",
+     "at": "2026-11-26T10:52:53Z",
      "run": null
     }
    },
