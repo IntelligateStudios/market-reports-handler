@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T18:16:55Z",
+ "updated": "2026-11-26T18:31:19Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -2363,7 +2363,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/fire-rail-express-hold-and-win",
+    "from": "set by hand",
+    "at": "2026-11-26T18:31:19Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2387,12 +2391,21 @@
      "page": 45
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1556-octoplay-fire-rail-express-hold-win"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T15:49:58Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1556-octoplay-fire-rail-express-hold-win",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/XFp1Zd2spjSFaro7drYgYL",
+     "completed": "2026-11-26T18:31:19Z",
+     "started": "2026-11-26T15:49:58Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"

@@ -1,0 +1,640 @@
+{
+ "run": "2026-11-26-1556-octoplay-fire-rail-express-hold-win",
+ "game": "Fire Rail Express: Hold & Win",
+ "started": "2026-11-26T15:56:04.030Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 36,
+  "components": 578,
+  "spines": 41,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 5
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 1
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.356,
+  "saturation": 0.769,
+  "contrast": 0.567,
+  "warm": 0.718,
+  "cool": 0.203,
+  "colourShare": 0.79,
+  "softEdge": 0.098,
+  "highlights": 0.073,
+  "palette": [
+   {
+    "hex": "#240d0f",
+    "share": 0.266,
+    "name": "black"
+   },
+   {
+    "hex": "#e9800f",
+    "share": 0.135,
+    "name": "orange"
+   },
+   {
+    "hex": "#431a56",
+    "share": 0.117,
+    "name": "dark purple"
+   },
+   {
+    "hex": "#804309",
+    "share": 0.116,
+    "name": "brown"
+   },
+   {
+    "hex": "#f6c723",
+    "share": 0.066,
+    "name": "gold"
+   },
+   {
+    "hex": "#fdfcf7",
+    "share": 0.047,
+    "name": "light gold"
+   },
+   {
+    "hex": "#bc7716",
+    "share": 0.042,
+    "name": "orange"
+   },
+   {
+    "hex": "#740505",
+    "share": 0.031,
+    "name": "dark red"
+   }
+  ],
+  "hues": {
+   "orange": 0.477,
+   "purple": 0.196,
+   "red": 0.139,
+   "yellow": 0.078
+  },
+  "lightFrom": {
+   "top": 46,
+   "top-right": 22,
+   "left": 17
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.563,
+   "saturation": 0.671,
+   "contrast": 0.846,
+   "warm": 0.972,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#f7dc4c",
+     "share": 0.286,
+     "name": "gold"
+    },
+    {
+     "hex": "#0a0402",
+     "share": 0.184,
+     "name": "black"
+    },
+    {
+     "hex": "#d1aa2f",
+     "share": 0.15,
+     "name": "gold"
+    },
+    {
+     "hex": "#8b5d12",
+     "share": 0.147,
+     "name": "brown"
+    },
+    {
+     "hex": "#f7f195",
+     "share": 0.068,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fdfadc",
+     "share": 0.056,
+     "name": "light gold"
+    },
+    {
+     "hex": "#a8852c",
+     "share": 0.055,
+     "name": "orange"
+    },
+    {
+     "hex": "#493e18",
+     "share": 0.041,
+     "name": "brown"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.469,
+   "saturation": 0.73,
+   "contrast": 0.643,
+   "warm": 0.876,
+   "cool": 0.069,
+   "palette": [
+    {
+     "hex": "#f37b11",
+     "share": 0.258,
+     "name": "orange"
+    },
+    {
+     "hex": "#251516",
+     "share": 0.133,
+     "name": "black"
+    },
+    {
+     "hex": "#f2b43a",
+     "share": 0.132,
+     "name": "orange"
+    },
+    {
+     "hex": "#b56d27",
+     "share": 0.076,
+     "name": "orange"
+    },
+    {
+     "hex": "#641f6b",
+     "share": 0.053,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#f1d275",
+     "share": 0.053,
+     "name": "gold"
+    },
+    {
+     "hex": "#d33511",
+     "share": 0.049,
+     "name": "red"
+    },
+    {
+     "hex": "#fefaec",
+     "share": 0.028,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.551,
+   "saturation": 0.731,
+   "contrast": 0.622,
+   "warm": 0.783,
+   "cool": 0.132,
+   "palette": [
+    {
+     "hex": "#f6861c",
+     "share": 0.298,
+     "name": "orange"
+    },
+    {
+     "hex": "#fefcee",
+     "share": 0.099,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fac92a",
+     "share": 0.095,
+     "name": "gold"
+    },
+    {
+     "hex": "#d72d0a",
+     "share": 0.062,
+     "name": "red"
+    },
+    {
+     "hex": "#17110f",
+     "share": 0.044,
+     "name": "black"
+    },
+    {
+     "hex": "#631706",
+     "share": 0.044,
+     "name": "dark red"
+    },
+    {
+     "hex": "#a0130b",
+     "share": 0.037,
+     "name": "red"
+    },
+    {
+     "hex": "#fbe8a1",
+     "share": 0.037,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.416,
+   "saturation": 0.76,
+   "contrast": 0.834,
+   "warm": 0.813,
+   "cool": 0.001,
+   "palette": [
+    {
+     "hex": "#600753",
+     "share": 0.217,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#efbe3f",
+     "share": 0.173,
+     "name": "orange"
+    },
+    {
+     "hex": "#932589",
+     "share": 0.156,
+     "name": "magenta"
+    },
+    {
+     "hex": "#f7ed8b",
+     "share": 0.143,
+     "name": "light gold"
+    },
+    {
+     "hex": "#600d0c",
+     "share": 0.131,
+     "name": "dark red"
+    },
+    {
+     "hex": "#b0451e",
+     "share": 0.082,
+     "name": "orange"
+    },
+    {
+     "hex": "#764b37",
+     "share": 0.032,
+     "name": "brown"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.415,
+   "saturation": 0.709,
+   "contrast": 0.642,
+   "warm": 0.549,
+   "cool": 0.367,
+   "palette": [
+    {
+     "hex": "#4f1a6a",
+     "share": 0.188,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#210e30",
+     "share": 0.164,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#f1b832",
+     "share": 0.153,
+     "name": "orange"
+    },
+    {
+     "hex": "#f5e398",
+     "share": 0.086,
+     "name": "light gold"
+    },
+    {
+     "hex": "#eb760a",
+     "share": 0.068,
+     "name": "orange"
+    },
+    {
+     "hex": "#740c0e",
+     "share": 0.048,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fefdf8",
+     "share": 0.042,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.25,
+   "saturation": 0.845,
+   "contrast": 0.555,
+   "warm": 0.727,
+   "cool": 0.229,
+   "palette": [
+    {
+     "hex": "#250c0c",
+     "share": 0.347,
+     "name": "black"
+    },
+    {
+     "hex": "#804408",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#461c54",
+     "share": 0.146,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#ca750e",
+     "share": 0.122,
+     "name": "orange"
+    },
+    {
+     "hex": "#703b80",
+     "share": 0.06,
+     "name": "purple"
+    },
+    {
+     "hex": "#f4c21a",
+     "share": 0.051,
+     "name": "gold"
+    },
+    {
+     "hex": "#730402",
+     "share": 0.038,
+     "name": "dark red"
+    },
+    {
+     "hex": "#ed8c10",
+     "share": 0.035,
+     "name": "orange"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.768,
+   "saturation": 0.529,
+   "contrast": 0.313,
+   "warm": 0.666,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fefdfc",
+     "share": 0.371,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f37303",
+     "share": 0.233,
+     "name": "orange"
+    },
+    {
+     "hex": "#f5c607",
+     "share": 0.146,
+     "name": "gold"
+    },
+    {
+     "hex": "#fef488",
+     "share": 0.108,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fb1200",
+     "share": 0.048,
+     "name": "red"
+    },
+    {
+     "hex": "#de9c14",
+     "share": 0.02,
+     "name": "orange"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.547,
+   "saturation": 0.594,
+   "contrast": 0.69,
+   "warm": 0.796,
+   "cool": 0.067,
+   "palette": [
+    {
+     "hex": "#f0af2a",
+     "share": 0.194,
+     "name": "orange"
+    },
+    {
+     "hex": "#f3f1eb",
+     "share": 0.169,
+     "name": "light orange"
+    },
+    {
+     "hex": "#6b3f0f",
+     "share": 0.158,
+     "name": "brown"
+    },
+    {
+     "hex": "#b37417",
+     "share": 0.156,
+     "name": "orange"
+    },
+    {
+     "hex": "#190f10",
+     "share": 0.126,
+     "name": "black"
+    },
+    {
+     "hex": "#fbdea0",
+     "share": 0.048,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f0c36f",
+     "share": 0.038,
+     "name": "orange"
+    },
+    {
+     "hex": "#c5bdb9",
+     "share": 0.037,
+     "name": "grey"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.239,
+   "saturation": 0.564,
+   "contrast": 0.469,
+   "warm": 0.901,
+   "cool": 0.033,
+   "palette": [
+    {
+     "hex": "#1e1010",
+     "share": 0.713,
+     "name": "black"
+    },
+    {
+     "hex": "#f37b15",
+     "share": 0.105,
+     "name": "orange"
+    },
+    {
+     "hex": "#28fe0a",
+     "share": 0.067,
+     "name": "green"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.033,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f4cd49",
+     "share": 0.031,
+     "name": "gold"
+    },
+    {
+     "hex": "#bd7323",
+     "share": 0.025,
+     "name": "orange"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), close-ups of the main pieces, the game's own files and real screens of a played free-play session (60 spins, both bought bonus games, the help pages). One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as three frames each on the sheets.",
+  "summary": "A classic 3x3 fruit machine dressed as a gold steam train: one glossy purple-and-gold locomotive, a screen split between fire and purple postcards, and gold coins whose centre colour names the jackpot.",
+  "style": "Glossy casino illustration with a 3D-rendered look for the train, coins and symbols, set against graphic paper ephemera (postcards and tickets printed with engravings) and Wild West poster lettering. The reel board itself is restrained Art Deco.",
+  "rendering": "Smooth airbrushed volumes, pinpoint highlights and hard outer edges on every object; soft additive glows and cartoon fire for effects. Symbols carry a warm rim light so they sit in the fire's glow.",
+  "colour": "Gold and fire against purple. Measured over the game's art: near-black #240d0f 26%, orange #e9800f 13%, dark purple #431a56 11%, brown #804309 11%, gold #f6c723 6%, light gold #fdfcf7 4%, dark red #740505 3%. The four jackpots own purple (MINI), blue (MINOR), green (MAJOR) and red (GRAND), repeated on coin, plaque and win word; the three win tiers are purple, blue and red. The amounts are purple numerals with a gold rim. Steel grey appears once, on the horseshoe.",
+  "lighting": "Objects are lit from the upper left or front with a red-orange rim from below right; the backdrop's fire lights from the bottom of the screen. Lamps, coins' flames and all effects are self-lit.",
+  "ambience": "A furnace and a ticket office: hot, rich, a little nostalgic. The base game is half fire and half cool purple; the cash bonus turns the backdrop to gold and purple postcards, the jackpot bonus to fire across the whole screen.",
+  "shapes": "Circles (coins, wheel, boiler door, fire rings), the perforated ticket rectangle, rounded plaques with one cut corner, a thin square frame, fat slab-serif letters.",
+  "materials": "Polished gold, lacquered purple steel, enamel, copper, steel, fruit skin, worn printed card, fire, steam.",
+  "typography": "Drawn lettering in one family of Western slab serifs: black on gold for the logo, fire-filled for WILD, coloured enamel for the jackpot words, purple, blue and red with gold outlines for the win tiers, cream with a red edge for the splash sentences. One bitmap numeral font, purple with a gold rim. Everything else is the provider shell's Poppins (Regular, SemiBold, Bold).",
+  "motion": "All motion is Spine 4.2.43: 41 skeletons in one file, most of them scene layers and effects, moving still pictures and 25 hand-drawn frame sequences (445 frames: fire, glints, a turning coin and ticket). The train is one picture with animated wheel, rods, highlights and sparks. Seen in play: a fire sweep after START, coins thrown on the pile, the train driving across the reels into the bonus, coin and ticket showers, fire inside the live jackpot frame. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7.",
+  "variants": "Three backdrop states (base, cash bonus, jackpot bonus), two reel boards, six coin faces from one blank, two collectors from one train, two splash cards, three win tiers from one layout, fruit symbols from one fruit each with darker side copies.",
+  "construction": "Three 4096 px atlas pages hold 532 sprites; backdrops are tall columns, the board and frames are mirrored halves, flames ship white to be tinted, words are separate from the coins and plaques they sit on. Five localised lettering files (en-GB). Paytable and buy-card pictures, the numeral font and the interface come from the provider's shared services.",
+  "consistency": "High. Gold, the flame emblem and the slab serif recur on every piece, and the ticket shape returns as logo, particle and backdrop. The one seam is between the rendered-look objects and the flat engraved postcards, and it is used on purpose as foreground against background.",
+  "takeaways": [
+   "One hero object can carry a game: the train is a single picture, and highlights, sparks, a blurred wheel and a coin pile make it feel alive. Budget the render, not the rig.",
+   "Colour-code the prizes end to end: each jackpot keeps its colour on the coin, the plaque and the win word, so a 3x3 board reads at a glance.",
+   "A classic fruit set is made new by context, not by redrawing fruit: rim light from the fire, three-of-a-kind clusters built from one painted fruit and a darker copy.",
+   "Split the backdrop into two contrasting halves (hot painted fire, cool printed paper) and swap them per feature: three moods from four narrow pictures.",
+   "Ship fire and light in white and tint in the game: one flame sequence serves every jackpot colour. Useful for AI-made effects too, where consistent colour across frames is hard.",
+   "Keep words apart from the objects they label (coins, plaques, splashes): localisation touches five files only.",
+   "For AI art work: the painted pieces are few and still; the craft is in consistency of gold, rim light and lettering, which is where a style reference and a fixed palette (#f6c723 gold, #431a56 purple, #e9800f fire) should be set."
+  ]
+ },
+ "screens": [
+  {
+   "file": "02-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game: 3x3 reels in a gold frame on near-black, the four jackpot plaques (GRAND 500x, MAJOR 100x, MINOR 30x, MINI 15x), the ticket logo, the locomotive on a pile of coins, fire field left and purple postcards right; the shell's menu, autoplay, stake, BUY FEATURE and spin buttons."
+  },
+  {
+   "file": "03-base-01-spinning.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Spin in motion",
+   "caption": "Reels turning: the symbols stacked three high (oranges, horseshoes), a Cash Collector train arriving on the middle reel."
+  },
+  {
+   "file": "11-hold-01-trigger.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Hold & Win trigger",
+   "caption": "Trigger: gold coins 3 and 2 on the outer reels and Cash Collector trains on the middle reel; the coin pile under the locomotive glows."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the gold and purple locomotive in steam between a red-to-yellow fire field and purple postcards, eight jackpot coins (MINI, MINOR, MAJOR, GRAND) around it, the FIRE RAIL EXPRESS ticket logo and the shell's START button."
+  }
+ ]
+}
