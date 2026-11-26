@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:06:31Z",
+ "updated": "2026-11-26T10:10:47Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -499,7 +499,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:10:47Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1528,7 +1530,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T10:10:47Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -3056,8 +3060,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-25T16:59:26Z",
+     "status": "blocked",
+     "reason": "No public free-play demo of this exact game was found (26 Nov 2026). Slotslaunch has no 7s Fire Blitz page at all; White Hat Studios' own page (https://www.whitehatstudios.com/games/7s-fire-blitz-power-force-5) sends Play Now to a client login. A sibling has a public demo: Cash Strike Power Force 5 (Blueprint Gaming), https://slotslaunch.com/blueprint-gaming/cash-strike-power-force-5, with the same Power Force 5 logo and upgrade orbs; that it is the European counterpart is inference, so it was not analysed in this game's name. Roei's choice: analyse the sibling as a labelled stand-in, or get a demo link from White Hat or the product team. Details: Games-AI-art records/2026-11-25-whitehat-7s-fire-blitz-power-force-5.md",
+     "at": "2026-11-26T10:10:31Z",
      "run": null
     }
    },
