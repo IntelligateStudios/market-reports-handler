@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T15:39:27Z",
+ "updated": "2026-11-26T15:49:58Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -671,7 +671,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "The demo is refused for United States visitors (screened 26 Nov 2026). Slotslaunch lists the exact game (https://slotslaunch.com/gameburger-studios/12-masks-of-fire-drum-frenzy, game 38330); pressing Free Play redirects to its 'not available in the United States' page, and this container's traffic leaves from the US. No other host was searched for this title. It can be run from outside the US, or with a demo link from the product team.",
+     "at": "2026-11-26T15:49:57Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -922,7 +925,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "The demo is refused for United States visitors (screened 26 Nov 2026). Slotslaunch lists the exact game (https://slotslaunch.com/fortune-factory-studios/gold-blitz-express, game 40001); pressing Free Play redirects to its 'not available in the United States' page, and this container's traffic leaves from the US. No other host was searched for this title. It can be run from outside the US, or with a demo link from the product team.",
+     "at": "2026-11-26T15:49:57Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -954,7 +960,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "The demo is refused for United States visitors (screened 26 Nov 2026). Slotslaunch lists the exact game (https://slotslaunch.com/stormcraft-studios/hot-as-hades-power-combo, game 38840); pressing Free Play redirects to its 'not available in the United States' page, and this container's traffic leaves from the US. No other host was searched for this title. It can be run from outside the US, or with a demo link from the product team.",
+     "at": "2026-11-26T15:49:57Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1007,7 +1016,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "The demo is refused for United States visitors (screened 26 Nov 2026). Slotslaunch lists the exact game (https://slotslaunch.com/just-for-the-win/mega-eagle-power-combo, game 40943); pressing Free Play redirects to its 'not available in the United States' page, and this container's traffic leaves from the US. No other host was searched for this title. It can be run from outside the US, or with a demo link from the product team.",
+     "at": "2026-11-26T15:49:57Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -1286,8 +1298,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T15:39:27Z",
+     "status": "blocked",
+     "reason": "No public free-play demo of this exact game opened (26 Nov 2026). Slotslaunch has its page (https://slotslaunch.com/igt/cash-eruption-high-stakes, game 35581) but the button reads Coming Soon; next.io's demo frame is empty; 14 other hosts have no demo of it. With the game's IGT software id, the gateway link that opens Cash Eruption would probably open it (inference): the product team may have it. Details: Games-AI-art records/2026-11-25-igt-cash-eruption-high-stakes.md",
+     "at": "2026-11-26T15:49:57Z",
      "run": null
     }
    },
@@ -2349,7 +2362,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T15:49:58Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
