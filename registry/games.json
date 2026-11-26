@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T10:04:59Z",
+ "updated": "2026-11-26T10:06:31Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1041,8 +1041,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:04:59Z",
+     "status": "blocked",
+     "reason": "The demo is refused for United States visitors (26 Nov 2026). Slotslaunch lists the exact game under Foxium (https://slotslaunch.com/foxium/rome-fight-for-gold-the-tigers-rage, game 41031); its Free Play redirects to a 'not available in the United States' page, and this container's traffic leaves from the US. Foxium's own page offers demos only on request to sales. It can be run from outside the US, or with a demo link from the product team.",
+     "at": "2026-11-26T10:06:31Z",
      "run": null
     }
    },
