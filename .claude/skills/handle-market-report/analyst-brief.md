@@ -16,6 +16,7 @@ Your prompt gives: the game's ledger id, its title and provider as the market re
 - **Do not edit** `README.md`, `tools/`, `categories.json` or anything in `/home/user/market-reports-handler/` (the ledger is the caller's). A rule you think belongs in `tools/categories.json` goes in your run's `classification.json` and in your final message as a suggestion.
 - **No Drive and no Miro** in this batch, and nothing posted or sent anywhere. The only thing you publish is the art report, as a private artifact.
 - Public pages only: no login, no account, no real-money play. Never write a session key anywhere (`mgckey=`, `token=`, `session=`, `key=`, `jwt=`); a `securetoken=null` or empty parameter is not a secret.
+- The capture names itself as desktop Chrome (Roei, 26 Nov 2026: "yes it may identify itself as it needs to make it work"); that is built into `tools/capture.mjs`, and your own play script may use the same user agent. It is the only allowance: still no proxy or VPN, no age or consent gate, no account.
 - Three other browsers may be running: give a game time to load (`--wait 60`) before deciding it is broken.
 
 ## Steps
