@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T16:55:41Z",
+ "updated": "2026-11-25T16:59:26Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -828,8 +828,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-25T16:55:41Z",
+     "status": "blocked",
+     "reason": "No public free-play demo opened from this container (25 Nov 2026). Slotslaunch has the exact game under Triple Edge Studios (https://slotslaunch.com/triple-edge-studios/fire-and-roses-gold-blitz-fortune-tower, game 40402), but its Free Play answers that the demo is not available in the United States, where this container's traffic leaves from. Games Global's own site and six other demo hosts gave no playable demo. It can be run from a machine outside the restricted countries, or with a demo link from Games Global or the product team.",
+     "at": "2026-11-25T16:59:26Z",
      "run": null
     }
    },
@@ -3051,7 +3052,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-25T16:59:26Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
