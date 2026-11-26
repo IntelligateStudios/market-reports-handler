@@ -1,0 +1,601 @@
+{
+ "run": "2026-11-26-2217-octoplay-777-hot-reels-megacharged",
+ "game": "777 Hot Reels Megacharged",
+ "started": "2026-11-26T22:17:54.930Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 37,
+  "components": 603,
+  "spines": 46,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 3
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 5
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 3
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 2
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 5
+  }
+ ],
+ "measured": {
+  "brightness": 0.373,
+  "saturation": 0.767,
+  "contrast": 0.441,
+  "warm": 0.625,
+  "cool": 0.265,
+  "colourShare": 0.866,
+  "softEdge": 0.191,
+  "highlights": 0.081,
+  "palette": [
+   {
+    "hex": "#200b2b",
+    "share": 0.296,
+    "name": "black"
+   },
+   {
+    "hex": "#ec750f",
+    "share": 0.186,
+    "name": "orange"
+   },
+   {
+    "hex": "#9d1f18",
+    "share": 0.153,
+    "name": "red"
+   },
+   {
+    "hex": "#fbcc16",
+    "share": 0.06,
+    "name": "gold"
+   },
+   {
+    "hex": "#fefdf8",
+    "share": 0.051,
+    "name": "light gold"
+   },
+   {
+    "hex": "#f11f07",
+    "share": 0.042,
+    "name": "red"
+   },
+   {
+    "hex": "#fbee86",
+    "share": 0.029,
+    "name": "light gold"
+   },
+   {
+    "hex": "#c64c13",
+    "share": 0.023,
+    "name": "orange"
+   }
+  ],
+  "hues": {
+   "orange": 0.305,
+   "red": 0.232,
+   "purple": 0.168,
+   "magenta": 0.101
+  },
+  "lightFrom": {
+   "top": 67,
+   "top-right": 28,
+   "top-left": 23
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.545,
+   "saturation": 0.757,
+   "contrast": 0.79,
+   "warm": 0.931,
+   "cool": 0.06,
+   "palette": [
+    {
+     "hex": "#f6bc0f",
+     "share": 0.22,
+     "name": "orange"
+    },
+    {
+     "hex": "#170e0a",
+     "share": 0.132,
+     "name": "black"
+    },
+    {
+     "hex": "#faee1b",
+     "share": 0.119,
+     "name": "gold"
+    },
+    {
+     "hex": "#56290f",
+     "share": 0.102,
+     "name": "brown"
+    },
+    {
+     "hex": "#f7e659",
+     "share": 0.083,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbf8c7",
+     "share": 0.05,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f3ef90",
+     "share": 0.029,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f62703",
+     "share": 0.019,
+     "name": "red"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.434,
+   "saturation": 0.737,
+   "contrast": 0.537,
+   "warm": 0.604,
+   "cool": 0.351,
+   "palette": [
+    {
+     "hex": "#1b1935",
+     "share": 0.178,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#fbd02b",
+     "share": 0.12,
+     "name": "gold"
+    },
+    {
+     "hex": "#3c0d16",
+     "share": 0.113,
+     "name": "dark red"
+    },
+    {
+     "hex": "#ea4006",
+     "share": 0.113,
+     "name": "orange"
+    },
+    {
+     "hex": "#c85ef6",
+     "share": 0.085,
+     "name": "purple"
+    },
+    {
+     "hex": "#ea7915",
+     "share": 0.059,
+     "name": "orange"
+    },
+    {
+     "hex": "#fdf9d9",
+     "share": 0.054,
+     "name": "light gold"
+    },
+    {
+     "hex": "#127ccb",
+     "share": 0.049,
+     "name": "blue"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.445,
+   "saturation": 0.701,
+   "contrast": 0.856,
+   "warm": 0.634,
+   "cool": 0.301,
+   "palette": [
+    {
+     "hex": "#f0ae1c",
+     "share": 0.11,
+     "name": "orange"
+    },
+    {
+     "hex": "#190956",
+     "share": 0.101,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#0e0514",
+     "share": 0.097,
+     "name": "black"
+    },
+    {
+     "hex": "#f7ea66",
+     "share": 0.064,
+     "name": "gold"
+    },
+    {
+     "hex": "#fee917",
+     "share": 0.05,
+     "name": "gold"
+    },
+    {
+     "hex": "#f6f6e4",
+     "share": 0.037,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f15e2f",
+     "share": 0.034,
+     "name": "red"
+    },
+    {
+     "hex": "#f4ebaa",
+     "share": 0.033,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.49,
+   "saturation": 0.786,
+   "contrast": 0.916,
+   "warm": 0.773,
+   "cool": 0.218,
+   "palette": [
+    {
+     "hex": "#fbc511",
+     "share": 0.224,
+     "name": "gold"
+    },
+    {
+     "hex": "#080359",
+     "share": 0.142,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#ce4614",
+     "share": 0.115,
+     "name": "orange"
+    },
+    {
+     "hex": "#5c1811",
+     "share": 0.113,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fbeeb3",
+     "share": 0.109,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fbe656",
+     "share": 0.102,
+     "name": "gold"
+    },
+    {
+     "hex": "#16051f",
+     "share": 0.07,
+     "name": "black"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.514,
+   "saturation": 0.745,
+   "contrast": 0.765,
+   "warm": 0.515,
+   "cool": 0.447,
+   "palette": [
+    {
+     "hex": "#fcc315",
+     "share": 0.171,
+     "name": "gold"
+    },
+    {
+     "hex": "#1b0736",
+     "share": 0.099,
+     "name": "black"
+    },
+    {
+     "hex": "#c366f7",
+     "share": 0.096,
+     "name": "purple"
+    },
+    {
+     "hex": "#e13e0c",
+     "share": 0.08,
+     "name": "red"
+    },
+    {
+     "hex": "#6ac9fa",
+     "share": 0.071,
+     "name": "blue"
+    },
+    {
+     "hex": "#e1a3fe",
+     "share": 0.054,
+     "name": "light purple"
+    },
+    {
+     "hex": "#1073c6",
+     "share": 0.047,
+     "name": "blue"
+    },
+    {
+     "hex": "#fdfafd",
+     "share": 0.028,
+     "name": "light magenta"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.268,
+   "saturation": 0.834,
+   "contrast": 0.291,
+   "warm": 0.624,
+   "cool": 0.28,
+   "palette": [
+    {
+     "hex": "#210b2e",
+     "share": 0.397,
+     "name": "black"
+    },
+    {
+     "hex": "#e8730e",
+     "share": 0.238,
+     "name": "orange"
+    },
+    {
+     "hex": "#9e1e19",
+     "share": 0.226,
+     "name": "red"
+    },
+    {
+     "hex": "#d43711",
+     "share": 0.049,
+     "name": "red"
+    },
+    {
+     "hex": "#5b1442",
+     "share": 0.033,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#f9c112",
+     "share": 0.03,
+     "name": "gold"
+    },
+    {
+     "hex": "#fefefe",
+     "share": 0.019,
+     "name": "white"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.266,
+   "saturation": 0.699,
+   "contrast": 0.548,
+   "warm": 0.508,
+   "cool": 0.355,
+   "palette": [
+    {
+     "hex": "#190a1c",
+     "share": 0.491,
+     "name": "black"
+    },
+    {
+     "hex": "#4e1016",
+     "share": 0.127,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fbd552",
+     "share": 0.074,
+     "name": "gold"
+    },
+    {
+     "hex": "#fffffe",
+     "share": 0.065,
+     "name": "light gold"
+    },
+    {
+     "hex": "#2744b2",
+     "share": 0.056,
+     "name": "blue"
+    },
+    {
+     "hex": "#17ff01",
+     "share": 0.043,
+     "name": "green"
+    },
+    {
+     "hex": "#4c27d2",
+     "share": 0.036,
+     "name": "blue"
+    },
+    {
+     "hex": "#952f1d",
+     "share": 0.022,
+     "name": "red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.638,
+   "saturation": 0.524,
+   "contrast": 0.441,
+   "warm": 0.599,
+   "cool": 0.087,
+   "palette": [
+    {
+     "hex": "#fefdf9",
+     "share": 0.232,
+     "name": "light orange"
+    },
+    {
+     "hex": "#fe1901",
+     "share": 0.167,
+     "name": "red"
+    },
+    {
+     "hex": "#fc6a05",
+     "share": 0.14,
+     "name": "orange"
+    },
+    {
+     "hex": "#feef8b",
+     "share": 0.087,
+     "name": "light gold"
+    },
+    {
+     "hex": "#b1b0b2",
+     "share": 0.084,
+     "name": "grey"
+    },
+    {
+     "hex": "#fa8c46",
+     "share": 0.075,
+     "name": "orange"
+    },
+    {
+     "hex": "#7f7e7e",
+     "share": 0.032,
+     "name": "grey"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the three atlas pages seen whole, the game's own files and real screens of played free-play sessions (60 base spins, Free Spins bought four times with free-play money and followed to spin 8 of 10, the help pages). One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as three frames each on the sheets.",
+  "summary": "A classic fruit-and-sevens machine staged as a neon cabinet flying through giant 3D 777 signs: the whole game is three colours of one flaming seven, each tied to a jackpot of its colour, on a backdrop that flips from purple night to orange blaze.",
+  "style": "Glossy sticker-like symbols with gold keylines, Western slab-serif lettering, and neon line work, on an abstract backdrop of light rays. The only solid scenery is a set of pre-rendered 777 blocks in steep perspective. Nothing is a character and nothing is a place.",
+  "rendering": "Smooth airbrushed enamel with one hard glint on symbols; flat neon outlines with glow for plaques, frames and jackpot wins; flat two-tone cartoon fire and white lightning for effects; soft gradient rays for the ground. Every symbol carries its own keyline and halo.",
+  "colour": "Measured over the game's art: near-black purple #1f0a2c 27%, red #9d2117 14%, orange #e96d0f 13%, gold #f9c013 11%, light golds #fdfbf3 and #fbed86 9% together, hot red #f11f07 3%, dark blue #0c0872 1%. The code is three hues: blue for the single seven and MINI, purple for the double seven and MINOR, red for the triple seven and MAJOR, repeated on symbol, plaque, jackpot win, gem and particle. Gold is the Wild, the frame, the logo and every amount. Cyan appears only as electricity.",
+  "lighting": "Almost everything is self-lit: neon, lamps behind plates, fire. Symbols have a conventional upper-left light and a warm halo. The backdrop's light comes from one vanishing point behind the cabinet.",
+  "ambience": "A machine in a dark club, humming with neon, that catches fire when a feature starts. The base game is cool and purple, Free Spins and the intro are orange and red; the cabinet itself does not change.",
+  "shapes": "The seven above all: as symbol, jackpot plaque silhouette, win plate, 3D block and logo. Around it a pinched cabinet outline, chevrons, diamonds on the win lines, thin dotted bulb lines, fat slab letters.",
+  "materials": "Enamel, polished gold, neon tube, back-lit glass, fruit skin, cut gems, fire, electric arc.",
+  "typography": "One voice: fat Western slab serifs. Drawn words for the logo, WILD, FREE SPINS, the jackpot names and the win tiers (gold to orange with a dark blue shadow); three bitmap numeral fonts from the provider's shared font store (UltraGold large, UltraActive and UltraInactive small). The help, the buttons and the balance line are the shell's Poppins.",
+  "motion": "All motion is Spine: 46 skeletons in two bundle files (44 in 4.2.43, two particle layers in 4.1.24), most of them scene layers and effects moving still pictures, with 22 hand-drawn frame sequences (398 frames: outline traces, fire, lightning, tumbling gems, a turning coin, the logo burning). Seen in play: the logo breaking up among coins after START, neon frames breathing, 777 blocks drifting behind the cabinet, cyan arcs on the frame and bolts at the jackpots, a gold seven flying from a Wild to the plaques, a lightning column on the last reel before a trigger, three sevens turning red on the splash, fire across the screen into Free Spins, Wilds locking, a BIG WIN and a MINOR jackpot win with gold rays and coins. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7; assembled and motion pictures are absent for that reason only.",
+  "variants": "Two backdrop states (Normal, Special) for the ground and for each of eight 777 block views; one seven in four colourings (blue, purple, red, gold) and three counts; three jackpot plaques and three jackpot win plates from one idea; three win tiers and a total from one layout; lit and unlit paytable plates and numerals.",
+  "construction": "Three 4096 px atlas pages hold 518 sprites, with two of the pages roughly half empty; the ground is a mirrored half; words are separate from what they label, and six lettering files are localised (en-GB). The paytable pictures, the help logo, the buy card, the numeral fonts, the Double Chance card, the controls and Poppins come from the provider's shared services. Compared with Fire Rail Express (run 2026-11-26-1556) from the files: the shell, Poppins and the Double Chance card are the same; 40 sprites are pixel for pixel the same (36 white flame frames, the white starburst, a glow, a glow square, a white box); 23 of the 46 skeleton names are the same (Backgrounds, Logo, SlotFrame, Jackpot, WinBig, WinTotal, TileWild and others), which points to one scene template; the pictures under shared names such as bgNormal, bgSpecial and jackpotFrame are different. Everything that carries the theme is this game's own.",
+  "consistency": "Very high, by economy: one seven, one letter style, three hues and gold. The one piece outside the system is the painted buy card, and it shows the same cast.",
+  "takeaways": [
+   "One drawing can be a whole high-symbol set: a single flaming seven, recoloured three times and repeated one, two or three times, gives the ranks, and the same seven in gold is the Wild and the logo.",
+   "Tie each top symbol to a prize by colour and by shape: blue 7 to the blue one-seven MINI plaque, purple 77 to MINOR, red 777 to MAJOR. The rule is readable without a word.",
+   "Put the paytable on the machine. The cabinet shows every pay above the reels and lights the winning row, so a small 5x3 area sits inside a rich, always-informative object.",
+   "A sequel or a 'charged' version can be made with little new art: two extra words on the logo, 25 white lightning frames tinted cyan and a jackpot row carry the difference.",
+   "Build the environment from light instead of scenery: two mirrored ray pictures, a few white line pieces tinted in the game and eight pre-rendered views of one 3D sign give depth and constant movement with almost no painting.",
+   "Change one thing for the feature and change it completely: the ground flips from purple to orange and the blocks from purple to gold, while the cabinet stays, so the player never loses the board.",
+   "Keep an effect library in white and tint it per game: the flame frames here are the same files as in Fire Rail Express. Bake colour only where tint would flatten form (the gems).",
+   "For AI art work: the painted content is tiny (four fruits, one seven, one crown, one key-art card). The value is in the system around it, so the brief should fix the three hues and gold (#0b37b7 blue, #c366f7 purple, #c50b05 red, #f9c013 gold), the keyline-and-halo treatment and the slab lettering before any picture is made."
+  ]
+ },
+ "screens": [
+  {
+   "file": "02-main-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game: the cabinet on the purple ray backdrop with red neon frames. From the top: the MINI, MAJOR and MINOR plaques with their values, the logo between the Crown and Wild pays, the paytable rows for the sevens and the fruit, and the 5x3 reels; the shell's menu, autoplay, stake, BUY FEATURE and spin buttons."
+  },
+  {
+   "file": "03-base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Spin in motion",
+   "caption": "A spin: reels turning inside the gold frame; the neon frames behind the cabinet have moved."
+  },
+  {
+   "file": "12-feature-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Free Spins trigger",
+   "caption": "Three FREE SPINS symbols on the reels; the cabinet's outline flashes cyan and white."
+  },
+  {
+   "file": "00-intro-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the gold 777 over HOT REELS MEGA CHARGED in flames on the orange ray backdrop, the three jackpot plaques (MINI, MAJOR, MINOR) above, a blue, a red and a purple seven below, yellow neon frames, and the shell's START button."
+  }
+ ]
+}
