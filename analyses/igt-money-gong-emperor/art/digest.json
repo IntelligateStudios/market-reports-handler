@@ -1,0 +1,580 @@
+{
+ "run": "2026-11-26-1846-igt-money-gong-emperor",
+ "game": "Money Gong Emperor",
+ "started": "2026-11-26T18:46:32.390Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 54,
+  "components": 1127,
+  "spines": 30,
+  "fonts": 8
+ },
+ "units": [
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 4
+  },
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 10
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 3
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 1
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 5
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 15
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 6
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 2
+  }
+ ],
+ "measured": {
+  "brightness": 0.387,
+  "saturation": 0.619,
+  "contrast": 0.472,
+  "warm": 0.743,
+  "cool": 0.04,
+  "colourShare": 0.68,
+  "softEdge": 0.069,
+  "highlights": 0.091,
+  "palette": [
+   {
+    "hex": "#600d04",
+    "share": 0.199,
+    "name": "dark red"
+   },
+   {
+    "hex": "#1d0d08",
+    "share": 0.176,
+    "name": "black"
+   },
+   {
+    "hex": "#edb517",
+    "share": 0.082,
+    "name": "orange"
+   },
+   {
+    "hex": "#3c372d",
+    "share": 0.07,
+    "name": "brown"
+   },
+   {
+    "hex": "#88837a",
+    "share": 0.066,
+    "name": "grey"
+   },
+   {
+    "hex": "#f9f9f7",
+    "share": 0.056,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#c1bfbd",
+    "share": 0.047,
+    "name": "grey"
+   },
+   {
+    "hex": "#665a46",
+    "share": 0.04,
+    "name": "brown"
+   }
+  ],
+  "hues": {
+   "orange": 0.432,
+   "red": 0.326,
+   "yellow": 0.188,
+   "green": 0.025
+  },
+  "lightFrom": {
+   "top": 174,
+   "top-right": 32,
+   "top-left": 19
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Game interface": {
+   "brightness": 0.344,
+   "saturation": 0.621,
+   "contrast": 0.554,
+   "warm": 0.645,
+   "cool": 0.207,
+   "palette": [
+    {
+     "hex": "#250f10",
+     "share": 0.345,
+     "name": "black"
+    },
+    {
+     "hex": "#680a03",
+     "share": 0.154,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fdfdfc",
+     "share": 0.092,
+     "name": "light orange"
+    },
+    {
+     "hex": "#9c2608",
+     "share": 0.064,
+     "name": "red"
+    },
+    {
+     "hex": "#a26113",
+     "share": 0.055,
+     "name": "brown"
+    },
+    {
+     "hex": "#5e5564",
+     "share": 0.032,
+     "name": "grey"
+    },
+    {
+     "hex": "#9c91a0",
+     "share": 0.03,
+     "name": "grey"
+    },
+    {
+     "hex": "#ed0f08",
+     "share": 0.018,
+     "name": "red"
+    }
+   ]
+  },
+  "Provider interface (shared)": {
+   "brightness": 0.176,
+   "saturation": 0.375,
+   "contrast": 0.069,
+   "warm": 0.01,
+   "cool": 0.414,
+   "palette": [
+    {
+     "hex": "#120c1d",
+     "share": 0.799,
+     "name": "black"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.109,
+     "name": "white"
+    },
+    {
+     "hex": "#2e263d",
+     "share": 0.078,
+     "name": "dark purple"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.374,
+   "saturation": 0.887,
+   "contrast": 0.548,
+   "warm": 0.918,
+   "cool": 0.056,
+   "palette": [
+    {
+     "hex": "#4f0702",
+     "share": 0.389,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f2b80f",
+     "share": 0.172,
+     "name": "orange"
+    },
+    {
+     "hex": "#9d4207",
+     "share": 0.158,
+     "name": "brown"
+    },
+    {
+     "hex": "#cf770c",
+     "share": 0.094,
+     "name": "orange"
+    },
+    {
+     "hex": "#fafaf5",
+     "share": 0.023,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#8b8b89",
+     "share": 0.016,
+     "name": "grey"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.542,
+   "saturation": 0.785,
+   "contrast": 0.631,
+   "warm": 0.775,
+   "cool": 0.139,
+   "palette": [
+    {
+     "hex": "#e4a626",
+     "share": 0.214,
+     "name": "orange"
+    },
+    {
+     "hex": "#f9e450",
+     "share": 0.154,
+     "name": "gold"
+    },
+    {
+     "hex": "#08e75e",
+     "share": 0.06,
+     "name": "green"
+    },
+    {
+     "hex": "#a7180a",
+     "share": 0.06,
+     "name": "red"
+    },
+    {
+     "hex": "#180706",
+     "share": 0.053,
+     "name": "black"
+    },
+    {
+     "hex": "#590f08",
+     "share": 0.042,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f3f7f1",
+     "share": 0.03,
+     "name": "light green"
+    },
+    {
+     "hex": "#faeea2",
+     "share": 0.019,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.394,
+   "saturation": 0.808,
+   "contrast": 0.433,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#1f0704",
+     "share": 0.446,
+     "name": "black"
+    },
+    {
+     "hex": "#fce12a",
+     "share": 0.283,
+     "name": "gold"
+    },
+    {
+     "hex": "#632d14",
+     "share": 0.11,
+     "name": "brown"
+    },
+    {
+     "hex": "#f9d893",
+     "share": 0.08,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f45b05",
+     "share": 0.036,
+     "name": "orange"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.103,
+   "saturation": 0.969,
+   "contrast": 0.206,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#5f0302",
+     "share": 0.884,
+     "name": "dark red"
+    },
+    {
+     "hex": "#270202",
+     "share": 0.055,
+     "name": "black"
+    },
+    {
+     "hex": "#a80b04",
+     "share": 0.038,
+     "name": "red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.432,
+   "saturation": 0.419,
+   "contrast": 0.457,
+   "warm": 0.589,
+   "cool": 0.004,
+   "palette": [
+    {
+     "hex": "#1b130c",
+     "share": 0.242,
+     "name": "black"
+    },
+    {
+     "hex": "#4c3f2a",
+     "share": 0.192,
+     "name": "brown"
+    },
+    {
+     "hex": "#7c7368",
+     "share": 0.098,
+     "name": "grey"
+    },
+    {
+     "hex": "#c0bebd",
+     "share": 0.094,
+     "name": "grey"
+    },
+    {
+     "hex": "#f9f9f7",
+     "share": 0.087,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#e7aa15",
+     "share": 0.042,
+     "name": "orange"
+    },
+    {
+     "hex": "#a1988b",
+     "share": 0.035,
+     "name": "grey"
+    },
+    {
+     "hex": "#f9e713",
+     "share": 0.022,
+     "name": "gold"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.381,
+   "saturation": 0.592,
+   "contrast": 0.461,
+   "warm": 0.944,
+   "cool": 0.035,
+   "palette": [
+    {
+     "hex": "#4c3c21",
+     "share": 0.229,
+     "name": "brown"
+    },
+    {
+     "hex": "#1c130b",
+     "share": 0.205,
+     "name": "black"
+    },
+    {
+     "hex": "#74724f",
+     "share": 0.106,
+     "name": "yellow"
+    },
+    {
+     "hex": "#893706",
+     "share": 0.086,
+     "name": "brown"
+    },
+    {
+     "hex": "#f6e075",
+     "share": 0.068,
+     "name": "gold"
+    },
+    {
+     "hex": "#969680",
+     "share": 0.067,
+     "name": "grey"
+    },
+    {
+     "hex": "#c06a10",
+     "share": 0.056,
+     "name": "orange"
+    },
+    {
+     "hex": "#ee0b08",
+     "share": 0.019,
+     "name": "red"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.547,
+   "saturation": 0.701,
+   "contrast": 0.696,
+   "warm": 0.915,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fdf44e",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#f9bd18",
+     "share": 0.164,
+     "name": "orange"
+    },
+    {
+     "hex": "#6b1109",
+     "share": 0.121,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fdfaab",
+     "share": 0.113,
+     "name": "light gold"
+    },
+    {
+     "hex": "#270908",
+     "share": 0.1,
+     "name": "black"
+    },
+    {
+     "hex": "#a21108",
+     "share": 0.051,
+     "name": "red"
+    },
+    {
+     "hex": "#534f4a",
+     "share": 0.045,
+     "name": "grey"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.308,
+   "saturation": 0.905,
+   "contrast": 0.566,
+   "warm": 0.98,
+   "cool": 0.009,
+   "palette": [
+    {
+     "hex": "#670d05",
+     "share": 0.361,
+     "name": "dark red"
+    },
+    {
+     "hex": "#c80906",
+     "share": 0.211,
+     "name": "red"
+    },
+    {
+     "hex": "#f7c10e",
+     "share": 0.109,
+     "name": "gold"
+    },
+    {
+     "hex": "#ab4c12",
+     "share": 0.075,
+     "name": "brown"
+    },
+    {
+     "hex": "#db7420",
+     "share": 0.07,
+     "name": "orange"
+    },
+    {
+     "hex": "#261304",
+     "share": 0.066,
+     "name": "black"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the game's own files and six real screens of the free-play demo. One reader wrote all units; there were no sub-reviewers. The demo's sessions were closed by its server after a minute or so, so no win, paytable page or feature was seen in play: those are read from the files only.",
+  "summary": "A red and gold Chinese good-fortune game built around one emblem: a gold gong with a red fret knot that reappears as the title's coin, the money balls and the coins, with fat red brush-stroke royals, four glossy gold objects on coloured plates and one painted character, a laughing emperor, as the top symbol and the host of the pop-ups.",
+  "style": "Two manners side by side. Symbols, pots, gong and firecrackers are glossy, toy-like stylised objects. The emperor is a realistic painted figure. The setting is not a place but ornament: a red ground pressed with a wave-scale pattern, cloud scrolls and Greek-key bands. The interface buttons are a neutral charcoal set outside the theme.",
+  "rendering": "Smooth airbrushed gradients with hard silhouettes, a gold or light rim and white star glints on every object; lettering with a white outline and a dark extrusion; effects as soft light on black. Nothing has a drawn black outline. Measured hard-edged overall (soft edge 0.07).",
+  "colour": "Red and gold with almost no cool colour: measured over the game's own art, dark red #600d04 at 20% and near-black #1d0d08 at 18% lead, then gold-orange #edb517 at 8%; warm 74% against cool 4%, saturation 0.62, brightness 0.39. Hues are orange 43%, red 33%, yellow 19%, green 3%. Colour outside red and gold is rationed and always means something: green #06ed61 is the money ball, green, blue, purple and red-gold are the gong's four features, and each jackpot tier has a colour of its own (Grand red, Major green, Maxi purple, Minor blue, Mini orange); magenta is the top prize's figure; the multiplier is red with a white outline.",
+  "lighting": "One top light on everything (measured from the top on 174 parts, top-right on 32, top-left on 19) with specular glints on the gold; the backgrounds are dark with a low glow, so the gold objects are the light of the screen. The base reel backing is the darkest surface (#550202, brightness 0.07).",
+  "ambience": "Festive, lucky and rich: New Year firecrackers, coins, pots of gold and a laughing emperor. Calm in the base game, where the screen is a dark red wall with gold furniture; the bonus spins turn the board itself gold.",
+  "shapes": "Circles everywhere: gong, coins, money balls, jackpot discs, round buttons, the ring in the background, the bonus wheel. Around them, cloud scrolls and a Greek-key band as the two ornaments, and pill-shaped plaques for every figure. The lettering is the one angular element.",
+  "materials": "Polished gold above all; red lacquer and enamel; glass or jade balls; brocade and gold metalwork on the emperor; paper firecrackers; smoked glass for the buttons.",
+  "typography": "The logo is heavy angular faux-brush capitals in bevelled yellow gold with a deep red extrusion. Jackpot names and MONEY GONG BONUS are drawn in the same faux-brush manner; two such faces are embedded (Gang of Three and Nuku Nuku), which is probably where they come from (inference). The three feature words are rounded poster capitals, one colour each. Running text is live Noto Sans (Black, Condensed Black, Condensed Bold, Regular) with Passion One. Figures are bitmap sets drawn per place: white for the bonus spins, magenta and gold for ball values, brown-lacquer and yellow for the Money Gong Bonus.",
+  "motion": "Spine skeletons carry all of it: 16 skeletons in Spine 4.0 or 4.1 (the report header counts 30 files because 14 layout files of the client are counted with them). By their animation names: every symbol has a win, the money ball four landings, the gong turns like a coin to a feature face and is struck, pots grow and are hit by coins, firecrackers are lit and go off, four win tiers come in, loop and leave, and the emperor pops up with a scroll. Around them, 42 frame sequences (494 frames) of sparks, sweeps, trails and bursts, and nine particle files. No skeleton frame is shown: the project's drawing tool is written for Spine 3.7 and drew none of these; the six real screens show only the base game, the intro and a spin, so movement is read from names and parts and is inference throughout.",
+  "variants": "One base ground, one curtain scene for the intro, and a board that changes backing from dark red to gold for the bonus spins; a Hold & Win grid and a round Money Gong Bonus wheel as feature scenes (parts only, not seen in play). Every reel symbol ships sharp and motion-blurred. The money ball comes green and gold, plain and with four jackpot names. The gong has five faces. Landscape only was captured; portrait animations are named in the files.",
+  "construction": "1,127 named sprites on 54 textures in 51 units, 49 of them the game's own art. Solid art is PNG in TexturePacker sheets or Spine atlases; effects are JPEG on black on separate pages of the same atlas; backgrounds are single JPEGs with no layers (1584x720, the curtain 3168x1440). A reel symbol is about 300x270 for a cell of about 313x302; the emperor of the pop-up is the largest art (head 899x801). Half of the reel frame is shipped and mirrored (inference). Three skeletons (the two ambients and the transition) ship only a placeholder.",
+  "consistency": "Very tight. One emblem at four sizes, two ornaments, one top light and a two-colour palette hold every screen together, and the few other colours are a code the player learns on the intro panel and meets again on the gong, the balls and the meters. The loose ends are the neutral grey buttons and the plain sans win titles, which belong to the provider's kit more than to the game.",
+  "takeaways": [
+   "A feature can be the art direction. The gong is a symbol, the title's coin, the trigger device and the bonus wheel's centre: one well-made emblem reused at four sizes does the work of several separate illustrations.",
+   "Colour is used as a code, not as decoration. On an almost entirely red and gold screen, green means money ball, four colours mean the four features and each jackpot tier has its own, taught once on the intro panel and repeated on gong, balls and meters.",
+   "No scenery at all. The background is a patterned wall with a seat for the gong; the board changes from dark red to gold for the bonus spins. A leading game here spends nothing on a landscape.",
+   "Royals are cheap and still on theme: five letters in one red brush stroke with a gold edge, no ornament each, readable on a near-black reel backing.",
+   "The only painted character is saved for the top symbol and the pop-up host, cut into a few large parts. Everything else that moves is an object.",
+   "Effects are greyscale or gold light on black, shipped apart from the solid art and shaped to their object (a light sweep per wordmark, a glow per silhouette). That split is a production pattern an AI art pipeline can follow: generate solid pieces, derive masks and glows from their outlines.",
+   "Pre-rendered blur: every reel symbol has a second, motion-blurred picture. Plan two outputs per symbol.",
+   "Several drawn number sets, each tied to one place and prize, instead of one font: figures are treated as art."
+  ]
+ },
+ "screens": [
+  {
+   "file": "02-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the logo top left over the gold gong in its ring of firecrackers, 5 reels of 3 rows in a gold scroll frame with 243 WAYS plaques and red tassels, the Grand, Major, Maxi, Minor and Mini meters and the yellow Money Gong Prize meter between two gold pots (6 and 12 BONUS SPINS), round spin, auto and bet buttons on the right."
+  },
+  {
+   "file": "00-preloader.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Preloader",
+   "caption": "Preloader: the logo MONEY GONG EMPEROR in bevelled gold on a gold coin with cloud scrolls, on a red ground of wave scales inside a ring of red cloud ornaments; PlayDigital IGT mark and an orange loading bar."
+  }
+ ]
+}

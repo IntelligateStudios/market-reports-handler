@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T22:02:53Z",
+ "updated": "2026-11-26T22:14:09Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1438,7 +1438,11 @@
    "providerKey": "igt",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://stage-game-launcher-lux.isoftbet.com/1015/201371?mode=0&cur=USD&lang=en",
+    "from": "set by hand",
+    "at": "2026-11-26T22:14:09Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
@@ -1462,15 +1466,25 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1846-igt-money-gong-emperor"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T10:52:53Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1846-igt-money-gong-emperor",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/BH7fiUhUUTh8aQc6h7HYTa",
+     "completed": "2026-11-26T22:14:09Z",
+     "started": "2026-11-26T10:52:53Z"
     }
    },
-   "added": "2026-11-25T16:50:31Z"
+   "added": "2026-11-25T16:50:31Z",
+   "notes": "Real screens of the base game only: the staging server closed every session within about a minute, so no win, paytable or feature is on a screen. All art files loaded and are read."
   },
   {
    "id": "igt-mystery-of-the-lamp-secret-bazaar",
@@ -2307,7 +2321,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T22:14:09Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -2464,7 +2480,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-26T22:14:09Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
