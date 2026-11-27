@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T15:07:56Z",
+ "updated": "2026-11-27T15:17:36Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -3956,7 +3956,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T15:17:36Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
@@ -4084,7 +4086,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/freedom-250x-boost-hold-and-win",
+    "from": "set by hand",
+    "at": "2026-11-27T15:16:04Z"
+   },
    "appearances": [
     {
      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
@@ -4101,12 +4107,22 @@
      "page": 46
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0959-octoplay-freedom-250x-boost-hold-and-win"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T09:48:39Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0959-octoplay-freedom-250x-boost-hold-and-win",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/K76cHG6Zm1iVK2DMFy3BzB",
+     "completed": "2026-11-27T15:16:04Z",
+     "commit": "c9c2309",
+     "started": "2026-11-27T09:48:39Z"
     }
    },
    "added": "2026-11-27T09:48:23Z"

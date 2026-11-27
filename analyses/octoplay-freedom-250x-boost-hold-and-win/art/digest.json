@@ -1,0 +1,591 @@
+{
+ "run": "2026-11-27-0959-octoplay-freedom-250x-boost-hold-and-win",
+ "game": "Freedom 250x Boost Hold And Win",
+ "started": "2026-11-27T09:59:10.077Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 35,
+  "components": 665,
+  "spines": 43,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 6
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 1
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 3
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 2
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.466,
+  "saturation": 0.658,
+  "contrast": 0.516,
+  "warm": 0.579,
+  "cool": 0.326,
+  "colourShare": 0.821,
+  "softEdge": 0.117,
+  "highlights": 0.138,
+  "palette": [
+   {
+    "hex": "#d7911e",
+    "share": 0.122,
+    "name": "orange"
+   },
+   {
+    "hex": "#fbfaf5",
+    "share": 0.116,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#56090a",
+    "share": 0.108,
+    "name": "dark red"
+   },
+   {
+    "hex": "#a01c1b",
+    "share": 0.096,
+    "name": "red"
+   },
+   {
+    "hex": "#2d78c2",
+    "share": 0.088,
+    "name": "blue"
+   },
+   {
+    "hex": "#0d1830",
+    "share": 0.084,
+    "name": "black"
+   },
+   {
+    "hex": "#f4c64a",
+    "share": 0.049,
+    "name": "orange"
+   },
+   {
+    "hex": "#76bae6",
+    "share": 0.032,
+    "name": "blue"
+   }
+  ],
+  "hues": {
+   "blue": 0.334,
+   "red": 0.293,
+   "orange": 0.285,
+   "yellow": 0.049
+  },
+  "lightFrom": {
+   "top": 39,
+   "left": 10,
+   "top-right": 8
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged",
+   "strong highlights"
+  ]
+ },
+ "byComponent": {
+  "Logo and title": {
+   "brightness": 0.427,
+   "saturation": 0.654,
+   "contrast": 0.758,
+   "warm": 0.625,
+   "cool": 0.373,
+   "palette": [
+    {
+     "hex": "#d60809",
+     "share": 0.141,
+     "name": "red"
+    },
+    {
+     "hex": "#5f4535",
+     "share": 0.103,
+     "name": "brown"
+    },
+    {
+     "hex": "#0f2153",
+     "share": 0.101,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#bbe4f7",
+     "share": 0.073,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#edc664",
+     "share": 0.072,
+     "name": "orange"
+    },
+    {
+     "hex": "#145190",
+     "share": 0.061,
+     "name": "blue"
+    },
+    {
+     "hex": "#0983cb",
+     "share": 0.057,
+     "name": "blue"
+    },
+    {
+     "hex": "#fcf6f0",
+     "share": 0.017,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.67,
+   "saturation": 0.487,
+   "contrast": 0.532,
+   "warm": 0.66,
+   "cool": 0.066,
+   "palette": [
+    {
+     "hex": "#fefcf6",
+     "share": 0.313,
+     "name": "light gold"
+    },
+    {
+     "hex": "#eeb333",
+     "share": 0.139,
+     "name": "orange"
+    },
+    {
+     "hex": "#7b380c",
+     "share": 0.112,
+     "name": "brown"
+    },
+    {
+     "hex": "#f3d182",
+     "share": 0.108,
+     "name": "orange"
+    },
+    {
+     "hex": "#c47917",
+     "share": 0.069,
+     "name": "orange"
+    },
+    {
+     "hex": "#a3692f",
+     "share": 0.036,
+     "name": "orange"
+    },
+    {
+     "hex": "#f0e3bc",
+     "share": 0.031,
+     "name": "light orange"
+    },
+    {
+     "hex": "#1a0a0a",
+     "share": 0.03,
+     "name": "black"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.758,
+   "saturation": 0.553,
+   "contrast": 0.896,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fefef5",
+     "share": 0.362,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f7d01d",
+     "share": 0.299,
+     "name": "gold"
+    },
+    {
+     "hex": "#611702",
+     "share": 0.164,
+     "name": "dark red"
+    },
+    {
+     "hex": "#faf35e",
+     "share": 0.064,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdfba0",
+     "share": 0.055,
+     "name": "light gold"
+    },
+    {
+     "hex": "#915002",
+     "share": 0.031,
+     "name": "brown"
+    },
+    {
+     "hex": "#c7880e",
+     "share": 0.024,
+     "name": "orange"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.501,
+   "saturation": 0.739,
+   "contrast": 0.641,
+   "warm": 0.692,
+   "cool": 0.197,
+   "palette": [
+    {
+     "hex": "#f1ba3d",
+     "share": 0.16,
+     "name": "orange"
+    },
+    {
+     "hex": "#faf7ef",
+     "share": 0.081,
+     "name": "light orange"
+    },
+    {
+     "hex": "#c40805",
+     "share": 0.079,
+     "name": "red"
+    },
+    {
+     "hex": "#7d2108",
+     "share": 0.046,
+     "name": "dark red"
+    },
+    {
+     "hex": "#05c607",
+     "share": 0.04,
+     "name": "green"
+    },
+    {
+     "hex": "#0459f0",
+     "share": 0.039,
+     "name": "blue"
+    },
+    {
+     "hex": "#490e08",
+     "share": 0.036,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f2d302",
+     "share": 0.03,
+     "name": "gold"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.254,
+   "saturation": 0.756,
+   "contrast": 0.479,
+   "warm": 0.47,
+   "cool": 0.516,
+   "palette": [
+    {
+     "hex": "#53090d",
+     "share": 0.201,
+     "name": "dark red"
+    },
+    {
+     "hex": "#0d1931",
+     "share": 0.181,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#9b1e29",
+     "share": 0.14,
+     "name": "red"
+    },
+    {
+     "hex": "#154b8d",
+     "share": 0.137,
+     "name": "blue"
+    },
+    {
+     "hex": "#2e78ca",
+     "share": 0.108,
+     "name": "blue"
+    },
+    {
+     "hex": "#683d4f",
+     "share": 0.076,
+     "name": "magenta"
+    },
+    {
+     "hex": "#5180b1",
+     "share": 0.052,
+     "name": "blue"
+    },
+    {
+     "hex": "#71bde8",
+     "share": 0.047,
+     "name": "blue"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.874,
+   "saturation": 0.005,
+   "contrast": 0.07,
+   "warm": 0.095,
+   "cool": 0.013,
+   "palette": [
+    {
+     "hex": "#fefefe",
+     "share": 0.808,
+     "name": "light orange"
+    },
+    {
+     "hex": "#676767",
+     "share": 0.095,
+     "name": "grey"
+    },
+    {
+     "hex": "#0f0f0f",
+     "share": 0.047,
+     "name": "black"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.474,
+   "saturation": 0.697,
+   "contrast": 0.69,
+   "warm": 0.614,
+   "cool": 0.291,
+   "palette": [
+    {
+     "hex": "#71230a",
+     "share": 0.147,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f5c83e",
+     "share": 0.109,
+     "name": "gold"
+    },
+    {
+     "hex": "#cc0b0b",
+     "share": 0.105,
+     "name": "red"
+    },
+    {
+     "hex": "#0c9804",
+     "share": 0.093,
+     "name": "green"
+    },
+    {
+     "hex": "#166fc1",
+     "share": 0.087,
+     "name": "blue"
+    },
+    {
+     "hex": "#f3eee9",
+     "share": 0.084,
+     "name": "light orange"
+    },
+    {
+     "hex": "#b715b9",
+     "share": 0.055,
+     "name": "magenta"
+    },
+    {
+     "hex": "#dbcfca",
+     "share": 0.05,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.685,
+   "saturation": 0.616,
+   "contrast": 0.488,
+   "warm": 0.829,
+   "cool": 0.167,
+   "palette": [
+    {
+     "hex": "#db921c",
+     "share": 0.506,
+     "name": "orange"
+    },
+    {
+     "hex": "#f7d578",
+     "share": 0.16,
+     "name": "orange"
+    },
+    {
+     "hex": "#f7f6eb",
+     "share": 0.132,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#466e8c",
+     "share": 0.042,
+     "name": "blue"
+    },
+    {
+     "hex": "#b8c8cb",
+     "share": 0.04,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#eee5c3",
+     "share": 0.029,
+     "name": "light gold"
+    },
+    {
+     "hex": "#9b3f12",
+     "share": 0.027,
+     "name": "brown"
+    },
+    {
+     "hex": "#edb940",
+     "share": 0.021,
+     "name": "orange"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.459,
+   "saturation": 0.681,
+   "contrast": 0.387,
+   "warm": 0.42,
+   "cool": 0.519,
+   "palette": [
+    {
+     "hex": "#216ebb",
+     "share": 0.248,
+     "name": "blue"
+    },
+    {
+     "hex": "#640202",
+     "share": 0.207,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f3f5f5",
+     "share": 0.098,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#7bbbec",
+     "share": 0.096,
+     "name": "blue"
+    },
+    {
+     "hex": "#b3d7f1",
+     "share": 0.09,
+     "name": "light blue"
+    },
+    {
+     "hex": "#a40605",
+     "share": 0.054,
+     "name": "red"
+    },
+    {
+     "hex": "#051025",
+     "share": 0.036,
+     "name": "black"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (all 20 units opened), close-ups of the main pieces, the two atlas pages seen whole, the game's own files (skeleton files, font descriptor, rules text) and real screens of three played free-play sessions of the public demo on 27 Nov 2026 (197 presses of spin in all; the Jackpot Hold & Win came by itself at spin 30 of the second session and was played to its end, 63 presses later: Unity collected several times, Justice once, a total of 175.00 and MEGA WIN; the cash Hold & Win did not come). One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as the three frames each sheet shows. No skeleton frame was drawn: the rigs are Spine 4.2.43.",
+  "summary": "An American-anniversary slot dressed as a prize ceremony: a 3x3 glass board hung with bunting in front of a flag made of light, gold medals for every prize, three smiling presidents as collectors, and a Statue of Liberty that turns to gold coin by coin.",
+  "style": "Glossy realistic casino illustration with a sticker finish. Objects, medals and portraits are fully painted and idealised; the backdrop is flat graphic design. The portraits are warm caricature, close to animated-film character design, while the emblems and the statue stay realistic.",
+  "rendering": "Three kinds. Painted objects with smooth blended volume, fine detail and hard outer edges (emblems soft edge 0.147, jackpot coins 0.121, help pictures 0.037), each pay symbol on a thick white outline. Flat gradients for the backdrop and the board panel. White light sprites with feathered edges, tinted and added by the game (glows 0.898, sparks 0.88, fireworks 0.909). Lettering is extruded with a lighter upper band, a gold keyline and a navy or dark red block shadow.",
+  "colour": "Red, white and blue hold the stage; gold holds everything that pays. Measured over the art files: orange-gold #d7911e 12%, near-white #fbfaf5 11%, dark red #56090a 10%, red #a01c1b 9%, blue #2d78c2 8%, near-black navy #0d1830 8%, gold #f4c64a 4%, light blue #76bae6 3%. The backdrop is half navy, half red (hues blue 0.518, red 0.482); the board is pale sky blue so the warm symbols stand out. A second code names the prizes: purple Unity, blue Justice, green Freedom, red Glory, and the win tiers borrow those colours (magenta BIG, green SUPER, gold MEGA, blue TOTAL). Gold against full colour separates cash from jackpot: the Cash Collector and its coins are all gold, the Jackpot Collectors are in natural colour.",
+  "lighting": "Bright, even studio light from above and the upper left on every object, with small white hot spots on metal; no cast shadows between pieces except the drop shadows painted into the bunting and scroll. The backdrop glows from its centre behind the board and is the darkest layer (brightness 0.254), the symbols the brightest.",
+  "ambience": "A Fourth of July parade and an awards ceremony at once: festive, proud, polished, without irony. Fireworks open the game and confetti never stops.",
+  "shapes": "The five-point star (backdrop, medals, ribbons, the empty cell, the flying coin), the round medal, the scroll ribbon with curled ends, the laurel branch, and the stripe. The board is a plain rounded rectangle so the round and ribboned shapes read against it.",
+  "materials": "Polished gold above all (coins, medals, ribbons, laurels, the gilded statue), then satin bunting and flags, coloured glass domes, enamel lettering, parchment, feather, brass and wood, plumage, painted skin and cloth in the portraits, and weathered blue-grey metal for the statue before it is gilded.",
+  "typography": "Heavy sans capitals throughout. The logo sets FREEDOM upright in red and 250x BOOST and HOLD AND WIN slanted in blue and white, all with a gold keyline and navy block shadow. Jackpot names are arched on ribbons in their own colours. Numbers come from a provider bitmap font (the service calls it MyriadPro): white rounded numerals with a glowing gold keyline and dark red shadow. The words on collectors (CASH, JACKPOT, COLLECTOR) are sprites, the splash sentences are localised picture files, and small interface text is the provider shell's Poppins (Regular, SemiBold, Bold).",
+  "motion": "All motion is Spine 4.2.43: 43 skeletons in one bundle, moving, scaling, tinting and mesh-bending still pictures, plus 25 hand-drawn frame sequences (426 frames). Twenty-one of the sequences are white highlight sweeps drawn to the shape of one symbol layer; the others are the turning star coin, tumbling confetti and two spark animations. Seen in play: fireworks over the board as the intro gives way to the game; confetti drifting all the time; symbols blurring vertically on the reels; a Golden Coin throwing star coins up to the statue, whose gold rises a band at a time; a Jackpot Coin throwing a coin to the jackpot medallions, which flip; a gold ribbon unrolling across the board with the collected amount and a burst of coins; a thin gold line through a paying row with the winning symbols flaring white; a reel lit by a column of yellow-white light as a coin lands; the Jackpot Hold & Win, where the base game washes red under a BONUS GAME splash, fireworks and puffs of red, white and blue smoke cover the change, the backdrop and board turn red with a gold star in each empty cell and a red 1 2 3 ribbon in place of the logo, and a collected jackpot fills the screen with CONGRATS!, its medal on a purple glow, the amount and a shower of star coins; and the end of that bonus, where the sum leaves the collector, counts up on the gold ribbon over blue rays and MEGA WIN arrives in gold between two laurels under an arc of stars. The collectors' faces are rigged to blink and move (109 bones), read from the file. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7.",
+  "variants": "Three stage states from one set of parts by skin: normal (navy and red backdrop, pale blue board), bonus (all red, seen in the Jackpot Hold & Win) and special (all blue, the cash Hold & Win, seen only in the picture of the help page), each bonus with a respin ribbon in its colour. Four jackpot medals as recolours of one painting, at symbol size and again at win-screen size. One medallion kit for four collectors, gold for cash and full colour for jackpot. The statue in blue-grey and in gold. Every effect in white, tinted per use. Only the 1280x720 landscape layout was captured.",
+  "construction": "Two atlas pages (4096x4096 and 4096x2477) hold 615 sprites, 426 of them animation frames; three backdrop pictures take about 30% of the first page. The board panel, the bunting and the flags are half-pieces mirrored by the rig. Symbols are layered (back, front, white outline, star, sweep). The statue's gilding is thirty rising bands of a gold repaint revealed by the rig. Six localised lettering files (en-GB), nineteen help pictures and a help logo from the provider's paytable service, the numeral font from its font service, six small shared helper textures.",
+  "consistency": "High. One gold, one star, one ribbon shape and one lettering construction run through logo, board, symbols, prizes and win screens, and the statue appears three times (scene figure, gilded figure, Cash Collector). The seams are small: the caricature presidents are in a lighter register than the realistic emblems, and the flat graphic backdrop is a different kind of picture from everything in front of it, which is what lets it sit back.",
+  "takeaways": [
+   "A meter can be the scene's main figure. The Statue of Liberty gilds from the base up as coins land, by revealing thirty bands of one gold repaint; the rules say it changes nothing, and it still gives every coin a visible result. It needs one figure painted twice in exact register, not an animation.",
+   "Gold for what pays, the theme's colours for the stage. Red, white and blue stay in the backdrop, bunting and lettering; coins, medals, ribbons and collectors are gold, so a prize is found at a glance on a busy patriotic screen.",
+   "A white sticker outline lets detailed, warm, realistic objects read on a pale board. Each pay symbol ships its outline as a separate silhouette sprite.",
+   "One medal painting, four colours, two sizes covers the jackpot symbols, the jackpot display and the jackpot win screens; a rosette and a starred ribbon are all that mark the top prize.",
+   "The frame budget went to highlights, not to character animation: 21 of 25 sequences are white sweeps cut to one symbol or prize layer each, 345 of 426 frames. For AI art work this is a repeatable job: one sweep per finished symbol.",
+   "Build the board in halves. Panel, bunting and flags are drawn once and mirrored, which works because none of them carries lettering.",
+   "The theme is a dated national occasion (the 250 in the title, the flag, founding figures, Capitol, Liberty Bell), carried by a kit of emblems rather than a story. The same kit of board, medals, collectors and a gilding figure could carry another occasion with new emblems; that this was the studio's intent is inference.",
+   "From the same provider and framework as Mega Cash Boost: Hold & Win (same file layout, shell, Poppins, skeleton names such as SlotFrame, SceneCollector, TileWild, WinBig), and again every picture is the game's own. Where that game was neon with no scene and no figure, this one is fully painted: the framework fixes the structure and leaves the art direction free.",
+   "Real historical figures appear as friendly caricatures on symbols. It suits this market and occasion; a studio taking the idea should pick figures and tone deliberately for its own markets."
+  ]
+ },
+ "screens": [
+  {
+   "file": "03-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the 3x3 pale blue board with the gold scroll, the logo and the bunting, four jackpot medallions at the upper left (2500x GLORY on its rosette, 250x FREEDOM, 50x JUSTICE, 25x UNITY) and the Statue of Liberty at the upper right in front of two flags."
+  },
+  {
+   "file": "04-base-01-stacks.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Stacked symbols",
+   "caption": "A spin landed: stacked torches, shields, scrolls and quills."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the stacked logo, the Statue of Liberty between two flags, the four jackpot medals GLORY, FREEDOM, JUSTICE and UNITY, the three Jackpot Collectors (Lincoln, Washington, Franklin) and the shell's START button, on the flag backdrop."
+  }
+ ]
+}

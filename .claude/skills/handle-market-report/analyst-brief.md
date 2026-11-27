@@ -44,7 +44,7 @@ Your prompt gives: the game's ledger id, its title and provider as the market re
 
 7. **Build and look**: `build_package.py`, `build_report.py`; every unit outside `provider-ui` read. Look at `report.html` once at desktop and phone width (a Playwright screenshot of the local file).
 
-8. **Publish** `report.html` as its own private artifact with the Artifact tool: `root` the run folder, `files` the paths in `report-files.json`, `icon` "palette". Put the address in your record.
+8. **Publish** `report.html` as its own private artifact with the Artifact tool: `root` the run folder, `files` the paths in `report-files.json`, `icon` "palette". Put the address in your record. Put the address in the record at once, and to publish again (after a fix, or when resumed after a stop) pass that address as `url`: a second publish without it makes a second address.
 
 9. **Check for secrets**: `grep -rIl -E "mgckey=|token=[A-Za-z0-9]|session=[A-Za-z0-9]|jwt=" runs/<run id> --exclude-dir=raw` prints nothing.
 
