@@ -1,0 +1,607 @@
+{
+ "run": "2026-11-27-0438-inspired-bigger-piggy-bank-superwheel",
+ "game": "Bigger Piggy Bank Superwheel",
+ "started": "2026-11-27T04:38:08.156Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 37,
+  "components": 895,
+  "spines": 64,
+  "fonts": 13
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 4
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 5
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 5
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 4
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 4
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 11
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 3
+  }
+ ],
+ "measured": {
+  "brightness": 0.439,
+  "saturation": 0.59,
+  "contrast": 0.622,
+  "warm": 0.523,
+  "cool": 0.399,
+  "colourShare": 0.777,
+  "softEdge": 0.083,
+  "highlights": 0.078,
+  "palette": [
+   {
+    "hex": "#131025",
+    "share": 0.135,
+    "name": "black"
+   },
+   {
+    "hex": "#372e63",
+    "share": 0.103,
+    "name": "dark blue"
+   },
+   {
+    "hex": "#683a50",
+    "share": 0.095,
+    "name": "magenta"
+   },
+   {
+    "hex": "#f7f2e6",
+    "share": 0.034,
+    "name": "light orange"
+   },
+   {
+    "hex": "#6509a3",
+    "share": 0.031,
+    "name": "purple"
+   }
+  ],
+  "hues": {
+   "orange": 0.232,
+   "blue": 0.212,
+   "yellow": 0.188,
+   "magenta": 0.117
+  },
+  "lightFrom": {
+   "top": 91,
+   "top-left": 53,
+   "top-right": 41
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "high contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.227,
+   "saturation": 0.519,
+   "contrast": 0.582,
+   "warm": 0.581,
+   "cool": 0.09,
+   "palette": [
+    {
+     "hex": "#181010",
+     "share": 0.469,
+     "name": "black"
+    },
+    {
+     "hex": "#e90101",
+     "share": 0.13,
+     "name": "red"
+    },
+    {
+     "hex": "#940401",
+     "share": 0.129,
+     "name": "dark red"
+    },
+    {
+     "hex": "#585052",
+     "share": 0.032,
+     "name": "grey"
+    },
+    {
+     "hex": "#590c08",
+     "share": 0.03,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcfbfb",
+     "share": 0.028,
+     "name": "light orange"
+    },
+    {
+     "hex": "#8e8c89",
+     "share": 0.023,
+     "name": "grey"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.458,
+   "saturation": 0.467,
+   "contrast": 0.717,
+   "warm": 0.515,
+   "cool": 0.466,
+   "palette": [
+    {
+     "hex": "#261f33",
+     "share": 0.236,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#474569",
+     "share": 0.133,
+     "name": "blue"
+    },
+    {
+     "hex": "#e9c441",
+     "share": 0.124,
+     "name": "gold"
+    },
+    {
+     "hex": "#76718f",
+     "share": 0.107,
+     "name": "grey"
+    },
+    {
+     "hex": "#c7c4c2",
+     "share": 0.101,
+     "name": "grey"
+    },
+    {
+     "hex": "#f3e386",
+     "share": 0.054,
+     "name": "gold"
+    },
+    {
+     "hex": "#a19796",
+     "share": 0.035,
+     "name": "grey"
+    },
+    {
+     "hex": "#faf8e8",
+     "share": 0.016,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.443,
+   "saturation": 0.525,
+   "contrast": 0.663,
+   "warm": 0.497,
+   "cool": 0.358,
+   "palette": [
+    {
+     "hex": "#6b3151",
+     "share": 0.226,
+     "name": "magenta"
+    },
+    {
+     "hex": "#17153d",
+     "share": 0.116,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#72708c",
+     "share": 0.087,
+     "name": "grey"
+    },
+    {
+     "hex": "#eedf8b",
+     "share": 0.084,
+     "name": "gold"
+    },
+    {
+     "hex": "#3d3f6c",
+     "share": 0.077,
+     "name": "blue"
+    },
+    {
+     "hex": "#b5b2b7",
+     "share": 0.07,
+     "name": "grey"
+    },
+    {
+     "hex": "#db2920",
+     "share": 0.024,
+     "name": "red"
+    },
+    {
+     "hex": "#f4eee2",
+     "share": 0.023,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.248,
+   "saturation": 0.84,
+   "contrast": 0.437,
+   "warm": 0.339,
+   "cool": 0.626,
+   "palette": [
+    {
+     "hex": "#4a0379",
+     "share": 0.322,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#0b0722",
+     "share": 0.261,
+     "name": "black"
+    },
+    {
+     "hex": "#7a13bb",
+     "share": 0.073,
+     "name": "purple"
+    },
+    {
+     "hex": "#7a4721",
+     "share": 0.065,
+     "name": "brown"
+    },
+    {
+     "hex": "#f4d958",
+     "share": 0.034,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdf9ea",
+     "share": 0.025,
+     "name": "light gold"
+    },
+    {
+     "hex": "#362240",
+     "share": 0.017,
+     "name": "dark purple"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.382,
+   "saturation": 0.789,
+   "contrast": 0.503,
+   "warm": 0.675,
+   "cool": 0.215,
+   "palette": [
+    {
+     "hex": "#c80403",
+     "share": 0.241,
+     "name": "red"
+    },
+    {
+     "hex": "#090f19",
+     "share": 0.168,
+     "name": "black"
+    },
+    {
+     "hex": "#f8c011",
+     "share": 0.08,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdfbec",
+     "share": 0.058,
+     "name": "light gold"
+    },
+    {
+     "hex": "#680705",
+     "share": 0.048,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f9e685",
+     "share": 0.047,
+     "name": "gold"
+    },
+    {
+     "hex": "#f23733",
+     "share": 0.024,
+     "name": "red"
+    },
+    {
+     "hex": "#510396",
+     "share": 0.017,
+     "name": "purple"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.443,
+   "saturation": 0.742,
+   "contrast": 0.576,
+   "warm": 0.54,
+   "cool": 0.324,
+   "palette": [
+    {
+     "hex": "#020b0d",
+     "share": 0.23,
+     "name": "black"
+    },
+    {
+     "hex": "#e7841a",
+     "share": 0.097,
+     "name": "orange"
+    },
+    {
+     "hex": "#f8e75b",
+     "share": 0.07,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbf6eb",
+     "share": 0.049,
+     "name": "light orange"
+    },
+    {
+     "hex": "#0a1c4f",
+     "share": 0.043,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#20651d",
+     "share": 0.039,
+     "name": "dark green"
+    },
+    {
+     "hex": "#68432d",
+     "share": 0.031,
+     "name": "brown"
+    },
+    {
+     "hex": "#d20a07",
+     "share": 0.023,
+     "name": "red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.644,
+   "saturation": 0.67,
+   "contrast": 0.469,
+   "warm": 0.586,
+   "cool": 0.254,
+   "palette": [
+    {
+     "hex": "#5a9d29",
+     "share": 0.16,
+     "name": "green"
+    },
+    {
+     "hex": "#f5de5b",
+     "share": 0.129,
+     "name": "gold"
+    },
+    {
+     "hex": "#f6b80e",
+     "share": 0.109,
+     "name": "orange"
+    },
+    {
+     "hex": "#efeced",
+     "share": 0.091,
+     "name": "white"
+    },
+    {
+     "hex": "#e50a05",
+     "share": 0.055,
+     "name": "red"
+    },
+    {
+     "hex": "#307912",
+     "share": 0.03,
+     "name": "dark green"
+    },
+    {
+     "hex": "#b4e1f1",
+     "share": 0.03,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#a50303",
+     "share": 0.029,
+     "name": "red"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.536,
+   "saturation": 0.704,
+   "contrast": 0.535,
+   "warm": 0.68,
+   "cool": 0.099,
+   "palette": [
+    {
+     "hex": "#f661b1",
+     "share": 0.213,
+     "name": "magenta"
+    },
+    {
+     "hex": "#b62d61",
+     "share": 0.153,
+     "name": "red"
+    },
+    {
+     "hex": "#bd7c0d",
+     "share": 0.119,
+     "name": "orange"
+    },
+    {
+     "hex": "#f3ce20",
+     "share": 0.091,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbeb72",
+     "share": 0.053,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdf8da",
+     "share": 0.045,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fca4da",
+     "share": 0.039,
+     "name": "light magenta"
+    },
+    {
+     "hex": "#7d490b",
+     "share": 0.036,
+     "name": "brown"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.656,
+   "saturation": 0.597,
+   "contrast": 0.429,
+   "warm": 0.724,
+   "cool": 0.073,
+   "palette": [
+    {
+     "hex": "#fbef66",
+     "share": 0.181,
+     "name": "gold"
+    },
+    {
+     "hex": "#fce3e8",
+     "share": 0.175,
+     "name": "light red"
+    },
+    {
+     "hex": "#f874b7",
+     "share": 0.122,
+     "name": "magenta"
+    },
+    {
+     "hex": "#b53062",
+     "share": 0.093,
+     "name": "red"
+    },
+    {
+     "hex": "#905d0a",
+     "share": 0.086,
+     "name": "brown"
+    },
+    {
+     "hex": "#f1cd17",
+     "share": 0.063,
+     "name": "gold"
+    },
+    {
+     "hex": "#c68e0c",
+     "share": 0.054,
+     "name": "orange"
+    },
+    {
+     "hex": "#e04b87",
+     "share": 0.03,
+     "name": "red"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, alone (no sub-reviewers), from this run's contact sheets, the animation frames drawn from the shipped rigs and real screens of the demo; 27 Nov 2026.",
+  "summary": "A toy-shop bank heist: glossy pink and gold piggy banks, candy bubble lettering and a steel vault with a pig's snout for a lock, set in a navy and gold bank hall, with a red-and-rainbow game-show wheel bolted on top as a shared feature.",
+  "style": "Glossy cartoon with a soft 3D-look: fat, rounded, toy-like objects with no outlines, and thick outlined balloon lettering for every word. The pig is the only character and appears as symbol, mascot, lock, clasp, coin stamp and win-line head. The Super Wheel and the gamble wheel are flatter and more graphic, in a television game-show manner.",
+  "rendering": "Smooth airbrushed gradients, a broad soft highlight and small hard white glints on every round form; gold is painted yellow-to-brown, not rendered. Backgrounds are clean stylised interiors in one-point perspective with detail kept at the vault door. Only the vault door's opening (31 frames) and the big-win gems read as true 3D renders.",
+  "colour": "Measured over the game's own art: mid-tone, saturated (59%), warm 52% against cool 40%, high contrast; the largest measured areas are the dark navy and plum grounds (#131025, #372e63, #683a50). On them sit three candy families: pig pink and magenta (#f676b7, #fe30a2), gold (#f4d020, #bc7d0b) and money green (#63b53e), with cyan (#08f9f1) behind pink pigs and feature tiles. Four prize colours are fixed everywhere: red Grand, purple Major, blue Minor, green Mini. The shared wheel adds its own red (#c90402).",
+  "lighting": "Top and top-left light on every object (measured: top 91, top-left 53, top-right 41 of the parts with a readable light side). Each symbol ships a 'Light' and a 'Light Hit' copy of itself as an additive layer for its flash, plus thin light sweeps. The hall is lit warm from windows and a ceiling lightbox against cool walls; the bonus room is lit by its own gold.",
+  "ambience": "Friendly greed: money as sweets and toys, nothing sinister about the bank. The base game is a calm night hall with a mascot watching from the top of the reels; the bonus is the inside of the vault, all gold. The shared Super Wheel brings a louder, studio-lights mood from outside the theme.",
+  "shapes": "Circles and fat rounded squares: the pig is nearly a sphere, coins and wheels repeat it, tiles and panels have wide radii, letters are inflated. The snout (an oval with two holes) is the game's mark and is stamped on coins, bars, the case, the hammer, the vault and the carpet.",
+  "materials": "Glazed ceramic, polished gold, paper banknotes, glossy plastic lettering, brushed steel for the vault, enamel wheels, cut gems.",
+  "typography": "All display words are painted lettering (logo, WILD, COLLECT, BONUS, the win tiers, prize names). Running text and numbers are set by the client: 53 of its 82 text styles lead with Borsok and Alegreya Sans Black, in cream (#fffef0) with a navy stroke (#140d49) for the big-win title, as its text-style file states. Thirteen font files ship; the Helvetica, Tahoma, Roboto, Barlow and Arial Black ones serve the provider's interface (inference from the style lists).",
+  "motion": "Skeletal: 64 Spine 3.8.99 skeletons, most of them short (0.83 s) bounce, win and collect moves on symbols built from a handful of parts, with longer idles for the mascot (4.17 s) and the scene (4.67 s). The signature move is the smash: a pig cracks, flies apart in 14 pre-cut shards and leaves a money heap. Frame sequences are kept for what a rig cannot do: the vault door (31 frames), spinning coins (18 a colour), gems (12 each), sparkles. The five intro pages are video clips. Curves in this Spine version are not read by the drawing tool, so the frames here show poses with linear easing.",
+  "variants": "Pink to gold is the upgrade rule for every pig (symbol, pot pig, wheel pig). The cash pig exists at 1x1, 2x2, 3x3 and 4x3. Scenes, panels and logos ship in landscape and portrait versions inside one pack; base and bonus versions of the board, wheel and prize panels differ by backing and glow. Win words ship in six languages. The client serves the same art at 0.5 and 0.75 of the studio's size; this run holds the 0.75 pack.",
+  "construction": "PixiJS client on Inspired's Virgo platform. 30 WebP atlas pages loaded of the 36 its manifest lists (the rest are other languages' win words and a US-CT wheel), up to 4096 px, packed by load order, not by subject, with trimmed and rotated frames listed in a packed manifest (base64 of LZ-UTF8 JSON), and all skeletons as JSON inside one data file. Symbols are small rigs of 4 to 30 parts with separate light layers; lettering is split into one sprite a letter where it must animate. Five of the pages are spent on the vault-door transition.",
+  "consistency": "The pig-and-money art is tight: one light, one finish, one lettering hand, one mark. The Super Wheel, its red interface and the gamble wheel are visibly a second system (flat fills, block capitals, red glow buttons), dressed with the logo and a snout coin but not redrawn in the toy style.",
+  "takeaways": [
+   "One mark carries a whole game: the snout is on at least nine different pieces, so plain objects (bars, a case, a coin) need no character art to belong.",
+   "Upgrade by material, not by new design: the same pig in pink then gold, at four sizes, gives the feature ladder with one character painted twice (small and large).",
+   "A breakable symbol is cheap when planned: paint the object once, cut 14 shards, add two crack overlays and a 'what is inside' picture.",
+   "Ship a 'Light' and a 'Light Hit' copy of each symbol as additive layers: win flashes then cost no new painting.",
+   "Fix a colour per prize (red, purple, blue, green) and repeat it on coins, panels, wheel wedges and flying tokens.",
+   "Keep the board near black and the scene dark navy so saturated symbols read; put scene detail where the reels do not cover it.",
+   "Budget texture memory for transitions: this game spends five 4096 px pages on one door opening. For AI art work, that sequence is a 3D render job, not an image-model job.",
+   "A shared platform feature (the Super Wheel) will look bolted on unless it is redrawn in the game's finish; here it was not, and it shows."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-base-rest.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: the 5x3 board in a thin gold frame before the vault door, the pink pig on top between the four prize panels (Grand 1000X, Major 50X, Minor 25X, Mini 10X), the six-wedge wheel behind the board, the Super Wheel arc and red buttons along the top, Fortune Bet, stake, gamble and spin controls at the sides."
+  },
+  {
+   "file": "02-base-spin-turning.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Reels turning",
+   "caption": "A spin under way: side controls fade out while the reels turn."
+  },
+  {
+   "file": "10-base-safe-open.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Open safe",
+   "caption": "The same board a moment later, the open safe now carrying the collected 9.00."
+  },
+  {
+   "file": "00-intro-page.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro page",
+   "caption": "Intro page over the vault hall: the full logo with SUPERWHEEL in gold, a navy panel with a feature clip (the clip is a video; this browser shows its upper part black), PRESS TO CONTINUE and the Inspired mark."
+  }
+ ]
+}

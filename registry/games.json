@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T08:22:33Z",
+ "updated": "2026-11-27T08:49:05Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1742,7 +1742,11 @@
    "providerKey": "inspired",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://slotslaunch.com/inspired-gaming/bigger-piggy-bank-super-wheel",
+    "from": "set by hand",
+    "at": "2026-11-27T08:49:05Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1759,12 +1763,22 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0438-inspired-bigger-piggy-bank-superwheel"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:26:08Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0438-inspired-bigger-piggy-bank-superwheel",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/9vzUYT2mkmAJXwofRzbSBe",
+     "completed": "2026-11-27T08:49:05Z",
+     "commit": "ca48551",
+     "started": "2026-11-27T04:26:08Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"
