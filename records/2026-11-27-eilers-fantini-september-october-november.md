@@ -34,3 +34,7 @@ In each report the slot ranking's table is a picture, so it was read from the pa
 
 The ledger holds 123 games. The five reports name 57 different leaders: 16 analysed, 14 blocked, 27 new and waiting. Analyses started 27 Nov, four at a time.
 - Page pictures are kept only for pages 42 to 62, the rankings; `source.pdf` holds the rest.
+
+## Later the same day: ranks 26 to 50
+
+Ranks 26 to 50 of the three slot rankings (page 47 of each) were read and typed after all, because the background recommendations Roei asked for are sorted by Theo rank and ten analysed games sat below rank 25 in the newer editions. The leaders do not change (they are ranks 1 to 20). Decided: "Cash Machine" (Everi, October rank 42) is a game of its own beside "Cash Machine Jackpots"; Design Works Gaming, Red Rake Gaming and Ruby Play are new providers. The ledger holds 146 games.

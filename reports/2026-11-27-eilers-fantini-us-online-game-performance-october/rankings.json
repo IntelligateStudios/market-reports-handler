@@ -6,7 +6,7 @@
  "markets": [
   "United States online casino (the operators taking part in the publisher's database)"
  ],
- "notes": "Read from the page picture: the ranking table is an image. Taken: the first page of the slot ranking, ranks 1 to 25 (page 46), which holds the 20 leaders. Not taken this time: ranks 26 to 50 (page 47), the overall GGR ranking (page 44) and the new-slots ranking (page 58 or 59), which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
+ "notes": "Read from the page pictures: the ranking table is an image. Taken: the slot ranking, ranks 1 to 50 (pages 46 and 47). Not taken: the overall GGR ranking (page 44) and the new-slots ranking, which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
  "lists": [
   {
    "id": "slots",
@@ -166,6 +166,158 @@
      "game": "Wolf It Up Again",
      "provider": "Inspired",
      "value": "Theo Win Index 12.15x"
+    },
+    {
+     "rank": 26,
+     "game": "Huff N Puff Haunted Mansion",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 12.03x"
+    },
+    {
+     "rank": 27,
+     "game": "7s Fire Blitz Hotstepper",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 12.03x",
+     "is": "whitehat-7s-fire-blitz-hot-stepper"
+    },
+    {
+     "rank": 28,
+     "game": "Dancing Drums Tower",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 11.87x"
+    },
+    {
+     "rank": 29,
+     "game": "Cash Machine Jackpots",
+     "provider": "Everi",
+     "value": "Theo Win Index 11.43x"
+    },
+    {
+     "rank": 30,
+     "game": "Mo Mummy Mighty Pyramid",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 11.36x"
+    },
+    {
+     "rank": 31,
+     "game": "Fourfold The Gold",
+     "provider": "Games Global",
+     "value": "Theo Win Index 11.19x"
+    },
+    {
+     "rank": 32,
+     "game": "88 Fortunes",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 11.03x"
+    },
+    {
+     "rank": 33,
+     "game": "Almighty Dragon",
+     "provider": "Bragg Gaming Group",
+     "value": "Theo Win Index 10.64x"
+    },
+    {
+     "rank": 34,
+     "game": "7s Fire Blitz Hotstepper 2",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 10.34x"
+    },
+    {
+     "rank": 35,
+     "game": "Bigger Piggy Bank",
+     "provider": "Inspired",
+     "value": "Theo Win Index 10.18x"
+    },
+    {
+     "rank": 36,
+     "game": "Cash Eruption Slingo",
+     "provider": "Gaming Realms",
+     "value": "Theo Win Index 10.13x"
+    },
+    {
+     "rank": 37,
+     "game": "The Goonies Quest For Treasure 2",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 10.09x"
+    },
+    {
+     "rank": 38,
+     "game": "Kings Of Crystals 3 Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 9.98x"
+    },
+    {
+     "rank": 39,
+     "game": "Lion Link Wealth Of The Dragon",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 9.95x"
+    },
+    {
+     "rank": 40,
+     "game": "Ball X Multi Drop",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 9.63x"
+    },
+    {
+     "rank": 41,
+     "game": "Huff N Puff Money Mansion",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 9.57x"
+    },
+    {
+     "rank": 42,
+     "game": "Cash Machine",
+     "provider": "Everi",
+     "value": "Theo Win Index 9.24x",
+     "new": true
+    },
+    {
+     "rank": 43,
+     "game": "Break More Piggy Banks",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 9.15x"
+    },
+    {
+     "rank": 44,
+     "game": "Money Gong Emperor",
+     "provider": "Igt",
+     "value": "Theo Win Index 9.10x"
+    },
+    {
+     "rank": 45,
+     "game": "J Mania Chili Champs",
+     "provider": "Ruby Play",
+     "value": "Theo Win Index 8.98x"
+    },
+    {
+     "rank": 46,
+     "game": "10000 Wonders 10k Ways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 8.94x"
+    },
+    {
+     "rank": 47,
+     "game": "Parthenon Quest For Immortality",
+     "provider": "Evolution",
+     "value": "Theo Win Index 8.93x"
+    },
+    {
+     "rank": 48,
+     "game": "12 Loaded Pots Drum Frenzy",
+     "provider": "Games Global",
+     "value": "Theo Win Index 8.91x"
+    },
+    {
+     "rank": 49,
+     "game": "Black Diamond Deluxe",
+     "provider": "Everi",
+     "value": "Theo Win Index 8.78x"
+    },
+    {
+     "rank": 50,
+     "game": "Wolf Prime Diamond X Up",
+     "provider": "Games Global",
+     "value": "Theo Win Index 8.73x"
     }
    ]
   }

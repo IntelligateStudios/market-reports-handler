@@ -1,0 +1,644 @@
+{
+ "run": "2026-11-27-0958-octoplay-break-the-diamond-piggy",
+ "game": "Break The Diamond Piggy",
+ "started": "2026-11-27T09:58:43.776Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 39,
+  "components": 886,
+  "spines": 64,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 6
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 1
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 3
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 2
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 4
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.531,
+  "saturation": 0.613,
+  "contrast": 0.629,
+  "warm": 0.49,
+  "cool": 0.37,
+  "colourShare": 0.716,
+  "softEdge": 0.105,
+  "highlights": 0.152,
+  "palette": [
+   {
+    "hex": "#f4f6f2",
+    "share": 0.109,
+    "name": "light green"
+   },
+   {
+    "hex": "#130616",
+    "share": 0.096,
+    "name": "black"
+   },
+   {
+    "hex": "#eeb711",
+    "share": 0.091,
+    "name": "orange"
+   },
+   {
+    "hex": "#bbb8b6",
+    "share": 0.089,
+    "name": "grey"
+   },
+   {
+    "hex": "#7e3610",
+    "share": 0.083,
+    "name": "brown"
+   },
+   {
+    "hex": "#095cb9",
+    "share": 0.056,
+    "name": "blue"
+   },
+   {
+    "hex": "#f5ddb6",
+    "share": 0.045,
+    "name": "light orange"
+   },
+   {
+    "hex": "#0e1557",
+    "share": 0.037,
+    "name": "dark blue"
+   }
+  ],
+  "hues": {
+   "orange": 0.306,
+   "blue": 0.232,
+   "yellow": 0.126,
+   "cyan": 0.121
+  },
+  "lightFrom": {
+   "top": 84,
+   "top-left": 46,
+   "top-right": 39
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "high contrast",
+   "hard-edged",
+   "strong highlights"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.495,
+   "saturation": 0.65,
+   "contrast": 0.58,
+   "warm": 0.741,
+   "cool": 0.212,
+   "palette": [
+    {
+     "hex": "#8a5b28",
+     "share": 0.285,
+     "name": "brown"
+    },
+    {
+     "hex": "#a78d4d",
+     "share": 0.13,
+     "name": "orange"
+    },
+    {
+     "hex": "#da836a",
+     "share": 0.112,
+     "name": "red"
+    },
+    {
+     "hex": "#e3b42e",
+     "share": 0.079,
+     "name": "orange"
+    },
+    {
+     "hex": "#15a0f5",
+     "share": 0.05,
+     "name": "blue"
+    },
+    {
+     "hex": "#dcc366",
+     "share": 0.044,
+     "name": "gold"
+    },
+    {
+     "hex": "#71a71a",
+     "share": 0.044,
+     "name": "green"
+    },
+    {
+     "hex": "#3b1777",
+     "share": 0.034,
+     "name": "dark purple"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.562,
+   "saturation": 0.716,
+   "contrast": 0.627,
+   "warm": 0.639,
+   "cool": 0.213,
+   "palette": [
+    {
+     "hex": "#f5c40c",
+     "share": 0.185,
+     "name": "gold"
+    },
+    {
+     "hex": "#8c3d0d",
+     "share": 0.12,
+     "name": "brown"
+    },
+    {
+     "hex": "#fdfcfa",
+     "share": 0.109,
+     "name": "light orange"
+    },
+    {
+     "hex": "#cf8412",
+     "share": 0.08,
+     "name": "orange"
+    },
+    {
+     "hex": "#fae981",
+     "share": 0.05,
+     "name": "gold"
+    },
+    {
+     "hex": "#110509",
+     "share": 0.034,
+     "name": "black"
+    },
+    {
+     "hex": "#90d7f4",
+     "share": 0.026,
+     "name": "light cyan"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.38,
+   "saturation": 0.568,
+   "contrast": 0.949,
+   "warm": 0.994,
+   "cool": 0.001,
+   "palette": [
+    {
+     "hex": "#0c0302",
+     "share": 0.44,
+     "name": "black"
+    },
+    {
+     "hex": "#fcf3b8",
+     "share": 0.212,
+     "name": "light gold"
+    },
+    {
+     "hex": "#510e0e",
+     "share": 0.094,
+     "name": "dark red"
+    },
+    {
+     "hex": "#e7be46",
+     "share": 0.077,
+     "name": "orange"
+    },
+    {
+     "hex": "#f2e57b",
+     "share": 0.073,
+     "name": "gold"
+    },
+    {
+     "hex": "#a3141a",
+     "share": 0.041,
+     "name": "red"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.514,
+   "saturation": 0.746,
+   "contrast": 0.669,
+   "warm": 0.735,
+   "cool": 0.227,
+   "palette": [
+    {
+     "hex": "#eba30d",
+     "share": 0.172,
+     "name": "orange"
+    },
+    {
+     "hex": "#5d3829",
+     "share": 0.134,
+     "name": "brown"
+    },
+    {
+     "hex": "#f2c854",
+     "share": 0.126,
+     "name": "orange"
+    },
+    {
+     "hex": "#fdd917",
+     "share": 0.092,
+     "name": "gold"
+    },
+    {
+     "hex": "#13081a",
+     "share": 0.082,
+     "name": "black"
+    },
+    {
+     "hex": "#f9f65b",
+     "share": 0.029,
+     "name": "gold"
+    },
+    {
+     "hex": "#fc0bc0",
+     "share": 0.019,
+     "name": "magenta"
+    },
+    {
+     "hex": "#eff5f0",
+     "share": 0.017,
+     "name": "light green"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.787,
+   "saturation": 0.255,
+   "contrast": 0.22,
+   "warm": 0.068,
+   "cool": 0.319,
+   "palette": [
+    {
+     "hex": "#fffeff",
+     "share": 0.558,
+     "name": "light purple"
+    },
+    {
+     "hex": "#854eb8",
+     "share": 0.115,
+     "name": "purple"
+    },
+    {
+     "hex": "#cbbcf7",
+     "share": 0.115,
+     "name": "light purple"
+    },
+    {
+     "hex": "#1f7ec8",
+     "share": 0.062,
+     "name": "blue"
+    },
+    {
+     "hex": "#c91fbc",
+     "share": 0.06,
+     "name": "magenta"
+    },
+    {
+     "hex": "#61abf3",
+     "share": 0.036,
+     "name": "blue"
+    },
+    {
+     "hex": "#f480e6",
+     "share": 0.024,
+     "name": "magenta"
+    },
+    {
+     "hex": "#f24be0",
+     "share": 0.017,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.531,
+   "saturation": 0.776,
+   "contrast": 0.656,
+   "warm": 0.843,
+   "cool": 0.095,
+   "palette": [
+    {
+     "hex": "#e7b312",
+     "share": 0.23,
+     "name": "gold"
+    },
+    {
+     "hex": "#a55a0b",
+     "share": 0.221,
+     "name": "brown"
+    },
+    {
+     "hex": "#f4de64",
+     "share": 0.142,
+     "name": "gold"
+    },
+    {
+     "hex": "#6d240b",
+     "share": 0.073,
+     "name": "brown"
+    },
+    {
+     "hex": "#0e0806",
+     "share": 0.042,
+     "name": "black"
+    },
+    {
+     "hex": "#f9fdf4",
+     "share": 0.038,
+     "name": "light green"
+    },
+    {
+     "hex": "#62c109",
+     "share": 0.027,
+     "name": "green"
+    },
+    {
+     "hex": "#ad14cc",
+     "share": 0.025,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.582,
+   "saturation": 0.478,
+   "contrast": 0.679,
+   "warm": 0.194,
+   "cool": 0.581,
+   "palette": [
+    {
+     "hex": "#b9b8b6",
+     "share": 0.252,
+     "name": "grey"
+    },
+    {
+     "hex": "#ebeeea",
+     "share": 0.149,
+     "name": "white"
+    },
+    {
+     "hex": "#0758bf",
+     "share": 0.119,
+     "name": "blue"
+    },
+    {
+     "hex": "#94e9f9",
+     "share": 0.065,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#01044b",
+     "share": 0.059,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#61a6e6",
+     "share": 0.055,
+     "name": "blue"
+    },
+    {
+     "hex": "#752f0f",
+     "share": 0.044,
+     "name": "brown"
+    },
+    {
+     "hex": "#8a8488",
+     "share": 0.02,
+     "name": "grey"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.393,
+   "saturation": 0.716,
+   "contrast": 0.601,
+   "warm": 0.443,
+   "cool": 0.497,
+   "palette": [
+    {
+     "hex": "#1b081d",
+     "share": 0.278,
+     "name": "black"
+    },
+    {
+     "hex": "#0b306b",
+     "share": 0.087,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#0885b8",
+     "share": 0.071,
+     "name": "cyan"
+    },
+    {
+     "hex": "#effbf8",
+     "share": 0.063,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#f1ae11",
+     "share": 0.056,
+     "name": "orange"
+    },
+    {
+     "hex": "#f5c192",
+     "share": 0.054,
+     "name": "light orange"
+    },
+    {
+     "hex": "#0cd9e5",
+     "share": 0.038,
+     "name": "cyan"
+    },
+    {
+     "hex": "#a2f8fb",
+     "share": 0.027,
+     "name": "light cyan"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.841,
+   "saturation": 0.259,
+   "contrast": 0.393,
+   "warm": 0.895,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#f5dbbd",
+     "share": 0.756,
+     "name": "light orange"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.105,
+     "name": "light orange"
+    },
+    {
+     "hex": "#be8f4a",
+     "share": 0.05,
+     "name": "orange"
+    },
+    {
+     "hex": "#8a581f",
+     "share": 0.041,
+     "name": "brown"
+    },
+    {
+     "hex": "#dcb289",
+     "share": 0.028,
+     "name": "orange"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the game's own files (skeleton and font descriptors, rules text) and real screens of the capture and of played free-play sessions of the same link on 27 Nov 2026. One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as the frames each sheet shows. No skeleton frame was drawn: the rigs are Spine 4.2.43.",
+  "summary": "A sunny cruise-ship comedy about two rich pigs: a cream reel board in a thin gold frame on a white pool deck, five golden piggy banks above the reels waiting to crack, a chained blue Diamond Piggy over five enamel jackpot plates, and a night-club lounge kept for the bonus.",
+  "style": "Bright 3D-look cartoon in the manner of a family animation film, with caricature pigs as the stars (a cigar-and-cocktail tourist and a pin-up in sequins) and polished toy-like objects around them. The world is clean, new and expensive: white ship, blue pools, gold everywhere. One motif brands everything: the pig's snout, on the royals, the coin's back, the padlock, the clock and the flying tokens.",
+  "rendering": "Smooth airbrushed volumes with hard cut edges for every object (soft edge: reel board 0.034, backdrops 0.034, jackpot plates 0.058, golden piggy banks 0.078, Ms. Piggy 0.086, high symbols 0.089, Mr. Piggy 0.125), flat-faceted crystal for the diamonds and the Diamond Piggy, and soft white light for every effect (bursts 0.909, rays 0.954). Lettering is flat two-tone with a thick outline.",
+  "colour": "White, cream and pool blue as the ground, gold as the money, and saturated enamel colours for whatever must be told apart. Measured over the art files: near-white #f4f6f2 10% (the ship, the haze and white effect sprites), near-black violet #130616 9% (the lounge and outlines), gold-orange #eeb711 9%, grey #bbb8b6 8%, brown #7e3610 8%, blue #095cb9 5%, cream #f5ddb6 4%, dark blue #0e1557 3%. The board is the lightest large surface (cream #f5dbbd, brightness 0.84), which is rare for a slot: symbols are dark and saturated on a pale ground. Ice blue is reserved for the diamond (Wild, Diamond Piggy: 93% cool); a five-colour scale ranks the royals and, separately, the jackpot plates.",
+  "lighting": "High daylight: objects are lit from the top, top-left or top-right with warm red-orange core shadows and white glints, and a white haze is painted into the middle of the backdrop behind the board. The bonus lounge reverses it: a dark room with stage spots, pink and gold on the ceiling and cyan light from the crystal pig.",
+  "ambience": "Carefree, rich and a little cheeky: a luxury holiday where the only job is breaking piggy banks. Day on deck for the base game; a night version of the deck and a casino lounge for the features (the last two read from the files and the intro, not seen in play).",
+  "shapes": "Round and fat throughout: piggy banks, coins, snouts, bellies, swim ring, fountain bowl, inflated letters. The counter-shapes are the hexagonal jackpot plates and the diamond's facets. Frames are thin and straight; nothing is ornate except the small gold leaf sprigs on the high-symbol tiles and the scrolls on the Wild.",
+  "materials": "Polished gold, cut crystal, coloured enamel, pink skin, straw, printed cotton, sequins, pearls, leather, glass and liquid, tiled water, white painted steel, velvet and neon in the lounge.",
+  "typography": "Four voices. The logo: fat cartoon capitals, one colour per word (green, yellow, ice blue, pink) on a purple strip. Jackpot names and jackpot captions: black slab capitals with a gold rim. Feature captions and WILD: rounded yellow capitals with a dark violet outline. Win tiers: flared two-tone capitals in blue, magenta and yellow. Numbers are the provider's Ultra bitmap font, black with a gold rim on coins, plates and win amounts and cream with a wine outline on the progress counter; the low symbols are inflated letters with a snout. Small interface text is the shell's Poppins (Regular, SemiBold, Bold).",
+  "motion": "All rigged motion is Spine 4.2.43: 64 skeletons in one bundle file. The largest are Ms. Piggy (144 bones), Mr. Piggy (118), the breakable Diamond Piggy of the Smash & Win (100), the chained Diamond Piggy (93), the intro (81) and the feature splash (75). Beside them 23 frame sequences (496 frames): 232 frames of white glints that run over symbols, frames and the progress bar, 90 of a banknote and two diamonds turning, 83 of white bursts and reel anticipation, 61 of birds and window sparkle, 30 of the snout coin turning. Seen in play: reels of floating letters and framed props on the cream board; Golden Coins flipping on their axis to show a number, then throwing coins and snout tokens up at the golden piggy banks; stacked blue-diamond Wilds; a gold win line and the amount counting up in large black and gold numerals over a white-gold flash; the Piggy Progress number falling with each spin from 10 to 0; then FEATURE UNLOCKED, a golden card opening in a white flash with five reel-high Mr. Piggy figures that fly off it onto the reels, and the counter starting again at 25. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7.",
+  "variants": "Three scenes from three half pictures: the deck by day (normal), the deck by night (special) and the lounge (the Smash & Win and the intro); rigs carry skins normal, special and bonus. Each golden piggy bank exists in 18 paintings (six stages of cracking in three looks). Two pigs as full-reel figures, as portrait tiles in the paytable and as heads on the logo. Five jackpot plates from one shape in five colours; four Jackpot Coin faces from one coin. Landscape and portrait skins for logo, counter and positions (only landscape at 1280x720 was captured).",
+  "construction": "Two packed 4096 px atlas pages hold 819 sprites, 496 of them animation frames, with 13 localised lettering files (en-GB), five loose textures and one skeleton bundle. Backdrops ship as the left half of a symmetric scene (1034x1885), with the middle washed to white where the board covers it. Characters and high symbols are layered cut-outs on bones; coins are front, back and side pictures flipped by a rig; the Diamond Piggy of the bonus is literally its 14 breakable pieces. Every glint and burst is a white sprite or sequence tinted in the game. Paytable pictures, the flattened logo, the numeral fonts and the interface come from the provider's shared services.",
+  "consistency": "High. Gold settings, the snout motif and the same top-lit airbrushed finish run from the backdrop to the smallest token, and the pigs' pink and the diamond's blue are kept off everything else. Seams: the win-tier lettering and the yellow captions are flatter and more generic than the painted world; the white birds are plain silhouettes; and the caricature pigs are drawn with more grit (cigar, stubble, heavy make-up) than the toy-like piggy banks beside them.",
+  "takeaways": [
+   "Put the game's long-term goal on screen as an object. The chained Diamond Piggy, the pocket-watch counter and the five golden banks are the whole top third of the base game: the player sees what is locked, how far it is and what each reel is building towards, before reading a word.",
+   "Paint anticipation, not only results. One golden piggy bank is painted 18 times (six stages of cracks in three looks) although, as the rules state, the cracks do not change the odds. That is where this game spends its illustration budget, and it is a kind of work image generation does well: one object, many controlled states.",
+   "A pale board is possible. Cream #f5dbbd under dark, saturated symbols reads cleanly and makes the game look unlike the dark-cabinet slots around it; high symbols bring their own coloured tile, low symbols float.",
+   "Theme the royals with one detail. A snout worked into 10, J, Q, K and A, plus an 18-frame white glint each, makes the cheapest symbols belong to the game with five pictures.",
+   "Reserve one colour for the prize. Ice blue appears only on the diamond Wild, the falling diamonds and the Diamond Piggy, so the screen's one cold object is the thing to want.",
+   "Build breakable things from their pieces. The bonus pig is 14 shell pieces and 10 blurred shards assembled into a whole; breaking it needs no extra drawing. For our packages: when an object must break, generate it whole, then cut it.",
+   "Half a backdrop is enough when the board sits in the middle: each scene is one 1034x1885 picture for the left side, mirrored (by inference) for the right, with the centre left as haze.",
+   "Two-sided flat objects flipped by a rig (coin face, snout back, edge disc) give a 3D turn for three pictures; drawn frames are kept for what bones cannot do (a tumbling banknote, a turning gem, glints).",
+   "Characters double as symbols and presenters: each pig is one large rig (118 and 144 bones) used as the full-reel Collector, in the intro, and, by its animation names, in the big-win scene. Design the character at reel height first.",
+   "From the same provider and framework as the six earlier Octoplay runs (same shell, Poppins, Double Chance card, Ultra numerals, one skeleton bundle in Spine 4.2.43, packed 4096 px pages), and by the provider's own description a sequel ('The pigs are back'): the framework is constant, and the art budget moves into characters and into a persistent unlock structure, here four levels over 10, 25, 50 and 75 spins."
+  ]
+ },
+ "screens": [
+  {
+   "file": "02-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: 5x3 reels on a cream board in a thin gold frame, five golden piggy banks above the reels, the chained Diamond Piggy and the five jackpot plates at the left, the Piggy Progress clock counting 10, on the white pool deck."
+  },
+  {
+   "file": "03-base-01-spinning.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Reels spinning",
+   "caption": "Reels in motion: framed props and floating letters; the counter reads 9."
+  },
+  {
+   "file": "12-unlock-01-flash.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Feature unlocked: the card opens",
+   "caption": "FEATURE UNLOCKED when the Piggy Progress counter has reached 0: the golden card appears in a white flash."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: Mr. Piggy and Ms. Piggy with cocktails between the five jackpot plates, the blue Diamond Piggy in a captain's cap on a heap of coins with four golden piggy banks, in the ship's night-club lounge; the logo above and the shell's START button."
+  }
+ ]
+}

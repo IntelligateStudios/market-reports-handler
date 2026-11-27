@@ -85,9 +85,108 @@
   "differsFromMeasurePy": "tools/measure.py measures a whole art file reduced to 160 px and weighted by alpha; here every pixel of a crop of a screenshot is counted, with no alpha. The artFiles figures are copied from each run's art.json and follow tools/measure.py.",
   "rounding": "The document's tables show brightness, contrast and saturation to two decimals; this file holds three."
  },
+ "recommendations": [
+  {
+   "n": 1,
+   "instruction": "Make the reel window the darkest, quietest part of the screen.",
+   "target": {
+    "reelWindowBrightnessAtMost": 0.18,
+    "reelWindowContrastAtMost": 0.17,
+    "darkerThanGameBackground": true
+   },
+   "evidence": [
+    "summary.reelWindowBrightnessAtMost0.18",
+    "summary.reelWindowContrastAtMost0.17",
+    "summary.reelWindowDarkerThanGameBackground",
+    "summary.reelWindowContrastBelowGameBackground"
+   ]
+  },
+  {
+   "n": 2,
+   "instruction": "Separate the symbols from the window by about 4:1 in luminance, or by opposite hue.",
+   "target": {
+    "symbolsVsReelWindowRatioAtLeast": 4,
+    "onAColouredWindowWithOppositeHue": 2.7
+   },
+   "evidence": [
+    "summary.symbolsVsReelWindowRange",
+    "summary.symbolsVsReelWindowMedian",
+    "summary.symbolsVsReelWindowAtLeast3.99"
+   ]
+  },
+  {
+   "n": 3,
+   "instruction": "Keep the game background darker than the symbols; under a bright scene, darken the window hard.",
+   "target": {
+    "gameBackgroundBrightness": [
+     0.1,
+     0.4
+    ],
+    "underABrightSceneWindowToBackgroundRatioAtLeast": 5
+   },
+   "evidence": [
+    "summary.symbolsBrighterThanGameBackground",
+    "summary.gameBackgroundBrightnessRangeWhereSymbolsBrighter",
+    "summary.symbolsBrightnessRange"
+   ]
+  },
+  {
+   "n": 4,
+   "instruction": "Five groups of elements at most, at the sides and the top.",
+   "target": {
+    "elementGroupsAtMost": 5
+   },
+   "evidence": [
+    "summary.elementCountRange",
+    "summary.backgroundTypes"
+   ]
+  },
+  {
+   "n": 5,
+   "instruction": "One hue can be saturated to the top if it stays dark; several hues cannot.",
+   "target": {
+    "singleHue": {
+     "saturationAtLeast": 0.9,
+     "brightnessAtMost": 0.3
+    },
+    "severalHues": {
+     "saturation": [
+      0.45,
+      0.75
+     ]
+    }
+   },
+   "evidence": [
+    "summary.gameBackgroundSaturationAtLeast0.88",
+    "summary.gameBackgroundSaturationBelow0.88",
+    "summary.otherPaintedScenesSaturationRange"
+   ]
+  },
+  {
+   "n": 6,
+   "instruction": "For a feature mode, keep the composition and change the colour; paint a new scene only for the main bonus.",
+   "target": "pattern",
+   "evidence": [
+    "summary.featureMode",
+    "games[].measured.artFiles"
+   ]
+  },
+  {
+   "n": 7,
+   "instruction": "Use a see-through window only to show a feature object, and tint it dark.",
+   "target": {
+    "tintedWindowBrightnessAtMost": 0.15
+   },
+   "evidence": [
+    "summary.seeThroughWindows"
+   ]
+  }
+ ],
+ "recommendationsNote": "Our inference from sixteen games; not findings about the market.",
  "summary": {
   "games": 16,
   "leaders": 57,
+  "leadersNotAnalysed": 41,
   "backgroundTypes": {
    "scene": [
     "igt-cash-eruption",
@@ -782,7 +881,10 @@
      ],
      "elementCount": 4,
      "layers": "One picture; the torches are drawn over it (the file has no torches).",
-     "motion": "Only the two torch flames (the run's reading of the frames; this section looked at stills)."
+     "builtAs": "One picture, torches over it",
+     "motion": "Only the two torch flames (the run's reading of the frames; this section looked at stills).",
+     "motionLabel": "Torch flames only",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, coloured",
@@ -797,6 +899,7 @@
      "seen": "in play",
      "description": "Free spins: the same hall pushed brighter and redder (seen in play, `fs-01-start`). Bonus: a new scene, a volcano crater under a red spiral sky, with the cells dimmed to dark teal (seen in play, `bonus-02-early`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-25-1658-igt-cash-eruption/game-screens/01-main",
      "runs/2026-11-25-1658-igt-cash-eruption/game-screens/fs-01-start",
@@ -1132,7 +1235,10 @@
      ],
      "elementCount": 5,
      "layers": "One background picture, with the wheel as its own layer in front of it.",
-     "motion": "None in the scenery between the frames of the base game (the run's reading)."
+     "builtAs": "One picture, wheel in front",
+     "motion": "None in the scenery between the frames of the base game (the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "see-through tint",
@@ -1146,6 +1252,7 @@
      "seen": "not seen",
      "description": "No second background is among the captured files and no feature was seen in play. That free spins keep this scene is inference from the files (a hedge overlay strip)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/game-screens/01-base-at-rest",
      "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/game-screens/05-base-spin-landing",
@@ -1493,7 +1600,10 @@
      ],
      "elementCount": 3,
      "layers": "One picture.",
-     "motion": "Still (the run's reading)."
+     "builtAs": "One picture",
+     "motion": "Still (the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, coloured",
@@ -1507,6 +1617,7 @@
      "seen": "in play",
      "description": "Bonus: a new scene, the volcano crater under a red sky, with two boards of dimmed dark teal cells (seen in play, `bonus-03-values-land`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1019-igt-triple-cash-eruption/game-screens/main-01-base-at-rest",
      "runs/2026-11-26-1019-igt-triple-cash-eruption/game-screens/bonus-03-values-land"
@@ -1834,7 +1945,10 @@
      ],
      "elementCount": 2,
      "layers": "One picture.",
-     "motion": "Still (the run's reading)."
+     "builtAs": "One picture",
+     "motion": "Still (the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, light",
@@ -1848,6 +1962,7 @@
      "seen": "in play",
      "description": "Free spins: the same picture recoloured from purple to red, and the window from cream to tan (seen in play, `09-free-spins`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1045-igt-cleopatra/game-screens/01-main",
      "runs/2026-11-26-1045-igt-cleopatra/game-screens/09-free-spins"
@@ -2147,7 +2262,10 @@
      ],
      "elementCount": 2,
      "layers": "Two pictures side by side, with sparks over the fire.",
-     "motion": "Sparks, light streaks and a glint drift over the fire (the run's reading of the frames and files)."
+     "builtAs": "Two pictures, sparks over them",
+     "motion": "Sparks, light streaks and a glint drift over the fire (the run's reading of the frames and files).",
+     "motionLabel": "Sparks drift",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -2161,6 +2279,7 @@
      "seen": "in play",
      "description": "Hold and Win: a new picture from the same motifs, the postcards spread across the whole screen in purple and gold (seen in play, `14-hold-04-bonus-start`). Jackpot Hold and Win: fire across the whole screen (seen in play, `19-jackpot-03-bonus`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/02-main",
      "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/14-hold-04-bonus-start",
@@ -2496,7 +2615,10 @@
      ],
      "elementCount": 1,
      "layers": "One picture.",
-     "motion": "Still (the run's reading)."
+     "builtAs": "One picture",
+     "motion": "Still (the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -2510,6 +2632,7 @@
      "seen": "in play and files",
      "description": "Free spins: the same field recoloured red with the top edge left green (read from the file `fs_background_ls`; not seen in play). The Money Charge bonus keeps the green field and slides a vault panel in at the left (seen in play, `08-bonus-nine`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1037-ags-capital-gains/game-screens/01-main",
      "runs/2026-11-26-1037-ags-capital-gains/game-screens/08-bonus-nine",
@@ -2813,7 +2936,10 @@
      ],
      "elementCount": 2,
      "layers": "A ray picture with separate neon line pieces; 777 blocks cross behind the cabinet at times (none on the measured screenshot).",
-     "motion": "The neon frames breathe in and out and 777 blocks slide past (the run's reading of the frames and files)."
+     "builtAs": "Ray picture and line pieces",
+     "motion": "The neon frames breathe in and out and 777 blocks slide past (the run's reading of the frames and files).",
+     "motionLabel": "Neon lines breathe, blocks pass",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -2827,6 +2953,7 @@
      "seen": "in play",
      "description": "Free spins: the same composition turned from purple to orange and red rays, with red 777 blocks on gold at the sides (seen in play, `16-free-spins-01`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/game-screens/02-main-01",
      "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/game-screens/16-free-spins-01"
@@ -3151,7 +3278,10 @@
      ],
      "elementCount": 2,
      "layers": "One picture.",
-     "motion": "None in the file; any ambience would be particles (inference in the run's reading)."
+     "builtAs": "One picture",
+     "motion": "None in the file; any ambience would be particles (inference in the run's reading).",
+     "motionLabel": "Still in the file",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -3165,6 +3295,7 @@
      "seen": "files",
      "description": "No feature was seen in play. Read from the files: a separate dark red curtain scene with firecrackers (`FeaturesBG`), and a gold wave-scale reel backing for the bonus spins (`Reel--FS--Background`). Where the curtain scene is used is not known from this run."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1846-igt-money-gong-emperor/game-screens/02-main",
      "runs/2026-11-26-1846-igt-money-gong-emperor/game-screens/05-spin-money-balls",
@@ -3509,7 +3640,10 @@
      ],
      "elementCount": 5,
      "layers": "Layered: sky, clouds and mansion are separate pictures.",
-     "motion": "The files hold 2-second changes between day, evening and night; only the day was seen (the run's reading)."
+     "builtAs": "Layers: sky, clouds, mansion",
+     "motion": "The files hold 2-second changes between day, evening and night; only the day was seen (the run's reading).",
+     "motionLabel": "Day seen; day to night in the files",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "see-through tint",
@@ -3523,6 +3657,7 @@
      "seen": "files",
      "description": "Read from the files, not seen in play: the same mansion in an evening version (red and yellow) and a night version (violet and deep blue), each with its own sky."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/game-screens/03-base-at-rest",
      "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/components/background/MM_evenig_bg",
@@ -3841,7 +3976,10 @@
      ],
      "elementCount": 4,
      "layers": "A background picture with separate grass layers.",
-     "motion": "None in the pictures (the run's reading)."
+     "builtAs": "Picture and grass layers",
+     "motion": "None in the pictures (the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "see-through tint",
@@ -3855,6 +3993,7 @@
      "seen": "files",
      "description": "Read from the file `bg_freegame`, not seen in play: the same stadium at night under a starry sky with floodlight beams and a cooler pitch."
     },
+    "caveat": "Read from the UK build of the game; that its art matches the US game is inference.",
     "picturesOpened": [
      "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/game-screens/01-base-at-rest",
      "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/components/background/bg_basegame",
@@ -4170,7 +4309,10 @@
      ],
      "elementCount": 4,
      "layers": "One picture.",
-     "motion": "Still; smoke and stars move over it (inference in the run's reading)."
+     "builtAs": "One picture",
+     "motion": "Still; smoke and stars move over it (inference in the run's reading).",
+     "motionLabel": "Still",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -4184,6 +4326,7 @@
      "seen": "files",
      "description": "Read from the file `bonusBg`, not seen in play: a new scene, a treasure cave in blue and violet light."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/game-screens/01-main",
      "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/sheets/default_webp80_jpg-2.242151"
@@ -4452,7 +4595,10 @@
      ],
      "elementCount": 2,
      "layers": "Built from tinted white beam shapes; no painted picture ships.",
-     "motion": "The beams sweep and cross slowly, a different arrangement in every frame (the run's reading)."
+     "builtAs": "Light shapes, no picture",
+     "motion": "The beams sweep and cross slowly, a different arrangement in every frame (the run's reading).",
+     "motionLabel": "Beams sweep all the time",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -4466,6 +4612,7 @@
      "seen": "in play",
      "description": "Hold and Win: the same field turned orange-gold with yellow beams, and the frame turned gold (seen in play, `18-hold-04-board`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/game-screens/06-main",
      "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/game-screens/18-hold-04-board"
@@ -4799,12 +4946,14 @@
       "navy walls",
       "tall windows left and right",
       "round vault door",
-      "floor",
       "starry band with the Super Wheel"
      ],
-     "elementCount": 5,
+     "elementCount": 4,
      "layers": "A scene rig with separate walls, door and light shafts.",
-     "motion": "A slow idle of light shafts and glints (the run's reading of the frames)."
+     "builtAs": "Layers: walls, door, light",
+     "motion": "A slow idle of light shafts and glints (the run's reading of the frames).",
+     "motionLabel": "Slow light shafts",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "see-through tint",
@@ -4818,6 +4967,7 @@
      "seen": "in play",
      "description": "Free spins: a new scene, the inside of the vault in bright gold; the board stays dark (seen in play, `11-freespins-scene`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/game-screens/01-base-rest",
      "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/game-screens/11-freespins-scene"
@@ -5108,7 +5258,10 @@
      ],
      "elementCount": 3,
      "layers": "Layered: field, leaves and branches are separate pieces.",
-     "motion": "Leaves and branches sway on loops of 3 to 4.5 seconds (the run's reading of the files)."
+     "builtAs": "Layers: field, leaves, twigs",
+     "motion": "Leaves and branches sway on loops of 3 to 4.5 seconds (the run's reading of the files).",
+     "motionLabel": "Leaves sway",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, coloured",
@@ -5122,6 +5275,7 @@
      "seen": "in play",
      "description": "Free spins: the same composition turned purple with a rainbow ribbon and clovers in pink, blue and yellow; the board turns purple too (seen in play, `16-fs-05-wild-reels`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/game-screens/03-main",
      "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/game-screens/16-fs-05-wild-reels"
@@ -5460,7 +5614,10 @@
      ],
      "elementCount": 3,
      "layers": "Layered: a picture with separate branches, leaf fringes and birds.",
-     "motion": "Branches and leaves sway on a 3.67-second loop (the run's reading of the files)."
+     "builtAs": "Layers: picture, branches, birds",
+     "motion": "Branches and leaves sway on a 3.67-second loop (the run's reading of the files).",
+     "motionLabel": "Leaves sway",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -5474,6 +5631,7 @@
      "seen": "in play",
      "description": "Bonus: the same forest at dusk in orange and violet, with carved temple walls brought in at the sides around a larger board (seen in play, `14-bonus-02`)."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/game-screens/03-main-01",
      "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/game-screens/14-bonus-02"
@@ -5778,7 +5936,10 @@
      ],
      "elementCount": 5,
      "layers": "One picture; rays and butterflies are added over it.",
-     "motion": "White rays and small butterflies over a still picture (the run's reading)."
+     "builtAs": "One picture, rays over it",
+     "motion": "White rays and small butterflies over a still picture (the run's reading).",
+     "motionLabel": "Rays and butterflies",
+     "motionSource": "the run's own reading (analysis/*.json); not checked by this section, which looked at stills"
     },
     "reelWindow": {
      "type": "opaque, dark",
@@ -5792,6 +5953,7 @@
      "seen": "files",
      "description": "Read from the file `bgSpecial`, not seen in play: the same valley at sunset with the three houses built."
     },
+    "caveat": null,
     "picturesOpened": [
      "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/game-screens/03-main-01",
      "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/components/main-90-100-4096-0/bgSpecial",

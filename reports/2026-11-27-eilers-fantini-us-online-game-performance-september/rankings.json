@@ -6,7 +6,7 @@
  "markets": [
   "United States online casino (the operators taking part in the publisher's database)"
  ],
- "notes": "Read from the page picture: the ranking table is an image. Taken: the first page of the slot ranking, ranks 1 to 25 (page 46), which holds the 20 leaders. Not taken this time: ranks 26 to 50 (page 47), the overall GGR ranking (page 44) and the new-slots ranking (page 58 or 59), which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
+ "notes": "Read from the page pictures: the ranking table is an image. Taken: the slot ranking, ranks 1 to 50 (pages 46 and 47). Not taken: the overall GGR ranking (page 44) and the new-slots ranking, which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
  "lists": [
   {
    "id": "slots",
@@ -165,6 +165,157 @@
      "game": "Fire And Roses Gold Blitz Fortune Tower",
      "provider": "Games Global",
      "value": "Theo Win Index 12.11x"
+    },
+    {
+     "rank": 26,
+     "game": "88 Fortunes",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 12.11x"
+    },
+    {
+     "rank": 27,
+     "game": "Shark Pop Coin Collect",
+     "provider": "Games Global",
+     "value": "Theo Win Index 11.94x"
+    },
+    {
+     "rank": 28,
+     "game": "Starlight Jackpots Bison Rush",
+     "provider": "Greentube",
+     "value": "Theo Win Index 11.65x"
+    },
+    {
+     "rank": 29,
+     "game": "Mo Mummy Mighty Pyramid",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 11.64x"
+    },
+    {
+     "rank": 30,
+     "game": "7s Fire Blitz Power 5 Jackpot Royale Express",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 11.50x"
+    },
+    {
+     "rank": 31,
+     "game": "7s Fire Blitz Hotstepper",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 11.38x",
+     "is": "whitehat-7s-fire-blitz-hot-stepper"
+    },
+    {
+     "rank": 32,
+     "game": "Rwb Gems",
+     "provider": "Design Works Gaming",
+     "value": "Theo Win Index 11.26x"
+    },
+    {
+     "rank": 33,
+     "game": "Hotter Than Blazes Respins",
+     "provider": "Igt",
+     "value": "Theo Win Index 11.20x"
+    },
+    {
+     "rank": 34,
+     "game": "Money Link Ultimate 8",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 10.98x"
+    },
+    {
+     "rank": 35,
+     "game": "Rome Fight For Gold The Tigers Rage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 10.92x"
+    },
+    {
+     "rank": 36,
+     "game": "Wrappin Gold",
+     "provider": "Play n GO",
+     "value": "Theo Win Index 10.85x"
+    },
+    {
+     "rank": 37,
+     "game": "Wolf It Up Again",
+     "provider": "Inspired",
+     "value": "Theo Win Index 10.82x"
+    },
+    {
+     "rank": 38,
+     "game": "Dark Waters 3 Power Combo The Cursed Voyage",
+     "provider": "Games Global",
+     "value": "Theo Win Index 10.74x"
+    },
+    {
+     "rank": 39,
+     "game": "Wolf Prime Diamond X Up",
+     "provider": "Games Global",
+     "value": "Theo Win Index 10.46x"
+    },
+    {
+     "rank": 40,
+     "game": "Most Wanted Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 10.11x"
+    },
+    {
+     "rank": 41,
+     "game": "Cash Eruption Slingo",
+     "provider": "Gaming Realms",
+     "value": "Theo Win Index 10.08x"
+    },
+    {
+     "rank": 42,
+     "game": "12 Masks Of Fire Drum Frenzy",
+     "provider": "Games Global",
+     "value": "Theo Win Index 9.73x"
+    },
+    {
+     "rank": 43,
+     "game": "Oink Oink Oink",
+     "provider": "Playtech",
+     "value": "Theo Win Index 9.27x"
+    },
+    {
+     "rank": 44,
+     "game": "10000 Wonders 10k Ways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 9.14x"
+    },
+    {
+     "rank": 45,
+     "game": "Hot As Hades Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 9.03x"
+    },
+    {
+     "rank": 46,
+     "game": "Mega Eagle Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 9.01x"
+    },
+    {
+     "rank": 47,
+     "game": "Megajackpots Quantum Crown",
+     "provider": "Igt",
+     "value": "Theo Win Index 8.92x"
+    },
+    {
+     "rank": 48,
+     "game": "3x Ultra Diamond",
+     "provider": "Ags",
+     "value": "Theo Win Index 8.88x"
+    },
+    {
+     "rank": 49,
+     "game": "Huff N Puff High Rise",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 8.76x"
+    },
+    {
+     "rank": 50,
+     "game": "Rakin Bacon Triple Oink San Shen Zhu",
+     "provider": "Ags",
+     "value": "Theo Win Index 8.67x"
     }
    ]
   }

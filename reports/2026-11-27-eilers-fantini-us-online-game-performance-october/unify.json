@@ -37,7 +37,7 @@
   "written": "The Goonies Quest For Treasure 2 Jackpot Royale",
   "provider": "White Hat Studios",
   "game": "whitehat-the-goonies-quest-for-treasure-2-jackpot-royale",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -45,7 +45,7 @@
   "written": "Freedom 250x Boost Hold And Win",
   "provider": "Octoplay",
   "game": "octoplay-freedom-250x-boost-hold-and-win",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -61,7 +61,7 @@
   "written": "Quick Hit Link 888",
   "provider": "Light & Wonder",
   "game": "lnw-quick-hit-link-888",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -69,7 +69,7 @@
   "written": "Jewel Boom Xxx",
   "provider": "Atlantic Digital",
   "game": "atlanticdigital-jewel-boom-xxx",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -109,7 +109,7 @@
   "written": "Bankin Bacon Pigs Might Fly Jackpot Royale Express",
   "provider": "White Hat Studios",
   "game": "whitehat-bankin-bacon-pigs-might-fly-jackpot-royale-express",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -125,7 +125,7 @@
   "written": "Golden Winner Bonus Cherries",
   "provider": "Inspired",
   "game": "inspired-golden-winner-bonus-cherries",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -149,7 +149,7 @@
   "written": "5 Perfect Diamonds",
   "provider": "Octoplay",
   "game": "octoplay-5-perfect-diamonds",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -157,7 +157,7 @@
   "written": "Super Crystal 7s",
   "provider": "Ainsworth",
   "game": "ainsworth-super-crystal-7s",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -165,7 +165,7 @@
   "written": "Super Hot Flaming Pots Mr Lee",
   "provider": "Light & Wonder",
   "game": "lnw-super-hot-flaming-pots-mr-lee",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -173,7 +173,7 @@
   "written": "7s Fire Blitz X Cash",
   "provider": "White Hat Studios",
   "game": "whitehat-7s-fire-blitz-x-cash",
-  "how": "new"
+  "how": "match"
  },
  {
   "list": "slots",
@@ -197,6 +197,206 @@
   "written": "Wolf It Up Again",
   "provider": "Inspired",
   "game": "inspired-wolf-it-up-again",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 26,
+  "written": "Huff N Puff Haunted Mansion",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-puff-haunted-mansion",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 27,
+  "written": "7s Fire Blitz Hotstepper",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hot-stepper",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 28,
+  "written": "Dancing Drums Tower",
+  "provider": "Light & Wonder",
+  "game": "lnw-dancing-drums-tower",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 29,
+  "written": "Cash Machine Jackpots",
+  "provider": "Everi",
+  "game": "everi-cash-machine-jackpots",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 30,
+  "written": "Mo Mummy Mighty Pyramid",
+  "provider": "Aristocrat",
+  "game": "aristocrat-mo-mummy-mighty-pyramid",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 31,
+  "written": "Fourfold The Gold",
+  "provider": "Games Global",
+  "game": "gamesglobal-fourfold-the-gold",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 32,
+  "written": "88 Fortunes",
+  "provider": "Light & Wonder",
+  "game": "lnw-88-fortunes",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 33,
+  "written": "Almighty Dragon",
+  "provider": "Bragg Gaming Group",
+  "game": "bragg-almighty-dragon",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 34,
+  "written": "7s Fire Blitz Hotstepper 2",
+  "provider": "White Hat Studios",
+  "game": "whitehat-7s-fire-blitz-hotstepper-2",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 35,
+  "written": "Bigger Piggy Bank",
+  "provider": "Inspired",
+  "game": "inspired-bigger-piggy-bank",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 36,
+  "written": "Cash Eruption Slingo",
+  "provider": "Gaming Realms",
+  "game": "gamingrealms-cash-eruption-slingo",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 37,
+  "written": "The Goonies Quest For Treasure 2",
+  "provider": "White Hat Studios",
+  "game": "whitehat-the-goonies-quest-for-treasure-2",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 38,
+  "written": "Kings Of Crystals 3 Power Combo",
+  "provider": "Games Global",
+  "game": "gamesglobal-kings-of-crystals-3-power-combo",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 39,
+  "written": "Lion Link Wealth Of The Dragon",
+  "provider": "Light & Wonder",
+  "game": "lnw-lion-link-wealth-of-the-dragon",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 40,
+  "written": "Ball X Multi Drop",
+  "provider": "Octoplay",
+  "game": "octoplay-ball-x-multi-drop",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 41,
+  "written": "Huff N Puff Money Mansion",
+  "provider": "Light & Wonder",
+  "game": "lnw-huff-n-puff-money-mansion",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 42,
+  "written": "Cash Machine",
+  "provider": "Everi",
+  "game": "everi-cash-machine",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 43,
+  "written": "Break More Piggy Banks",
+  "provider": "Octoplay",
+  "game": "octoplay-break-more-piggy-banks",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 44,
+  "written": "Money Gong Emperor",
+  "provider": "Igt",
+  "game": "igt-money-gong-emperor",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 45,
+  "written": "J Mania Chili Champs",
+  "provider": "Ruby Play",
+  "game": "rubyplay-j-mania-chili-champs",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 46,
+  "written": "10000 Wonders 10k Ways",
+  "provider": "Reel Play",
+  "game": "reelplay-10000-wonders-10k-ways",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 47,
+  "written": "Parthenon Quest For Immortality",
+  "provider": "Evolution",
+  "game": "evolution-parthenon-quest-for-immortality",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 48,
+  "written": "12 Loaded Pots Drum Frenzy",
+  "provider": "Games Global",
+  "game": "gamesglobal-12-loaded-pots-drum-frenzy",
+  "how": "match"
+ },
+ {
+  "list": "slots",
+  "rank": 49,
+  "written": "Black Diamond Deluxe",
+  "provider": "Everi",
+  "game": "everi-black-diamond-deluxe",
+  "how": "new"
+ },
+ {
+  "list": "slots",
+  "rank": 50,
+  "written": "Wolf Prime Diamond X Up",
+  "provider": "Games Global",
+  "game": "gamesglobal-wolf-prime-diamond-x-up",
   "how": "match"
  }
 ]

@@ -14,7 +14,7 @@
  "markets": [
   "United States online casino (the operators taking part in the publisher's database)"
  ],
- "unified": "2026-11-27T09:48:23Z",
+ "unified": "2026-11-27T10:42:25Z",
  "leaders": [
   {
    "game": "igt-cash-eruption",
@@ -218,6 +218,14 @@
   }
  ],
  "lists": 1,
- "games": 25,
- "newGames": []
+ "games": 50,
+ "newGames": [
+  "ags-boo-bucks-bonus-wheel",
+  "gamesglobal-queens-of-ra-rising-coin-collect",
+  "lnw-huff-n-even-more-puff-hard-hat",
+  "lnw-quick-hit-link-gems",
+  "octoplay-super-grand-link-express-hold-and-win",
+  "playtech-king-richwin",
+  "redrake-viva-fiesta"
+ ]
 }
