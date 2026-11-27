@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T04:28:35Z",
+ "updated": "2026-11-27T04:38:18Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -772,8 +772,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:28:35Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as the other Games Global leaders. Slotslaunch has the game under All41 Studios (https://slotslaunch.com/all41studios/coin-collect-piggy-patrons, game 38827), but its Free Play redirects to a forbidden-geo page for the United States. VegasSlotsOnline's Play for Free opens Games Global's practice-play client (mobile3.gameassists.co.uk), which shows 'Unable to connect to the server': its client-library request is answered 403 by Cloudflare (the cause, a US or data-centre address, is inference). gamesglobal.com and other demo hosts gave no playable demo. It can be run from a machine outside the restricted countries, or with a demo link from Games Global or the product team.",
+     "at": "2026-11-27T04:38:18Z",
      "run": null
     }
    },
@@ -813,7 +814,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T04:38:18Z",
+     "run": null
     }
    },
    "added": "2026-11-25T16:50:31Z"
