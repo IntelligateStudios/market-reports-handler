@@ -1,0 +1,5803 @@
+{
+ "title": "Backgrounds of the leading US online slot games: the figures and readings behind documents/background-recommendations.md",
+ "written": "2026-11-27",
+ "request": {
+  "who": "Roei",
+  "date": "2026-11-27",
+  "words": "send another agent to create recommendations section, focusing on \"Game background , slot background , amount of elements of the background , contrast , saturation.\" To rank it, sorted by theo ranking where applicable."
+ },
+ "sortRule": "Ours: each game stands at its rank in the most recent edition of the report that ranks it in \"Top Game Ranks - Slots\" (by Theo Win Index). Games ranked in a newer edition come before games last ranked in an older one; inside an edition, by that rank. Ranks and indices are copied as the reports state them. The handler took ranks 1 to 50 of the July and August editions and ranks 1 to 25 of the September, October and November editions (reports.<edition>.ranksTaken), so a game missing from a later edition is outside its first 25 ranks, or outside the list.",
+ "reports": {
+  "Nov": {
+   "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+   "title": "Eilers-Fantini U.S. Online Game Performance Report, November 2026 edition",
+   "period": "Data through October 2026",
+   "list": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "page": 46,
+   "ranksTaken": [
+    1,
+    25
+   ]
+  },
+  "Oct": {
+   "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+   "title": "Eilers-Fantini U.S. Online Game Performance Report, October 2026 edition",
+   "period": "Data through September 2026",
+   "list": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "page": 46,
+   "ranksTaken": [
+    1,
+    25
+   ]
+  },
+  "Jul": {
+   "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+   "title": "Eilers-Fantini U.S. Online Game Performance Report, July 2026 edition",
+   "period": "Data through June 2026",
+   "list": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "page": 45,
+   "ranksTaken": [
+    1,
+    50
+   ]
+  },
+  "Aug": {
+   "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+   "title": "Eilers-Fantini U.S. Online Game Performance Report, August 2026 edition",
+   "period": "Data through July 2026",
+   "list": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "page": 45,
+   "ranksTaken": [
+    1,
+    50
+   ]
+  },
+  "Sep": {
+   "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+   "title": "Eilers-Fantini U.S. Online Game Performance Report, September 2026 edition",
+   "period": "Data through August 2026",
+   "list": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "page": 46,
+   "ranksTaken": [
+    1,
+    25
+   ]
+  }
+ },
+ "method": {
+  "screenshot": "One real screenshot of the base game at rest per game, from the run's game-screens/ (named per game under measured.screenshot).",
+  "regions": {
+   "gameBackground": "Boxes chosen by eye on the background outside the reel board, clear of logo, prize plaques and buttons (measured.boxes.gameBackground).",
+   "reelWindow": "Small boxes chosen by eye on bare reel window between symbols (measured.boxes.reelWindowPatches).",
+   "symbols": "The centre half (50% of width and height) of every cell of the reel grid (measured.boxes.reelGrid, cols, rows, symbolCores). A core holds mostly symbol and some window where a symbol is thin.",
+   "reelFieldInPlay": "The whole reel grid, symbols and window together."
+  },
+  "boxes": "x0, y0, x1, y1 in pixels of the screenshot, origin top left.",
+  "brightness": "Mean luma 0.2126 R + 0.7152 G + 0.0722 B on the stored (gamma-encoded) values, 0 to 1. Same formula as Games-AI-art tools/measure.py.",
+  "contrast": "95th minus 5th percentile of that luma inside the region, 0 to 1. Same as tools/measure.py. rmsContrast is its standard deviation.",
+  "saturation": "Mean HSV saturation (max - min) / max, 0 to 1. Same as tools/measure.py.",
+  "between": "WCAG-style ratio (L1 + 0.05) / (L2 + 0.05) of the two regions' mean relative luminance (sRGB linearised, then 0.2126 R + 0.7152 G + 0.0722 B), brighter over darker. brightnessDifference and saturationDifference are first region minus second.",
+  "differsFromMeasurePy": "tools/measure.py measures a whole art file reduced to 160 px and weighted by alpha; here every pixel of a crop of a screenshot is counted, with no alpha. The artFiles figures are copied from each run's art.json and follow tools/measure.py.",
+  "rounding": "The document's tables show brightness, contrast and saturation to two decimals; this file holds three."
+ },
+ "summary": {
+  "games": 16,
+  "leaders": 57,
+  "backgroundTypes": {
+   "scene": [
+    "igt-cash-eruption",
+    "lnw-huff-n-even-more-puff-grand",
+    "igt-triple-cash-eruption",
+    "lnw-huff-n-puff-money-mansion",
+    "lnw-huff-n-lots-of-goals",
+    "igt-mystery-of-the-lamp-secret-bazaar",
+    "inspired-bigger-piggy-bank-superwheel",
+    "octoplay-serpent-gold-hold-and-win",
+    "octoplay-super-cash-boost-big-bad-bonus"
+   ],
+   "field": [
+    "igt-cleopatra",
+    "octoplay-fire-rail-express-hold-and-win",
+    "ags-capital-gains",
+    "igt-money-gong-emperor",
+    "octoplay-the-lucky-fella-hold-and-win"
+   ],
+   "lightOnly": [
+    "octoplay-777-hot-reels-megacharged",
+    "octoplay-mega-cash-boost-hold-and-win"
+   ]
+  },
+  "elementCountRange": [
+   1,
+   5
+  ],
+  "elementCountRangeScenes": [
+   3,
+   5
+  ],
+  "elementCountRangeFieldsAndLight": [
+   1,
+   3
+  ],
+  "reelWindowDarkerThanGameBackground": [
+   "igt-cash-eruption",
+   "lnw-huff-n-even-more-puff-grand",
+   "igt-triple-cash-eruption",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "igt-money-gong-emperor",
+   "lnw-huff-n-puff-money-mansion",
+   "lnw-huff-n-lots-of-goals",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-the-lucky-fella-hold-and-win",
+   "octoplay-serpent-gold-hold-and-win",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "reelWindowBrightnessAtMost0.18": [
+   "lnw-huff-n-even-more-puff-grand",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "octoplay-777-hot-reels-megacharged",
+   "igt-money-gong-emperor",
+   "lnw-huff-n-puff-money-mansion",
+   "lnw-huff-n-lots-of-goals",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-the-lucky-fella-hold-and-win",
+   "octoplay-serpent-gold-hold-and-win",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "reelWindowContrastAtMost0.17": [
+   "lnw-huff-n-even-more-puff-grand",
+   "igt-triple-cash-eruption",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "igt-money-gong-emperor",
+   "lnw-huff-n-lots-of-goals",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-the-lucky-fella-hold-and-win",
+   "octoplay-serpent-gold-hold-and-win",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "reelWindowContrastBelowGameBackground": [
+   "igt-cash-eruption",
+   "lnw-huff-n-even-more-puff-grand",
+   "igt-triple-cash-eruption",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "igt-money-gong-emperor",
+   "lnw-huff-n-puff-money-mansion",
+   "lnw-huff-n-lots-of-goals",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-the-lucky-fella-hold-and-win",
+   "octoplay-serpent-gold-hold-and-win",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "reelWindowBrightnessRange": [
+   0.0,
+   0.838
+  ],
+  "gameBackgroundBrightnessRange": [
+   0.091,
+   0.692
+  ],
+  "symbolsVsReelWindowRange": [
+   1.77,
+   7.79
+  ],
+  "symbolsVsReelWindowMedian": 4.47,
+  "symbolsVsReelWindowAtLeast3.99": [
+   "lnw-huff-n-even-more-puff-grand",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "igt-money-gong-emperor",
+   "lnw-huff-n-puff-money-mansion",
+   "lnw-huff-n-lots-of-goals",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "reelWindowVsGameBackgroundRange": [
+   1.22,
+   8.84
+  ],
+  "symbolsBrighterThanGameBackground": [
+   "igt-cash-eruption",
+   "lnw-huff-n-even-more-puff-grand",
+   "igt-triple-cash-eruption",
+   "igt-cleopatra",
+   "octoplay-fire-rail-express-hold-and-win",
+   "ags-capital-gains",
+   "octoplay-777-hot-reels-megacharged",
+   "igt-money-gong-emperor",
+   "igt-mystery-of-the-lamp-secret-bazaar",
+   "octoplay-mega-cash-boost-hold-and-win",
+   "inspired-bigger-piggy-bank-superwheel",
+   "octoplay-the-lucky-fella-hold-and-win",
+   "octoplay-serpent-gold-hold-and-win",
+   "octoplay-super-cash-boost-big-bad-bonus"
+  ],
+  "gameBackgroundBrightnessRangeWhereSymbolsBrighter": [
+   0.091,
+   0.397
+  ],
+  "symbolsBrightnessRange": [
+   0.343,
+   0.559
+  ],
+  "symbolsSaturationRange": [
+   0.453,
+   0.854
+  ],
+  "gameBackgroundSaturationAtLeast0.88": {
+   "games": [
+    "igt-cash-eruption",
+    "igt-cleopatra",
+    "ags-capital-gains",
+    "igt-money-gong-emperor",
+    "octoplay-mega-cash-boost-hold-and-win",
+    "octoplay-the-lucky-fella-hold-and-win"
+   ],
+   "saturationRange": [
+    0.889,
+    0.975
+   ],
+   "brightnessRange": [
+    0.108,
+    0.303
+   ]
+  },
+  "gameBackgroundSaturationBelow0.88": {
+   "games": [
+    "lnw-huff-n-even-more-puff-grand",
+    "igt-triple-cash-eruption",
+    "octoplay-fire-rail-express-hold-and-win",
+    "octoplay-777-hot-reels-megacharged",
+    "lnw-huff-n-puff-money-mansion",
+    "lnw-huff-n-lots-of-goals",
+    "igt-mystery-of-the-lamp-secret-bazaar",
+    "inspired-bigger-piggy-bank-superwheel",
+    "octoplay-serpent-gold-hold-and-win",
+    "octoplay-super-cash-boost-big-bad-bonus"
+   ],
+   "saturationRange": [
+    0.473,
+    0.801
+   ],
+   "brightnessRange": [
+    0.091,
+    0.692
+   ]
+  },
+  "gameBackgroundContrastRangeScenes": [
+   0.319,
+   0.865
+  ],
+  "gameBackgroundContrastRangeFieldsAndLight": [
+   0.099,
+   0.388
+  ],
+  "otherPaintedScenesSaturationRange": [
+   0.473,
+   0.731
+  ],
+  "providers": {
+   "AGS": 1,
+   "IGT": 5,
+   "Inspired": 1,
+   "Light & Wonder": 3,
+   "Octoplay": 6
+  },
+  "reelFieldInPlayBrightnessRange": [
+   0.197,
+   0.571
+  ],
+  "seeThroughWindows": {
+   "games": [
+    "lnw-huff-n-even-more-puff-grand",
+    "lnw-huff-n-puff-money-mansion",
+    "lnw-huff-n-lots-of-goals",
+    "inspired-bigger-piggy-bank-superwheel"
+   ],
+   "brightnessRange": [
+    0.072,
+    0.15
+   ]
+  },
+  "featureMode": {
+   "sameCompositionRecolouredOrRegraded": [
+    "igt-cash-eruption",
+    "igt-cleopatra",
+    "ags-capital-gains",
+    "octoplay-777-hot-reels-megacharged",
+    "lnw-huff-n-puff-money-mansion",
+    "lnw-huff-n-lots-of-goals",
+    "octoplay-mega-cash-boost-hold-and-win",
+    "octoplay-the-lucky-fella-hold-and-win",
+    "octoplay-serpent-gold-hold-and-win",
+    "octoplay-super-cash-boost-big-bad-bonus"
+   ],
+   "newScene": [
+    "igt-cash-eruption",
+    "igt-triple-cash-eruption",
+    "octoplay-fire-rail-express-hold-and-win",
+    "igt-mystery-of-the-lamp-secret-bazaar",
+    "inspired-bigger-piggy-bank-superwheel"
+   ],
+   "noFeatureBackgroundSeenOrPlaced": [
+    "lnw-huff-n-even-more-puff-grand",
+    "igt-money-gong-emperor"
+   ]
+  },
+  "rankedInNewestEdition": {
+   "games": [
+    "igt-cash-eruption",
+    "lnw-huff-n-even-more-puff-grand",
+    "igt-triple-cash-eruption",
+    "igt-cleopatra",
+    "octoplay-fire-rail-express-hold-and-win",
+    "ags-capital-gains"
+   ],
+   "gameBackgroundBrightnessRange": [
+    0.164,
+    0.397
+   ],
+   "gameBackgroundSaturationRange": [
+    0.682,
+    0.975
+   ],
+   "reelWindowBrightnessRange": [
+    0.0,
+    0.838
+   ],
+   "symbolsVsReelWindowRange": [
+    1.77,
+    7.79
+   ],
+   "elementCountRange": [
+    1,
+    5
+   ]
+  },
+  "notRankedInNewestEdition": {
+   "games": [
+    "octoplay-777-hot-reels-megacharged",
+    "igt-money-gong-emperor",
+    "lnw-huff-n-puff-money-mansion",
+    "lnw-huff-n-lots-of-goals",
+    "igt-mystery-of-the-lamp-secret-bazaar",
+    "octoplay-mega-cash-boost-hold-and-win",
+    "inspired-bigger-piggy-bank-superwheel",
+    "octoplay-the-lucky-fella-hold-and-win",
+    "octoplay-serpent-gold-hold-and-win",
+    "octoplay-super-cash-boost-big-bad-bonus"
+   ],
+   "gameBackgroundBrightnessRange": [
+    0.091,
+    0.692
+   ],
+   "gameBackgroundSaturationRange": [
+    0.473,
+    0.962
+   ],
+   "reelWindowBrightnessRange": [
+    0.047,
+    0.172
+   ],
+   "symbolsVsReelWindowRange": [
+    2.62,
+    5.44
+   ],
+   "elementCountRange": [
+    2,
+    5
+   ]
+  }
+ },
+ "games": [
+  {
+   "id": "igt-cash-eruption",
+   "name": "Cash Eruption",
+   "provider": "IGT",
+   "run": "2026-11-25-1658-igt-cash-eruption",
+   "realScreensInRun": 20,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 1,
+    "sortIndex": "48.53x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 1,
+      "theoWinIndex": "43.30x",
+      "asStated": "Theo Win Index 43.30x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 1,
+      "theoWinIndex": "47.65x",
+      "asStated": "Theo Win Index 47.65x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 2,
+      "theoWinIndex": "46.69x",
+      "asStated": "Theo Win Index 46.69x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 1,
+      "theoWinIndex": "47.49x",
+      "asStated": "Theo Win Index 47.49x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 1,
+      "theoWinIndex": "48.53x",
+      "asStated": "Theo Win Index 48.53x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-25-1658-igt-cash-eruption/game-screens/01-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       150,
+       95,
+       590
+      ],
+      [
+       100,
+       150,
+       218,
+       280
+      ],
+      [
+       100,
+       460,
+       218,
+       590
+      ],
+      [
+       1010,
+       150,
+       1280,
+       280
+      ],
+      [
+       1010,
+       460,
+       1280,
+       590
+      ],
+      [
+       1205,
+       280,
+       1280,
+       460
+      ],
+      [
+       0,
+       600,
+       215,
+       720
+      ],
+      [
+       1015,
+       600,
+       1280,
+       720
+      ]
+     ],
+     "reelGrid": [
+      232,
+      168,
+      1000,
+      578
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       852,
+       445,
+       872,
+       465
+      ],
+      [
+       978,
+       445,
+       998,
+       465
+      ],
+      [
+       852,
+       555,
+       872,
+       575
+      ],
+      [
+       978,
+       555,
+       998,
+       575
+      ],
+      [
+       702,
+       172,
+       722,
+       190
+      ],
+      [
+       852,
+       410,
+       870,
+       438
+      ]
+     ],
+     "symbolCores": [
+      [
+       270,
+       202,
+       347,
+       270
+      ],
+      [
+       270,
+       339,
+       347,
+       407
+      ],
+      [
+       270,
+       475,
+       347,
+       544
+      ],
+      [
+       424,
+       202,
+       501,
+       270
+      ],
+      [
+       424,
+       339,
+       501,
+       407
+      ],
+      [
+       424,
+       475,
+       501,
+       544
+      ],
+      [
+       578,
+       202,
+       654,
+       270
+      ],
+      [
+       578,
+       339,
+       654,
+       407
+      ],
+      [
+       578,
+       475,
+       654,
+       544
+      ],
+      [
+       731,
+       202,
+       808,
+       270
+      ],
+      [
+       731,
+       339,
+       808,
+       407
+      ],
+      [
+       731,
+       475,
+       808,
+       544
+      ],
+      [
+       885,
+       202,
+       962,
+       270
+      ],
+      [
+       885,
+       339,
+       962,
+       407
+      ],
+      [
+       885,
+       475,
+       962,
+       544
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 213780,
+     "brightness": 0.226,
+     "contrast": 0.501,
+     "rmsContrast": 0.155,
+     "saturation": 0.928,
+     "relativeLuminance": 0.0905,
+     "meanColour": "#7f2a0a",
+     "meanHue": "orange"
+    },
+    "reelWindow": {
+     "pixels": 2464,
+     "brightness": 0.237,
+     "contrast": 0.268,
+     "rmsContrast": 0.086,
+     "saturation": 0.939,
+     "relativeLuminance": 0.0654,
+     "meanColour": "#054c43",
+     "meanHue": "cyan"
+    },
+    "symbols": {
+     "pixels": 78720,
+     "brightness": 0.413,
+     "contrast": 0.873,
+     "rmsContrast": 0.263,
+     "saturation": 0.783,
+     "relativeLuminance": 0.2586,
+     "meanColour": "#a45c43",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 314880,
+     "brightness": 0.37,
+     "contrast": 0.825,
+     "rmsContrast": 0.241,
+     "saturation": 0.801,
+     "relativeLuminance": 0.2021,
+     "meanColour": "#6b5d43",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 2.67,
+      "brightnessDifference": 0.176,
+      "saturationDifference": -0.156
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.22,
+      "brightnessDifference": 0.011,
+      "saturationDifference": 0.011,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 2.2
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-25-1658-igt-cash-eruption/art.json",
+     "baseBackground": [
+      {
+       "component": "bgd/bgd",
+       "width": 1920,
+       "height": 1080,
+       "alpha": false,
+       "brightness": 0.169,
+       "saturation": 0.946,
+       "contrast": 0.336
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "bgd_fs/bgd_fs",
+       "width": 1920,
+       "height": 1080,
+       "alpha": false,
+       "brightness": 0.258,
+       "saturation": 0.961,
+       "contrast": 0.452
+      },
+      "bonus": {
+       "component": "bgd_bg/bgd_bg",
+       "width": 1920,
+       "height": 1080,
+       "alpha": false,
+       "brightness": 0.108,
+       "saturation": 0.93,
+       "contrast": 0.22
+      }
+     },
+     "reelBacking": {
+      "component": "reel_background_spritesheet/reel_back_1",
+      "width": 209,
+      "height": 571,
+      "alpha": false,
+      "brightness": 0.359,
+      "saturation": 0.966,
+      "contrast": 0.392
+     },
+     "reelBackingFeature": {
+      "free spins": {
+       "component": "reel_background_spritesheet/reel_back_free_1",
+       "width": 209,
+       "height": 571,
+       "alpha": true,
+       "brightness": 0.105,
+       "saturation": 0.993,
+       "contrast": 0.112
+      }
+     }
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: temple hall",
+     "description": "The inside of a stone temple in orange-red light, seen straight on, with a live torch at each side.",
+     "elements": [
+      "back wall of stone blocks",
+      "stepped piers left and right",
+      "stair across the bottom",
+      "two torches"
+     ],
+     "elementCount": 4,
+     "layers": "One picture; the torches are drawn over it (the file has no torches).",
+     "motion": "Only the two torch flames (the run's reading of the frames; this section looked at stills)."
+    },
+    "reelWindow": {
+     "type": "opaque, coloured",
+     "label": "Opaque teal cells",
+     "description": "Opaque teal cells with a faint fret pattern, gold dividers, a thin patterned frame. The fireball symbols bring their own black tile."
+    },
+    "featureMode": {
+     "kinds": [
+      "regrade",
+      "new scene"
+     ],
+     "seen": "in play",
+     "description": "Free spins: the same hall pushed brighter and redder (seen in play, `fs-01-start`). Bonus: a new scene, a volcano crater under a red spiral sky, with the cells dimmed to dark teal (seen in play, `bonus-02-early`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-25-1658-igt-cash-eruption/game-screens/01-main",
+     "runs/2026-11-25-1658-igt-cash-eruption/game-screens/fs-01-start",
+     "runs/2026-11-25-1658-igt-cash-eruption/game-screens/bonus-02-early"
+    ]
+   }
+  },
+  {
+   "id": "lnw-huff-n-even-more-puff-grand",
+   "name": "Huff N Even More Puff Grand",
+   "provider": "Light & Wonder",
+   "run": "2026-11-26-1842-lnw-huff-n-even-more-puff-grand",
+   "realScreensInRun": 6,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 4,
+    "sortIndex": "36.65x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 2,
+      "theoWinIndex": "43.12x",
+      "asStated": "Theo Win Index 43.12x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 2,
+      "theoWinIndex": "41.28x",
+      "asStated": "Theo Win Index 41.28x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 3,
+      "theoWinIndex": "39.84x",
+      "asStated": "Theo Win Index 39.84x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 4,
+      "theoWinIndex": "37.92x",
+      "asStated": "Theo Win Index 37.92x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 4,
+      "theoWinIndex": "36.65x",
+      "asStated": "Theo Win Index 36.65x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/game-screens/01-base-at-rest.png",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       250,
+       40,
+       490,
+       240
+      ],
+      [
+       790,
+       40,
+       1020,
+       240
+      ],
+      [
+       200,
+       300,
+       290,
+       500
+      ],
+      [
+       1210,
+       200,
+       1250,
+       650
+      ],
+      [
+       990,
+       300,
+       1040,
+       480
+      ],
+      [
+       380,
+       160,
+       900,
+       245
+      ]
+     ],
+     "reelGrid": [
+      297,
+      250,
+      985,
+      655
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       558,
+       265,
+       592,
+       330
+      ],
+      [
+       690,
+       400,
+       720,
+       500
+      ],
+      [
+       418,
+       410,
+       458,
+       490
+      ],
+      [
+       838,
+       410,
+       872,
+       490
+      ],
+      [
+       680,
+       270,
+       720,
+       330
+      ]
+     ],
+     "symbolCores": [
+      [
+       331,
+       284,
+       400,
+       351
+      ],
+      [
+       331,
+       419,
+       400,
+       486
+      ],
+      [
+       331,
+       554,
+       400,
+       621
+      ],
+      [
+       469,
+       284,
+       538,
+       351
+      ],
+      [
+       469,
+       419,
+       538,
+       486
+      ],
+      [
+       469,
+       554,
+       538,
+       621
+      ],
+      [
+       607,
+       284,
+       675,
+       351
+      ],
+      [
+       607,
+       419,
+       675,
+       486
+      ],
+      [
+       607,
+       554,
+       675,
+       621
+      ],
+      [
+       744,
+       284,
+       813,
+       351
+      ],
+      [
+       744,
+       419,
+       813,
+       486
+      ],
+      [
+       744,
+       554,
+       813,
+       621
+      ],
+      [
+       882,
+       284,
+       951,
+       351
+      ],
+      [
+       882,
+       419,
+       951,
+       486
+      ],
+      [
+       882,
+       554,
+       951,
+       621
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 183200,
+     "brightness": 0.397,
+     "contrast": 0.719,
+     "rmsContrast": 0.22,
+     "saturation": 0.682,
+     "relativeLuminance": 0.2018,
+     "meanColour": "#586b50",
+     "meanHue": "green"
+    },
+    "reelWindow": {
+     "pixels": 13530,
+     "brightness": 0.15,
+     "contrast": 0.165,
+     "rmsContrast": 0.053,
+     "saturation": 0.669,
+     "relativeLuminance": 0.023,
+     "meanColour": "#242910",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 69144,
+     "brightness": 0.488,
+     "contrast": 0.761,
+     "rmsContrast": 0.242,
+     "saturation": 0.566,
+     "relativeLuminance": 0.2893,
+     "meanColour": "#9a775b",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 278640,
+     "brightness": 0.292,
+     "contrast": 0.708,
+     "rmsContrast": 0.233,
+     "saturation": 0.626,
+     "relativeLuminance": 0.1364,
+     "meanColour": "#584934",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 4.65,
+      "brightnessDifference": 0.338,
+      "saturationDifference": -0.103
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 3.45,
+      "brightnessDifference": -0.247,
+      "saturationDifference": -0.013,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.35
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/art.json",
+     "baseBackground": [
+      {
+       "component": "background/bg_basegame",
+       "width": 1920,
+       "height": 1920,
+       "alpha": false,
+       "brightness": 0.289,
+       "saturation": 0.632,
+       "contrast": 0.525
+      }
+     ],
+     "featureBackground": {},
+     "reelBacking": {
+      "component": "basegame/reel_frame",
+      "width": 1095,
+      "height": 640,
+      "alpha": false,
+      "brightness": 0.062,
+      "saturation": 0.902,
+      "contrast": 0.003
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: garden avenue at night",
+     "description": "A night garden: rounded topiary trees, clipped hedges and lit street lamps under a blue sky. The feature wheel stands behind the reels and hides the mansion at the end of the avenue.",
+     "elements": [
+      "night sky",
+      "topiary trees",
+      "hedges and lawn",
+      "street lamps",
+      "the feature wheel behind the reels"
+     ],
+     "elementCount": 5,
+     "layers": "One background picture, with the wheel as its own layer in front of it.",
+     "motion": "None in the scenery between the frames of the base game (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "see-through tint",
+     "label": "See-through dark tint",
+     "description": "No panel: a dark olive tint over the wheel, which shows faintly between the symbols. No frame and no dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "not seen"
+     ],
+     "seen": "not seen",
+     "description": "No second background is among the captured files and no feature was seen in play. That free spins keep this scene is inference from the files (a hedge overlay strip)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/game-screens/01-base-at-rest",
+     "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/game-screens/05-base-spin-landing",
+     "runs/2026-11-26-1842-lnw-huff-n-even-more-puff-grand/sheets/background"
+    ]
+   }
+  },
+  {
+   "id": "igt-triple-cash-eruption",
+   "name": "Triple Cash Eruption",
+   "provider": "IGT",
+   "run": "2026-11-26-1019-igt-triple-cash-eruption",
+   "realScreensInRun": 34,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 11,
+    "sortIndex": "18.24x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 9,
+      "theoWinIndex": "17.66x",
+      "asStated": "Theo Win Index 17.66x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 10,
+      "theoWinIndex": "20.20x",
+      "asStated": "Theo Win Index 20.20x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 10,
+      "theoWinIndex": "18.45x",
+      "asStated": "Theo Win Index 18.45x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 10,
+      "theoWinIndex": "17.73x",
+      "asStated": "Theo Win Index 17.73x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 11,
+      "theoWinIndex": "18.24x",
+      "asStated": "Theo Win Index 18.24x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1019-igt-triple-cash-eruption/game-screens/main-01-base-at-rest.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       310,
+       35,
+       1060,
+       95
+      ],
+      [
+       0,
+       60,
+       60,
+       650
+      ],
+      [
+       0,
+       600,
+       255,
+       650
+      ],
+      [
+       1070,
+       540,
+       1280,
+       650
+      ],
+      [
+       1245,
+       60,
+       1280,
+       650
+      ],
+      [
+       1070,
+       190,
+       1100,
+       530
+      ],
+      [
+       260,
+       610,
+       1060,
+       650
+      ]
+     ],
+     "reelGrid": [
+      275,
+      200,
+      1058,
+      602
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       433,
+       472,
+       453,
+       492
+      ],
+      [
+       566,
+       472,
+       586,
+       492
+      ],
+      [
+       433,
+       580,
+       453,
+       600
+      ],
+      [
+       566,
+       580,
+       586,
+       600
+      ],
+      [
+       747,
+       472,
+       767,
+       492
+      ],
+      [
+       590,
+       565,
+       610,
+       600
+      ]
+     ],
+     "symbolCores": [
+      [
+       314,
+       234,
+       392,
+       300
+      ],
+      [
+       314,
+       368,
+       392,
+       434
+      ],
+      [
+       314,
+       502,
+       392,
+       568
+      ],
+      [
+       471,
+       234,
+       549,
+       300
+      ],
+      [
+       471,
+       368,
+       549,
+       434
+      ],
+      [
+       471,
+       502,
+       549,
+       568
+      ],
+      [
+       627,
+       234,
+       706,
+       300
+      ],
+      [
+       627,
+       368,
+       706,
+       434
+      ],
+      [
+       627,
+       502,
+       706,
+       568
+      ],
+      [
+       784,
+       234,
+       862,
+       300
+      ],
+      [
+       784,
+       368,
+       862,
+       434
+      ],
+      [
+       784,
+       502,
+       862,
+       568
+      ],
+      [
+       941,
+       234,
+       1019,
+       300
+      ],
+      [
+       941,
+       368,
+       1019,
+       434
+      ],
+      [
+       941,
+       502,
+       1019,
+       568
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 179100,
+     "brightness": 0.217,
+     "contrast": 0.79,
+     "rmsContrast": 0.251,
+     "saturation": 0.693,
+     "relativeLuminance": 0.1095,
+     "meanColour": "#4c2f49",
+     "meanHue": "magenta"
+    },
+    "reelWindow": {
+     "pixels": 2700,
+     "brightness": 0.197,
+     "contrast": 0.145,
+     "rmsContrast": 0.061,
+     "saturation": 0.926,
+     "relativeLuminance": 0.0431,
+     "meanColour": "#063f37",
+     "meanHue": "cyan"
+    },
+    "symbols": {
+     "pixels": 77418,
+     "brightness": 0.458,
+     "contrast": 0.784,
+     "rmsContrast": 0.25,
+     "saturation": 0.743,
+     "relativeLuminance": 0.2959,
+     "meanColour": "#906e6c",
+     "meanHue": "red"
+    },
+    "reelFieldInPlay": {
+     "pixels": 314766,
+     "brightness": 0.419,
+     "contrast": 0.754,
+     "rmsContrast": 0.23,
+     "saturation": 0.763,
+     "relativeLuminance": 0.2405,
+     "meanColour": "#5f6f65",
+     "meanHue": "grey"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 3.72,
+      "brightnessDifference": 0.261,
+      "saturationDifference": -0.183
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.71,
+      "brightnessDifference": -0.02,
+      "saturationDifference": 0.233,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 2.17
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1019-igt-triple-cash-eruption/art.json",
+     "baseBackground": [
+      {
+       "component": "default_land_landscape_webp80_jpg-0/baseGameBg",
+       "width": 2040,
+       "height": 1410,
+       "alpha": false,
+       "brightness": 0.417,
+       "saturation": 0.531,
+       "contrast": 0.586
+      }
+     ],
+     "featureBackground": {
+      "bonus": {
+       "component": "default_land_landscape_webp80_jpg-1/bonusBg",
+       "width": 2040,
+       "height": 1410,
+       "alpha": false,
+       "brightness": 0.157,
+       "saturation": 0.951,
+       "contrast": 0.473
+      }
+     },
+     "reelBacking": null,
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: ruined temple",
+     "description": "A ruined temple in violet shadow with a white-hot break of lava light in the wall behind the reels.",
+     "elements": [
+      "carved pillars left and right",
+      "broken wall with lava light",
+      "cobbled floor"
+     ],
+     "elementCount": 3,
+     "layers": "One picture.",
+     "motion": "Still (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, coloured",
+     "label": "Opaque teal cells",
+     "description": "Opaque teal cells with a faint fret pattern in a thin red patterned frame. The fireball symbols bring their own black tile."
+    },
+    "featureMode": {
+     "kinds": [
+      "new scene"
+     ],
+     "seen": "in play",
+     "description": "Bonus: a new scene, the volcano crater under a red sky, with two boards of dimmed dark teal cells (seen in play, `bonus-03-values-land`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1019-igt-triple-cash-eruption/game-screens/main-01-base-at-rest",
+     "runs/2026-11-26-1019-igt-triple-cash-eruption/game-screens/bonus-03-values-land"
+    ]
+   }
+  },
+  {
+   "id": "igt-cleopatra",
+   "name": "Cleopatra",
+   "provider": "IGT",
+   "run": "2026-11-26-1045-igt-cleopatra",
+   "realScreensInRun": 20,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 13,
+    "sortIndex": "17.07x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 14,
+      "theoWinIndex": "16.33x",
+      "asStated": "Theo Win Index 16.33x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 17,
+      "theoWinIndex": "15.21x",
+      "asStated": "Theo Win Index 15.21x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 15,
+      "theoWinIndex": "15.22x",
+      "asStated": "Theo Win Index 15.22x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 18,
+      "theoWinIndex": "14.48x",
+      "asStated": "Theo Win Index 14.48x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 13,
+      "theoWinIndex": "17.07x",
+      "asStated": "Theo Win Index 17.07x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1045-igt-cleopatra/game-screens/01-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       40,
+       150,
+       680
+      ],
+      [
+       1130,
+       40,
+       1280,
+       680
+      ]
+     ],
+     "reelGrid": [
+      255,
+      135,
+      1030,
+      578
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       258,
+       435,
+       295,
+       490
+      ],
+      [
+       385,
+       290,
+       405,
+       325
+      ],
+      [
+       722,
+       433,
+       740,
+       450
+      ],
+      [
+       852,
+       433,
+       872,
+       453
+      ],
+      [
+       258,
+       286,
+       272,
+       300
+      ]
+     ],
+     "symbolCores": [
+      [
+       294,
+       172,
+       371,
+       246
+      ],
+      [
+       294,
+       320,
+       371,
+       393
+      ],
+      [
+       294,
+       467,
+       371,
+       541
+      ],
+      [
+       449,
+       172,
+       526,
+       246
+      ],
+      [
+       449,
+       320,
+       526,
+       393
+      ],
+      [
+       449,
+       467,
+       526,
+       541
+      ],
+      [
+       604,
+       172,
+       681,
+       246
+      ],
+      [
+       604,
+       320,
+       681,
+       393
+      ],
+      [
+       604,
+       467,
+       681,
+       541
+      ],
+      [
+       759,
+       172,
+       836,
+       246
+      ],
+      [
+       759,
+       320,
+       836,
+       393
+      ],
+      [
+       759,
+       467,
+       836,
+       541
+      ],
+      [
+       914,
+       172,
+       991,
+       246
+      ],
+      [
+       914,
+       320,
+       991,
+       393
+      ],
+      [
+       914,
+       467,
+       991,
+       541
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 192000,
+     "brightness": 0.164,
+     "contrast": 0.19,
+     "rmsContrast": 0.062,
+     "saturation": 0.889,
+     "relativeLuminance": 0.0581,
+     "meanColour": "#6a0f77",
+     "meanHue": "magenta"
+    },
+    "reelWindow": {
+     "pixels": 3637,
+     "brightness": 0.838,
+     "contrast": 0.503,
+     "rmsContrast": 0.161,
+     "saturation": 0.276,
+     "relativeLuminance": 0.7085,
+     "meanColour": "#e8d4ac",
+     "meanHue": "orange"
+    },
+    "symbols": {
+     "pixels": 85085,
+     "brightness": 0.559,
+     "contrast": 0.791,
+     "rmsContrast": 0.271,
+     "saturation": 0.614,
+     "relativeLuminance": 0.3797,
+     "meanColour": "#ad8a5e",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 343325,
+     "brightness": 0.571,
+     "contrast": 0.791,
+     "rmsContrast": 0.275,
+     "saturation": 0.564,
+     "relativeLuminance": 0.3919,
+     "meanColour": "#ab8e66",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 1.77,
+      "brightnessDifference": -0.279,
+      "saturationDifference": 0.338
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 7.02,
+      "brightnessDifference": 0.674,
+      "saturationDifference": -0.613,
+      "darker": "game background"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 3.98
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1045-igt-cleopatra/art.json",
+     "baseBackground": [
+      {
+       "component": "backgroundBasegame/backgroundBasegame",
+       "width": 1920,
+       "height": 1080,
+       "alpha": false,
+       "brightness": 0.203,
+       "saturation": 0.877,
+       "contrast": 0.167
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "backgroundFreespins/backgroundFreespins",
+       "width": 1920,
+       "height": 1080,
+       "alpha": false,
+       "brightness": 0.155,
+       "saturation": 0.911,
+       "contrast": 0.134
+      }
+     },
+     "reelBacking": {
+      "component": "frameII/reelsFrameBasegameBG",
+      "width": 1645,
+      "height": 1080,
+      "alpha": true,
+      "brightness": 0.703,
+      "saturation": 0.438,
+      "contrast": 0.645
+     },
+     "reelBackingFeature": {
+      "free spins": {
+       "component": "frameIII/reelsFrameFreespinsBG",
+       "width": 1645,
+       "height": 1080,
+       "alpha": true,
+       "brightness": 0.626,
+       "saturation": 0.563,
+       "contrast": 0.507
+      }
+     }
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "field",
+     "label": "Graded field with ruins",
+     "description": "An empty sky graded from violet to magenta, with a dim colonnade in the two bottom corners.",
+     "elements": [
+      "graded sky",
+      "colonnade ruins, mirrored left and right"
+     ],
+     "elementCount": 2,
+     "layers": "One picture.",
+     "motion": "Still (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, light",
+     "label": "Opaque cream window",
+     "description": "A cream window in a heavy gold cabinet, with bead dividers. Each picture symbol sits on its own coloured cloth tile; the letters sit on the cream."
+    },
+    "featureMode": {
+     "kinds": [
+      "recolour"
+     ],
+     "seen": "in play",
+     "description": "Free spins: the same picture recoloured from purple to red, and the window from cream to tan (seen in play, `09-free-spins`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1045-igt-cleopatra/game-screens/01-main",
+     "runs/2026-11-26-1045-igt-cleopatra/game-screens/09-free-spins"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-fire-rail-express-hold-and-win",
+   "name": "Fire Rail Express Hold And Win",
+   "provider": "Octoplay",
+   "run": "2026-11-26-1556-octoplay-fire-rail-express-hold-win",
+   "realScreensInRun": 30,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 17,
+    "sortIndex": "15.29x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 3,
+      "theoWinIndex": "27.51x",
+      "asStated": "Theo Win Index 27.51x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 7,
+      "theoWinIndex": "22.78x",
+      "asStated": "Theo Win Index 22.78x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 9,
+      "theoWinIndex": "18.53x",
+      "asStated": "Theo Win Index 18.53x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 12,
+      "theoWinIndex": "16.59x",
+      "asStated": "Theo Win Index 16.59x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 17,
+      "theoWinIndex": "15.29x",
+      "asStated": "Theo Win Index 15.29x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/02-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       335,
+       640
+      ],
+      [
+       945,
+       30,
+       1280,
+       590
+      ],
+      [
+       0,
+       645,
+       830,
+       700
+      ]
+     ],
+     "reelGrid": [
+      348,
+      295,
+      930,
+      640
+     ],
+     "cols": 3,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       532,
+       310,
+       548,
+       390
+      ],
+      [
+       724,
+       410,
+       742,
+       500
+      ],
+      [
+       532,
+       420,
+       548,
+       500
+      ],
+      [
+       724,
+       300,
+       742,
+       390
+      ]
+     ],
+     "symbolCores": [
+      [
+       396,
+       324,
+       494,
+       381
+      ],
+      [
+       396,
+       439,
+       494,
+       496
+      ],
+      [
+       396,
+       554,
+       494,
+       611
+      ],
+      [
+       590,
+       324,
+       688,
+       381
+      ],
+      [
+       590,
+       439,
+       688,
+       496
+      ],
+      [
+       590,
+       554,
+       688,
+       611
+      ],
+      [
+       784,
+       324,
+       882,
+       381
+      ],
+      [
+       784,
+       439,
+       882,
+       496
+      ],
+      [
+       784,
+       554,
+       882,
+       611
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 437600,
+     "brightness": 0.19,
+     "contrast": 0.388,
+     "rmsContrast": 0.125,
+     "saturation": 0.801,
+     "relativeLuminance": 0.0574,
+     "meanColour": "#612137",
+     "meanHue": "red"
+    },
+    "reelWindow": {
+     "pixels": 5800,
+     "brightness": 0.087,
+     "contrast": 0.113,
+     "rmsContrast": 0.032,
+     "saturation": 0.619,
+     "relativeLuminance": 0.0102,
+     "meanColour": "#28120e",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 50274,
+     "brightness": 0.473,
+     "contrast": 0.753,
+     "rmsContrast": 0.232,
+     "saturation": 0.844,
+     "relativeLuminance": 0.283,
+     "meanColour": "#94782f",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 200790,
+     "brightness": 0.331,
+     "contrast": 0.773,
+     "rmsContrast": 0.258,
+     "saturation": 0.72,
+     "relativeLuminance": 0.1781,
+     "meanColour": "#6b5325",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 5.53,
+      "brightnessDifference": 0.386,
+      "saturationDifference": 0.225
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.78,
+      "brightnessDifference": -0.103,
+      "saturationDifference": -0.182,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 3.1
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/art.json",
+     "baseBackground": [
+      {
+       "component": "main-90-100-4096-1/bgNormal",
+       "width": 866,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.2,
+       "saturation": 0.952,
+       "contrast": 0.687
+      },
+      {
+       "component": "main-90-100-4096-1/bgNormalCards",
+       "width": 785,
+       "height": 2510,
+       "alpha": true,
+       "brightness": 0.204,
+       "saturation": 0.646,
+       "contrast": 0.352
+      }
+     ],
+     "featureBackground": {
+      "hold and win": {
+       "component": "main-90-100-4096-0/bgSpecial",
+       "width": 2750,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.205,
+       "saturation": 0.828,
+       "contrast": 0.479
+      },
+      "jackpot hold and win": {
+       "component": "main-90-100-4096-0/bgSpecial1",
+       "width": 1100,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.43,
+       "saturation": 0.928,
+       "contrast": 0.765
+      }
+     },
+     "reelBacking": {
+      "component": "main-90-100-4096-0/slotBgNormal",
+      "width": 589,
+      "height": 715,
+      "alpha": true,
+      "brightness": 0.128,
+      "saturation": 0.508,
+      "contrast": 0.551
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "field",
+     "label": "Split field: fire and postcards",
+     "description": "No place: a dark red fire field with sparks on the left and torn purple postcards with line drawings of locomotives on the right.",
+     "elements": [
+      "fire field with sparks",
+      "purple postcard collage"
+     ],
+     "elementCount": 2,
+     "layers": "Two pictures side by side, with sparks over the fire.",
+     "motion": "Sparks, light streaks and a glint drift over the fire (the run's reading of the frames and files)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque near-black",
+     "description": "A near-black panel with a faint weave in a thin gold frame, with dark dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "new scene"
+     ],
+     "seen": "in play",
+     "description": "Hold and Win: a new picture from the same motifs, the postcards spread across the whole screen in purple and gold (seen in play, `14-hold-04-bonus-start`). Jackpot Hold and Win: fire across the whole screen (seen in play, `19-jackpot-03-bonus`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/02-main",
+     "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/14-hold-04-bonus-start",
+     "runs/2026-11-26-1556-octoplay-fire-rail-express-hold-win/game-screens/19-jackpot-03-bonus"
+    ]
+   }
+  },
+  {
+   "id": "ags-capital-gains",
+   "name": "Capital Gains",
+   "provider": "AGS",
+   "run": "2026-11-26-1037-ags-capital-gains",
+   "realScreensInRun": 24,
+   "theo": {
+    "sortEdition": "Nov",
+    "sortRank": 18,
+    "sortIndex": "15.02x",
+    "inNewestEdition": true,
+    "editions": {
+     "Jul": {
+      "rank": 18,
+      "theoWinIndex": "14.35x",
+      "asStated": "Theo Win Index 14.35x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 14,
+      "theoWinIndex": "16.35x",
+      "asStated": "Theo Win Index 16.35x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 14,
+      "theoWinIndex": "16.23x",
+      "asStated": "Theo Win Index 16.23x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": {
+      "rank": 13,
+      "theoWinIndex": "16.13x",
+      "asStated": "Theo Win Index 16.13x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+      "list": "slots",
+      "page": 46
+     },
+     "Nov": {
+      "rank": 18,
+      "theoWinIndex": "15.02x",
+      "asStated": "Theo Win Index 15.02x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+      "list": "slots",
+      "page": 46
+     }
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1037-ags-capital-gains/game-screens/01-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       95,
+       30,
+       480,
+       100
+      ],
+      [
+       500,
+       60,
+       690,
+       240
+      ],
+      [
+       1010,
+       50,
+       1185,
+       240
+      ],
+      [
+       95,
+       425,
+       515,
+       535
+      ]
+     ],
+     "reelGrid": [
+      527,
+      258,
+      1175,
+      585
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       530,
+       262,
+       550,
+       285
+      ],
+      [
+       635,
+       262,
+       655,
+       285
+      ],
+      [
+       920,
+       372,
+       940,
+       470
+      ],
+      [
+       1020,
+       400,
+       1044,
+       470
+      ],
+      [
+       920,
+       480,
+       940,
+       510
+      ],
+      [
+       1022,
+       480,
+       1044,
+       510
+      ]
+     ],
+     "symbolCores": [
+      [
+       559,
+       285,
+       624,
+       340
+      ],
+      [
+       559,
+       394,
+       624,
+       449
+      ],
+      [
+       559,
+       503,
+       624,
+       558
+      ],
+      [
+       689,
+       285,
+       754,
+       340
+      ],
+      [
+       689,
+       394,
+       754,
+       449
+      ],
+      [
+       689,
+       503,
+       754,
+       558
+      ],
+      [
+       819,
+       285,
+       883,
+       340
+      ],
+      [
+       819,
+       394,
+       883,
+       449
+      ],
+      [
+       819,
+       503,
+       883,
+       558
+      ],
+      [
+       948,
+       285,
+       1013,
+       340
+      ],
+      [
+       948,
+       394,
+       1013,
+       449
+      ],
+      [
+       948,
+       503,
+       1013,
+       558
+      ],
+      [
+       1078,
+       285,
+       1143,
+       340
+      ],
+      [
+       1078,
+       394,
+       1143,
+       449
+      ],
+      [
+       1078,
+       503,
+       1143,
+       558
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 140600,
+     "brightness": 0.303,
+     "contrast": 0.18,
+     "rmsContrast": 0.051,
+     "saturation": 0.975,
+     "relativeLuminance": 0.1022,
+     "meanColour": "#03672e",
+     "meanHue": "green"
+    },
+    "reelWindow": {
+     "pixels": 5820,
+     "brightness": 0.0,
+     "contrast": 0.003,
+     "rmsContrast": 0.002,
+     "saturation": 0.108,
+     "relativeLuminance": 0.0,
+     "meanColour": "#000000",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 53460,
+     "brightness": 0.474,
+     "contrast": 0.928,
+     "rmsContrast": 0.31,
+     "saturation": 0.796,
+     "relativeLuminance": 0.3397,
+     "meanColour": "#917a24",
+     "meanHue": "yellow"
+    },
+    "reelFieldInPlay": {
+     "pixels": 211896,
+     "brightness": 0.324,
+     "contrast": 0.913,
+     "rmsContrast": 0.332,
+     "saturation": 0.71,
+     "relativeLuminance": 0.2243,
+     "meanColour": "#625324",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 7.79,
+      "brightnessDifference": 0.474,
+      "saturationDifference": 0.688
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 3.04,
+      "brightnessDifference": -0.303,
+      "saturationDifference": -0.867,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 2.56
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1037-ags-capital-gains/art.json",
+     "baseBackground": [
+      {
+       "component": "base_background_ls-2.25x/base_background_ls-2.25x",
+       "width": 1440,
+       "height": 810,
+       "alpha": false,
+       "brightness": 0.373,
+       "saturation": 0.969,
+       "contrast": 0.303
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "fs_background_ls-2.25x/fs_background_ls-2.25x",
+       "width": 1440,
+       "height": 812,
+       "alpha": false,
+       "brightness": 0.259,
+       "saturation": 0.871,
+       "contrast": 0.326
+      }
+     },
+     "reelBacking": {
+      "component": "matrix_0-1x/MatrixBackground-reel_background",
+      "width": 1235,
+      "height": 678,
+      "alpha": true,
+      "brightness": 0.045,
+      "saturation": 0.084,
+      "contrast": 0.451
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "field",
+     "label": "Flat field",
+     "description": "A flat banknote-green field with soft lighter pools behind the logo and the reels.",
+     "elements": [
+      "green field with light pools"
+     ],
+     "elementCount": 1,
+     "layers": "One picture.",
+     "motion": "Still (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque black",
+     "description": "Black cells with thin dividers inside a green edge. The high symbols bring their own coloured tile; the letters sit on the black."
+    },
+    "featureMode": {
+     "kinds": [
+      "recolour"
+     ],
+     "seen": "in play and files",
+     "description": "Free spins: the same field recoloured red with the top edge left green (read from the file `fs_background_ls`; not seen in play). The Money Charge bonus keeps the green field and slides a vault panel in at the left (seen in play, `08-bonus-nine`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1037-ags-capital-gains/game-screens/01-main",
+     "runs/2026-11-26-1037-ags-capital-gains/game-screens/08-bonus-nine",
+     "runs/2026-11-26-1037-ags-capital-gains/sheets/fs_background_ls-2.25x"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-777-hot-reels-megacharged",
+   "name": "777 Hot Reels Megacharged",
+   "provider": "Octoplay",
+   "run": "2026-11-26-2217-octoplay-777-hot-reels-megacharged",
+   "realScreensInRun": 30,
+   "theo": {
+    "sortEdition": "Sep",
+    "sortRank": 18,
+    "sortIndex": "14.06x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": null,
+     "Aug": {
+      "rank": 12,
+      "theoWinIndex": "17.70x",
+      "asStated": "Theo Win Index 17.70x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 18,
+      "theoWinIndex": "14.06x",
+      "asStated": "Theo Win Index 14.06x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/game-screens/02-main-01.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       200,
+       700
+      ],
+      [
+       1060,
+       30,
+       1280,
+       590
+      ],
+      [
+       210,
+       30,
+       330,
+       700
+      ],
+      [
+       960,
+       30,
+       1050,
+       590
+      ]
+     ],
+     "reelGrid": [
+      395,
+      368,
+      890,
+      655
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       500,
+       372,
+       512,
+       392
+      ],
+      [
+       580,
+       372,
+       590,
+       392
+      ],
+      [
+       500,
+       440,
+       512,
+       465
+      ],
+      [
+       578,
+       440,
+       590,
+       465
+      ]
+     ],
+     "symbolCores": [
+      [
+       420,
+       392,
+       469,
+       440
+      ],
+      [
+       420,
+       488,
+       469,
+       535
+      ],
+      [
+       420,
+       583,
+       469,
+       631
+      ],
+      [
+       519,
+       392,
+       568,
+       440
+      ],
+      [
+       519,
+       488,
+       568,
+       535
+      ],
+      [
+       519,
+       583,
+       568,
+       631
+      ],
+      [
+       618,
+       392,
+       667,
+       440
+      ],
+      [
+       618,
+       488,
+       667,
+       535
+      ],
+      [
+       618,
+       583,
+       667,
+       631
+      ],
+      [
+       717,
+       392,
+       766,
+       440
+      ],
+      [
+       717,
+       488,
+       766,
+       535
+      ],
+      [
+       717,
+       583,
+       766,
+       631
+      ],
+      [
+       816,
+       392,
+       865,
+       440
+      ],
+      [
+       816,
+       488,
+       865,
+       535
+      ],
+      [
+       816,
+       583,
+       865,
+       631
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 388000,
+     "brightness": 0.091,
+     "contrast": 0.099,
+     "rmsContrast": 0.039,
+     "saturation": 0.738,
+     "relativeLuminance": 0.015,
+     "meanColour": "#2e0e30",
+     "meanHue": "magenta"
+    },
+    "reelWindow": {
+     "pixels": 1040,
+     "brightness": 0.155,
+     "contrast": 0.256,
+     "rmsContrast": 0.118,
+     "saturation": 0.731,
+     "relativeLuminance": 0.0419,
+     "meanColour": "#511d15",
+     "meanHue": "red"
+    },
+    "symbols": {
+     "pixels": 35035,
+     "brightness": 0.396,
+     "contrast": 0.703,
+     "rmsContrast": 0.227,
+     "saturation": 0.696,
+     "relativeLuminance": 0.2155,
+     "meanColour": "#885879",
+     "meanHue": "magenta"
+    },
+    "reelFieldInPlay": {
+     "pixels": 142065,
+     "brightness": 0.318,
+     "contrast": 0.715,
+     "rmsContrast": 0.234,
+     "saturation": 0.648,
+     "relativeLuminance": 0.1567,
+     "meanColour": "#704758",
+     "meanHue": "red"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 2.89,
+      "brightnessDifference": 0.241,
+      "saturationDifference": -0.035
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.41,
+      "brightnessDifference": 0.064,
+      "saturationDifference": -0.007,
+      "darker": "game background"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 4.08
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/art.json",
+     "baseBackground": [
+      {
+       "component": "preload-90-100-4096-0/bgNormal",
+       "width": 1376,
+       "height": 2513,
+       "alpha": true,
+       "brightness": 0.073,
+       "saturation": 0.739,
+       "contrast": 0.044
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "preload-90-100-4096-0/bgSpecial",
+       "width": 1375,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.427,
+       "saturation": 0.905,
+       "contrast": 0.444
+      }
+     },
+     "reelBacking": {
+      "component": "main-90-100-4096-0/slotBg",
+      "width": 556,
+      "height": 1053,
+      "alpha": true,
+      "brightness": 0.129,
+      "saturation": 0.753,
+      "contrast": 0.716
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "light",
+     "label": "Light only: rays and neon lines",
+     "description": "No place: a near-black purple field of faint rays with thin red neon frame lines at both sides. The cabinet glows gold in front of it.",
+     "elements": [
+      "purple ray field",
+      "red neon frame lines"
+     ],
+     "elementCount": 2,
+     "layers": "A ray picture with separate neon line pieces; 777 blocks cross behind the cabinet at times (none on the measured screenshot).",
+     "motion": "The neon frames breathe in and out and 777 blocks slide past (the run's reading of the frames and files)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque dark red-black",
+     "description": "A dark red-black panel with gold dividers inside the gold cabinet frame. The symbols nearly fill their cells."
+    },
+    "featureMode": {
+     "kinds": [
+      "recolour"
+     ],
+     "seen": "in play",
+     "description": "Free spins: the same composition turned from purple to orange and red rays, with red 777 blocks on gold at the sides (seen in play, `16-free-spins-01`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/game-screens/02-main-01",
+     "runs/2026-11-26-2217-octoplay-777-hot-reels-megacharged/game-screens/16-free-spins-01"
+    ]
+   }
+  },
+  {
+   "id": "igt-money-gong-emperor",
+   "name": "Money Gong Emperor",
+   "provider": "IGT",
+   "run": "2026-11-26-1846-igt-money-gong-emperor",
+   "realScreensInRun": 6,
+   "theo": {
+    "sortEdition": "Sep",
+    "sortRank": 19,
+    "sortIndex": "13.39x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": null,
+     "Aug": {
+      "rank": 19,
+      "theoWinIndex": "14.12x",
+      "asStated": "Theo Win Index 14.12x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 19,
+      "theoWinIndex": "13.39x",
+      "asStated": "Theo Win Index 13.39x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1846-igt-money-gong-emperor/game-screens/02-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       450,
+       250,
+       520
+      ],
+      [
+       100,
+       530,
+       260,
+       610
+      ],
+      [
+       1170,
+       60,
+       1280,
+       130
+      ],
+      [
+       1170,
+       480,
+       1280,
+       650
+      ],
+      [
+       1215,
+       180,
+       1280,
+       230
+      ]
+     ],
+     "reelGrid": [
+      325,
+      180,
+      1100,
+      630
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       642,
+       190,
+       662,
+       320
+      ],
+      [
+       795,
+       190,
+       820,
+       320
+      ],
+      [
+       950,
+       340,
+       985,
+       470
+      ],
+      [
+       800,
+       340,
+       820,
+       470
+      ],
+      [
+       330,
+       190,
+       350,
+       320
+      ]
+     ],
+     "symbolCores": [
+      [
+       364,
+       218,
+       441,
+       292
+      ],
+      [
+       364,
+       368,
+       441,
+       442
+      ],
+      [
+       364,
+       518,
+       441,
+       592
+      ],
+      [
+       519,
+       218,
+       596,
+       292
+      ],
+      [
+       519,
+       368,
+       596,
+       442
+      ],
+      [
+       519,
+       518,
+       596,
+       592
+      ],
+      [
+       674,
+       218,
+       751,
+       292
+      ],
+      [
+       674,
+       368,
+       751,
+       442
+      ],
+      [
+       674,
+       518,
+       751,
+       592
+      ],
+      [
+       829,
+       218,
+       906,
+       292
+      ],
+      [
+       829,
+       368,
+       906,
+       442
+      ],
+      [
+       829,
+       518,
+       906,
+       592
+      ],
+      [
+       984,
+       218,
+       1061,
+       292
+      ],
+      [
+       984,
+       368,
+       1061,
+       442
+      ],
+      [
+       984,
+       518,
+       1061,
+       592
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 59950,
+     "brightness": 0.127,
+     "contrast": 0.204,
+     "rmsContrast": 0.064,
+     "saturation": 0.962,
+     "relativeLuminance": 0.0483,
+     "meanColour": "#770906",
+     "meanHue": "red"
+    },
+    "reelWindow": {
+     "pixels": 15600,
+     "brightness": 0.047,
+     "contrast": 0.032,
+     "rmsContrast": 0.01,
+     "saturation": 0.987,
+     "relativeLuminance": 0.0077,
+     "meanColour": "#330101",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 85470,
+     "brightness": 0.372,
+     "contrast": 0.837,
+     "rmsContrast": 0.268,
+     "saturation": 0.854,
+     "relativeLuminance": 0.2446,
+     "meanColour": "#b94a25",
+     "meanHue": "red"
+    },
+    "reelFieldInPlay": {
+     "pixels": 348750,
+     "brightness": 0.197,
+     "contrast": 0.73,
+     "rmsContrast": 0.23,
+     "saturation": 0.926,
+     "relativeLuminance": 0.1073,
+     "meanColour": "#6d2415",
+     "meanHue": "red"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 5.11,
+      "brightnessDifference": 0.325,
+      "saturationDifference": -0.133
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.7,
+      "brightnessDifference": -0.08,
+      "saturationDifference": 0.025,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 3.0
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1846-igt-money-gong-emperor/art.json",
+     "baseBackground": [
+      {
+       "component": "76512634ad5e24bd264ae5a7d48701fc30b342c33ba3Background--Main--Landscape-jpg/76512634ad5e24bd264ae5a7d48701fc30b342c33ba3Background--Main--Landscape-jpg",
+       "width": 1584,
+       "height": 720,
+       "alpha": false,
+       "brightness": 0.096,
+       "saturation": 0.968,
+       "contrast": 0.143
+      }
+     ],
+     "featureBackground": {
+      "features": {
+       "component": "76512634ad5e24bd264ae5a7d48701fc30b342c33ba3FeaturesBG-jpg/76512634ad5e24bd264ae5a7d48701fc30b342c33ba3FeaturesBG-jpg",
+       "width": 3168,
+       "height": 1440,
+       "alpha": false,
+       "brightness": 0.084,
+       "saturation": 0.991,
+       "contrast": 0.097
+      }
+     },
+     "reelBacking": {
+      "component": "7651aa50488a2fbfdaa32554c05b121b5004969e1662Reel--Main--Background-jpg/7651aa50488a2fbfdaa32554c05b121b5004969e1662Reel--Main--Background-jpg",
+      "width": 1567,
+      "height": 907,
+      "alpha": false,
+      "brightness": 0.072,
+      "saturation": 0.983,
+      "contrast": 0.064
+     },
+     "reelBackingFeature": {
+      "bonus spins": {
+       "component": "765163884f0202977094baecccc2c8b15bbe14a502e2Reel--FS--Background-jpg/765163884f0202977094baecccc2c8b15bbe14a502e2Reel--FS--Background-jpg",
+       "width": 1567,
+       "height": 907,
+       "alpha": false,
+       "brightness": 0.475,
+       "saturation": 0.967,
+       "contrast": 0.565
+      }
+     }
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "field",
+     "label": "Pattern field",
+     "description": "A flat red ground covered with a small wave-scale pattern, with one round ring at the left that holds the gong.",
+     "elements": [
+      "red wave-scale pattern",
+      "round ring for the gong"
+     ],
+     "elementCount": 2,
+     "layers": "One picture.",
+     "motion": "None in the file; any ambience would be particles (inference in the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque dark red columns",
+     "description": "Five dark red columns, each lit down its middle, between gold dividers in a gold scroll frame."
+    },
+    "featureMode": {
+     "kinds": [
+      "not seen"
+     ],
+     "seen": "files",
+     "description": "No feature was seen in play. Read from the files: a separate dark red curtain scene with firecrackers (`FeaturesBG`), and a gold wave-scale reel backing for the bonus spins (`Reel--FS--Background`). Where the curtain scene is used is not known from this run."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1846-igt-money-gong-emperor/game-screens/02-main",
+     "runs/2026-11-26-1846-igt-money-gong-emperor/game-screens/05-spin-money-balls",
+     "runs/2026-11-26-1846-igt-money-gong-emperor/sheets/FeaturesBG",
+     "runs/2026-11-26-1846-igt-money-gong-emperor/sheets/Reel--FS--Background"
+    ]
+   }
+  },
+  {
+   "id": "lnw-huff-n-puff-money-mansion",
+   "name": "Huff N Puff Money Mansion",
+   "provider": "Light & Wonder",
+   "run": "2026-11-27-0457-lnw-huff-n-puff-money-mansion",
+   "realScreensInRun": 12,
+   "theo": {
+    "sortEdition": "Sep",
+    "sortRank": 24,
+    "sortIndex": "12.12x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 21,
+      "theoWinIndex": "13.98x",
+      "asStated": "Theo Win Index 13.98x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 18,
+      "theoWinIndex": "14.58x",
+      "asStated": "Theo Win Index 14.58x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": {
+      "rank": 24,
+      "theoWinIndex": "12.12x",
+      "asStated": "Theo Win Index 12.12x",
+      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+      "list": "slots",
+      "page": 46
+     },
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/game-screens/03-base-at-rest.png",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       285,
+       40,
+       400,
+       200
+      ],
+      [
+       870,
+       40,
+       1000,
+       200
+      ],
+      [
+       1005,
+       150,
+       1250,
+       290
+      ],
+      [
+       1005,
+       465,
+       1090,
+       600
+      ],
+      [
+       220,
+       330,
+       275,
+       595
+      ],
+      [
+       250,
+       600,
+       1020,
+       670
+      ]
+     ],
+     "reelGrid": [
+      280,
+      240,
+      998,
+      595
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       428,
+       365,
+       458,
+       470
+      ],
+      [
+       545,
+       365,
+       595,
+       470
+      ],
+      [
+       682,
+       260,
+       724,
+       340
+      ],
+      [
+       682,
+       370,
+       724,
+       460
+      ]
+     ],
+     "symbolCores": [
+      [
+       316,
+       270,
+       388,
+       329
+      ],
+      [
+       316,
+       388,
+       388,
+       447
+      ],
+      [
+       316,
+       506,
+       388,
+       565
+      ],
+      [
+       460,
+       270,
+       531,
+       329
+      ],
+      [
+       460,
+       388,
+       531,
+       447
+      ],
+      [
+       460,
+       506,
+       531,
+       565
+      ],
+      [
+       603,
+       270,
+       675,
+       329
+      ],
+      [
+       603,
+       388,
+       675,
+       447
+      ],
+      [
+       603,
+       506,
+       675,
+       565
+      ],
+      [
+       747,
+       270,
+       818,
+       329
+      ],
+      [
+       747,
+       388,
+       818,
+       447
+      ],
+      [
+       747,
+       506,
+       818,
+       565
+      ],
+      [
+       890,
+       270,
+       962,
+       329
+      ],
+      [
+       890,
+       388,
+       962,
+       447
+      ],
+      [
+       890,
+       506,
+       962,
+       565
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 153450,
+     "brightness": 0.6,
+     "contrast": 0.591,
+     "rmsContrast": 0.194,
+     "saturation": 0.593,
+     "relativeLuminance": 0.4018,
+     "meanColour": "#9c9a83",
+     "meanHue": "grey"
+    },
+    "reelWindow": {
+     "pixels": 15540,
+     "brightness": 0.126,
+     "contrast": 0.356,
+     "rmsContrast": 0.156,
+     "saturation": 0.578,
+     "relativeLuminance": 0.0413,
+     "meanColour": "#271e24",
+     "meanHue": "magenta"
+    },
+    "symbols": {
+     "pixels": 63366,
+     "brightness": 0.509,
+     "contrast": 0.777,
+     "rmsContrast": 0.245,
+     "saturation": 0.537,
+     "relativeLuminance": 0.3146,
+     "meanColour": "#a57a6a",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 254890,
+     "brightness": 0.304,
+     "contrast": 0.802,
+     "rmsContrast": 0.263,
+     "saturation": 0.597,
+     "relativeLuminance": 0.1598,
+     "meanColour": "#614847",
+     "meanHue": "red"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 3.99,
+      "brightnessDifference": 0.383,
+      "saturationDifference": -0.041
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 4.95,
+      "brightnessDifference": -0.474,
+      "saturationDifference": -0.015,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.24
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/art.json",
+     "baseBackground": [
+      {
+       "component": "background/MM_day_bg",
+       "width": 1920,
+       "height": 1920,
+       "alpha": true,
+       "brightness": 0.434,
+       "saturation": 0.742,
+       "contrast": 0.845
+      },
+      {
+       "component": "background/day_sky",
+       "width": 1920,
+       "height": 2472,
+       "alpha": false,
+       "brightness": 0.862,
+       "saturation": 0.363,
+       "contrast": 0.38
+      }
+     ],
+     "featureBackground": {
+      "evening": {
+       "component": "background/MM_evenig_bg",
+       "width": 1920,
+       "height": 1920,
+       "alpha": true,
+       "brightness": 0.35,
+       "saturation": 0.735,
+       "contrast": 0.831
+      },
+      "night": {
+       "component": "background/MM_night_bg",
+       "width": 1920,
+       "height": 1920,
+       "alpha": true,
+       "brightness": 0.161,
+       "saturation": 0.861,
+       "contrast": 0.621
+      }
+     },
+     "reelBacking": {
+      "component": "basegame/darkpatch",
+      "width": 1106,
+      "height": 725,
+      "alpha": true,
+      "brightness": 0.0,
+      "saturation": 0.0,
+      "contrast": 0.0
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: mansion front by day",
+     "description": "The front of a red-brick mansion with a gold roof under a blue sky; its roof holds the prize plates and the reels cover its middle.",
+     "elements": [
+      "sky with clouds",
+      "mansion front and roof",
+      "cypress trees",
+      "round bushes",
+      "steps and drive"
+     ],
+     "elementCount": 5,
+     "layers": "Layered: sky, clouds and mansion are separate pictures.",
+     "motion": "The files hold 2-second changes between day, evening and night; only the day was seen (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "see-through tint",
+     "label": "See-through dark tint",
+     "description": "A dark tint over the mansion: its wall and prize plates stay readable between the symbols. Thin gold frame and dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "regrade"
+     ],
+     "seen": "files",
+     "description": "Read from the files, not seen in play: the same mansion in an evening version (red and yellow) and a night version (violet and deep blue), each with its own sky."
+    },
+    "picturesOpened": [
+     "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/game-screens/03-base-at-rest",
+     "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/components/background/MM_evenig_bg",
+     "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/components/background/MM_night_bg",
+     "runs/2026-11-27-0457-lnw-huff-n-puff-money-mansion/sheets/background"
+    ]
+   }
+  },
+  {
+   "id": "lnw-huff-n-lots-of-goals",
+   "name": "Huff N Lots Of Goals",
+   "provider": "Light & Wonder",
+   "run": "2026-11-27-0814-lnw-huff-n-lots-of-goals",
+   "realScreensInRun": 13,
+   "theo": {
+    "sortEdition": "Aug",
+    "sortRank": 22,
+    "sortIndex": "13.72x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 6,
+      "theoWinIndex": "21.36x",
+      "asStated": "Theo Win Index 21.36x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 22,
+      "theoWinIndex": "13.72x",
+      "asStated": "Theo Win Index 13.72x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 45
+     },
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/game-screens/01-base-at-rest.png",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       28,
+       440,
+       235,
+       595
+      ],
+      [
+       1042,
+       200,
+       1250,
+       290
+      ],
+      [
+       1042,
+       465,
+       1085,
+       600
+      ],
+      [
+       1160,
+       465,
+       1250,
+       595
+      ],
+      [
+       1210,
+       290,
+       1250,
+       465
+      ],
+      [
+       198,
+       200,
+       238,
+       290
+      ]
+     ],
+     "reelGrid": [
+      240,
+      195,
+      1038,
+      655
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       558,
+       205,
+       585,
+       290
+      ],
+      [
+       700,
+       300,
+       740,
+       350
+      ],
+      [
+       722,
+       365,
+       742,
+       490
+      ],
+      [
+       545,
+       545,
+       568,
+       650
+      ]
+     ],
+     "symbolCores": [
+      [
+       280,
+       233,
+       360,
+       310
+      ],
+      [
+       280,
+       387,
+       360,
+       463
+      ],
+      [
+       280,
+       540,
+       360,
+       617
+      ],
+      [
+       440,
+       233,
+       519,
+       310
+      ],
+      [
+       440,
+       387,
+       519,
+       463
+      ],
+      [
+       440,
+       540,
+       519,
+       617
+      ],
+      [
+       599,
+       233,
+       679,
+       310
+      ],
+      [
+       599,
+       387,
+       679,
+       463
+      ],
+      [
+       599,
+       540,
+       679,
+       617
+      ],
+      [
+       759,
+       233,
+       838,
+       310
+      ],
+      [
+       759,
+       387,
+       838,
+       463
+      ],
+      [
+       759,
+       540,
+       838,
+       617
+      ],
+      [
+       918,
+       233,
+       998,
+       310
+      ],
+      [
+       918,
+       387,
+       998,
+       463
+      ],
+      [
+       918,
+       540,
+       998,
+       617
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 78910,
+     "brightness": 0.692,
+     "contrast": 0.731,
+     "rmsContrast": 0.249,
+     "saturation": 0.474,
+     "relativeLuminance": 0.5337,
+     "meanColour": "#b4b66c",
+     "meanHue": "yellow"
+    },
+    "reelWindow": {
+     "pixels": 9210,
+     "brightness": 0.124,
+     "contrast": 0.091,
+     "rmsContrast": 0.034,
+     "saturation": 0.615,
+     "relativeLuminance": 0.016,
+     "meanColour": "#152510",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 91540,
+     "brightness": 0.491,
+     "contrast": 0.873,
+     "rmsContrast": 0.278,
+     "saturation": 0.453,
+     "relativeLuminance": 0.3088,
+     "meanColour": "#837b7c",
+     "meanHue": "grey"
+    },
+    "reelFieldInPlay": {
+     "pixels": 367080,
+     "brightness": 0.342,
+     "contrast": 0.837,
+     "rmsContrast": 0.28,
+     "saturation": 0.564,
+     "relativeLuminance": 0.1965,
+     "meanColour": "#62554c",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 5.44,
+      "brightnessDifference": 0.367,
+      "saturationDifference": -0.162
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 8.84,
+      "brightnessDifference": -0.568,
+      "saturationDifference": 0.141,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.63
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/art.json",
+     "baseBackground": [
+      {
+       "component": "background/bg_basegame",
+       "width": 1920,
+       "height": 1920,
+       "alpha": false,
+       "brightness": 0.578,
+       "saturation": 0.668,
+       "contrast": 0.729
+      }
+     ],
+     "featureBackground": {
+      "free games": {
+       "component": "background/bg_freegame",
+       "width": 1920,
+       "height": 1920,
+       "alpha": false,
+       "brightness": 0.501,
+       "saturation": 0.605,
+       "contrast": 0.626
+      }
+     },
+     "reelBacking": {
+      "component": "basegame/reel_frame",
+      "width": 1095,
+      "height": 640,
+      "alpha": false,
+      "brightness": 0.062,
+      "saturation": 0.898,
+      "contrast": 0.0
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: football stadium by day",
+     "description": "A football stadium seen from the pitch: bright striped grass, a pale touchline wall and two tiers of crowd in red and pink. Two goals and the feature wheel sit above the reels.",
+     "elements": [
+      "striped pitch",
+      "touchline wall",
+      "crowd stands",
+      "roof and sky"
+     ],
+     "elementCount": 4,
+     "layers": "A background picture with separate grass layers.",
+     "motion": "None in the pictures (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "see-through tint",
+     "label": "See-through dark tint",
+     "description": "A dark green tint with a grass top edge and no frame; the wheel shows faintly at its top. A reel that holds a feature symbol stack turns red or blue."
+    },
+    "featureMode": {
+     "kinds": [
+      "regrade"
+     ],
+     "seen": "files",
+     "description": "Read from the file `bg_freegame`, not seen in play: the same stadium at night under a starry sky with floodlight beams and a cooler pitch."
+    },
+    "picturesOpened": [
+     "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/game-screens/01-base-at-rest",
+     "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/components/background/bg_basegame",
+     "runs/2026-11-27-0814-lnw-huff-n-lots-of-goals/components/background/bg_freegame"
+    ]
+   }
+  },
+  {
+   "id": "igt-mystery-of-the-lamp-secret-bazaar",
+   "name": "Mystery Of The Lamp Secret Bazaar",
+   "provider": "IGT",
+   "run": "2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar",
+   "realScreensInRun": 13,
+   "theo": {
+    "sortEdition": "Aug",
+    "sortRank": 26,
+    "sortIndex": "12.30x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 15,
+      "theoWinIndex": "15.91x",
+      "asStated": "Theo Win Index 15.91x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 26,
+      "theoWinIndex": "12.30x",
+      "asStated": "Theo Win Index 12.30x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 46
+     },
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/game-screens/01-main.webp",
+     "width": 1280,
+     "height": 688
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       260,
+       45,
+       480
+      ],
+      [
+       0,
+       460,
+       80,
+       640
+      ],
+      [
+       300,
+       440,
+       345,
+       590
+      ],
+      [
+       1095,
+       30,
+       1205,
+       230
+      ],
+      [
+       1215,
+       60,
+       1280,
+       640
+      ],
+      [
+       960,
+       30,
+       1200,
+       190
+      ]
+     ],
+     "reelGrid": [
+      358,
+      222,
+      1085,
+      590
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       655,
+       350,
+       680,
+       465
+      ],
+      [
+       765,
+       350,
+       788,
+       465
+      ],
+      [
+       362,
+       475,
+       390,
+       580
+      ],
+      [
+       470,
+       475,
+       495,
+       580
+      ],
+      [
+       797,
+       475,
+       812,
+       520
+      ]
+     ],
+     "symbolCores": [
+      [
+       394,
+       253,
+       467,
+       314
+      ],
+      [
+       394,
+       375,
+       467,
+       437
+      ],
+      [
+       394,
+       498,
+       467,
+       559
+      ],
+      [
+       540,
+       253,
+       612,
+       314
+      ],
+      [
+       540,
+       375,
+       612,
+       437
+      ],
+      [
+       540,
+       498,
+       612,
+       559
+      ],
+      [
+       685,
+       253,
+       758,
+       314
+      ],
+      [
+       685,
+       375,
+       758,
+       437
+      ],
+      [
+       685,
+       498,
+       758,
+       559
+      ],
+      [
+       831,
+       253,
+       903,
+       314
+      ],
+      [
+       831,
+       375,
+       903,
+       437
+      ],
+      [
+       831,
+       498,
+       903,
+       559
+      ],
+      [
+       976,
+       253,
+       1049,
+       314
+      ],
+      [
+       976,
+       375,
+       1049,
+       437
+      ],
+      [
+       976,
+       498,
+       1049,
+       559
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 129150,
+     "brightness": 0.212,
+     "contrast": 0.319,
+     "rmsContrast": 0.114,
+     "saturation": 0.559,
+     "relativeLuminance": 0.0615,
+     "meanColour": "#5d2c2b",
+     "meanHue": "red"
+    },
+    "reelWindow": {
+     "pixels": 11760,
+     "brightness": 0.062,
+     "contrast": 0.032,
+     "rmsContrast": 0.013,
+     "saturation": 0.982,
+     "relativeLuminance": 0.0115,
+     "meanColour": "#3e0115",
+     "meanHue": "red"
+    },
+    "symbols": {
+     "pixels": 66792,
+     "brightness": 0.371,
+     "contrast": 0.8,
+     "rmsContrast": 0.252,
+     "saturation": 0.76,
+     "relativeLuminance": 0.2139,
+     "meanColour": "#93504f",
+     "meanHue": "red"
+    },
+    "reelFieldInPlay": {
+     "pixels": 267536,
+     "brightness": 0.247,
+     "contrast": 0.723,
+     "rmsContrast": 0.239,
+     "saturation": 0.863,
+     "relativeLuminance": 0.127,
+     "meanColour": "#72322c",
+     "meanHue": "red"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 4.29,
+      "brightnessDifference": 0.309,
+      "saturationDifference": -0.222
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.81,
+      "brightnessDifference": -0.15,
+      "saturationDifference": 0.423,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 2.37
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/art.json",
+     "baseBackground": [
+      {
+       "component": "default_webp80_jpg-0.84264b/baseGameBg",
+       "width": 2040,
+       "height": 1410,
+       "alpha": false,
+       "brightness": 0.256,
+       "saturation": 0.563,
+       "contrast": 0.449
+      }
+     ],
+     "featureBackground": {
+      "bonus": {
+       "component": "default_webp80_jpg-2.242151/bonusBg",
+       "width": 2040,
+       "height": 1410,
+       "alpha": false,
+       "brightness": 0.285,
+       "saturation": 0.69,
+       "contrast": 0.159
+      }
+     },
+     "reelBacking": null,
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: bazaar street at dusk",
+     "description": "A covered bazaar street at dusk in warm brown and red, with stalls of fruit at both sides.",
+     "elements": [
+      "stalls with fruit and vegetables",
+      "baskets, sacks and jars",
+      "arches and awnings",
+      "wall lanterns"
+     ],
+     "elementCount": 4,
+     "layers": "One picture.",
+     "motion": "Still; smoke and stars move over it (inference in the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque dark red damask",
+     "description": "Dark crimson damask panels between gold dividers in a thin gold frame with curled finials."
+    },
+    "featureMode": {
+     "kinds": [
+      "new scene"
+     ],
+     "seen": "files",
+     "description": "Read from the file `bonusBg`, not seen in play: a new scene, a treasure cave in blue and violet light."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/game-screens/01-main",
+     "runs/2026-11-26-1602-igt-mystery-of-the-lamp-secret-bazaar/sheets/default_webp80_jpg-2.242151"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-mega-cash-boost-hold-and-win",
+   "name": "Mega Cash Boost Hold And Win",
+   "provider": "Octoplay",
+   "run": "2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win",
+   "realScreensInRun": 36,
+   "theo": {
+    "sortEdition": "Aug",
+    "sortRank": 32,
+    "sortIndex": "11.15x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 5,
+      "theoWinIndex": "21.41x",
+      "asStated": "Theo Win Index 21.41x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": {
+      "rank": 32,
+      "theoWinIndex": "11.15x",
+      "asStated": "Theo Win Index 11.15x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-august",
+      "list": "slots",
+      "page": 46
+     },
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/game-screens/06-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       195,
+       640
+      ],
+      [
+       1090,
+       30,
+       1280,
+       590
+      ]
+     ],
+     "reelGrid": [
+      478,
+      278,
+      1068,
+      620
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       695,
+       300,
+       728,
+       350
+      ],
+      [
+       815,
+       300,
+       845,
+       350
+      ],
+      [
+       700,
+       540,
+       735,
+       600
+      ],
+      [
+       815,
+       530,
+       845,
+       600
+      ],
+      [
+       930,
+       530,
+       958,
+       600
+      ]
+     ],
+     "symbolCores": [
+      [
+       508,
+       306,
+       566,
+       364
+      ],
+      [
+       508,
+       420,
+       566,
+       478
+      ],
+      [
+       508,
+       534,
+       566,
+       592
+      ],
+      [
+       626,
+       306,
+       684,
+       364
+      ],
+      [
+       626,
+       420,
+       684,
+       478
+      ],
+      [
+       626,
+       534,
+       684,
+       592
+      ],
+      [
+       744,
+       306,
+       802,
+       364
+      ],
+      [
+       744,
+       420,
+       802,
+       478
+      ],
+      [
+       744,
+       534,
+       802,
+       592
+      ],
+      [
+       862,
+       306,
+       920,
+       364
+      ],
+      [
+       862,
+       420,
+       920,
+       478
+      ],
+      [
+       862,
+       534,
+       920,
+       592
+      ],
+      [
+       980,
+       306,
+       1038,
+       364
+      ],
+      [
+       980,
+       420,
+       1038,
+       478
+      ],
+      [
+       980,
+       534,
+       1038,
+       592
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 225350,
+     "brightness": 0.108,
+     "contrast": 0.135,
+     "rmsContrast": 0.13,
+     "saturation": 0.941,
+     "relativeLuminance": 0.0457,
+     "meanColour": "#5e090f",
+     "meanHue": "red"
+    },
+    "reelWindow": {
+     "pixels": 9310,
+     "brightness": 0.053,
+     "contrast": 0.07,
+     "rmsContrast": 0.095,
+     "saturation": 0.952,
+     "relativeLuminance": 0.0148,
+     "meanColour": "#280607",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 50460,
+     "brightness": 0.413,
+     "contrast": 0.795,
+     "rmsContrast": 0.264,
+     "saturation": 0.791,
+     "relativeLuminance": 0.2526,
+     "meanColour": "#986137",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 201780,
+     "brightness": 0.243,
+     "contrast": 0.756,
+     "rmsContrast": 0.275,
+     "saturation": 0.85,
+     "relativeLuminance": 0.1418,
+     "meanColour": "#623624",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 4.67,
+      "brightnessDifference": 0.36,
+      "saturationDifference": -0.161
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.48,
+      "brightnessDifference": -0.055,
+      "saturationDifference": 0.011,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 3.16
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/art.json",
+     "baseBackground": [],
+     "featureBackground": {},
+     "reelBacking": null,
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "light",
+     "label": "Light only: beams",
+     "description": "No picture: a dark red space crossed by red and white light beams.",
+     "elements": [
+      "dark red field",
+      "red and white beams"
+     ],
+     "elementCount": 2,
+     "layers": "Built from tinted white beam shapes; no painted picture ships.",
+     "motion": "The beams sweep and cross slowly, a different arrangement in every frame (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque near-black",
+     "description": "A near-black panel with a faint chevron in a thin red neon frame, with hairline dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "recolour"
+     ],
+     "seen": "in play",
+     "description": "Hold and Win: the same field turned orange-gold with yellow beams, and the frame turned gold (seen in play, `18-hold-04-board`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/game-screens/06-main",
+     "runs/2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win/game-screens/18-hold-04-board"
+    ]
+   }
+  },
+  {
+   "id": "inspired-bigger-piggy-bank-superwheel",
+   "name": "Bigger Piggy Bank Superwheel",
+   "provider": "Inspired",
+   "run": "2026-11-27-0438-inspired-bigger-piggy-bank-superwheel",
+   "realScreensInRun": 20,
+   "theo": {
+    "sortEdition": "Jul",
+    "sortRank": 10,
+    "sortIndex": "17.63x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 10,
+      "theoWinIndex": "17.63x",
+      "asStated": "Theo Win Index 17.63x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": null,
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/game-screens/01-base-rest.webp",
+     "width": 1920,
+     "height": 1080
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       240,
+       40,
+       860
+      ],
+      [
+       0,
+       700,
+       270,
+       860
+      ],
+      [
+       1580,
+       240,
+       1690,
+       500
+      ],
+      [
+       1580,
+       700,
+       1700,
+       980
+      ],
+      [
+       1890,
+       240,
+       1920,
+       980
+      ],
+      [
+       250,
+       30,
+       640,
+       210
+      ],
+      [
+       1300,
+       30,
+       1680,
+       210
+      ]
+     ],
+     "reelGrid": [
+      478,
+      385,
+      1452,
+      975
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       642,
+       400,
+       672,
+       440
+      ],
+      [
+       500,
+       540,
+       660,
+       585
+      ],
+      [
+       1062,
+       420,
+       1090,
+       560
+      ],
+      [
+       1070,
+       735,
+       1240,
+       775
+      ],
+      [
+       645,
+       610,
+       700,
+       660
+      ],
+      [
+       868,
+       800,
+       902,
+       960
+      ]
+     ],
+     "symbolCores": [
+      [
+       527,
+       434,
+       624,
+       532
+      ],
+      [
+       527,
+       631,
+       624,
+       729
+      ],
+      [
+       527,
+       828,
+       624,
+       926
+      ],
+      [
+       722,
+       434,
+       819,
+       532
+      ],
+      [
+       722,
+       631,
+       819,
+       729
+      ],
+      [
+       722,
+       828,
+       819,
+       926
+      ],
+      [
+       916,
+       434,
+       1014,
+       532
+      ],
+      [
+       916,
+       631,
+       1014,
+       729
+      ],
+      [
+       916,
+       828,
+       1014,
+       926
+      ],
+      [
+       1111,
+       434,
+       1209,
+       532
+      ],
+      [
+       1111,
+       631,
+       1209,
+       729
+      ],
+      [
+       1111,
+       828,
+       1209,
+       926
+      ],
+      [
+       1306,
+       434,
+       1403,
+       532
+      ],
+      [
+       1306,
+       631,
+       1403,
+       729
+      ],
+      [
+       1306,
+       828,
+       1403,
+       926
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 291000,
+     "brightness": 0.265,
+     "contrast": 0.865,
+     "rmsContrast": 0.274,
+     "saturation": 0.731,
+     "relativeLuminance": 0.1423,
+     "meanColour": "#364560",
+     "meanHue": "blue"
+    },
+    "reelWindow": {
+     "pixels": 27310,
+     "brightness": 0.072,
+     "contrast": 0.123,
+     "rmsContrast": 0.041,
+     "saturation": 0.532,
+     "relativeLuminance": 0.0077,
+     "meanColour": "#101220",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 143178,
+     "brightness": 0.395,
+     "contrast": 0.76,
+     "rmsContrast": 0.222,
+     "saturation": 0.744,
+     "relativeLuminance": 0.2271,
+     "meanColour": "#805c71",
+     "meanHue": "magenta"
+    },
+    "reelFieldInPlay": {
+     "pixels": 574660,
+     "brightness": 0.278,
+     "contrast": 0.762,
+     "rmsContrast": 0.249,
+     "saturation": 0.678,
+     "relativeLuminance": 0.1481,
+     "meanColour": "#53434c",
+     "meanHue": "grey"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 4.8,
+      "brightnessDifference": 0.323,
+      "saturationDifference": 0.212
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 3.33,
+      "brightnessDifference": -0.193,
+      "saturationDifference": -0.199,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.44
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/art.json",
+     "baseBackground": [
+      {
+       "component": "backgroundStatic-0.75x/background",
+       "width": 1920,
+       "height": 1920,
+       "alpha": true,
+       "brightness": 0.485,
+       "saturation": 0.499,
+       "contrast": 0.853
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "backgroundStatic2-0.75x/background_bonus",
+       "width": 1920,
+       "height": 1920,
+       "alpha": false,
+       "brightness": 0.551,
+       "saturation": 0.575,
+       "contrast": 0.838
+      }
+     },
+     "reelBacking": {
+      "component": "bonusTransition03-0.75x/ReelBacking",
+      "width": 815,
+      "height": 515,
+      "alpha": true,
+      "brightness": 0.063,
+      "saturation": 0.943,
+      "contrast": 0.277
+     },
+     "reelBackingFeature": {
+      "super bonus": {
+       "component": "bonusTransition03-0.75x/SuperBonus_ReelBacking",
+       "width": 815,
+       "height": 518,
+       "alpha": true,
+       "brightness": 0.099,
+       "saturation": 0.926,
+       "contrast": 0.418
+      }
+     }
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: bank hall",
+     "description": "A navy bank hall with tall pale windows at both sides and a round vault door behind the reels; a band of starry sky with the Super Wheel runs across the top.",
+     "elements": [
+      "navy walls",
+      "tall windows left and right",
+      "round vault door",
+      "floor",
+      "starry band with the Super Wheel"
+     ],
+     "elementCount": 5,
+     "layers": "A scene rig with separate walls, door and light shafts.",
+     "motion": "A slow idle of light shafts and glints (the run's reading of the frames)."
+    },
+    "reelWindow": {
+     "type": "see-through tint",
+     "label": "See-through dark tint",
+     "description": "A near-black navy tint in a thin gold frame; the wheel behind shows faintly. The fifth reel has a green backing on the measured screenshot."
+    },
+    "featureMode": {
+     "kinds": [
+      "new scene"
+     ],
+     "seen": "in play",
+     "description": "Free spins: a new scene, the inside of the vault in bright gold; the board stays dark (seen in play, `11-freespins-scene`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/game-screens/01-base-rest",
+     "runs/2026-11-27-0438-inspired-bigger-piggy-bank-superwheel/game-screens/11-freespins-scene"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-the-lucky-fella-hold-and-win",
+   "name": "The Lucky Fella Hold And Win",
+   "provider": "Octoplay",
+   "run": "2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win",
+   "realScreensInRun": 32,
+   "theo": {
+    "sortEdition": "Jul",
+    "sortRank": 16,
+    "sortIndex": "15.79x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 16,
+      "theoWinIndex": "15.79x",
+      "asStated": "Theo Win Index 15.79x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": null,
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/game-screens/03-main.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       300,
+       640
+      ],
+      [
+       990,
+       30,
+       1280,
+       590
+      ]
+     ],
+     "reelGrid": [
+      345,
+      255,
+      930,
+      600
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       688,
+       385,
+       716,
+       470
+      ],
+      [
+       805,
+       385,
+       838,
+       470
+      ],
+      [
+       580,
+       510,
+       600,
+       590
+      ],
+      [
+       690,
+       500,
+       718,
+       590
+      ],
+      [
+       805,
+       500,
+       828,
+       590
+      ]
+     ],
+     "symbolCores": [
+      [
+       374,
+       284,
+       433,
+       341
+      ],
+      [
+       374,
+       399,
+       433,
+       456
+      ],
+      [
+       374,
+       514,
+       433,
+       571
+      ],
+      [
+       491,
+       284,
+       550,
+       341
+      ],
+      [
+       491,
+       399,
+       550,
+       456
+      ],
+      [
+       491,
+       514,
+       550,
+       571
+      ],
+      [
+       608,
+       284,
+       667,
+       341
+      ],
+      [
+       608,
+       399,
+       667,
+       456
+      ],
+      [
+       608,
+       514,
+       667,
+       571
+      ],
+      [
+       725,
+       284,
+       784,
+       341
+      ],
+      [
+       725,
+       399,
+       784,
+       456
+      ],
+      [
+       725,
+       514,
+       784,
+       571
+      ],
+      [
+       842,
+       284,
+       901,
+       341
+      ],
+      [
+       842,
+       399,
+       901,
+       456
+      ],
+      [
+       842,
+       514,
+       901,
+       571
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 345400,
+     "brightness": 0.22,
+     "contrast": 0.325,
+     "rmsContrast": 0.102,
+     "saturation": 0.956,
+     "relativeLuminance": 0.0665,
+     "meanColour": "#054c07",
+     "meanHue": "green"
+    },
+    "reelWindow": {
+     "pixels": 11375,
+     "brightness": 0.168,
+     "contrast": 0.073,
+     "rmsContrast": 0.023,
+     "saturation": 0.829,
+     "relativeLuminance": 0.0301,
+     "meanColour": "#51220e",
+     "meanHue": "orange"
+    },
+    "symbols": {
+     "pixels": 50445,
+     "brightness": 0.343,
+     "contrast": 0.645,
+     "rmsContrast": 0.203,
+     "saturation": 0.751,
+     "relativeLuminance": 0.1596,
+     "meanColour": "#6e552f",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 201825,
+     "brightness": 0.257,
+     "contrast": 0.609,
+     "rmsContrast": 0.195,
+     "saturation": 0.764,
+     "relativeLuminance": 0.1043,
+     "meanColour": "#5d3c25",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 2.62,
+      "brightnessDifference": 0.175,
+      "saturationDifference": -0.078
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.45,
+      "brightnessDifference": -0.052,
+      "saturationDifference": -0.127,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.8
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/art.json",
+     "baseBackground": [
+      {
+       "component": "main-90-100-4096-0/bgNormal",
+       "width": 1375,
+       "height": 1255,
+       "alpha": true,
+       "brightness": 0.16,
+       "saturation": 0.954,
+       "contrast": 0.233
+      }
+     ],
+     "featureBackground": {
+      "free spins": {
+       "component": "main-90-100-4096-0/bgSpecial",
+       "width": 1375,
+       "height": 1255,
+       "alpha": true,
+       "brightness": 0.106,
+       "saturation": 0.908,
+       "contrast": 0.388
+      }
+     },
+     "reelBacking": {
+      "component": "main-90-100-4096-0/slotBg",
+      "width": 1173,
+      "height": 730,
+      "alpha": true,
+      "brightness": 0.407,
+      "saturation": 0.0,
+      "contrast": 0.255
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "field",
+     "label": "Pattern field with leaves",
+     "description": "A dark green field with a faint diamond lattice, ringed by large clover leaves and twigs.",
+     "elements": [
+      "green lattice field",
+      "large clover leaves",
+      "twigs"
+     ],
+     "elementCount": 3,
+     "layers": "Layered: field, leaves and branches are separate pieces.",
+     "motion": "Leaves and branches sway on loops of 3 to 4.5 seconds (the run's reading of the files)."
+    },
+    "reelWindow": {
+     "type": "opaque, coloured",
+     "label": "Opaque wooden board",
+     "description": "A red-brown wooden board in a thin wavy gold frame, with hairline dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "recolour"
+     ],
+     "seen": "in play",
+     "description": "Free spins: the same composition turned purple with a rainbow ribbon and clovers in pink, blue and yellow; the board turns purple too (seen in play, `16-fs-05-wild-reels`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/game-screens/03-main",
+     "runs/2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win/game-screens/16-fs-05-wild-reels"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-serpent-gold-hold-and-win",
+   "name": "Serpent Gold Hold And Win",
+   "provider": "Octoplay",
+   "run": "2026-11-27-0430-octoplay-serpent-gold-hold-and-win",
+   "realScreensInRun": 25,
+   "theo": {
+    "sortEdition": "Jul",
+    "sortRank": 17,
+    "sortIndex": "14.55x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 17,
+      "theoWinIndex": "14.55x",
+      "asStated": "Theo Win Index 14.55x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": null,
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/game-screens/03-main-01.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       150,
+       640
+      ],
+      [
+       960,
+       30,
+       1280,
+       190
+      ],
+      [
+       1135,
+       190,
+       1280,
+       590
+      ],
+      [
+       960,
+       250,
+       1130,
+       380
+      ],
+      [
+       960,
+       430,
+       1130,
+       560
+      ]
+     ],
+     "reelGrid": [
+      360,
+      195,
+      918,
+      640
+     ],
+     "cols": 5,
+     "rows": 4,
+     "reelWindowPatches": [
+      [
+       800,
+       210,
+       828,
+       290
+      ],
+      [
+       690,
+       330,
+       710,
+       395
+      ],
+      [
+       565,
+       440,
+       596,
+       500
+      ],
+      [
+       805,
+       440,
+       838,
+       620
+      ],
+      [
+       470,
+       560,
+       498,
+       625
+      ]
+     ],
+     "symbolCores": [
+      [
+       388,
+       223,
+       444,
+       278
+      ],
+      [
+       388,
+       334,
+       444,
+       390
+      ],
+      [
+       388,
+       445,
+       444,
+       501
+      ],
+      [
+       388,
+       557,
+       444,
+       612
+      ],
+      [
+       500,
+       223,
+       555,
+       278
+      ],
+      [
+       500,
+       334,
+       555,
+       390
+      ],
+      [
+       500,
+       445,
+       555,
+       501
+      ],
+      [
+       500,
+       557,
+       555,
+       612
+      ],
+      [
+       611,
+       223,
+       667,
+       278
+      ],
+      [
+       611,
+       334,
+       667,
+       390
+      ],
+      [
+       611,
+       445,
+       667,
+       501
+      ],
+      [
+       611,
+       557,
+       667,
+       612
+      ],
+      [
+       723,
+       223,
+       778,
+       278
+      ],
+      [
+       723,
+       334,
+       778,
+       390
+      ],
+      [
+       723,
+       445,
+       778,
+       501
+      ],
+      [
+       723,
+       557,
+       778,
+       612
+      ],
+      [
+       834,
+       223,
+       890,
+       278
+      ],
+      [
+       834,
+       334,
+       890,
+       390
+      ],
+      [
+       834,
+       445,
+       890,
+       501
+      ],
+      [
+       834,
+       557,
+       890,
+       612
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 244900,
+     "brightness": 0.323,
+     "contrast": 0.582,
+     "rmsContrast": 0.175,
+     "saturation": 0.473,
+     "relativeLuminance": 0.1195,
+     "meanColour": "#44593b",
+     "meanHue": "green"
+    },
+    "reelWindow": {
+     "pixels": 13160,
+     "brightness": 0.113,
+     "contrast": 0.127,
+     "rmsContrast": 0.059,
+     "saturation": 0.692,
+     "relativeLuminance": 0.0159,
+     "meanColour": "#271b0d",
+     "meanHue": "black"
+    },
+    "symbols": {
+     "pixels": 61716,
+     "brightness": 0.381,
+     "contrast": 0.703,
+     "rmsContrast": 0.224,
+     "saturation": 0.68,
+     "relativeLuminance": 0.189,
+     "meanColour": "#805c36",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 248310,
+     "brightness": 0.246,
+     "contrast": 0.623,
+     "rmsContrast": 0.207,
+     "saturation": 0.693,
+     "relativeLuminance": 0.0983,
+     "meanColour": "#533c23",
+     "meanHue": "orange"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 3.63,
+      "brightnessDifference": 0.268,
+      "saturationDifference": -0.012
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 2.57,
+      "brightnessDifference": -0.21,
+      "saturationDifference": 0.219,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 1.41
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/art.json",
+     "baseBackground": [
+      {
+       "component": "main-90-100-4096-1/bgNormal",
+       "width": 2750,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.307,
+       "saturation": 0.375,
+       "contrast": 0.596
+      }
+     ],
+     "featureBackground": {
+      "bonus": {
+       "component": "main-90-100-4096-0/bgSpecial",
+       "width": 2750,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.314,
+       "saturation": 0.404,
+       "contrast": 0.803
+      }
+     },
+     "reelBacking": {
+      "component": "main-90-100-4096-1/slotBgNormalLandscape",
+      "width": 1038,
+      "height": 809,
+      "alpha": false,
+      "brightness": 0.103,
+      "saturation": 0.747,
+      "contrast": 0.082
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: misty rainforest",
+     "description": "A misty green rainforest with large leaves framing the corners and a bird at each side; a stone serpent head sits on the reel frame.",
+     "elements": [
+      "misty forest",
+      "foreground leaves",
+      "two birds"
+     ],
+     "elementCount": 3,
+     "layers": "Layered: a picture with separate branches, leaf fringes and birds.",
+     "motion": "Branches and leaves sway on a 3.67-second loop (the run's reading of the files)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque dark stone",
+     "description": "A dark brown carved stone panel with vines as dividers in a carved stone frame."
+    },
+    "featureMode": {
+     "kinds": [
+      "regrade"
+     ],
+     "seen": "in play",
+     "description": "Bonus: the same forest at dusk in orange and violet, with carved temple walls brought in at the sides around a larger board (seen in play, `14-bonus-02`)."
+    },
+    "picturesOpened": [
+     "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/game-screens/03-main-01",
+     "runs/2026-11-27-0430-octoplay-serpent-gold-hold-and-win/game-screens/14-bonus-02"
+    ]
+   }
+  },
+  {
+   "id": "octoplay-super-cash-boost-big-bad-bonus",
+   "name": "Super Cash Boost Big Bad Bonus",
+   "provider": "Octoplay",
+   "run": "2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus",
+   "realScreensInRun": 22,
+   "theo": {
+    "sortEdition": "Jul",
+    "sortRank": 19,
+    "sortIndex": "14.30x",
+    "inNewestEdition": false,
+    "editions": {
+     "Jul": {
+      "rank": 19,
+      "theoWinIndex": "14.30x",
+      "asStated": "Theo Win Index 14.30x",
+      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
+      "list": "slots",
+      "page": 45
+     },
+     "Aug": null,
+     "Sep": null,
+     "Oct": null,
+     "Nov": null
+    }
+   },
+   "measured": {
+    "screenshot": {
+     "file": "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/game-screens/03-main-01.webp",
+     "width": 1280,
+     "height": 720
+    },
+    "boxes": {
+     "gameBackground": [
+      [
+       0,
+       30,
+       140,
+       640
+      ],
+      [
+       1140,
+       30,
+       1280,
+       590
+      ],
+      [
+       0,
+       640,
+       830,
+       700
+      ]
+     ],
+     "reelGrid": [
+      318,
+      240,
+      965,
+      628
+     ],
+     "cols": 5,
+     "rows": 3,
+     "reelWindowPatches": [
+      [
+       555,
+       250,
+       598,
+       320
+      ],
+      [
+       678,
+       385,
+       704,
+       495
+      ],
+      [
+       555,
+       385,
+       598,
+       500
+      ],
+      [
+       442,
+       515,
+       476,
+       620
+      ],
+      [
+       555,
+       510,
+       600,
+       620
+      ],
+      [
+       680,
+       250,
+       710,
+       300
+      ]
+     ],
+     "symbolCores": [
+      [
+       350,
+       272,
+       415,
+       337
+      ],
+      [
+       350,
+       402,
+       415,
+       466
+      ],
+      [
+       350,
+       531,
+       415,
+       596
+      ],
+      [
+       480,
+       272,
+       544,
+       337
+      ],
+      [
+       480,
+       402,
+       544,
+       466
+      ],
+      [
+       480,
+       531,
+       544,
+       596
+      ],
+      [
+       609,
+       272,
+       674,
+       337
+      ],
+      [
+       609,
+       402,
+       674,
+       466
+      ],
+      [
+       609,
+       531,
+       674,
+       596
+      ],
+      [
+       739,
+       272,
+       803,
+       337
+      ],
+      [
+       739,
+       402,
+       803,
+       466
+      ],
+      [
+       739,
+       531,
+       803,
+       596
+      ],
+      [
+       868,
+       272,
+       933,
+       337
+      ],
+      [
+       868,
+       402,
+       933,
+       466
+      ],
+      [
+       868,
+       531,
+       933,
+       596
+      ]
+     ]
+    },
+    "gameBackground": {
+     "pixels": 213600,
+     "brightness": 0.303,
+     "contrast": 0.493,
+     "rmsContrast": 0.156,
+     "saturation": 0.568,
+     "relativeLuminance": 0.1056,
+     "meanColour": "#315648",
+     "meanHue": "green"
+    },
+    "reelWindow": {
+     "pixels": 20835,
+     "brightness": 0.172,
+     "contrast": 0.162,
+     "rmsContrast": 0.056,
+     "saturation": 0.494,
+     "relativeLuminance": 0.0303,
+     "meanColour": "#442622",
+     "meanHue": "red"
+    },
+    "symbols": {
+     "pixels": 62662,
+     "brightness": 0.526,
+     "contrast": 0.835,
+     "rmsContrast": 0.286,
+     "saturation": 0.573,
+     "relativeLuminance": 0.3569,
+     "meanColour": "#9e8172",
+     "meanHue": "orange"
+    },
+    "reelFieldInPlay": {
+     "pixels": 251036,
+     "brightness": 0.308,
+     "contrast": 0.72,
+     "rmsContrast": 0.243,
+     "saturation": 0.526,
+     "relativeLuminance": 0.1528,
+     "meanColour": "#674845",
+     "meanHue": "red"
+    },
+    "between": {
+     "symbolsVsReelWindow": {
+      "ratio": 5.07,
+      "brightnessDifference": 0.354,
+      "saturationDifference": 0.079
+     },
+     "reelWindowVsGameBackground": {
+      "ratio": 1.94,
+      "brightnessDifference": -0.131,
+      "saturationDifference": -0.074,
+      "darker": "reel window"
+     },
+     "symbolsVsGameBackground": {
+      "ratio": 2.62
+     }
+    },
+    "artFiles": {
+     "source": "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/art.json",
+     "baseBackground": [
+      {
+       "component": "main-90-100-4096-1/bgNormal",
+       "width": 2750,
+       "height": 2510,
+       "alpha": false,
+       "brightness": 0.454,
+       "saturation": 0.486,
+       "contrast": 0.807
+      }
+     ],
+     "featureBackground": {
+      "bonus": {
+       "component": "main-90-100-4096-0/bgSpecial",
+       "width": 2750,
+       "height": 2513,
+       "alpha": true,
+       "brightness": 0.49,
+       "saturation": 0.525,
+       "contrast": 0.706
+      }
+     },
+     "reelBacking": {
+      "component": "main-90-100-4096-0/slotBackground",
+      "width": 529,
+      "height": 315,
+      "alpha": true,
+      "brightness": 0.543,
+      "saturation": 0.0,
+      "contrast": 0.18
+     },
+     "reelBackingFeature": {}
+    }
+   },
+   "read": {
+    "gameBackground": {
+     "type": "scene",
+     "label": "Scene: meadow and mountains",
+     "description": "A storybook valley: fir woods and blue mountains under white clouds, with a dirt path through a meadow. The prize plates and the reels cover its middle.",
+     "elements": [
+      "sky with clouds",
+      "mountains",
+      "fir woods",
+      "meadow and bushes",
+      "dirt path"
+     ],
+     "elementCount": 5,
+     "layers": "One picture; rays and butterflies are added over it.",
+     "motion": "White rays and small butterflies over a still picture (the run's reading)."
+    },
+    "reelWindow": {
+     "type": "opaque, dark",
+     "label": "Opaque dark brown",
+     "description": "A dark brown panel with a faint snout emblem in a thin gold frame, with gold dividers."
+    },
+    "featureMode": {
+     "kinds": [
+      "regrade"
+     ],
+     "seen": "files",
+     "description": "Read from the file `bgSpecial`, not seen in play: the same valley at sunset with the three houses built."
+    },
+    "picturesOpened": [
+     "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/game-screens/03-main-01",
+     "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/components/main-90-100-4096-0/bgSpecial",
+     "runs/2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus/components/main-90-100-4096-1/bgNormal"
+    ]
+   }
+  }
+ ]
+}
