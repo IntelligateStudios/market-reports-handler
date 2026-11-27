@@ -4,7 +4,7 @@ This section covers five things for every game: the **game background** (the sce
 
 **What it rests on.** The 16 of 57 leading slot games whose art analysis is finished: IGT 5, Octoplay 6, Light & Wonder 3, AGS 1 and Inspired 1. Games Global, Aristocrat and White Hat Studios are absent because their demos could not be opened. So this says what the leaders we could open do, not what the market does.
 
-**The sort rule (ours).** Every table and list of games is in this order: each game stands at its rank in the most recent edition of the Eilers-Fantini report that ranks it in "Top Game Ranks – Slots" (by Theo Win Index). Games ranked in a newer edition come first; inside an edition, by that rank. The rank and the index are copied as the report states them. Six games are in the November 2026 edition; the other ten are not, and stand at their last ranked edition (September, August or July). One limit: the handler took ranks 1 to 50 of the July and August editions but only ranks 1 to 25 of September, October and November, so a game missing from a later edition is outside its first 25, not necessarily off the list.
+**The sort rule (ours).** Every table and list of games is in this order: each game stands at its rank in the most recent edition of the Eilers-Fantini report that ranks it in "Top Game Ranks – Slots" (by Theo Win Index). Games ranked in a newer edition come first; inside an edition, by that rank. The rank and the index are copied as the report states them. Each edition lists ranks 1 to 50; a game outside them is not ranked in that edition. Six games are ranked in the November 2026 edition; the other ten are not, and stand at their last ranked edition (October, September, August or July).
 
 **Measured and read.** *Measured* figures come from pixels: one real screenshot of each base game at rest, cropped into game background, reel window and symbols (the Method part gives the formulas; the crop boxes are in `documents/background-data.json`). *Read* statements are written from the pictures by looking at them, and mark inference as inference. Report figures are as stated.
 
@@ -59,7 +59,7 @@ These are our inference from 16 games, not findings about the market. Each names
 ### 6. For a feature mode, keep the composition and change the colour
 
 - **Do:** make the free spins or Hold and Win background from the base background: recolour it or regrade it to another time of day. Keep a new painting for the one bonus that carries the game.
-- **Read:** 10 of 16 games keep the composition and change its colour or light: [Cash Eruption](#game-igt-cash-eruption), [Cleopatra](#game-igt-cleopatra), [Capital Gains](#game-ags-capital-gains), [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged), [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion), [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals), [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win), [The Lucky Fella](#game-octoplay-the-lucky-fella-hold-and-win), [Serpent Gold](#game-octoplay-serpent-gold-hold-and-win) and [Super Cash Boost](#game-octoplay-super-cash-boost-big-bad-bonus). Five paint a new scene for a bonus: [Cash Eruption](#game-igt-cash-eruption), [Triple Cash Eruption](#game-igt-triple-cash-eruption), [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win), [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) and [Bigger Piggy Bank](#game-inspired-bigger-piggy-bank-superwheel) ([Cash Eruption](#game-igt-cash-eruption) does both: a regrade for free spins, a new scene for the bonus). For [Huff N Even More Puff Grand](#game-lnw-huff-n-even-more-puff-grand) and [Money Gong Emperor](#game-igt-money-gong-emperor) no feature background was seen or could be placed. Of the ten recolours, six were seen in play and four are read from the files; the notes below say which.
+- **Read:** 10 of 16 games keep the composition and change its colour or light: [Cash Eruption](#game-igt-cash-eruption), [Cleopatra](#game-igt-cleopatra), [Capital Gains](#game-ags-capital-gains), [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion), [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged), [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals), [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win), [The Lucky Fella](#game-octoplay-the-lucky-fella-hold-and-win), [Serpent Gold](#game-octoplay-serpent-gold-hold-and-win) and [Super Cash Boost](#game-octoplay-super-cash-boost-big-bad-bonus). Five paint a new scene for a bonus: [Cash Eruption](#game-igt-cash-eruption), [Triple Cash Eruption](#game-igt-triple-cash-eruption), [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win), [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) and [Bigger Piggy Bank](#game-inspired-bigger-piggy-bank-superwheel) ([Cash Eruption](#game-igt-cash-eruption) does both: a regrade for free spins, a new scene for the bonus). For [Huff N Even More Puff Grand](#game-lnw-huff-n-even-more-puff-grand) and [Money Gong Emperor](#game-igt-money-gong-emperor) no feature background was seen or could be placed. Of the ten recolours, six were seen in play and four are read from the files; the notes below say which.
 - **Read:** seven of the ten recolours turn towards red, orange or gold ([Cash Eruption](#game-igt-cash-eruption), [Cleopatra](#game-igt-cleopatra), [Capital Gains](#game-ags-capital-gains), [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged), [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win), [Serpent Gold](#game-octoplay-serpent-gold-hold-and-win) and [Super Cash Boost](#game-octoplay-super-cash-boost-big-bad-bonus)); three turn to night or purple ([Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion), [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) and [The Lucky Fella](#game-octoplay-the-lucky-fella-hold-and-win); the mansion also has a red and yellow evening).
 - **Measured, on the background art files (figures from each run's `art.json`):** the brightness does not move one way. Base to feature: [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) 0.07 to 0.43, [Cash Eruption](#game-igt-cash-eruption) 0.17 to 0.26 (free spins), [Capital Gains](#game-ags-capital-gains) 0.37 to 0.26, [Cleopatra](#game-igt-cleopatra) 0.20 to 0.15, [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) 0.58 to 0.50. So the signal of a feature is the hue, not more light.
 - **Read:** the window follows the background. Cream turns tan ([Cleopatra](#game-igt-cleopatra), seen), the wooden board turns purple ([The Lucky Fella](#game-octoplay-the-lucky-fella-hold-and-win), seen), the red neon frame turns gold ([Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win), seen), the dark red backing turns gold ([Money Gong Emperor](#game-igt-money-gong-emperor), from the file).
@@ -91,9 +91,9 @@ All in the sort order stated above. "Rank" is the edition and the rank the game 
 | [Cleopatra](#game-igt-cleopatra) | IGT | November 2026 edition | 13 | 17.07x |
 | [Fire Rail Express Hold And Win](#game-octoplay-fire-rail-express-hold-and-win) | Octoplay | November 2026 edition | 17 | 15.29x |
 | [Capital Gains](#game-ags-capital-gains) | AGS | November 2026 edition | 18 | 15.02x |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Light & Wonder | October 2026 edition | 41 | 9.57x |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | IGT | October 2026 edition | 44 | 9.10x |
 | [777 Hot Reels Megacharged](#game-octoplay-777-hot-reels-megacharged) | Octoplay | September 2026 edition | 18 | 14.06x |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | IGT | September 2026 edition | 19 | 13.39x |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Light & Wonder | September 2026 edition | 24 | 12.12x |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Light & Wonder | August 2026 edition | 22 | 13.72x |
 | [Mystery Of The Lamp Secret Bazaar](#game-igt-mystery-of-the-lamp-secret-bazaar) | IGT | August 2026 edition | 26 | 12.30x |
 | [Mega Cash Boost Hold And Win](#game-octoplay-mega-cash-boost-hold-and-win) | Octoplay | August 2026 edition | 32 | 11.15x |
@@ -102,7 +102,7 @@ All in the sort order stated above. "Rank" is the edition and the rank the game 
 | [Serpent Gold Hold And Win](#game-octoplay-serpent-gold-hold-and-win) | Octoplay | July 2026 edition | 17 | 14.55x |
 | [Super Cash Boost Big Bad Bonus](#game-octoplay-super-cash-boost-big-bad-bonus) | Octoplay | July 2026 edition | 19 | 14.30x |
 
-Rank and Theo Win Index in each edition, as the reports state them (list "Top Game Ranks – Slots"; pages are in the data file). A dash means the game is not among the ranks taken from that edition: 1 to 50 for July and August, 1 to 25 for September to November.
+Rank and Theo Win Index in each edition, as the reports state them (list "Top Game Ranks – Slots"; pages are in the data file). A dash means the game is not among the 50 ranks of that edition.
 
 | Game | Jul | Aug | Sep | Oct | Nov |
 | --- | --- | --- | --- | --- | --- |
@@ -112,9 +112,9 @@ Rank and Theo Win Index in each edition, as the reports state them (list "Top Ga
 | [Cleopatra](#game-igt-cleopatra) | 14 · 16.33x | 17 · 15.21x | 15 · 15.22x | 18 · 14.48x | 13 · 17.07x |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | 3 · 27.51x | 7 · 22.78x | 9 · 18.53x | 12 · 16.59x | 17 · 15.29x |
 | [Capital Gains](#game-ags-capital-gains) | 18 · 14.35x | 14 · 16.35x | 14 · 16.23x | 13 · 16.13x | 18 · 15.02x |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | 21 · 13.98x | 18 · 14.58x | 24 · 12.12x | 41 · 9.57x | – |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | – | 19 · 14.12x | 19 · 13.39x | 44 · 9.10x | – |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | – | 12 · 17.70x | 18 · 14.06x | – | – |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | – | 19 · 14.12x | 19 · 13.39x | – | – |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | 21 · 13.98x | 18 · 14.58x | 24 · 12.12x | – | – |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | 6 · 21.36x | 22 · 13.72x | – | – | – |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | 15 · 15.91x | 26 · 12.30x | – | – | – |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | 5 · 21.41x | 32 · 11.15x | – | – | – |
@@ -133,9 +133,9 @@ Rank and Theo Win Index in each edition, as the reports state them (list "Top Ga
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | Graded field with ruins | 2 | Opaque cream window |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | Split field: fire and postcards | 2 | Opaque near-black |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | Flat field | 1 | Opaque black |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | Scene: mansion front by day | 5 | See-through dark tint |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | Pattern field | 2 | Opaque dark red columns |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | Light only: rays and neon lines | 2 | Opaque dark red-black |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | Pattern field | 2 | Opaque dark red columns |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | Scene: mansion front by day | 5 | See-through dark tint |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | Scene: football stadium by day | 4 | See-through dark tint |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | Scene: bazaar street at dusk | 4 | Opaque dark red damask |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | Light only: beams | 2 | Opaque near-black |
@@ -154,9 +154,9 @@ How each is built and what moves. The motion column repeats each run's own readi
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | One picture | Still |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | Two pictures, sparks over them | Sparks drift |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | One picture | Still |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | Layers: sky, clouds, mansion | Day seen; day to night in the files |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | One picture | Still in the file |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | Ray picture and line pieces | Neon lines breathe, blocks pass |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | One picture | Still in the file |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | Layers: sky, clouds, mansion | Day seen; day to night in the files |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | Picture and grass layers | Still |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | One picture | Still |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | Light shapes, no picture | Beams sweep all the time |
@@ -177,9 +177,9 @@ Measured on the background around the reels in the base-game screenshot. The las
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | 0.16 | 0.19 | 0.89 | 0.20 · 0.17 · 0.88 |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | 0.19 | 0.39 | 0.80 | 0.20 · 0.69 · 0.95; 0.20 · 0.35 · 0.65 |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | 0.30 | 0.18 | 0.97 | 0.37 · 0.30 · 0.97 |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | 0.60 | 0.59 | 0.59 | 0.43 · 0.84 · 0.74; 0.86 · 0.38 · 0.36 |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | 0.13 | 0.20 | 0.96 | 0.10 · 0.14 · 0.97 |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | 0.09 | 0.10 | 0.74 | 0.07 · 0.04 · 0.74 |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | 0.13 | 0.20 | 0.96 | 0.10 · 0.14 · 0.97 |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | 0.60 | 0.59 | 0.59 | 0.43 · 0.84 · 0.74; 0.86 · 0.38 · 0.36 |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | 0.69 | 0.73 | 0.47 | 0.58 · 0.73 · 0.67 |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | 0.21 | 0.32 | 0.56 | 0.26 · 0.45 · 0.56 |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | 0.11 | 0.14 | 0.94 | no picture |
@@ -200,9 +200,9 @@ Measured on the background around the reels in the base-game screenshot. The las
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | 0.84 | 0.50 | 0.28 | 0.56 | 0.61 |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | 0.09 | 0.11 | 0.62 | 0.47 | 0.84 |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | 0.00 | 0.00 | 0.11 | 0.47 | 0.80 |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | 0.13 | 0.36 | 0.58 | 0.51 | 0.54 |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | 0.05 | 0.03 | 0.99 | 0.37 | 0.85 |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | 0.15 | 0.26 | 0.73 | 0.40 | 0.70 |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | 0.05 | 0.03 | 0.99 | 0.37 | 0.85 |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | 0.13 | 0.36 | 0.58 | 0.51 | 0.54 |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | 0.12 | 0.09 | 0.61 | 0.49 | 0.45 |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | 0.06 | 0.03 | 0.98 | 0.37 | 0.76 |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | 0.05 | 0.07 | 0.95 | 0.41 | 0.79 |
@@ -223,9 +223,9 @@ Luminance ratio of the brighter region to the darker one; 1.00 is no difference.
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | 1.77 | 7.02 | background |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | 5.53 | 1.78 | window |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | 7.79 | 3.04 | window |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | 3.99 | 4.95 | window |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | 5.11 | 1.70 | window |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | 2.89 | 1.41 | background |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | 5.11 | 1.70 | window |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | 3.99 | 4.95 | window |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | 5.44 | 8.84 | window |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | 4.29 | 1.81 | window |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | 4.67 | 1.48 | window |
@@ -244,9 +244,9 @@ Luminance ratio of the brighter region to the darker one; 1.00 is no difference.
 | [Cleopatra](#game-igt-cleopatra) | Nov 13 | Recolour | in play | 0.20 | free spins 0.15 |
 | [Fire Rail Express](#game-octoplay-fire-rail-express-hold-and-win) | Nov 17 | New scene | in play | 0.20; 0.20 | hold and win 0.20; jackpot hold and win 0.43 |
 | [Capital Gains](#game-ags-capital-gains) | Nov 18 | Recolour | in play and files | 0.37 | free spins 0.26 |
+| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Oct 41 | Regrade | files | 0.43; 0.86 | evening 0.35; night 0.16 |
+| [Money Gong Emperor](#game-igt-money-gong-emperor) | Oct 44 | Unknown | files | 0.10 | features 0.08 |
 | [777 Hot Reels](#game-octoplay-777-hot-reels-megacharged) | Sep 18 | Recolour | in play | 0.07 | free spins 0.43 |
-| [Money Gong Emperor](#game-igt-money-gong-emperor) | Sep 19 | Unknown | files | 0.10 | features 0.08 |
-| [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion) | Sep 24 | Regrade | files | 0.43; 0.86 | evening 0.35; night 0.16 |
 | [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals) | Aug 22 | Regrade | files | 0.58 | free games 0.50 |
 | [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) | Aug 26 | New scene | files | 0.26 | bonus 0.28 |
 | [Mega Cash Boost](#game-octoplay-mega-cash-boost-hold-and-win) | Aug 32 | Recolour | in play | no picture | – |
@@ -265,9 +265,9 @@ In the same order. Descriptions are read from the pictures named in the data fil
 - **[Cleopatra](#game-igt-cleopatra)** (IGT; November edition, rank 13). An empty sky graded from violet to magenta, with a dim colonnade in the two bottom corners. 2 groups: graded sky, colonnade ruins, mirrored left and right. **Reel window:** A cream window in a heavy gold cabinet, with bead dividers. Each picture symbol sits on its own coloured cloth tile; the letters sit on the cream. **Feature mode:** Free spins: the same picture recoloured from purple to red, and the window from cream to tan (seen in play, `09-free-spins`). Measured on `01-main.webp`.
 - **[Fire Rail Express Hold And Win](#game-octoplay-fire-rail-express-hold-and-win)** (Octoplay; November edition, rank 17). No place: a dark red fire field with sparks on the left and torn purple postcards with line drawings of locomotives on the right. 2 groups: fire field with sparks, purple postcard collage. **Reel window:** A near-black panel with a faint weave in a thin gold frame, with dark dividers. **Feature mode:** Hold and Win: a new picture from the same motifs, the postcards spread across the whole screen in purple and gold (seen in play, `14-hold-04-bonus-start`). Jackpot Hold and Win: fire across the whole screen (seen in play, `19-jackpot-03-bonus`). Measured on `02-main.webp`.
 - **[Capital Gains](#game-ags-capital-gains)** (AGS; November edition, rank 18). A flat banknote-green field with soft lighter pools behind the logo and the reels. 1 group: green field with light pools. **Reel window:** Black cells with thin dividers inside a green edge. The high symbols bring their own coloured tile; the letters sit on the black. **Feature mode:** Free spins: the same field recoloured red with the top edge left green (read from the file `fs_background_ls`; not seen in play). The Money Charge bonus keeps the green field and slides a vault panel in at the left (seen in play, `08-bonus-nine`). Measured on `01-main.webp`.
+- **[Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion)** (Light & Wonder; October edition, rank 41). The front of a red-brick mansion with a gold roof under a blue sky; its roof holds the prize plates and the reels cover its middle. 5 groups: sky with clouds, mansion front and roof, cypress trees, round bushes, steps and drive. **Reel window:** A dark tint over the mansion: its wall and prize plates stay readable between the symbols. Thin gold frame and dividers. **Feature mode:** Read from the files, not seen in play: the same mansion in an evening version (red and yellow) and a night version (violet and deep blue), each with its own sky. Measured on `03-base-at-rest.png`.
+- **[Money Gong Emperor](#game-igt-money-gong-emperor)** (IGT; October edition, rank 44). A flat red ground covered with a small wave-scale pattern, with one round ring at the left that holds the gong. 2 groups: red wave-scale pattern, round ring for the gong. **Reel window:** Five dark red columns, each lit down its middle, between gold dividers in a gold scroll frame. **Feature mode:** No feature was seen in play. Read from the files: a separate dark red curtain scene with firecrackers (`FeaturesBG`), and a gold wave-scale reel backing for the bonus spins (`Reel--FS--Background`). Where the curtain scene is used is not known from this run. Measured on `02-main.webp`.
 - **[777 Hot Reels Megacharged](#game-octoplay-777-hot-reels-megacharged)** (Octoplay; September edition, rank 18). No place: a near-black purple field of faint rays with thin red neon frame lines at both sides. The cabinet glows gold in front of it. 2 groups: purple ray field, red neon frame lines. **Reel window:** A dark red-black panel with gold dividers inside the gold cabinet frame. The symbols nearly fill their cells. **Feature mode:** Free spins: the same composition turned from purple to orange and red rays, with red 777 blocks on gold at the sides (seen in play, `16-free-spins-01`). Measured on `02-main-01.webp`.
-- **[Money Gong Emperor](#game-igt-money-gong-emperor)** (IGT; September edition, rank 19). A flat red ground covered with a small wave-scale pattern, with one round ring at the left that holds the gong. 2 groups: red wave-scale pattern, round ring for the gong. **Reel window:** Five dark red columns, each lit down its middle, between gold dividers in a gold scroll frame. **Feature mode:** No feature was seen in play. Read from the files: a separate dark red curtain scene with firecrackers (`FeaturesBG`), and a gold wave-scale reel backing for the bonus spins (`Reel--FS--Background`). Where the curtain scene is used is not known from this run. Measured on `02-main.webp`.
-- **[Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion)** (Light & Wonder; September edition, rank 24). The front of a red-brick mansion with a gold roof under a blue sky; its roof holds the prize plates and the reels cover its middle. 5 groups: sky with clouds, mansion front and roof, cypress trees, round bushes, steps and drive. **Reel window:** A dark tint over the mansion: its wall and prize plates stay readable between the symbols. Thin gold frame and dividers. **Feature mode:** Read from the files, not seen in play: the same mansion in an evening version (red and yellow) and a night version (violet and deep blue), each with its own sky. Measured on `03-base-at-rest.png`.
 - **[Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals)** (Light & Wonder; August edition, rank 22). A football stadium seen from the pitch: bright striped grass, a pale touchline wall and two tiers of crowd in red and pink. Two goals and the feature wheel sit above the reels. 4 groups: striped pitch, touchline wall, crowd stands, roof and sky. **Reel window:** A dark green tint with a grass top edge and no frame; the wheel shows faintly at its top. A reel that holds a feature symbol stack turns red or blue. **Feature mode:** Read from the file `bg_freegame`, not seen in play: the same stadium at night under a starry sky with floodlight beams and a cooler pitch. Measured on `01-base-at-rest.png`. Read from the UK build of the game; that its art matches the US game is inference.
 - **[Mystery Of The Lamp Secret Bazaar](#game-igt-mystery-of-the-lamp-secret-bazaar)** (IGT; August edition, rank 26). A covered bazaar street at dusk in warm brown and red, with stalls of fruit at both sides. 4 groups: stalls with fruit and vegetables, baskets, sacks and jars, arches and awnings, wall lanterns. **Reel window:** Dark crimson damask panels between gold dividers in a thin gold frame with curled finials. **Feature mode:** Read from the file `bonusBg`, not seen in play: a new scene, a treasure cave in blue and violet light. Measured on `01-main.webp`.
 - **[Mega Cash Boost Hold And Win](#game-octoplay-mega-cash-boost-hold-and-win)** (Octoplay; August edition, rank 32). No picture: a dark red space crossed by red and white light beams. 2 groups: dark red field, red and white beams. **Reel window:** A near-black panel with a faint chevron in a thin red neon frame, with hairline dividers. **Feature mode:** Hold and Win: the same field turned orange-gold with yellow beams, and the frame turned gold (seen in play, `18-hold-04-board`). Measured on `06-main.webp`.
@@ -299,4 +299,4 @@ In the same order. Descriptions are read from the pictures named in the data fil
 - **Few real screens.** [Huff N Even More Puff Grand](#game-lnw-huff-n-even-more-puff-grand) and [Money Gong Emperor](#game-igt-money-gong-emperor) have six real screens each and no feature in play. Features not seen in play, and read from the files instead: the free spins of [Capital Gains](#game-ags-capital-gains), and the feature backgrounds of [Huff N Puff Money Mansion](#game-lnw-huff-n-puff-money-mansion), [Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals), [Mystery Of The Lamp](#game-igt-mystery-of-the-lamp-secret-bazaar) and [Super Cash Boost](#game-octoplay-super-cash-boost-big-bad-bonus).
 - **[Huff N Lots Of Goals](#game-lnw-huff-n-lots-of-goals)** was read from the UK build of the game. That its art is the same as the US game the report ranks is inference.
 - **Motion** was not checked here; the motion lines repeat each run's own reading.
-- **Ranks.** For September to November only ranks 1 to 25 were taken from the reports, so ten games are sorted on an older edition. The report's publisher says its data is a sample. A rank is not a measure of the art.
+- **Ranks.** Ten of the sixteen games are not among the 50 ranks of the November edition and are sorted on an older one, so the order mixes editions. The report's publisher says its data is a sample. A rank is not a measure of the art.

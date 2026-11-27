@@ -4,6 +4,8 @@ Written 27 Nov 2026. These are recommendations, not findings: each is our infere
 
 **Read this first.** The evidence covers IGT, Octoplay, Light & Wonder, AGS and Inspired. Fourteen of the 30 leaders, including all eight of Games Global's, could not be analysed. A recommendation here says "the leaders we could open do this", not "the market does this". The first step below is about closing that gap.
 
+**See also** [Backgrounds](#backgrounds): recommendations on the game background, the reel window, the number of background elements, contrast and saturation, with the sixteen games measured and sorted by Theo rank (written 27 Nov 2026 at Roei's request).
+
 ## In short
 
 1. Close the evidence gap before leaning on these conclusions: the Games Global games, and the bonus rounds we did not see.
