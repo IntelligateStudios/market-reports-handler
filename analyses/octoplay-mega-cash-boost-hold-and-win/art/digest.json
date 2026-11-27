@@ -1,0 +1,569 @@
+{
+ "run": "2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win",
+ "game": "Mega Cash Boost Hold And Win",
+ "started": "2026-11-26T22:18:56.322Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 34,
+  "components": 454,
+  "spines": 54,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 6
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 1
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 2
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.626,
+  "saturation": 0.581,
+  "contrast": 0.531,
+  "warm": 0.553,
+  "cool": 0.281,
+  "colourShare": 0.732,
+  "softEdge": 0.229,
+  "highlights": 0.24,
+  "palette": [
+   {
+    "hex": "#fafaf8",
+    "share": 0.21,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#f7c030",
+    "share": 0.116,
+    "name": "orange"
+   },
+   {
+    "hex": "#f08617",
+    "share": 0.106,
+    "name": "orange"
+   },
+   {
+    "hex": "#f2292e",
+    "share": 0.1,
+    "name": "red"
+   },
+   {
+    "hex": "#d1c9ce",
+    "share": 0.043,
+    "name": "grey"
+   },
+   {
+    "hex": "#ab2b0f",
+    "share": 0.037,
+    "name": "red"
+   },
+   {
+    "hex": "#f8656e",
+    "share": 0.033,
+    "name": "red"
+   },
+   {
+    "hex": "#19083b",
+    "share": 0.025,
+    "name": "dark purple"
+   }
+  ],
+  "hues": {
+   "orange": 0.313,
+   "red": 0.253,
+   "blue": 0.201,
+   "yellow": 0.109
+  },
+  "lightFrom": {
+   "top": 72,
+   "top-left": 54,
+   "top-right": 18
+  },
+  "words": [
+   "bright",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast",
+   "strong highlights"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.456,
+   "saturation": 0.666,
+   "contrast": 0.838,
+   "warm": 0.647,
+   "cool": 0.353,
+   "palette": [
+    {
+     "hex": "#090a0a",
+     "share": 0.107,
+     "name": "black"
+    },
+    {
+     "hex": "#62391d",
+     "share": 0.079,
+     "name": "brown"
+    },
+    {
+     "hex": "#28c2f9",
+     "share": 0.075,
+     "name": "cyan"
+    },
+    {
+     "hex": "#27333c",
+     "share": 0.067,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#f02e0a",
+     "share": 0.061,
+     "name": "red"
+    },
+    {
+     "hex": "#eab65a",
+     "share": 0.06,
+     "name": "orange"
+    },
+    {
+     "hex": "#eb6b48",
+     "share": 0.059,
+     "name": "red"
+    },
+    {
+     "hex": "#fde60a",
+     "share": 0.032,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.587,
+   "saturation": 0.67,
+   "contrast": 0.62,
+   "warm": 0.629,
+   "cool": 0.347,
+   "palette": [
+    {
+     "hex": "#f5282c",
+     "share": 0.154,
+     "name": "red"
+    },
+    {
+     "hex": "#3a8bf6",
+     "share": 0.134,
+     "name": "blue"
+    },
+    {
+     "hex": "#f8f7f5",
+     "share": 0.117,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#f08710",
+     "share": 0.105,
+     "name": "orange"
+    },
+    {
+     "hex": "#fcb946",
+     "share": 0.101,
+     "name": "orange"
+    },
+    {
+     "hex": "#fd626f",
+     "share": 0.05,
+     "name": "red"
+    },
+    {
+     "hex": "#f8cb05",
+     "share": 0.025,
+     "name": "gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.703,
+   "saturation": 0.738,
+   "contrast": 0.674,
+   "warm": 0.928,
+   "cool": 0.072,
+   "palette": [
+    {
+     "hex": "#f1c231",
+     "share": 0.549,
+     "name": "gold"
+    },
+    {
+     "hex": "#a83803",
+     "share": 0.187,
+     "name": "brown"
+    },
+    {
+     "hex": "#f5f36c",
+     "share": 0.156,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbfdfa",
+     "share": 0.065,
+     "name": "light green"
+    },
+    {
+     "hex": "#c78728",
+     "share": 0.017,
+     "name": "orange"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.599,
+   "saturation": 0.594,
+   "contrast": 0.613,
+   "warm": 0.589,
+   "cool": 0.309,
+   "palette": [
+    {
+     "hex": "#faf9f7",
+     "share": 0.212,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#d88a2e",
+     "share": 0.19,
+     "name": "orange"
+    },
+    {
+     "hex": "#f9c510",
+     "share": 0.108,
+     "name": "gold"
+    },
+    {
+     "hex": "#cd3656",
+     "share": 0.076,
+     "name": "red"
+    },
+    {
+     "hex": "#a22212",
+     "share": 0.075,
+     "name": "red"
+    },
+    {
+     "hex": "#130438",
+     "share": 0.047,
+     "name": "black"
+    },
+    {
+     "hex": "#527ee8",
+     "share": 0.044,
+     "name": "blue"
+    },
+    {
+     "hex": "#e945a3",
+     "share": 0.03,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.837,
+   "saturation": 0.039,
+   "contrast": 0.198,
+   "warm": 0.0,
+   "cool": 0.078,
+   "palette": [
+    {
+     "hex": "#f7f8f8",
+     "share": 0.598,
+     "name": "white"
+    },
+    {
+     "hex": "#c6c8c8",
+     "share": 0.15,
+     "name": "grey"
+    },
+    {
+     "hex": "#9a9a9a",
+     "share": 0.114,
+     "name": "grey"
+    },
+    {
+     "hex": "#363636",
+     "share": 0.041,
+     "name": "grey"
+    },
+    {
+     "hex": "#747474",
+     "share": 0.036,
+     "name": "grey"
+    },
+    {
+     "hex": "#3be0f6",
+     "share": 0.034,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.659,
+   "saturation": 0.482,
+   "contrast": 0.145,
+   "warm": 0.299,
+   "cool": 0.223,
+   "palette": [
+    {
+     "hex": "#fffffe",
+     "share": 0.454,
+     "name": "light orange"
+    },
+    {
+     "hex": "#fb7618",
+     "share": 0.274,
+     "name": "orange"
+    },
+    {
+     "hex": "#330663",
+     "share": 0.126,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#680796",
+     "share": 0.063,
+     "name": "purple"
+    },
+    {
+     "hex": "#9d06c5",
+     "share": 0.034,
+     "name": "purple"
+    },
+    {
+     "hex": "#c1c1c1",
+     "share": 0.022,
+     "name": "grey"
+    },
+    {
+     "hex": "#d304f2",
+     "share": 0.018,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.745,
+   "saturation": 0.491,
+   "contrast": 0.247,
+   "warm": 0.589,
+   "cool": 0.114,
+   "palette": [
+    {
+     "hex": "#fefefc",
+     "share": 0.339,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fc3738",
+     "share": 0.211,
+     "name": "red"
+    },
+    {
+     "hex": "#fedf21",
+     "share": 0.115,
+     "name": "gold"
+    },
+    {
+     "hex": "#f7a24c",
+     "share": 0.1,
+     "name": "orange"
+    },
+    {
+     "hex": "#f89088",
+     "share": 0.066,
+     "name": "light red"
+    },
+    {
+     "hex": "#1dbdfb",
+     "share": 0.065,
+     "name": "cyan"
+    },
+    {
+     "hex": "#fedca9",
+     "share": 0.045,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.697,
+   "saturation": 0.577,
+   "contrast": 0.186,
+   "warm": 0.58,
+   "cool": 0.056,
+   "palette": [
+    {
+     "hex": "#ffffff",
+     "share": 0.308,
+     "name": "light green"
+    },
+    {
+     "hex": "#fbbd26",
+     "share": 0.137,
+     "name": "orange"
+    },
+    {
+     "hex": "#db0427",
+     "share": 0.109,
+     "name": "red"
+    },
+    {
+     "hex": "#2bfd01",
+     "share": 0.106,
+     "name": "green"
+    },
+    {
+     "hex": "#f7492e",
+     "share": 0.105,
+     "name": "red"
+    },
+    {
+     "hex": "#f17e60",
+     "share": 0.093,
+     "name": "red"
+    },
+    {
+     "hex": "#f9d963",
+     "share": 0.065,
+     "name": "gold"
+    },
+    {
+     "hex": "#f46c01",
+     "share": 0.039,
+     "name": "orange"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), close-ups of the main pieces, the game's own files (skeleton and font descriptors, rules text) and real screens of five played free-play sessions on 26 and 27 Nov 2026 (about 350 presses of spin in all; the Hold & Win came four times and was played to its end once). One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as the three frames each sheet shows. No skeleton frame was drawn: the rigs are Spine 4.2.43.",
+  "summary": "A fruit-and-letters slot rebuilt as a neon scoreboard: no scene and no character, only red laser light, a thin neon reel frame, and fifteen glowing prize plates that lightning keeps charging while three colours of diamond wait to collect them.",
+  "style": "Flat neon graphic design around glossy 3D-look symbols. The backdrop, the frame and the prize plates are pure light and outline; the fruit, bolts and wild button are airbrushed casino illustration; the diamonds are low-polygon gems. Everything leans: letters, plates and beams share one forward slant.",
+  "rendering": "Two kinds only. Light: white shapes with feathered edges, tinted and added by the game (backdrop soft edge 0.713, lightning 0.738, glows 0.951). Objects: smooth volumes or flat facets with hard outer edges and a thin blue rim (fruit 0.075, diamonds 0.042, boost 0.1). Lettering has a two-band chrome face with a hard horizon line and a stepped extruded side.",
+  "colour": "Red field, gold and cyan signs. Measured over the art files: near-white #fafaf8 21% (the white light sprites, which the game tints), gold #f7c030 11%, orange #f08617 10%, red #f2292e 10%, dark red #ab2b0f 3%, dark purple-blue #19083b 2%. On screen the backdrop is set by tints in the skeleton files: near-black wine #1f0014 under red #be1000 and #ff0000 beams. The code is strict: cyan-blue is Cash (plates, Blue Diamond, blue Booster), gold is Jackpot (plates, Gold Diamond, gold Booster), red is both (Red Diamond, the frame, the field), and the logo's three words carry the same three colours. Purple belongs to the Wild alone.",
+  "lighting": "Self-lit neon everywhere; there is no light source in a scene because there is no scene. Objects are lit from the top or top-left with a blue rim from below, as if standing on a lit sign. Glow circles behind the board make the centre the brightest area.",
+  "ambience": "High voltage, arcade and motorsport: fast, loud, synthetic. The mood comes from motion of light, not from a place or a story.",
+  "shapes": "The slanted parallelogram (plates, backplates, frame corners), the chevron (board pattern, meter fill, boost arrows), the lightning zigzag (logo, letters' notches, the container's ends, the effects) and the faceted diamond. Circles appear only on the Wild and the coin.",
+  "materials": "Neon tube, dark glass, coloured chrome lettering, moulded glossy plastic or glass (bolts, wild button), fruit skin and flesh, cut crystal, polished gold coin, electricity.",
+  "typography": "Heavy slanted capitals throughout, in two related faces: a wide italic sans with chrome bands for the logo, WILD and BOOST, and the condensed Anton for numbers, jackpot names, win tiers and captions (gold two-band numerals with a red-brown side; a white set for small counts). The low symbols 10 to A are lettering too, cut by a bolt. Small interface text is the provider shell's Poppins (Regular, SemiBold, Bold).",
+  "motion": "All motion is Spine 4.2.43: 54 skeletons in one bundle file, moving, scaling and tinting still pictures, plus 14 hand-drawn frame sequences (278 frames), of which eight are lightning (150 frames), three are the diamonds' turn (75), and the rest a coin, a win-line bolt and a plate border. Seen in play: the red beams sweeping behind the board all the time; an opening sequence in which two large Boosters and then a large red diamond appear over the reels and charge the plates; a Booster on the reels growing to cover the board when it fires; plate values jumping with a flash; white-blue lightning crackling along the frame and around locked diamonds; coins flying from a diamond up to a plate; a lightning bolt along a paying line with the amount in gold numerals; in the bonus a yellow flash that turns the stage gold, diamonds blurring through single cells, bolts carrying prizes from the plates to the diamonds, and BIG WIN with a coin shower. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7.",
+  "variants": "Two states of the whole stage from one set of parts (normal and special skins: red for the base game, orange-gold with yellow beams for the Hold & Win, both seen in play); two states of every plate outline (resting and red); cash and jackpot plates as one component in two colours; three diamonds and two Boosters as recolours of one design each; desktop and mobile plate shapes; a brighter Add copy of almost every symbol for win flashes.",
+  "construction": "Three 4096 px atlas pages hold 391 sprites, more than half of them animation frames; there is no background picture at all (the backdrop is a 202 px white square and a glow circle, stretched and tinted). Symbols are layered: fruit in two halves, wild as button and word, Booster and Diamond as plate, object and word or bolt. Five localised lettering files (en-GB). The paytable pictures, logo copy, numeral fonts and interface come from the provider's shared services.",
+  "consistency": "Very high: one slant, three shapes and three prize colours run through backdrop, frame, plates, symbols, lettering and effects. The only seam is between the softly painted fruit and the hard graphic world around it, and the blue rim on the fruit is there to close it.",
+  "takeaways": [
+   "A slot can ship with no background painting and no character: tinted white shapes moved by a rig gave this game its whole stage in eleven sprites, and a second stage for the bonus by changing tint values. For AI art work this moves the effort from illustration to a small kit of clean light shapes.",
+   "Make the prizes the picture. Fifteen neon plates take more of the screen than the reels' frame, and every Booster visibly changes a number on them; the art direction serves a mechanic of growing prizes rather than a theme.",
+   "One colour code end to end: blue is Cash, gold is Jackpot, red is both, on plates, diamonds, Boosters, backplates and even the three words of the logo. A player learns the rules from the colours.",
+   "Spend drawn frames on one effect family and reuse it: 150 of 278 animation frames are white lightning, tinted cyan or gold and placed by rigs on the frame, the plates, the logo and the symbols.",
+   "Classic fruit made current by cutting, not repainting: each fruit is two small pictures, a cut half and a whole half, which gives depth and a win animation; the letters get the theme from a single bolt-shaped notch.",
+   "Reserve one hand-animated asset for the symbol players stare at: the three diamonds each have a 25-frame turn, while every other symbol moves by rig only.",
+   "From the same provider as Fire Rail Express: Hold & Win, and built on the same framework (same file layout, 20 skeleton names in common, the same shell, Poppins and Double Chance card, byte-identical glow, line and lineEnd helpers), yet no picture of the game's own art is shared: same-named sprites such as coin_00 or win1Txt are different drawings. The reuse is in structure and tooling, not in art.",
+   "A numeral style picked from a provider font library (gold Anton here, purple-and-gold in Fire Rail Express) is enough to tie changing numbers to the game's lettering without drawing digits per game."
+  ]
+ },
+ "screens": [
+  {
+   "file": "06-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: 5x3 reels in a red neon frame with the logo on its top edge, six gold jackpot plates at the left, nine cyan Cash plates above, a locked Red Diamond with lightning in the middle. Double Chance is on in this frame (the DISABLE button, total bet 1.50)."
+  },
+  {
+   "file": "07-base-01-spinning.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Reels spinning",
+   "caption": "Reels in motion around the locked Red Diamond."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: six gold jackpot plates, the MEGA CASH BOOST logo, three red diamonds on red plates, nine cyan Cash plates and the shell's START button, over white light bursting from the centre of a red field."
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T04:21:25Z",
+ "updated": "2026-11-27T04:24:37Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -2473,7 +2473,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/mega-cash-boost-hold-and-win",
+    "from": "set by hand",
+    "at": "2026-11-27T04:24:37Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2504,12 +2508,22 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T22:14:09Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-2218-octoplay-mega-cash-boost-hold-and-win",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/496kwDbr6cy8hmvp53dgDr",
+     "completed": "2026-11-27T04:24:37Z",
+     "commit": "8ba690a",
+     "started": "2026-11-26T22:14:09Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"
