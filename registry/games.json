@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T20:51:12Z",
+ "updated": "2026-11-27T21:05:19Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -4626,7 +4626,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as Coin Strike. Slotslaunch has the game (4 Pots Riches: Hold and Win) and its Free Play opens Playson's own launch address (gameName=4_pots_riches_mob), but the client's first server call is answered 403 by Playson's edge: the service is not available from this location. Checked by the main session with one load. It needs a machine outside the United States, or a link from the product team.",
+     "at": "2026-11-27T21:05:04Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -4653,8 +4656,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T20:51:12Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container. Playson's own page answers a Cloudflare challenge (not attempted). Slotslaunch has the game (Coin Strike: Hold and Win, game 10262) and its Free Play opens Playson's own launch address, but the client's first server call is answered 403 by Playson's edge, 'This service is not available from your location or network', and the game shows 'Sorry, this game is not available in your country.' VegasSlotsOnline opens the same launch with the same answer. It needs a machine outside the United States, or a link from the product team.",
+     "at": "2026-11-27T20:58:01Z",
      "run": null
     }
    },
@@ -4683,7 +4687,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as Coin Strike. Slotslaunch has the game (Coin Strike 2: Hold and Win) and its Free Play opens Playson's own launch address (gameName=coin_strike_2), but the client's first server call is answered 403 by Playson's edge: the service is not available from this location. Checked by the main session with one load. It needs a machine outside the United States, or a link from the product team.",
+     "at": "2026-11-27T21:05:04Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -4711,7 +4718,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as Coin Strike. Slotslaunch has the game (Coin Strike XXL: Hold and Win) and its Free Play opens Playson's own launch address (gameName=coin_strike_xxl_mob), but the client's first server call is answered 403 by Playson's edge: the service is not available from this location. Checked by the main session with one load. It needs a machine outside the United States, or a link from the product team.",
+     "at": "2026-11-27T21:05:04Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -4735,7 +4745,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as Coin Strike. Slotslaunch lists it as 'King of the Sky: Hit the Bonus' (that this is the board's 'King of the sky' is inference: it is the only Playson title of that name there) and its Free Play opens Playson's own launch address (gameName=king_of_the_sky), but the client's first server call is answered 403 by Playson's edge: the service is not available from this location. Checked by the main session with one load. It needs a machine outside the United States, or a link from the product team.",
+     "at": "2026-11-27T21:05:19Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -4759,7 +4772,10 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as Coin Strike. Slotslaunch has the game (Sugar Teddy) and its Free Play opens Playson's own launch address (gameName=sugar_teddy_mob), but the client's first server call is answered 403 by Playson's edge: the service is not available from this location. Checked by the main session with one load. It needs a machine outside the United States, or a link from the product team. Slotslaunch also lists a Sugar Teddy 2, another game.",
+     "at": "2026-11-27T21:05:04Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
