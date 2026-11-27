@@ -1,0 +1,603 @@
+{
+ "run": "2026-11-27-0430-octoplay-serpent-gold-hold-and-win",
+ "game": "Serpent Gold Hold And Win",
+ "started": "2026-11-27T04:30:44.019Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 45,
+  "components": 802,
+  "spines": 57,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 7
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 3
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 3
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 6
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 2
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 2
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.358,
+  "saturation": 0.514,
+  "contrast": 0.569,
+  "warm": 0.501,
+  "cool": 0.276,
+  "colourShare": 0.639,
+  "softEdge": 0.097,
+  "highlights": 0.053,
+  "palette": [
+   {
+    "hex": "#18130f",
+    "share": 0.299,
+    "name": "black"
+   },
+   {
+    "hex": "#526254",
+    "share": 0.146,
+    "name": "grey"
+   },
+   {
+    "hex": "#392d2c",
+    "share": 0.103,
+    "name": "dark red"
+   },
+   {
+    "hex": "#b8b7b5",
+    "share": 0.068,
+    "name": "grey"
+   },
+   {
+    "hex": "#a53b11",
+    "share": 0.054,
+    "name": "brown"
+   },
+   {
+    "hex": "#f9f9f7",
+    "share": 0.041,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#83927f",
+    "share": 0.039,
+    "name": "grey"
+   },
+   {
+    "hex": "#601a0a",
+    "share": 0.016,
+    "name": "dark red"
+   }
+  ],
+  "hues": {
+   "orange": 0.345,
+   "green": 0.229,
+   "red": 0.196,
+   "purple": 0.079
+  },
+  "lightFrom": {
+   "top": 107,
+   "top-left": 28,
+   "top-right": 15
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.392,
+   "saturation": 0.702,
+   "contrast": 0.593,
+   "warm": 0.613,
+   "cool": 0.265,
+   "palette": [
+    {
+     "hex": "#101315",
+     "share": 0.293,
+     "name": "black"
+    },
+    {
+     "hex": "#c0832e",
+     "share": 0.14,
+     "name": "orange"
+    },
+    {
+     "hex": "#56240b",
+     "share": 0.087,
+     "name": "brown"
+    },
+    {
+     "hex": "#933f0f",
+     "share": 0.085,
+     "name": "brown"
+    },
+    {
+     "hex": "#fdfdfd",
+     "share": 0.081,
+     "name": "white"
+    },
+    {
+     "hex": "#f4cf46",
+     "share": 0.068,
+     "name": "gold"
+    },
+    {
+     "hex": "#103d39",
+     "share": 0.044,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#f9e88e",
+     "share": 0.03,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.401,
+   "saturation": 0.709,
+   "contrast": 0.584,
+   "warm": 0.473,
+   "cool": 0.287,
+   "palette": [
+    {
+     "hex": "#0d1b0b",
+     "share": 0.275,
+     "name": "black"
+    },
+    {
+     "hex": "#d9a430",
+     "share": 0.117,
+     "name": "orange"
+    },
+    {
+     "hex": "#876834",
+     "share": 0.092,
+     "name": "brown"
+    },
+    {
+     "hex": "#329634",
+     "share": 0.071,
+     "name": "green"
+    },
+    {
+     "hex": "#ca343e",
+     "share": 0.043,
+     "name": "red"
+    },
+    {
+     "hex": "#511d0a",
+     "share": 0.04,
+     "name": "brown"
+    },
+    {
+     "hex": "#154b6f",
+     "share": 0.034,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#fffff6",
+     "share": 0.033,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.63,
+   "saturation": 0.764,
+   "contrast": 0.743,
+   "warm": 0.874,
+   "cool": 0.101,
+   "palette": [
+    {
+     "hex": "#f0c133",
+     "share": 0.453,
+     "name": "orange"
+    },
+    {
+     "hex": "#f6e96d",
+     "share": 0.144,
+     "name": "gold"
+    },
+    {
+     "hex": "#390c09",
+     "share": 0.106,
+     "name": "dark red"
+    },
+    {
+     "hex": "#a23c05",
+     "share": 0.102,
+     "name": "brown"
+    },
+    {
+     "hex": "#4cd2ad",
+     "share": 0.059,
+     "name": "cyan"
+    },
+    {
+     "hex": "#c08923",
+     "share": 0.036,
+     "name": "orange"
+    },
+    {
+     "hex": "#165a3a",
+     "share": 0.03,
+     "name": "dark green"
+    },
+    {
+     "hex": "#fcf19d",
+     "share": 0.019,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.443,
+   "saturation": 0.715,
+   "contrast": 0.672,
+   "warm": 0.703,
+   "cool": 0.205,
+   "palette": [
+    {
+     "hex": "#25130a",
+     "share": 0.218,
+     "name": "black"
+    },
+    {
+     "hex": "#b27b3c",
+     "share": 0.124,
+     "name": "orange"
+    },
+    {
+     "hex": "#d9940f",
+     "share": 0.09,
+     "name": "orange"
+    },
+    {
+     "hex": "#f7f6f1",
+     "share": 0.059,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#a71407",
+     "share": 0.05,
+     "name": "red"
+    },
+    {
+     "hex": "#06920f",
+     "share": 0.021,
+     "name": "dark green"
+    },
+    {
+     "hex": "#0b3eb0",
+     "share": 0.02,
+     "name": "blue"
+    },
+    {
+     "hex": "#5c1e79",
+     "share": 0.016,
+     "name": "dark purple"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.294,
+   "saturation": 0.446,
+   "contrast": 0.649,
+   "warm": 0.389,
+   "cool": 0.39,
+   "palette": [
+    {
+     "hex": "#121110",
+     "share": 0.317,
+     "name": "black"
+    },
+    {
+     "hex": "#516355",
+     "share": 0.232,
+     "name": "grey"
+    },
+    {
+     "hex": "#3d282f",
+     "share": 0.156,
+     "name": "dark red"
+    },
+    {
+     "hex": "#869483",
+     "share": 0.069,
+     "name": "grey"
+    },
+    {
+     "hex": "#dd8b5f",
+     "share": 0.047,
+     "name": "orange"
+    },
+    {
+     "hex": "#853a26",
+     "share": 0.032,
+     "name": "red"
+    },
+    {
+     "hex": "#edd597",
+     "share": 0.029,
+     "name": "light orange"
+    },
+    {
+     "hex": "#58306b",
+     "share": 0.016,
+     "name": "purple"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.736,
+   "saturation": 0.185,
+   "contrast": 0.282,
+   "warm": 0.209,
+   "cool": 0.027,
+   "palette": [
+    {
+     "hex": "#b8b8b8",
+     "share": 0.45,
+     "name": "grey"
+    },
+    {
+     "hex": "#fbfbfa",
+     "share": 0.284,
+     "name": "white"
+    },
+    {
+     "hex": "#ec8615",
+     "share": 0.071,
+     "name": "orange"
+    },
+    {
+     "hex": "#808080",
+     "share": 0.03,
+     "name": "grey"
+    },
+    {
+     "hex": "#e8b615",
+     "share": 0.024,
+     "name": "gold"
+    },
+    {
+     "hex": "#bf6304",
+     "share": 0.024,
+     "name": "orange"
+    },
+    {
+     "hex": "#30433e",
+     "share": 0.024,
+     "name": "dark cyan"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.202,
+   "saturation": 0.726,
+   "contrast": 0.269,
+   "warm": 0.906,
+   "cool": 0.054,
+   "palette": [
+    {
+     "hex": "#2a1a0c",
+     "share": 0.729,
+     "name": "black"
+    },
+    {
+     "hex": "#654329",
+     "share": 0.095,
+     "name": "brown"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.354,
+   "saturation": 0.743,
+   "contrast": 0.473,
+   "warm": 0.681,
+   "cool": 0.161,
+   "palette": [
+    {
+     "hex": "#40200a",
+     "share": 0.348,
+     "name": "brown"
+    },
+    {
+     "hex": "#8a4832",
+     "share": 0.252,
+     "name": "red"
+    },
+    {
+     "hex": "#5da521",
+     "share": 0.148,
+     "name": "green"
+    },
+    {
+     "hex": "#3b7116",
+     "share": 0.075,
+     "name": "dark green"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.331,
+   "saturation": 0.724,
+   "contrast": 0.504,
+   "warm": 0.818,
+   "cool": 0.152,
+   "palette": [
+    {
+     "hex": "#d04418",
+     "share": 0.421,
+     "name": "red"
+    },
+    {
+     "hex": "#150f12",
+     "share": 0.204,
+     "name": "black"
+    },
+    {
+     "hex": "#961f0b",
+     "share": 0.106,
+     "name": "red"
+    },
+    {
+     "hex": "#f4982d",
+     "share": 0.083,
+     "name": "orange"
+    },
+    {
+     "hex": "#343331",
+     "share": 0.063,
+     "name": "grey"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the three atlas pages seen whole, the game's own files (57 skeletons read as data, the help text) and real screens of played free-play sessions at 1280x720: the intro, the opening, base spins with wins, Golden Coin clusters, the Collect Snake, the statue heating up, the New Snake Unlocked and Bonus Game splashes, the Hold & Win bonus and the help pages. One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as three frames each on the sheets. What was not seen in play is marked as read from the files.",
+  "summary": "A lost-temple jungle in which every game mechanic is a snake: a photoreal misty rainforest sits behind hard, glossy, gold-rimmed symbols, three jewel-scaled Snakes in red, green and blue run the features, and a stone serpent above the reels heats from grey to lava as coins are thrown into its mouth.",
+  "style": "Two registers kept apart on purpose. The world (two jungle scenes, branches, birds) is photoreal painted concept art with soft haze; the game pieces (letters, props, coin, Snakes, plates, frame) are stylised casino art with thick gold rims, enamel colour and Mesoamerican step-fret ornament. The stone serpent and the temple walls sit between the two. Inference: the backgrounds have the look of an image model's picture retouched by hand; the symbols and interface are drawn in the usual production way.",
+  "rendering": "Backgrounds: soft atmospheric depth, no outlines. Symbols: smooth gradients, hard speculars, a dark outline and a thin yellow-green edge glow that lifts them off the dark panel. Snakes: faceted glossy scales and gold trim. Lettering: two-tone gradient fills with a light inner edge and dark outline. Effects: white sprites tinted by the engine, with fire and lava painted in colour.",
+  "colour": "Measured over the game's art: near-black brown #18130f 29%, jungle grey-green #526254 14%, dark wine #392d2c 10%, pale grey #b8b7b5 6%, orange-brown #a53b11 5%, near-white #f9f9f7 4%, pale green #83927f 3%, deep red #601a0a 1%. The base game is green haze around a dark brown board with gold; the bonus turns the surround to red stone, violet and orange. Colour carries the rules: red, green and blue for Collect, Clone and Double (heads, frames, gems, side lights, the NEW SNAKE words); purple, blue, green, red-orange and gold for MINI, MINOR, MAJOR, GRAND and ULTIMATE; one hue per letter symbol; gold for anything that pays; jade green for the value on a coin.",
+  "lighting": "Diffuse daylight from above through mist in the base scene; a low orange sun and coloured haze in the bonus. Game pieces are lit from the top with their own highlights and do not take the scene's light. The statue is lit from above until its mouth and eyes light it from inside.",
+  "ambience": "An expedition that has found the temple: humid, hushed and green at first, with danger shown as beauty (jewel snakes, a sleeping statue). The bonus is heat and treasure: red walls, gold underfoot, the statue's eyes burning.",
+  "shapes": "Diamond snake heads and shield-shaped hoods; trapezoid plates in stepped-fret frames; slanted slab letters; round sun coins with spikes; square spiral frets on every frame end, lock plate and letter serif. The fret and the snake are the two repeated marks: the Wild, the win line's end, the win plate's ornament, the frame's corner and the opening wipe are all snakes.",
+  "materials": "Wet leaf, moss and mist; carved stone, grey when cold and red when lit; gold with turquoise; enamel or gemstone scales; coloured glass letters; lava and ember.",
+  "typography": "Drawn words in slanted comic capitals with a dark outline for jackpots, win tiers and feature messages, each in its tier's or snake's colour. The logo is separate: spaced serif capitals in snake skin, gold and red. Numbers come from three bitmap fonts of the provider's shared store: Rubik Mono One in gold with a deep wine extrusion (ladder multipliers, win amounts), Blambot FX Pro Heavy in jade with a gold rim (the value on a Golden Coin, as the screens show), Anton italic in gold (the collector counters). The shell's Poppins sets the help, buttons and balance line.",
+  "motion": "All motion is Spine: 57 skeletons in one bundle file (47 in 4.2.40, 6 in 4.2.42, 4 in 4.2.43), with 29 frame sequences (515 frames: the coin's turn, a lava flow, fire, white glints fitted to each letter, word and plate, sparks, mist, two shatters). Seen in play: snake bodies wiping the intro away; the three collector frames arriving and the red Snake unlocking under a blue sparkling splash; coins flying from each Golden Coin to the statue, whose mouth and eyes turn red; clusters bound in a gold chain with a 3-2-1 lock disc; win lines in gold with a snake-head end; a gold win amount with a coin shower; the temple walls sliding in for the bonus. Read from the files only: jackpot wins, the big-win tiers, the Clone and Double Snakes in action. No skeleton frame is shown in this report, because the project's renderer cannot draw Spine 4; assembled and motion pictures are absent for that reason only.",
+  "variants": "Two scenes on one picture (day, and a dusk regrade). Three Snakes on one rig with identical part sizes. Five jackpot plates on one shape, drawn twice (ladder size and win size). Three win tiers and a total on one lettering. Three collector frames told apart by gems and side lights. Two reel backings (five and six reels) and a frame cut in strips so the board grows from 5x4 to 6x6. Numerals in three coloured fonts.",
+  "construction": "Three 4096 px atlas pages hold the game: two carry one 2750x2510 scene each with the large pieces, the third some 600 small sprites. Eleven word pictures are localised (en-GB). Characters are few and cheap: the statue is one still with glow layers, a Snake is seven parts, the screen-filling wipe is six 307 px scale strips run along a path. Water moves by a displacement map over a mask, not by frames. White effect sprites are tinted in the engine. Symbol pictures for the help, the flat logo, the numeral fonts, the Extra Chance card, the controls and Poppins come from the provider's shared store outside the game bundle. The artists' green cell guide (tileGuide) ships in the atlas as an anchor.",
+  "consistency": "Strong inside each register, with one visible seam between them: the soft photoreal jungle and the hard enamel game pieces do not share light or edge quality, and the birds, painted sharper than the scene, sit between. The seam is used rather than hidden: the dark board and gold rims make every symbol read at once against the haze. Colour coding is exact across symbol, frame, word and effect. The comic-capital win words are the least themed element.",
+  "takeaways": [
+   "Let one creature carry every mechanic. Here the snake is the Wild, the three feature symbols, the collectors, the progress statue, the payline's end, the win plate's ornament and the screen wipe, so the theme is restated by play itself and needs no mascot character.",
+   "Give each feature a colour and never break it: red Collect, green Clone, blue Double hold across head, frame gems, side lights, splash words and effects. A player can read which feature fired from colour alone, and one rig with three skins serves all three.",
+   "Show locked content as dimmed real art, not as a padlock. The Clone and Double Snakes sit dark in their frames with a counter from the first spin: the goal is visible and the same sprites are reused.",
+   "Put a progress display where the eye already rests and make it a material change. The stone serpent goes from cold grey to lava mouth and burning eyes with a handful of glow layers and one 40-frame lava loop over a single still picture.",
+   "A photoreal background can sit behind stylised symbols if the board between them is dark and plain and every symbol has a rim. Decide that separation on purpose; do not try to half-match the two.",
+   "Make the bonus by regrading and re-dressing, not repainting: the same jungle picture in dusk colours, two temple wall pieces and a coin pile sliding in, and a second reel backing give a scene that feels new.",
+   "Build big moments from small tiles. The opening wipe fills the screen with snake bodies made of six scale strips on a path; the cluster chain is five 68 px pieces. Plan such pieces as tileable from the start.",
+   "Fit the highlight to the object. Each letter, word and plate has its own short white glint sequence drawn to its bevels, at small size and scaled up: cheap, and far better than a generic sweep.",
+   "Keep effect sprites white and tint them in the engine, and keep painted colour for the few effects that are material (fire, lava).",
+   "For AI-assisted art: backgrounds of this kind are where an image model gives most (two scenes from one picture by regrade); symbols, frames, plates and lettering here depend on exact shape language, rigs in parts and colour codes, and are the part to art-direct tightly and cut for animation."
+  ]
+ },
+ "screens": [
+  {
+   "file": "03-main-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game arriving",
+   "caption": "The base game: 5x4 reels in the vine-bound stone frame, the stone serpent above, the logo and the five jackpot plates at the left; the three collector frames at the right are still empty."
+  },
+  {
+   "file": "07-base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Stacked symbols",
+   "caption": "A landed screen of stacked compasses, purple 10s and red Ks."
+  },
+  {
+   "file": "05-feature-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "New Snake Unlocked: Collect",
+   "caption": "The splash NEW SNAKE UNLOCKED: the red Collect Snake large over a blue sparkling field, with SYMBOL CAN NOW LAND ON THE REELS; the game behind is dimmed."
+  },
+  {
+   "file": "00-intro-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the three Snakes together (red, green in the middle, blue) over the logo SERPENT GOLD: HOLD AND WIN, in the misty jungle clearing with the waterfall, a red bird at the right, and the shell's START button."
+  }
+ ]
+}

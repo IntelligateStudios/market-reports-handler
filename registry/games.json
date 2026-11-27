@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T08:14:30Z",
+ "updated": "2026-11-27T08:15:33Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -2547,7 +2547,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/serpent-gold-hold-and-win",
+    "from": "set by hand",
+    "at": "2026-11-27T08:15:32Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2564,12 +2568,22 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0430-octoplay-serpent-gold-hold-and-win"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:26:08Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0430-octoplay-serpent-gold-hold-and-win",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/7AqCafUpqQsWvnJFeNowxh",
+     "completed": "2026-11-27T08:15:33Z",
+     "commit": "0409d03",
+     "started": "2026-11-27T04:26:08Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"
