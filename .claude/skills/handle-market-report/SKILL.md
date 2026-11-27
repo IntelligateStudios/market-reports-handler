@@ -48,3 +48,7 @@ Read `CLAUDE.md` and `README.md` first. Every step leaves its state in the repos
 ## A Miro board of games
 
 When Roei names a Miro board of reference games instead of (or beside) a PDF: read it with the Miro connector (read-only; nothing is written to Miro), type its games into `boards/<date>-<slug>/board.json` as the README's Boards part says, record the request first, and join with `ledger.py board <id>`. The board's games are picks: analysed once like leaders, after them in the queue. A market on the board is the board's note. Every game's source shows in `ledger.py status` and the summary.
+
+## Merging
+
+After each analysed game is closed, open a pull request of the working branch in Games-AI-art and merge it without asking (Roei, 27 Nov 2026; the rule and its limits are in `CLAUDE.md`). Check the Games-AI-art repository for a pull request template first; say in the description which runs are finished and which ride along in progress.
