@@ -39,3 +39,7 @@ Read with the Miro connector, read-only: 98 items. Eleven headings each name a g
 - `tools/ledger.py` gained `board` and `sources_of`; `queue` lists board picks after the leaders; `tools/build_site.py` shows Source in the summary's leader table, the games table and each game's page, and a section "From the Miro board of reference games" with the market as the board notes it. Two tests cover it (16 pass).
 - The ledger holds 159 games; 13 are board picks, none of them named by any of the five reports. "Coin Strike 2" and "Coin Strike XXL" were entered as games of their own beside "Coin Strike".
 - **Open**: the 13 picks wait for analysis behind the report leaders; the board's 72 screenshots were not opened; the Backgrounds, Art of the leaders and Next steps texts name only report leaders so far.
+
+## Order changed
+
+Roei, 27 Nov 2026 (evening): "Enough with games from report for now, let's do the miro board games". From here the board's 13 games are analysed first. The five report leaders already in analysis are finished, not dropped (Jewel Boom Xxx, Mainline Riches Hold And Win, Break More Piggy Banks, Money Stacks, Huff N Puff Haunted Mansion); Dancing Drums Tower is captured and its reading waits; the seven report leaders not started wait until Roei says. First three board games started, one per provider, so each provider's client is learnt once: Coin Strike (Playson), 4 Gold Cards (Kendoo), Lucky Penny 3 Pots (3 Oaks Gaming).

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T15:49:55Z",
+ "updated": "2026-11-27T20:51:12Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -78,7 +78,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T20:51:12Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -3031,7 +3033,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T20:51:12Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -4649,7 +4653,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T20:51:12Z",
+     "run": null
     }
    },
    "added": "2026-11-27T15:22:15Z",
