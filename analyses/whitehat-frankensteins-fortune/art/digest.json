@@ -1,0 +1,622 @@
+{
+ "run": "2026-11-27-1019-whitehat-frankensteins-fortune",
+ "game": "Frankensteins Fortune",
+ "started": "2026-11-27T10:19:33.177Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 1233,
+  "components": 1679,
+  "spines": 73,
+  "fonts": 2
+ },
+ "units": [
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 8
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 3
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 5
+  },
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 3
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 7
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 8
+  }
+ ],
+ "measured": {
+  "brightness": 0.355,
+  "saturation": 0.775,
+  "contrast": 0.497,
+  "warm": 0.119,
+  "cool": 0.625,
+  "colourShare": 0.768,
+  "softEdge": 0.049,
+  "highlights": 0.058,
+  "palette": [
+   {
+    "hex": "#0d1610",
+    "share": 0.259,
+    "name": "black"
+   },
+   {
+    "hex": "#296909",
+    "share": 0.172,
+    "name": "dark green"
+   },
+   {
+    "hex": "#112e45",
+    "share": 0.087,
+    "name": "dark blue"
+   },
+   {
+    "hex": "#0b887d",
+    "share": 0.078,
+    "name": "dark cyan"
+   },
+   {
+    "hex": "#38b512",
+    "share": 0.042,
+    "name": "green"
+   },
+   {
+    "hex": "#f1fbf5",
+    "share": 0.038,
+    "name": "light green"
+   },
+   {
+    "hex": "#3b126f",
+    "share": 0.026,
+    "name": "dark purple"
+   }
+  ],
+  "hues": {
+   "green": 0.516,
+   "cyan": 0.181,
+   "blue": 0.152,
+   "purple": 0.059
+  },
+  "lightFrom": {
+   "top": 163,
+   "top-right": 52,
+   "top-left": 51
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Logo and title": {
+   "brightness": 0.555,
+   "saturation": 0.624,
+   "contrast": 0.903,
+   "warm": 0.209,
+   "cool": 0.542,
+   "palette": [
+    {
+     "hex": "#36abfa",
+     "share": 0.116,
+     "name": "blue"
+    },
+    {
+     "hex": "#acf7d2",
+     "share": 0.111,
+     "name": "light green"
+    },
+    {
+     "hex": "#0a140d",
+     "share": 0.095,
+     "name": "black"
+    },
+    {
+     "hex": "#25f72d",
+     "share": 0.067,
+     "name": "green"
+    },
+    {
+     "hex": "#f2fdf1",
+     "share": 0.064,
+     "name": "light green"
+    },
+    {
+     "hex": "#eca91b",
+     "share": 0.057,
+     "name": "orange"
+    },
+    {
+     "hex": "#8ee891",
+     "share": 0.04,
+     "name": "green"
+    },
+    {
+     "hex": "#3ef7f5",
+     "share": 0.018,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.432,
+   "saturation": 0.826,
+   "contrast": 0.455,
+   "warm": 0.407,
+   "cool": 0.428,
+   "palette": [
+    {
+     "hex": "#09110c",
+     "share": 0.092,
+     "name": "black"
+    },
+    {
+     "hex": "#f3b60d",
+     "share": 0.09,
+     "name": "orange"
+    },
+    {
+     "hex": "#e84607",
+     "share": 0.061,
+     "name": "orange"
+    },
+    {
+     "hex": "#b88207",
+     "share": 0.057,
+     "name": "brown"
+    },
+    {
+     "hex": "#4dea06",
+     "share": 0.052,
+     "name": "green"
+    },
+    {
+     "hex": "#ed07f3",
+     "share": 0.05,
+     "name": "magenta"
+    },
+    {
+     "hex": "#0576ec",
+     "share": 0.05,
+     "name": "blue"
+    },
+    {
+     "hex": "#f3faf7",
+     "share": 0.027,
+     "name": "light green"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.667,
+   "saturation": 0.415,
+   "contrast": 0.884,
+   "warm": 0.29,
+   "cool": 0.223,
+   "palette": [
+    {
+     "hex": "#fffefd",
+     "share": 0.377,
+     "name": "light gold"
+    },
+    {
+     "hex": "#080503",
+     "share": 0.106,
+     "name": "black"
+    },
+    {
+     "hex": "#18f3de",
+     "share": 0.091,
+     "name": "cyan"
+    },
+    {
+     "hex": "#0fb49f",
+     "share": 0.071,
+     "name": "cyan"
+    },
+    {
+     "hex": "#ed9a0b",
+     "share": 0.059,
+     "name": "orange"
+    },
+    {
+     "hex": "#661401",
+     "share": 0.054,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fbe955",
+     "share": 0.039,
+     "name": "gold"
+    },
+    {
+     "hex": "#2edbac",
+     "share": 0.025,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.262,
+   "saturation": 0.872,
+   "contrast": 0.151,
+   "warm": 0.024,
+   "cool": 0.48,
+   "palette": [
+    {
+     "hex": "#336306",
+     "share": 0.617,
+     "name": "dark green"
+    },
+    {
+     "hex": "#0d1a03",
+     "share": 0.329,
+     "name": "black"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.478,
+   "saturation": 0.532,
+   "contrast": 0.426,
+   "warm": 0.124,
+   "cool": 0.612,
+   "palette": [
+    {
+     "hex": "#1f4d28",
+     "share": 0.186,
+     "name": "dark green"
+    },
+    {
+     "hex": "#131f18",
+     "share": 0.162,
+     "name": "black"
+    },
+    {
+     "hex": "#f4fefb",
+     "share": 0.094,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#338d3e",
+     "share": 0.087,
+     "name": "green"
+    },
+    {
+     "hex": "#a1f3df",
+     "share": 0.07,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#324953",
+     "share": 0.062,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#0efff1",
+     "share": 0.04,
+     "name": "cyan"
+    },
+    {
+     "hex": "#5b370e",
+     "share": 0.038,
+     "name": "brown"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.371,
+   "saturation": 0.442,
+   "contrast": 0.558,
+   "warm": 0.278,
+   "cool": 0.378,
+   "palette": [
+    {
+     "hex": "#101012",
+     "share": 0.215,
+     "name": "black"
+    },
+    {
+     "hex": "#30352f",
+     "share": 0.212,
+     "name": "grey"
+    },
+    {
+     "hex": "#5d615a",
+     "share": 0.099,
+     "name": "grey"
+    },
+    {
+     "hex": "#f7f7f5",
+     "share": 0.067,
+     "name": "white"
+    },
+    {
+     "hex": "#314093",
+     "share": 0.063,
+     "name": "blue"
+    },
+    {
+     "hex": "#cbd7c0",
+     "share": 0.051,
+     "name": "light green"
+    }
+   ]
+  },
+  "Provider interface (shared)": {
+   "brightness": 0.445,
+   "saturation": 0.779,
+   "contrast": 0.688,
+   "warm": 0.477,
+   "cool": 0.476,
+   "palette": [
+    {
+     "hex": "#e2952c",
+     "share": 0.183,
+     "name": "orange"
+    },
+    {
+     "hex": "#0399fc",
+     "share": 0.171,
+     "name": "blue"
+    },
+    {
+     "hex": "#020416",
+     "share": 0.108,
+     "name": "black"
+    },
+    {
+     "hex": "#031d54",
+     "share": 0.08,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#0b5db2",
+     "share": 0.07,
+     "name": "blue"
+    },
+    {
+     "hex": "#f4ce5f",
+     "share": 0.069,
+     "name": "orange"
+    },
+    {
+     "hex": "#ffd30a",
+     "share": 0.045,
+     "name": "gold"
+    },
+    {
+     "hex": "#621009",
+     "share": 0.036,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.27,
+   "saturation": 0.813,
+   "contrast": 0.648,
+   "warm": 0.065,
+   "cool": 0.825,
+   "palette": [
+    {
+     "hex": "#0c1628",
+     "share": 0.425,
+     "name": "black"
+    },
+    {
+     "hex": "#0b4e4f",
+     "share": 0.207,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#0b9781",
+     "share": 0.139,
+     "name": "cyan"
+    },
+    {
+     "hex": "#320d61",
+     "share": 0.036,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#14e68e",
+     "share": 0.03,
+     "name": "green"
+    },
+    {
+     "hex": "#0c8e4c",
+     "share": 0.027,
+     "name": "green"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.402,
+   "saturation": 0.755,
+   "contrast": 0.513,
+   "warm": 0.103,
+   "cool": 0.653,
+   "palette": [
+    {
+     "hex": "#0e1713",
+     "share": 0.237,
+     "name": "black"
+    },
+    {
+     "hex": "#0a8883",
+     "share": 0.102,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#387f08",
+     "share": 0.094,
+     "name": "dark green"
+    },
+    {
+     "hex": "#15530b",
+     "share": 0.06,
+     "name": "dark green"
+    },
+    {
+     "hex": "#effbf1",
+     "share": 0.059,
+     "name": "light green"
+    },
+    {
+     "hex": "#0c9f18",
+     "share": 0.052,
+     "name": "green"
+    },
+    {
+     "hex": "#2c1559",
+     "share": 0.048,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#07484b",
+     "share": 0.027,
+     "name": "dark cyan"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.339,
+   "saturation": 0.801,
+   "contrast": 0.503,
+   "warm": 0.129,
+   "cool": 0.57,
+   "palette": [
+    {
+     "hex": "#0b1606",
+     "share": 0.316,
+     "name": "black"
+    },
+    {
+     "hex": "#215c07",
+     "share": 0.135,
+     "name": "dark green"
+    },
+    {
+     "hex": "#3ba10b",
+     "share": 0.123,
+     "name": "green"
+    },
+    {
+     "hex": "#5ce413",
+     "share": 0.057,
+     "name": "green"
+    },
+    {
+     "hex": "#300d59",
+     "share": 0.05,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#41229d",
+     "share": 0.041,
+     "name": "purple"
+    },
+    {
+     "hex": "#f3fbfb",
+     "share": 0.029,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#561f10",
+     "share": 0.018,
+     "name": "dark red"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every sheet opened), the skeleton files and 41 real screens of a played session. This run reads Blueprint Gaming's international build of the game (BP_FrankensteinsFortune95), the only public demo; the market report ranks White Hat Studios' US build of the same title (WHS_FrankensteinsFortune94). That the art is the same in both is inference: no source found says so.",
+  "summary": "A cartoon Frankenstein laboratory lit by acid-green electricity: a child-like monster mascot, chunky lab hardware in teal and copper, plasma-ball prizes in neon colours, and gold kept for money.",
+  "style": "Family-animation cartoon horror with a 3D-look painted finish. Frankie and the Bride have big heads, heavy lids and small bodies; props (hand, ray gun, control box, brain jars, specimen jars) are rounded and toy-like. Nothing is gory: stitches, bolts, brains and eyeballs are played as sweets and toys. Lettering is horror-comic: dripping green words and fat gold slabs.",
+  "rendering": "Smooth gradients, clean hard silhouettes, no line outlines (measured: 5% soft edge over the game's art). Detail and gloss are spent on the symbols, the jars and Frankie; backgrounds are hazy paintings kept empty in the middle. Every glow, arc and burst is a separate layer on black, added on top.",
+  "colour": "Measured over the game's own art: vivid (saturation 78%), mid-to-dark (brightness 36%), cool 63% against warm 12%. Black-green #0d1610 26%, dark green #296909 17%, dark blue #112e45 9%, teal #0b887d 8%, bright green #38b512 4%, purple #3b126f 3%; green is 52% of the coloured pixels. The scheme: teal fog and violet shadow for the room, acid green for electricity and light, copper for the frame, and gold with a red edge only for money (cash balls, win numerals, COLLECT). Three bonus games are told apart by colour alone, red, green and blue, and four jackpots by green, blue, magenta and red.",
+  "lighting": "Light comes from the things in the picture: electrode balls, plasma, liquid in jars, lightning, the storm sky. Objects are top-lit (measured: light from the top on 163 parts, top-left and top-right on about 50 each) with a coloured glow behind them. The reel backing is unlit black, so everything luminous reads against it.",
+  "ambience": "Spooky but cosy and funny: a Halloween cartoon, with the machine always humming. The base game is the lab at night; Cash Trail goes outside to the stormy hill and castle; Big Money is a shelf of specimen jars; Frankie Spins darkens the lab and lights only the prizes.",
+  "shapes": "Round and chunky: cylinders, domes, balls and fat letters. The angular shapes are lightning, thorny vines and bare trees, used for energy and for the outdoors. Frames are copper pipe or thin gold; the Collect symbol breaks the grid with a vine border.",
+  "materials": "Green enamelled metal, copper pipe and brass bolts, glass with coloured liquid and bubbles, plasma behind glass, stitched green skin, cloth, cork, aged wood, gold lettering and coins.",
+  "typography": "Display lettering is drawn art: green condensed capitals and a gold slab for the logo, dripping slime letters for WILD and IT'S ALIVE!, green slab words with a blue or dark edge for win tiers and bonus words, fat outlined words for the jackpots. Eight bitmap numeral fonts in one rounded design (gold and red for money, white for counters, teal for totals). Running text is the shell's Roboto.",
+  "motion": "Spine carries everything: 73 skeletons, 71 of them made in Spine 4.2.43 (six exported as 4.1; the two Power Play rigs are 3.8), from 3-bone symbol pulses (land 0.67 s, win 1.0 s) to Frankie's 138-bone expanded symbol and the 108-bone Mega Frankie. Electricity is hand-made frame sequences played inside the rigs: 61 sequences, 891 frames (arcs of 30 frames, plasma of 21, lightning of 23, win boxes of 30). Hands change pose by swapping numbered pictures. No skeleton frame is drawn in this report: the tools cannot draw Spine 4.2, so motion is read from the files and the screens.",
+  "variants": "One design, several colours, is the rule: three brain jars, four jackpot balls, four specimen jars, jar counters in red and blue. Each paying symbol ships as a still, a win copy, a painted blur and, for Frankie Spins, a dimmed green copy and its blur at a smaller cell size. Frankie exists as a Collect tile, an expanded three-cell figure, a 2x2 to 5x5 Mega Frankie and a figure for intros. Intro screens and the trail have separate portrait rigs and, for the trail, a separate portrait painting.",
+  "construction": "1,679 named pictures from 1,233 files. Almost all art is loose PNG and JPEG files in folders named by use, with Spine JSON beside them; only the three brain jars, Mega Frankie and the level meter are packed Spine atlases. Files with words in them end in _ml, one set per language (inference from the naming). Effects are JPEG on black for additive slots. The base game loads first; each bonus game's art (373 more files) loads only when that bonus starts.",
+  "consistency": "Tight: one character design, one hardware family, one green. What sits outside is the Power Play and bonus wheel set, in a chrome blue and gold style with a 'Super Mode' logo placeholder, which looks like a shared template of the provider (inference; listed under the provider's interface and not read), and the big win's coins and gems, which are generic.",
+  "takeaways": [
+   "The build read here is Blueprint Gaming's (BP_FrankensteinsFortune95), not the White Hat Studios US build the market report ranks; treat every finding as about this title's art, with the match between the two builds as inference.",
+   "One light source idea runs the whole game: green electricity. Arcs on the frame, win boxes, the modifier frame, plasma prizes and lightning in the jars are all the same few hand-made frame sequences, recoloured and reused.",
+   "Colour is the navigation: red, green and blue name the three bonus games on the meters, the symbols, the counters and the result screens, and gold is reserved for money. An artist's brief for a similar game can fix this palette logic before any asset is drawn.",
+   "Progress is always a physical object filling up (a brain jar, a glass tube), never an abstract bar. The jar rig, with six liquid levels, is drawn once and coloured three times.",
+   "The mascot is one set of about 60 body parts reused in five rigs (symbol, expanded symbol, Mega Frankie, modifier walk-on, intros). The cost is in rigging and hand poses, not in new paintings: a generated character still needs to be cut into parts like these.",
+   "Scene art is not economised: four full paintings at 3200x3200 (the lab, its congratulations copy, the trail in landscape and in portrait) and four more at 1600x1600, each empty where the board or the prizes sit.",
+   "Dimming losers instead of removing them (the green 'off' symbol set of Frankie Spins) keeps a hold-and-collect board full and on-theme for the price of one recolour per symbol."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "The base game: the 5x3 reels in a copper pipe frame, four jackpot plates above, the three brain jars at the left, the Express Bet panel at the right, the laboratory behind."
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "The intro: the logo over the three brain jars (Cash Trail, Frankie Spins, Cash Spins), the IT'S ALIVE! panel at the left and the FRANKIE TIME panel at the right, over the castle under a green storm."
+  },
+  {
+   "file": "13-trigger.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "trigger",
+   "screen": "Bonus trigger",
+   "caption": "A green jar symbol lands and the green Cash Trail jar at the left lights up."
+  }
+ ]
+}

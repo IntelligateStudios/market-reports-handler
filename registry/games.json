@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T15:17:36Z",
+ "updated": "2026-11-27T15:17:52Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -5418,7 +5418,11 @@
    "providerKey": "whitehat",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://slotslaunch.com/blueprint-gaming/frankensteins-fortune",
+    "from": "set by hand",
+    "at": "2026-11-27T15:17:52Z"
+   },
    "appearances": [
     {
      "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
@@ -5428,12 +5432,22 @@
      "page": 46
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-1019-whitehat-frankensteins-fortune"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T10:15:41Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-1019-whitehat-frankensteins-fortune",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/7zXogJZJ9WJCyNXZx3zby9",
+     "completed": "2026-11-27T15:17:52Z",
+     "commit": "f1ac443",
+     "started": "2026-11-27T10:15:41Z"
     }
    },
    "added": "2026-11-27T09:48:18Z"
