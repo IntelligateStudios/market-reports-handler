@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T09:06:14Z",
+ "updated": "2026-11-27T09:24:03Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -2126,7 +2126,11 @@
    "providerKey": "lnw",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://ogs-gl-usnj.nyxop.net/game/?nogsoperatorid=386&nogsgameid=71743&nogsmode=demo&nogslang=EN_EN&nogscurrency=USD&clienttype=flash",
+    "from": "set by hand",
+    "at": "2026-11-27T09:24:03Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2164,12 +2168,22 @@
      "page": 43
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0457-lnw-huff-n-puff-money-mansion"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:57:54Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0457-lnw-huff-n-puff-money-mansion",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/AGc4Fn8jK863ZC4H8gTk3A",
+     "completed": "2026-11-27T09:24:03Z",
+     "commit": "5a5f6cf",
+     "started": "2026-11-27T04:57:54Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"

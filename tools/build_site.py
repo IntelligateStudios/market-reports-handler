@@ -311,7 +311,13 @@ def page_art_report(games, digests, leaders):
         missing = [games[g]["name"] for g in wanted if g not in digests]
         out.append(f'<p class="lede">The art of the market\'s leading slot games, side by side. {len(wanted) - len(missing)} of {len(wanted)} leaders are analysed.</p>')
         if missing:
-            out.append(f'<p class="note">Still to analyse: {esc(", ".join(missing))}. The comparison below covers only the analysed games and is not yet a view of the whole market.</p>')
+            status = lambda g: ((games[g].get("analysis") or {}).get("art") or {}).get("status")
+            blocked = [games[g]["name"] for g in wanted if g not in digests and status(g) == "blocked"]
+            waiting = [n for n in missing if n not in blocked]
+            if waiting:
+                out.append(f'<p class="note">Still to analyse: {esc(", ".join(waiting))}.</p>')
+            if blocked:
+                out.append(f'<p class="note">Blocked, each with its reason on its own page: {esc(", ".join(blocked))}. The comparison below covers only the analysed games and is not a view of the whole market.</p>')
     else:
         out.append(f'<p class="lede">The art of the games analysed so far, side by side. No report has named its leaders yet, so this is {len(have)} game{"s" if len(have) != 1 else ""}, not the market.</p>')
     written = DOCS / "art-report.md"

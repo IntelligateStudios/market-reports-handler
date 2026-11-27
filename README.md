@@ -87,4 +87,10 @@ Only slot games. A game earns `weight × (21 − rank)` points in each list that
 
 ## Where things stand
 
-25 Nov 2026: the harness is built and the ledger seeded with the 19 games the studio already had on record (Intelligate HQ's competitor GDD runs and web research of 21 Nov, and the Zeus vs Hades POP art run, the one game already analysed). No report has been taken yet.
+27 Nov 2026: two reports are handled (Eilers-Fantini, U.S. Online Game Performance, July and August 2026 editions). They name 30 leading slot games between them; the ledger holds 93 games.
+
+- **16 leaders are analysed**, each with a published art report: IGT (5), Octoplay (6), Light & Wonder (3), AGS (1), Inspired (1).
+- **14 leaders are blocked**, each with its reason on the ledger (`ledger.py status`): Games Global (8, public demos refused for visitors from the United States), White Hat Studios (2), Aristocrat, Evolution, ReelPlay and IGT's Cash Eruption High Stakes (no public demo that opens). A blocked game is taken up again when a link or another machine is available: `ledger.py start <id>`.
+- **Both documents are written** from the sixteen: `documents/art-report.md` and `documents/next-steps.md`. They are written again when a blocked leader is analysed or a new report adds leaders.
+- The record of the run is `records/2026-11-25-eilers-fantini-july-august.md`.
+
