@@ -1,0 +1,653 @@
+{
+ "run": "2026-11-27-0953-octoplay-3-blazing-chilis-hold-and-win",
+ "game": "3 Blazing Chilis Hold And Win",
+ "started": "2026-11-27T09:53:26.504Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 41,
+  "components": 433,
+  "spines": 37,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 5
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 3
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 4
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 2
+  }
+ ],
+ "measured": {
+  "brightness": 0.488,
+  "saturation": 0.522,
+  "contrast": 0.505,
+  "warm": 0.692,
+  "cool": 0.213,
+  "colourShare": 0.811,
+  "softEdge": 0.07,
+  "highlights": 0.1,
+  "palette": [
+   {
+    "hex": "#60373f",
+    "share": 0.126,
+    "name": "dark red"
+   },
+   {
+    "hex": "#371819",
+    "share": 0.121,
+    "name": "dark red"
+   },
+   {
+    "hex": "#b45832",
+    "share": 0.119,
+    "name": "orange"
+   },
+   {
+    "hex": "#ca996b",
+    "share": 0.102,
+    "name": "orange"
+   },
+   {
+    "hex": "#f5f7f5",
+    "share": 0.092,
+    "name": "light green"
+   },
+   {
+    "hex": "#7e5966",
+    "share": 0.087,
+    "name": "red"
+   },
+   {
+    "hex": "#eac596",
+    "share": 0.083,
+    "name": "light orange"
+   },
+   {
+    "hex": "#fbd945",
+    "share": 0.023,
+    "name": "gold"
+   }
+  ],
+  "hues": {
+   "orange": 0.381,
+   "red": 0.331,
+   "blue": 0.09,
+   "magenta": 0.077
+  },
+  "lightFrom": {
+   "top": 46,
+   "top-left": 18,
+   "right": 12
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.498,
+   "saturation": 0.789,
+   "contrast": 0.685,
+   "warm": 0.603,
+   "cool": 0.199,
+   "palette": [
+    {
+     "hex": "#21611c",
+     "share": 0.202,
+     "name": "dark green"
+    },
+    {
+     "hex": "#fbca2e",
+     "share": 0.162,
+     "name": "gold"
+    },
+    {
+     "hex": "#35b126",
+     "share": 0.127,
+     "name": "green"
+    },
+    {
+     "hex": "#fa2d10",
+     "share": 0.104,
+     "name": "red"
+    },
+    {
+     "hex": "#f66921",
+     "share": 0.09,
+     "name": "orange"
+    },
+    {
+     "hex": "#591506",
+     "share": 0.065,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f7e975",
+     "share": 0.065,
+     "name": "gold"
+    },
+    {
+     "hex": "#934420",
+     "share": 0.061,
+     "name": "brown"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.451,
+   "saturation": 0.653,
+   "contrast": 0.633,
+   "warm": 0.805,
+   "cool": 0.147,
+   "palette": [
+    {
+     "hex": "#ad3118",
+     "share": 0.171,
+     "name": "red"
+    },
+    {
+     "hex": "#ebae82",
+     "share": 0.159,
+     "name": "orange"
+    },
+    {
+     "hex": "#372e2c",
+     "share": 0.098,
+     "name": "grey"
+    },
+    {
+     "hex": "#120a0f",
+     "share": 0.082,
+     "name": "black"
+    },
+    {
+     "hex": "#6b1f0c",
+     "share": 0.055,
+     "name": "dark red"
+    },
+    {
+     "hex": "#6b7989",
+     "share": 0.047,
+     "name": "blue"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.6,
+   "saturation": 0.753,
+   "contrast": 0.503,
+   "warm": 0.863,
+   "cool": 0.084,
+   "palette": [
+    {
+     "hex": "#f48e0d",
+     "share": 0.255,
+     "name": "orange"
+    },
+    {
+     "hex": "#fccf50",
+     "share": 0.22,
+     "name": "orange"
+    },
+    {
+     "hex": "#e7dbc3",
+     "share": 0.112,
+     "name": "light orange"
+    },
+    {
+     "hex": "#be5209",
+     "share": 0.09,
+     "name": "orange"
+    },
+    {
+     "hex": "#933109",
+     "share": 0.073,
+     "name": "brown"
+    },
+    {
+     "hex": "#de221f",
+     "share": 0.025,
+     "name": "red"
+    },
+    {
+     "hex": "#fcd610",
+     "share": 0.023,
+     "name": "gold"
+    },
+    {
+     "hex": "#251604",
+     "share": 0.018,
+     "name": "black"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.442,
+   "saturation": 0.52,
+   "contrast": 0.956,
+   "warm": 0.882,
+   "cool": 0.001,
+   "palette": [
+    {
+     "hex": "#0c0302",
+     "share": 0.389,
+     "name": "black"
+    },
+    {
+     "hex": "#fefcee",
+     "share": 0.165,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f9f0a0",
+     "share": 0.108,
+     "name": "light gold"
+    },
+    {
+     "hex": "#570f09",
+     "share": 0.099,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f4d639",
+     "share": 0.075,
+     "name": "gold"
+    },
+    {
+     "hex": "#e7bd4d",
+     "share": 0.057,
+     "name": "orange"
+    },
+    {
+     "hex": "#f0e378",
+     "share": 0.029,
+     "name": "gold"
+    },
+    {
+     "hex": "#8e1218",
+     "share": 0.017,
+     "name": "red"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.447,
+   "saturation": 0.718,
+   "contrast": 0.589,
+   "warm": 0.881,
+   "cool": 0.061,
+   "palette": [
+    {
+     "hex": "#4b180d",
+     "share": 0.303,
+     "name": "dark red"
+    },
+    {
+     "hex": "#ea2e19",
+     "share": 0.113,
+     "name": "red"
+    },
+    {
+     "hex": "#a8210f",
+     "share": 0.099,
+     "name": "red"
+    },
+    {
+     "hex": "#f4c719",
+     "share": 0.079,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdfdfd",
+     "share": 0.074,
+     "name": "white"
+    },
+    {
+     "hex": "#f7da5b",
+     "share": 0.063,
+     "name": "gold"
+    },
+    {
+     "hex": "#f36f1f",
+     "share": 0.056,
+     "name": "orange"
+    },
+    {
+     "hex": "#2ff9f2",
+     "share": 0.025,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.846,
+   "saturation": 0.207,
+   "contrast": 0.26,
+   "warm": 0.256,
+   "cool": 0.512,
+   "palette": [
+    {
+     "hex": "#f8f9f7",
+     "share": 0.656,
+     "name": "light green"
+    },
+    {
+     "hex": "#fc640a",
+     "share": 0.113,
+     "name": "orange"
+    },
+    {
+     "hex": "#c0d5dd",
+     "share": 0.048,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#535353",
+     "share": 0.038,
+     "name": "grey"
+    },
+    {
+     "hex": "#f5ac29",
+     "share": 0.036,
+     "name": "orange"
+    },
+    {
+     "hex": "#929292",
+     "share": 0.033,
+     "name": "grey"
+    },
+    {
+     "hex": "#fbdd2c",
+     "share": 0.022,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdf19e",
+     "share": 0.018,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.435,
+   "saturation": 0.51,
+   "contrast": 0.523,
+   "warm": 0.704,
+   "cool": 0.214,
+   "palette": [
+    {
+     "hex": "#784f5d",
+     "share": 0.205,
+     "name": "red"
+    },
+    {
+     "hex": "#cfa274",
+     "share": 0.189,
+     "name": "orange"
+    },
+    {
+     "hex": "#42272d",
+     "share": 0.178,
+     "name": "dark red"
+    },
+    {
+     "hex": "#c66133",
+     "share": 0.128,
+     "name": "orange"
+    },
+    {
+     "hex": "#893729",
+     "share": 0.053,
+     "name": "red"
+    },
+    {
+     "hex": "#a7d8eb",
+     "share": 0.043,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#162362",
+     "share": 0.03,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.41,
+   "saturation": 0.551,
+   "contrast": 0.54,
+   "warm": 0.833,
+   "cool": 0.157,
+   "palette": [
+    {
+     "hex": "#a65d3b",
+     "share": 0.322,
+     "name": "orange"
+    },
+    {
+     "hex": "#291a2a",
+     "share": 0.212,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#ecb291",
+     "share": 0.147,
+     "name": "orange"
+    },
+    {
+     "hex": "#6f2b1a",
+     "share": 0.113,
+     "name": "dark red"
+    },
+    {
+     "hex": "#c58b71",
+     "share": 0.068,
+     "name": "orange"
+    },
+    {
+     "hex": "#f4eadd",
+     "share": 0.04,
+     "name": "light orange"
+    },
+    {
+     "hex": "#695864",
+     "share": 0.023,
+     "name": "grey"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.478,
+   "saturation": 0.675,
+   "contrast": 0.356,
+   "warm": 0.795,
+   "cool": 0.106,
+   "palette": [
+    {
+     "hex": "#34090b",
+     "share": 0.265,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f4c6a3",
+     "share": 0.248,
+     "name": "light orange"
+    },
+    {
+     "hex": "#b34b2d",
+     "share": 0.072,
+     "name": "red"
+    },
+    {
+     "hex": "#fffffe",
+     "share": 0.055,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f8790f",
+     "share": 0.049,
+     "name": "orange"
+    },
+    {
+     "hex": "#b01811",
+     "share": 0.047,
+     "name": "red"
+    },
+    {
+     "hex": "#fad603",
+     "share": 0.045,
+     "name": "gold"
+    },
+    {
+     "hex": "#1bc4e5",
+     "share": 0.034,
+     "name": "cyan"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the two atlas pages seen whole, the game's own files (37 skeletons read as data, the help text) and real screens of played free-play sessions at 1280x720: the intro, base spins with wins, the help pages, the Buy Feature window, a bought \"All Chilis Hold & Win\" from its trigger through the Bonus Game splash and the fire transition into the bonus. The bonus was played to its end over about 150 presses: values growing, a full reel collected, the MINI jackpot and TOTAL WIN. One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as three frames each on the sheets. What was not seen in play is marked as read from the files.",
+  "summary": "A sunny Mexican market stall run by one beaming chef, where the whole game is a grill: three chilis in traffic-light colours sit on three plates above the reels, catch fire to start the Hold & Win, and turn the day street into a lantern-lit fiesta night.",
+  "style": "Family animated-feature illustration throughout: a storybook street, a soft caricature chef, plump glossy food symbols and comic poster lettering. Unlike many games of this kind there is no gap between a realistic world and stylised game pieces; background, character and symbols share one rounded, friendly manner, the symbols only more saturated and glossier. Inference: the two street pictures and the chef have the look of an image model's work finished by hand (the night street repeats the day street object for object); frame, boards, lettering and effects are drawn in the usual production way.",
+  "rendering": "Backgrounds: painted gradients with brush texture and no outlines. Chef: smooth 3D-like shading with a warm rim. Symbols: strong gradients, long white speculars, a dark outline, each on the dark plank board. Lettering: two-tone gradients with a top bevel, dark outline and lower extrusion. Fire: cel-painted licks in two or three tones with a soft glow. Smoke and light: white sprites tinted by the engine.",
+  "colour": "Measured over the game's art: dusty wine #60373f 12%, dark wine #371819 12%, terracotta #b45832 11%, sand #ca996b 10%, near-white #f5f7f5 9%, mauve #7e5966 8%, pale sand #eac596 8%, gold #fbd945 2%. A warm palette of cream, terracotta and red with green as the foil. Colour carries the rules: green, yellow and red for the three chilis, in value order (1x, 2x, 5x the stake), repeated on their words, their effect marks and the logo; red and gold, orange, cyan and purple for GRAND, MAJOR, MINOR and MINI; cyan, orange and red for BIG, SUPER and MEGA WIN; one hue per letter symbol. The bonus keeps every game piece and changes the world to violet and deep blue with orange lights.",
+  "lighting": "Base game: high sun from the upper right, soft short shadows. Bonus: moonlight with warm pools from windows, a lantern and strings of bulbs. Game pieces carry their own top light and do not take the scene's; fire lights itself and gives the chilis a rim.",
+  "ambience": "A holiday lunch at a street grill: sunny, generous, a little comic (the deadpan hen, the chef who breathes fire and coins when the chilis ignite). The bonus is the same street at fiesta time, hotter and more intimate.",
+  "shapes": "Round and plump everywhere: curved chilis, barrel cacti, a domed sombrero, a round-faced chef, rounded slab letters. The chili silhouette is the game's mark and is reused as a shape: the logo sign and win plate are a chili-shaped wooden board, a glow has a chili-shaped hole, the coin is embossed with a chili. Zigzag bands (poncho, sombrero, letters) are the second repeated motif.",
+  "materials": "Stucco, terracotta and clay tile; bleached and red-painted wood, rope; steel grill plates, cold and red-hot; waxy pepper skin, straw, feathers, glass; flame, smoke, gold coin.",
+  "typography": "Drawn words in rounded comic capitals with a double outline for the logo, the jackpots, the win tiers, the chili words (SPICY, HOT, BURNS) and the headings BONUS GAME, JACKPOT, TOTAL WIN and CONGRATS!, each in its rule colour. Rules on the bonus splash are a condensed italic sans in white with a red edge. Numbers come from three bitmap fonts of the provider's shared store: Tsiyugunsini in gold with a wine-red edge (jackpot values, the value on every Chili symbol, win amounts), Ultra in black with a gold rim (the +1 and x2 effect marks), Contrail One in white (the jackpot counters); which font sets which number is an inference from comparing glyphs with the screens. The shell's Poppins sets the help, buttons and balance line.",
+  "motion": "All character and layout motion is Spine: 37 skeletons in one bundle file (35 in 4.2.43, one in 4.1.24, one in 4.3.26), with 12 frame sequences (204 frames) that are almost all fire and smoke: a 31-frame fire burst, an 18-frame flame behind each Chili symbol, flame splashes, fire lines and streaks, a 28-frame cloud, puffs, an 18-frame smoke wisp, sparkles and a 10-frame coin. Seen in play: flames behind the three chilis on the intro; win lines as a thin gold line; a win amount on the wooden pepper plate with coins; the grill chilis lifting and flaring as their symbols land; on the bonus trigger all three ignite, the chef claps his hands to his mouth and blows fire and coins, the words turn into +1, x2 and an up-arrow; the Bonus Game splash on a tall red board; a red-orange fire screen with the grill and the three chilis as the change of scene; a golden flash with the chef giving two thumbs up as the game opens; then, in the bonus, the night street, a row of red chilis added on top inside a gold outline, values growing as +1 and x2 marks fly down, and empty positions burning as a reel nears full. When a reel fills, its chilis fly up to the wooden pepper plate, which counts the win; the MINI jackpot came with the gold JACKPOT word, the tier word large over the reels, coins and streamers; TOTAL WIN closes the bonus on the tall red board. Read from the files only: BIG, SUPER and MEGA WIN and the three higher jackpots. No skeleton frame is shown in this report, because the project's renderer cannot draw Spine 4; assembled and motion pictures are absent for that reason only.",
+  "variants": "Two scenes on one composition (day and night). Three chilis on one rig with three skins, in symbol, grill and splash sizes. Three collectors on one rig with three skins. Four jackpot boards on one plank. Three win tiers on one lettering. Two reel backings (three rows, and four with the bonus row) and a frame cut in mirrored strips so the board can grow. One chef with three pairs of hands. One wooden pepper board used as logo sign, bonus counter panel and win plate.",
+  "construction": "Two 4096 px atlas pages hold the whole game: each carries one 2750x2582 scene, and the rest is some 340 small sprites, more than half of them fire and smoke frames. Twelve word pictures are localised files (en-GB loaded). The chef is a bust of 19 parts with one painted face; the Wild hen is 12 parts; every other symbol is one to three sprites on a shared rig with skins. Effects are reused across skeletons by name (the symbol flame is also the grill flame, tinted red for a second version; the Wild's smoke is also the grill's). White effect sprites are tinted in the engine. The symbol pictures for the help, the flat logo, the numeral fonts, the Buy Feature cards, the controls and Poppins come from the provider's shared store outside the game bundle. The artists' white cell guide (tileGuide) and green container guide ship in the atlas as anchors.",
+  "consistency": "High. One manner runs from street to chef to symbols, and the three chili colours tie logo, symbols, grill, words, effect marks and poncho stripes together. The seams are small: the black-and-gold slab numerals of the effect marks and the condensed italic rule text are stock type beside hand-drawn comic capitals, and the Buy Feature cards are denser and hotter than anything in play.",
+  "takeaways": [
+   "Turn the mechanic into a place in the scene. The three persistent bonus modifiers are three chilis on a grill above the reels, each with a plate that heats, a word and a dial; the player reads the state of the game from a picture of cooking, not from meters.",
+   "Use an order people already know for value. Green, yellow, red is 1x, 2x, 5x and nobody needs it explained; the same three colours then pay for the logo, the words, the effect marks and the costume.",
+   "One host character, cut cheaply, gives a game a face. The chef is a bust with one painted face, separate brows, eyelids and moustache, and three pairs of forearms; his big moment (hands to mouth, fire and coins) is hand swaps and particles, not a new drawing.",
+   "Keep background, character and symbols in one style when the theme is warm and comic. Here nothing is photoreal, so no dark board trick is needed to separate symbols from the world: saturation and gloss do it.",
+   "Make the bonus by changing the time of day. The night street is the same composition relit, with every game piece unchanged; it reads as a new place for the cost of one picture.",
+   "Spend the frame budget where the theme lives. More than half of the sprites are fire and smoke frames, painted in a cel style that matches the illustration, and each loop is reused by several rigs and tinted for variants.",
+   "Reuse one themed silhouette as a container. The chili-shaped wooden board is the logo sign, the bonus panel and the win plate; the same shape is cut into a glow and embossed on the coin.",
+   "Draw the short words, set the numbers. SPICY, HOT, BURNS, the jackpots and win tiers are drawn pictures in the rule colour; every amount is a bitmap font, so one pepper carries any value and the +1 and x2 marks can fly as text.",
+   "Plan localisation of drawn text early: twelve word pictures ship per language here, while the chili words are English inside the art and are not localised.",
+   "For AI-assisted art: the two street scenes and a host bust are where an image model gives most (a relit copy of one composition is exactly its strength); the symbols must then be pushed to the same manner at higher gloss, and the grill states, the frame in strips, the lettering and the effect loops are production work to plan as parts and frames from the start."
+  ]
+ },
+ "screens": [
+  {
+   "file": "02-main-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game arriving",
+   "caption": "The cabinet in place: jackpot boards at the left, the small logo sign at the right, the grill above the 5x3 reels; the green chili is on its plate and the yellow one is dropping in."
+  },
+  {
+   "file": "04-base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Win amount",
+   "caption": "A win line through two Wild hens: a thin gold line, and 2.00 in gold numerals on the wooden pepper plate with gold coins."
+  },
+  {
+   "file": "06-feature-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Buy Feature window",
+   "caption": "The shell's Buy Feature window with the game's two cards: Hold & Win and All Chilis Hold & Win (free-play money)."
+  },
+  {
+   "file": "00-intro-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the chef behind the grill with the three chilis in flames, the four jackpot boards (2500x, 250x, 50x, 15x), the logo 3 BLAZING CHILIS HOLD & WIN on a green chili, and the shell's START button, in the day street."
+  }
+ ]
+}

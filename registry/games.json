@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T10:42:25Z",
+ "updated": "2026-11-27T15:04:09Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -3741,7 +3741,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/3-blazing-chilis-hold-and-win",
+    "from": "set by hand",
+    "at": "2026-11-27T15:02:57Z"
+   },
    "appearances": [
     {
      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
@@ -3758,12 +3762,22 @@
      "page": 46
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0953-octoplay-3-blazing-chilis-hold-and-win"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T09:48:39Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0953-octoplay-3-blazing-chilis-hold-and-win",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/JDoxiqbRqSxcDcf6DjLbEH",
+     "completed": "2026-11-27T15:02:58Z",
+     "commit": "b93ecc6",
+     "started": "2026-11-27T09:48:39Z"
     }
    },
    "added": "2026-11-27T09:48:17Z"
@@ -5498,7 +5512,11 @@
    "providerKey": "whitehat",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://slotslaunch.com/blueprint-gaming/the-goonies-quest-for-treasure-2",
+    "from": "set by hand",
+    "at": "2026-11-27T15:04:09Z"
+   },
    "appearances": [
     {
      "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
@@ -5522,12 +5540,22 @@
      "page": 46
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-1045-whitehat-the-goonies-quest-for-treasure-2"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T10:15:41Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-1045-whitehat-the-goonies-quest-for-treasure-2",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/Qtt86vcY1aoRBHnSmHsHVC",
+     "completed": "2026-11-27T15:04:09Z",
+     "commit": "c9f7f2d",
+     "started": "2026-11-27T10:15:41Z"
     }
    },
    "added": "2026-11-27T09:48:17Z"
