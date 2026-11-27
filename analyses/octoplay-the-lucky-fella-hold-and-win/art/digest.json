@@ -1,0 +1,607 @@
+{
+ "run": "2026-11-27-0430-octoplay-the-lucky-fella-hold-and-win",
+ "game": "The Lucky Fella Hold And Win",
+ "started": "2026-11-27T04:30:07.731Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 49,
+  "components": 533,
+  "spines": 64,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 2
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 8
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 2
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 5
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.444,
+  "saturation": 0.678,
+  "contrast": 0.526,
+  "warm": 0.493,
+  "cool": 0.223,
+  "colourShare": 0.726,
+  "softEdge": 0.157,
+  "highlights": 0.149,
+  "palette": [
+   {
+    "hex": "#0b290b",
+    "share": 0.177,
+    "name": "black"
+   },
+   {
+    "hex": "#fcfbf7",
+    "share": 0.115,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#36082e",
+    "share": 0.105,
+    "name": "dark magenta"
+   },
+   {
+    "hex": "#f2bb19",
+    "share": 0.078,
+    "name": "orange"
+   },
+   {
+    "hex": "#6c6567",
+    "share": 0.073,
+    "name": "grey"
+   },
+   {
+    "hex": "#682b16",
+    "share": 0.061,
+    "name": "brown"
+   },
+   {
+    "hex": "#550867",
+    "share": 0.032,
+    "name": "dark purple"
+   },
+   {
+    "hex": "#0c750e",
+    "share": 0.024,
+    "name": "dark green"
+   }
+  ],
+  "hues": {
+   "orange": 0.303,
+   "green": 0.225,
+   "red": 0.116,
+   "magenta": 0.111
+  },
+  "lightFrom": {
+   "top": 46,
+   "top-right": 27,
+   "bottom-right": 18
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "strong highlights"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.478,
+   "saturation": 0.821,
+   "contrast": 0.692,
+   "warm": 0.565,
+   "cool": 0.268,
+   "palette": [
+    {
+     "hex": "#03341f",
+     "share": 0.355,
+     "name": "black"
+    },
+    {
+     "hex": "#f3d660",
+     "share": 0.152,
+     "name": "gold"
+    },
+    {
+     "hex": "#d9a40c",
+     "share": 0.133,
+     "name": "orange"
+    },
+    {
+     "hex": "#f6e608",
+     "share": 0.066,
+     "name": "gold"
+    },
+    {
+     "hex": "#4c1a04",
+     "share": 0.064,
+     "name": "brown"
+    },
+    {
+     "hex": "#faf4aa",
+     "share": 0.052,
+     "name": "light gold"
+    },
+    {
+     "hex": "#48a606",
+     "share": 0.042,
+     "name": "green"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.555,
+   "saturation": 0.73,
+   "contrast": 0.619,
+   "warm": 0.723,
+   "cool": 0.144,
+   "palette": [
+    {
+     "hex": "#f2bc15",
+     "share": 0.186,
+     "name": "gold"
+    },
+    {
+     "hex": "#391a06",
+     "share": 0.133,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbf8ef",
+     "share": 0.108,
+     "name": "light orange"
+    },
+    {
+     "hex": "#c9790d",
+     "share": 0.096,
+     "name": "orange"
+    },
+    {
+     "hex": "#79310e",
+     "share": 0.07,
+     "name": "brown"
+    },
+    {
+     "hex": "#f7d956",
+     "share": 0.05,
+     "name": "gold"
+    },
+    {
+     "hex": "#f1e5ac",
+     "share": 0.036,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.588,
+   "saturation": 0.664,
+   "contrast": 0.809,
+   "warm": 0.909,
+   "cool": 0.011,
+   "palette": [
+    {
+     "hex": "#f8eed4",
+     "share": 0.149,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f8ee84",
+     "share": 0.135,
+     "name": "gold"
+    },
+    {
+     "hex": "#d98011",
+     "share": 0.124,
+     "name": "orange"
+    },
+    {
+     "hex": "#f8d61e",
+     "share": 0.099,
+     "name": "gold"
+    },
+    {
+     "hex": "#570d0a",
+     "share": 0.092,
+     "name": "dark red"
+    },
+    {
+     "hex": "#efbc42",
+     "share": 0.087,
+     "name": "orange"
+    },
+    {
+     "hex": "#600753",
+     "share": 0.085,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#95268b",
+     "share": 0.067,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.455,
+   "saturation": 0.605,
+   "contrast": 0.741,
+   "warm": 0.819,
+   "cool": 0.153,
+   "palette": [
+    {
+     "hex": "#581d1b",
+     "share": 0.248,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f9f5f6",
+     "share": 0.108,
+     "name": "light red"
+    },
+    {
+     "hex": "#976a79",
+     "share": 0.092,
+     "name": "red"
+    },
+    {
+     "hex": "#290f47",
+     "share": 0.091,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#f6c31c",
+     "share": 0.063,
+     "name": "gold"
+    },
+    {
+     "hex": "#c3a7a9",
+     "share": 0.057,
+     "name": "red"
+    },
+    {
+     "hex": "#7b294d",
+     "share": 0.032,
+     "name": "magenta"
+    },
+    {
+     "hex": "#ddcfc2",
+     "share": 0.02,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.708,
+   "saturation": 0.416,
+   "contrast": 0.296,
+   "warm": 0.434,
+   "cool": 0.27,
+   "palette": [
+    {
+     "hex": "#f8fcfa",
+     "share": 0.279,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#a4e5fb",
+     "share": 0.102,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#d07450",
+     "share": 0.093,
+     "name": "orange"
+    },
+    {
+     "hex": "#eae1bd",
+     "share": 0.073,
+     "name": "light gold"
+    },
+    {
+     "hex": "#961770",
+     "share": 0.046,
+     "name": "magenta"
+    },
+    {
+     "hex": "#aeadae",
+     "share": 0.044,
+     "name": "grey"
+    },
+    {
+     "hex": "#18fd04",
+     "share": 0.038,
+     "name": "green"
+    },
+    {
+     "hex": "#2f1209",
+     "share": 0.026,
+     "name": "black"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.153,
+   "saturation": 0.931,
+   "contrast": 0.318,
+   "warm": 0.196,
+   "cool": 0.458,
+   "palette": [
+    {
+     "hex": "#072a0b",
+     "share": 0.5,
+     "name": "black"
+    },
+    {
+     "hex": "#310436",
+     "share": 0.246,
+     "name": "black"
+    },
+    {
+     "hex": "#4a0570",
+     "share": 0.065,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#037910",
+     "share": 0.06,
+     "name": "dark green"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.427,
+   "saturation": 0.806,
+   "contrast": 0.502,
+   "warm": 0.348,
+   "cool": 0.436,
+   "palette": [
+    {
+     "hex": "#183307",
+     "share": 0.277,
+     "name": "black"
+    },
+    {
+     "hex": "#a14bfc",
+     "share": 0.139,
+     "name": "purple"
+    },
+    {
+     "hex": "#2f720a",
+     "share": 0.082,
+     "name": "dark green"
+    },
+    {
+     "hex": "#582b0a",
+     "share": 0.043,
+     "name": "brown"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.48,
+   "saturation": 0.855,
+   "contrast": 0.608,
+   "warm": 0.812,
+   "cool": 0.11,
+   "palette": [
+    {
+     "hex": "#df8e10",
+     "share": 0.287,
+     "name": "orange"
+    },
+    {
+     "hex": "#8e4a05",
+     "share": 0.24,
+     "name": "brown"
+    },
+    {
+     "hex": "#f4d032",
+     "share": 0.094,
+     "name": "gold"
+    },
+    {
+     "hex": "#3c160d",
+     "share": 0.069,
+     "name": "dark red"
+    },
+    {
+     "hex": "#125f01",
+     "share": 0.042,
+     "name": "dark green"
+    },
+    {
+     "hex": "#5b0569",
+     "share": 0.028,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#163a88",
+     "share": 0.025,
+     "name": "blue"
+    },
+    {
+     "hex": "#fcf9f6",
+     "share": 0.021,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.669,
+   "saturation": 0.076,
+   "contrast": 0.488,
+   "warm": 0.037,
+   "cool": 0.03,
+   "palette": [
+    {
+     "hex": "#686868",
+     "share": 0.44,
+     "name": "grey"
+    },
+    {
+     "hex": "#fffffe",
+     "share": 0.425,
+     "name": "light orange"
+    },
+    {
+     "hex": "#00ff25",
+     "share": 0.026,
+     "name": "green"
+    },
+    {
+     "hex": "#060706",
+     "share": 0.02,
+     "name": "black"
+    },
+    {
+     "hex": "#383e34",
+     "share": 0.017,
+     "name": "grey"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the game's own files (skeleton and font descriptors, rules text) and real screens of the capture and of played free-play sessions of the same link on 27 Nov 2026. One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as the frames each sheet shows. No skeleton frame was drawn: the rigs are Spine 4.2.43.",
+  "summary": "An Irish-luck slot built as a small stage set: one laughing leprechaun, a wooden signboard of reels in a wobbly gold frame, five pots waiting under it and five jackpot banners above, on a dark clover field that turns purple under a rainbow for the features.",
+  "style": "Chunky 3D-look casino illustration with storybook proportions: rounded props (mug, pipe, barrel, boot, mushroom, pots), a big-headed family-animation character, and fairground lettering. The backdrop is a flat pattern, not a landscape. Nothing is straight: the frame, the board's outline and the banners all wobble or curl.",
+  "rendering": "Smooth airbrushed volumes with hard outer edges for every object (soft edge 0.05 to 0.2: character 0.059, pipe 0.051, jackpot banners 0.114, high symbols 0.197), a green rim light under most props, and soft light for everything magical (rainbow effects 0.941, sparkles 0.825, bursts 0.827). Lettering has a two-tone face with a hard horizon, a thick rim and an extruded side.",
+  "colour": "Dark green and dark purple fields under gold and a full rainbow. Measured over the art files: near-black green #0b290b 17%, near-white #fcfbf7 11% (white effect sprites the game tints), dark magenta #36082e 10%, gold-orange #f2bb19 7%, wood brown #682b16 6%, purple #550867 3%, green #0c750e 2%. Gold marks what pays (coins, pots, WILD, frame, jackpot names); the rainbow marks what is magic (ribbon, progress meter, Collector panel, Jackpot Coin, transitions); and a five-step rainbow scale ranks things: purple, blue, green, red and gold for the royals and for the jackpot banners.",
+  "lighting": "Objects are lit from the top or top-right with a green bounce from below, as if standing in the clover field. The backdrop is darkest in the middle so the board glows against it. In the feature scene the light source is the rainbow ribbon itself.",
+  "ambience": "Cosy, lucky and good-humoured: a pub sign in a clover patch at night. The feature scene is the same place enchanted, not a different world.",
+  "shapes": "The heart-shaped clover leaf is the module: backdrop leaves, the coin's stamp, the Scatter, the pipe's badge, the hat, the particles. Round bellies (pots, mug, barrel, coins, the character) against a thin wavy frame line; the curled scroll for jackpots; the arc for rainbows. The only sharp shape is the Booster arrow.",
+  "materials": "Polished gold, cast iron, varnished wood, leather, felt, enamel and coloured glass, foam and beer, waxy leaves, light.",
+  "typography": "Four voices. The logo and jackpot names: gold serif capitals with a brown side. WILD, SCATTER, BOOST, FREE SPINS and the other headlines: a curly western poster face in yellow and orange with a red rim; captions in the same face in white with a wine outline, written as rhymes. Win tiers: tall flared capitals, dark with a neon outline. Numbers: the provider's bitmap fonts, Ultra in cream and gold (jackpot values, win amounts) and in purple and gold, and Ravie in yellow with a rainbow side (the Spin Progress counter). The low symbols 10 to A are fat slab serifs in single colours. Small interface text is the shell's Poppins (Regular, SemiBold, Bold).",
+  "motion": "All motion is Spine 4.2.43: 64 skeletons in one bundle file, plus 15 hand-drawn frame sequences (290 frames): five of white sparkle and smoke (112 frames), two of rainbow (45), two of white bursts (33), two of the pots (34), three coin and coin-shine sequences (45) and the GRAND highlight (21). The leprechaun is a 55-bone rig with separate eyes, brows, moustache, coat halves and limbs; the mug's effect has 51 bones; the big-win banner 92. Seen in play: the leprechaun standing large in front of the board as the game opens; a full mug over a reel and beer running down whole reels as stacked WILDs with foam on top; coins dropping from Golden Coins towards the pots; a thin line across a winning row with the amount in cream and gold numerals; FEATURE UNLOCKED over a small copy of the board when the Spin Progress counter reaches zero; the 10 FREE SPINS splash over a white burst; a rainbow wash across the whole screen into the purple scene; a large mug with WILD over the board before Wild Reels; +5 FREE SPINS on a retrigger; BIG WIN on its wooden plaque over a violet haze with Golden Coins tumbling across the screen. No skeleton frame is shown in this report, because the project's renderer is written for Spine 3.7.",
+  "variants": "Two states of the whole stage from two backdrops and one tinted board (skins normal and special; holdAndWin for the board): green for the base game, purple with coloured clovers and a rainbow ribbon for Free Spins (seen) and, by the skin names, the Hold & Win. Frame in two states (gold; white with rainbow glow). Pots in two states with a 14-frame change. One character at two crops (1x2 symbol and full reel). Five jackpot banners as two mirrored shapes in four colours plus the Grand. Splashes in a normal and an upgraded skin.",
+  "construction": "Two 4096 px atlas pages hold 442 sprites, 290 of them animation frames, with 18 localised lettering files (en-GB), six loose textures and one skeleton bundle. The two backdrops are 1375x1255 pictures; the reel board ships in grey and is tinted. Symbols are layered where they move (mug in ten parts, Booster in four, coins with turn and shine frames) and single pictures where they do not (royals, the four props). Paytable pictures, the flattened logo, the numeral fonts and the interface come from the provider's shared services.",
+  "consistency": "High. One clover module, one gold, one rainbow and one wobbling line run through backdrop, frame, symbols, interface and effects, and the green rim light ties the painted props to the green field. Seams: the win-tier lettering (dark with a neon outline) and the flat cartoon smoke are drawn in other hands than the gold-and-enamel world around them, and the white bursts are generic.",
+  "takeaways": [
+   "One character, used twice. The leprechaun is a single 55-bone rig of 20 small parts that serves as the intro figure, the 1x2 Collector and the full-reel Collector; there is no separate mascot beside the reels. For our packages: design the character as a symbol first and reuse the rig.",
+   "A theme can stand on a pattern instead of a painted scene. The backdrop is a dark lattice of shamrocks with a dozen loose leaves on bones; the second scene is the same layout in purple with a rainbow ribbon. Two 1375 px pictures and 11 leaf sprites make both stages, which is well within what image generation and a rig can deliver.",
+   "Ship neutral, tint in the game: the reel board is a grey wood picture coloured per state, and every sparkle and burst is white. One picture then serves the base game, Free Spins and the Hold & Win.",
+   "Let one cheap motif carry the brand: the heart-leaf clover is on the coin, the pipe, the hat, the Scatter, the backdrop and the confetti. A module like this keeps generated pieces looking like one game.",
+   "Use colour as a scale as well as a theme: the same five rainbow steps rank the royals and the jackpots, gold means payment and the rainbow means magic.",
+   "The persistent unlock meter costs little art: five flat pictograms, a watch, a ribbon and six caption files give the game its long-term structure (five features unlocked over 10, 25, 50, 75 and 100 spins, the game's rules).",
+   "Anticipation art without mechanics: the pots fill with gold and grow rainbows in 14 and 20 drawn frames although, as the rules say, this has no influence on the trigger. It is a place where animation budget buys excitement directly.",
+   "Spend drawn frames on reusable white effects: 145 of the 290 frames are white sparkle, smoke and bursts that rigs tint and place on symbols, pots, jackpots and the backdrop.",
+   "From the same provider and framework as Fire Rail Express, 777 Hot Reels, Mega Cash Boost and Super Cash Boost (same shell, Poppins, Double Chance card, one skeleton bundle in Spine 4.2.43, packed 4096 px pages): of the five, this is the one with a character and a painted prop set, which shows the framework carries an illustrated theme as easily as a neon one."
+  ]
+ },
+ "screens": [
+  {
+   "file": "03-main.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest: 5x3 reels on a red-brown wooden board in a wavy gold frame, the rainbow ribbon and logo above with the Spin Progress counter (10 UNLOCK, watch and mug icon), five locked jackpot banners, five dark pots, the green clover backdrop."
+  },
+  {
+   "file": "04-base-01-spinning.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Reels spinning",
+   "caption": "Reels in motion; the jackpot values show before the padlocks close."
+  },
+  {
+   "file": "10-unlock-01-wild-reels.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "feature",
+   "screen": "Feature unlocked: Wild Reels",
+   "caption": "FEATURE UNLOCKED after 10 spins: a small copy of the board with the mug pouring, WILD, and the caption FROM MUG TO REEL, WILD WINS REVEAL!"
+  },
+  {
+   "file": "00-intro.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the leprechaun between the pipe and the WILD mug, the five jackpot banners with their values, the logo and the shell's START button, on the purple backdrop with its rainbow ribbon and coloured clovers."
+  }
+ ]
+}
