@@ -7,7 +7,7 @@ Reads:  registry/games.json; reports/*/report.json, rankings.json and unify.json
 Writes: site/index.html, self-contained (the pictures are inside it), and site/site.json (what it holds).
 
 Pages, each at its own plain #address: summary, reports, report-<id>, games, game-<id>, art-report,
-next-steps, method. Every figure on a page is either copied from a report (with its page), measured by
+next-steps, backgrounds (when documents/background-recommendations.md exists), method. Every figure on a page is either copied from a report (with its page), measured by
 Games-AI-art from pixels, or a reading; the page says which.
 
 Usage: python3 -I tools/build_site.py
@@ -350,6 +350,11 @@ def page_next_steps(games, digests, leaders):
     return "Next steps in art", f'<div class="empty"><strong>Not written yet.</strong> The recommendation for Intelligate\'s next steps in art is written from the finished analyses of all the leading games, so that it rests on the whole set. {state}</div>'
 
 
+def page_backgrounds():
+    """The background recommendations, a written section of its own (documents/background-recommendations.md)."""
+    return "Backgrounds", '<div class="doc">' + markdown((DOCS / "background-recommendations.md").read_text()) + "</div>"
+
+
 def page_method():
     return "Method", markdown((ROOT / "documents" / "method.md").read_text())
 
@@ -366,7 +371,10 @@ def main():
     pages.append(("games", *page_games(games, leaders), "nav"))
     for g in sorted(games.values(), key=lambda g: g["name"]):
         pages.append((f"game-{g['id']}", *page_game(g, digests, reports), "games"))
-    pages += [("art-report", *page_art_report(games, digests, leaders), "nav"), ("next-steps", *page_next_steps(games, digests, leaders), "nav"), ("method", *page_method(), "nav")]
+    pages += [("art-report", *page_art_report(games, digests, leaders), "nav"), ("next-steps", *page_next_steps(games, digests, leaders), "nav")]
+    if (DOCS / "background-recommendations.md").exists():
+        pages.append(("backgrounds", *page_backgrounds(), "nav"))
+    pages.append(("method", *page_method(), "nav"))
 
     built = datetime.datetime.now(datetime.timezone.utc)
     nav = "".join(f'<a href="#{pid}" data-nav="{pid}">{esc(title)}</a>' for pid, title, _, parent in pages if parent == "nav")
