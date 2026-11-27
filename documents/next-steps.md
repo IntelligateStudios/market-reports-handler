@@ -1,3 +1,5 @@
+> Three more reports (September, October and November 2026 editions) were handled after this was written. They add 27 leaders that are being analysed now. This text still describes the sixteen games analysed from the July and August editions and is written again when the new leaders are settled.
+
 Written 27 Nov 2026. These are recommendations, not findings: each is our inference from the sixteen analysed leaders, and names the games it rests on. [Art of the leaders](#art-report) holds the evidence. They are written for the studio's AI art work (the Games AI art project: a reference game's art out, our own theme's art in, and the agentic test against what our artists delivered).
 
 **Read this first.** The evidence covers IGT, Octoplay, Light & Wonder, AGS and Inspired. Fourteen of the 30 leaders, including all eight of Games Global's, could not be analysed. A recommendation here says "the leaders we could open do this", not "the market does this". The first step below is about closing that gap.

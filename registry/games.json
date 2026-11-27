@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T09:24:03Z",
+ "updated": "2026-11-27T09:48:39Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -131,6 +131,27 @@
      "rank": 20,
      "value": "0.53% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 14,
+     "value": "Theo Win Index 16.23x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 13,
+     "value": "Theo Win Index 16.13x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 18,
+     "value": "Theo Win Index 15.02x",
+     "page": 46
     }
    ],
    "existing": [
@@ -151,6 +172,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "ags-money-stacks",
+   "name": "Money Stacks",
+   "provider": "AGS",
+   "providerKey": "ags",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 17,
+     "value": "Theo Win Index 14.52x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "ags-rakin-bacon-triple-oink-san-shen-zhu",
@@ -208,6 +254,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "ainsworth-super-crystal-7s",
+   "name": "Super Crystal 7s",
+   "provider": "Ainsworth",
+   "providerKey": "ainsworth",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 20,
+     "value": "Theo Win Index 14.17x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
   },
   {
    "id": "aristocrat-buffalo-triple-power",
@@ -270,6 +341,27 @@
      "rank": 3,
      "value": "Theo Win Index 34.14x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 1,
+     "value": "Theo Win Index 55.84x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 2,
+     "value": "Theo Win Index 45.16x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 2,
+     "value": "Theo Win Index 41.67x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -282,6 +374,40 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "aristocrat-lightning-link-tiki-fire",
+   "name": "Lightning Link Tiki Fire",
+   "provider": "Aristocrat",
+   "providerKey": "aristocrat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 3,
+     "value": "Theo Win Index 38.92x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 5,
+     "value": "Theo Win Index 34.97x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "running",
+     "started": "2026-11-27T09:48:39Z",
+     "run": null
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "aristocrat-mo-mummy-mighty-pyramid",
@@ -316,6 +442,31 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "aristocrat-spooky-link-go-ghost",
+   "name": "Spooky Link Go Ghost",
+   "provider": "Aristocrat",
+   "providerKey": "aristocrat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 3,
+     "value": "Theo Win Index 37.42x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
    "id": "atlanticdigital-jewel-boom-triple-drop",
    "name": "Jewel Boom Triple Drop",
    "provider": "Atlantic Digital",
@@ -348,6 +499,31 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "atlanticdigital-jewel-boom-xxx",
+   "name": "Jewel Boom Xxx",
+   "provider": "Atlantic Digital",
+   "providerKey": "atlanticdigital",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 9,
+     "value": "Theo Win Index 19.08x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
    "id": "bigbart-wild-wagon",
    "name": "Wild Wagon",
    "provider": "Big Bart Company",
@@ -372,6 +548,31 @@
     }
    },
    "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "bragg-mummy-reel-riches",
+   "name": "Mummy Reel Riches",
+   "provider": "Bragg",
+   "providerKey": "bragg",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 16,
+     "value": "Theo Win Index 15.53x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "elk-pirots-4",
@@ -509,6 +710,27 @@
      "rank": 7,
      "value": "Theo Win Index 21.52x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 5,
+     "value": "Theo Win Index 27.99x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 7,
+     "value": "Theo Win Index 25.81x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 9,
+     "value": "Theo Win Index 21.65x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -637,6 +859,31 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "gamesglobal-12-loaded-pots-drum-frenzy",
+   "name": "12 Loaded Pots Drum Frenzy",
+   "provider": "Games Global",
+   "providerKey": "gamesglobal",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 22,
+     "value": "Theo Win Index 13.69x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
    "id": "gamesglobal-12-masks-of-fire-drum-frenzy",
    "name": "12 Masks Of Fire Drum Frenzy",
    "provider": "Games Global",
@@ -691,6 +938,56 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "gamesglobal-333-boom-banks-2-power-combo",
+   "name": "333 Boom Banks 2 Power Combo",
+   "provider": "Games Global",
+   "providerKey": "gamesglobal",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 12,
+     "value": "Theo Win Index 16.59x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
+   "id": "gamesglobal-bison-ridge-power-combo",
+   "name": "Bison Ridge Power Combo",
+   "provider": "Games Global",
+   "providerKey": "gamesglobal",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 14,
+     "value": "Theo Win Index 15.97x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "gamesglobal-blazing-bison-gold-blitz-ultimate-double-x",
@@ -851,6 +1148,13 @@
      "rank": 2,
      "value": "Theo Win Index 34.39x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 25,
+     "value": "Theo Win Index 12.11x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -1118,6 +1422,31 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "greentube-piggy-prizes-lock-and-spin-ghost-of-gambini",
+   "name": "Piggy Prizes Lock And Spin Ghost Of Gambini",
+   "provider": "Greentube",
+   "providerKey": "greentube",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 19,
+     "value": "Theo Win Index 14.75x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
    "id": "hacksaw-le-bandit",
    "name": "Le Bandit",
    "provider": "Hacksaw Gaming",
@@ -1263,6 +1592,27 @@
      "rank": 1,
      "value": "1.78% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 2,
+     "value": "Theo Win Index 46.69x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 1,
+     "value": "Theo Win Index 47.49x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 1,
+     "value": "Theo Win Index 48.53x",
+     "page": 46
     }
    ],
    "existing": [
@@ -1312,6 +1662,20 @@
      "rank": 20,
      "value": "Theo Win Index 14.11x",
      "page": 45
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 21,
+     "value": "Theo Win Index 12.81x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 24,
+     "value": "Theo Win Index 12.81x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -1365,6 +1729,27 @@
      "rank": 13,
      "value": "0.60% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 15,
+     "value": "Theo Win Index 15.22x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 18,
+     "value": "Theo Win Index 14.48x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 13,
+     "value": "Theo Win Index 17.07x",
+     "page": 46
     }
    ],
    "existing": [
@@ -1470,6 +1855,13 @@
      "rank": 12,
      "value": "Theo Win Index 14.12x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 19,
+     "value": "Theo Win Index 13.39x",
+     "page": 46
     }
    ],
    "existing": [
@@ -1491,6 +1883,58 @@
    },
    "added": "2026-11-25T16:50:31Z",
    "notes": "Real screens of the base game only: the staging server closed every session within about a minute, so no win, paytable or feature is on a screen. All art files loaded and are read."
+  },
+  {
+   "id": "igt-money-gong-empress",
+   "name": "Money Gong Empress",
+   "provider": "IGT",
+   "providerKey": "igt",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 4,
+     "value": "Theo Win Index 29.68x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "running",
+     "started": "2026-11-27T09:48:39Z",
+     "run": null
+    }
+   },
+   "added": "2026-11-27T09:48:17Z"
+  },
+  {
+   "id": "igt-mystery-of-the-lamp-desert-veil",
+   "name": "Mystery Of The Lamp Desert Veil",
+   "provider": "IGT",
+   "providerKey": "igt",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 20,
+     "value": "Theo Win Index 12.84x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "igt-mystery-of-the-lamp-secret-bazaar",
@@ -1626,6 +2070,27 @@
      "rank": 17,
      "value": "0.57% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 10,
+     "value": "Theo Win Index 18.45x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 10,
+     "value": "Theo Win Index 17.73x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 11,
+     "value": "Theo Win Index 18.24x",
+     "page": 46
     }
    ],
    "existing": [
@@ -1784,6 +2249,81 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "inspired-bigger-piggy-halloween-bank",
+   "name": "Bigger Piggy Halloween Bank",
+   "provider": "Inspired",
+   "providerKey": "inspired",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 21,
+     "value": "Theo Win Index 13.82x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
+   "id": "inspired-golden-winner-bonus-cherries",
+   "name": "Golden Winner Bonus Cherries",
+   "provider": "Inspired",
+   "providerKey": "inspired",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 16,
+     "value": "Theo Win Index 14.97x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
+   "id": "inspired-halloween-golden-winner-grand-chance",
+   "name": "Halloween Golden Winner Grand Chance",
+   "provider": "Inspired",
+   "providerKey": "inspired",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 15,
+     "value": "Theo Win Index 15.55x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
    "id": "inspired-wolf-it-up-again",
    "name": "Wolf It Up Again",
    "provider": "Inspired",
@@ -1804,6 +2344,13 @@
      "list": "slots",
      "rank": 31,
      "value": "Theo Win Index 11.53x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 25,
+     "value": "Theo Win Index 12.15x",
      "page": 46
     }
    ],
@@ -1893,6 +2440,13 @@
      "rank": 25,
      "value": "Theo Win Index 12.83x",
      "page": 45
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 24,
+     "value": "Theo Win Index 12.91x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -1902,6 +2456,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "lnw-dancing-drums-tower",
+   "name": "Dancing Drums Tower",
+   "provider": "Light & Wonder",
+   "providerKey": "lnw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 11,
+     "value": "Theo Win Index 17.24x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "lnw-huff-n-even-more-puff-grand",
@@ -1957,6 +2536,27 @@
      "rank": 1,
      "value": "Theo Win Index 41.28x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 3,
+     "value": "Theo Win Index 39.84x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 4,
+     "value": "Theo Win Index 37.92x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 4,
+     "value": "Theo Win Index 36.65x",
+     "page": 46
     }
    ],
    "existing": [
@@ -2081,6 +2681,31 @@
    "added": "2026-11-25T16:38:13Z"
   },
   {
+   "id": "lnw-huff-n-puff-haunted-mansion",
+   "name": "Huff N Puff Haunted Mansion",
+   "provider": "Light & Wonder",
+   "providerKey": "lnw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 8,
+     "value": "Theo Win Index 21.77x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
+  },
+  {
    "id": "lnw-huff-n-puff-high-rise",
    "name": "Huff N Puff High Rise",
    "provider": "Light & Wonder",
@@ -2166,6 +2791,13 @@
      "rank": 12,
      "value": "0.61% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 24,
+     "value": "Theo Win Index 12.12x",
+     "page": 46
     }
    ],
    "existing": [
@@ -2267,6 +2899,13 @@
      "rank": 41,
      "value": "Theo Win Index 10.17x",
      "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 23,
+     "value": "Theo Win Index 12.19x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -2317,6 +2956,31 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "lnw-quick-hit-link-888",
+   "name": "Quick Hit Link 888",
+   "provider": "Light & Wonder",
+   "providerKey": "lnw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 8,
+     "value": "Theo Win Index 20.07x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
    "id": "lnw-quick-hit-link-fire",
    "name": "Quick Hit Link Fire",
    "provider": "Light & Wonder",
@@ -2363,6 +3027,90 @@
    "added": "2026-11-25T16:50:31Z"
   },
   {
+   "id": "lnw-super-hot-flaming-pots-mr-lee",
+   "name": "Super Hot Flaming Pots Mr Lee",
+   "provider": "Light & Wonder",
+   "providerKey": "lnw",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 21,
+     "value": "Theo Win Index 13.48x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
+   "id": "octoplay-3-blazing-chilis-hold-and-win",
+   "name": "3 Blazing Chilis Hold And Win",
+   "provider": "Octoplay",
+   "providerKey": "octoplay",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 7,
+     "value": "Theo Win Index 19.21x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 23,
+     "value": "Theo Win Index 13.10x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "running",
+     "started": "2026-11-27T09:48:39Z",
+     "run": null
+    }
+   },
+   "added": "2026-11-27T09:48:17Z"
+  },
+  {
+   "id": "octoplay-5-perfect-diamonds",
+   "name": "5 Perfect Diamonds",
+   "provider": "Octoplay",
+   "providerKey": "octoplay",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 19,
+     "value": "Theo Win Index 14.18x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
    "id": "octoplay-777-hot-reels-megacharged",
    "name": "777 Hot Reels Megacharged",
    "provider": "Octoplay",
@@ -2388,6 +3136,13 @@
      "rank": 9,
      "value": "Theo Win Index 17.70x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 18,
+     "value": "Theo Win Index 14.06x",
+     "page": 46
     }
    ],
    "existing": [
@@ -2456,6 +3211,13 @@
      "rank": 39,
      "value": "Theo Win Index 9.52x",
      "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 16,
+     "value": "Theo Win Index 14.88x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -2465,6 +3227,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "octoplay-break-the-diamond-piggy",
+   "name": "Break The Diamond Piggy",
+   "provider": "Octoplay",
+   "providerKey": "octoplay",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 10,
+     "value": "Theo Win Index 18.42x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "octoplay-fire-rail-express-hold-and-win",
@@ -2499,6 +3286,27 @@
      "rank": 7,
      "value": "Theo Win Index 22.78x",
      "page": 45
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 9,
+     "value": "Theo Win Index 18.53x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 12,
+     "value": "Theo Win Index 16.59x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 17,
+     "value": "Theo Win Index 15.29x",
+     "page": 46
     }
    ],
    "existing": [
@@ -2519,6 +3327,65 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "octoplay-freedom-250x-boost-hold-and-win",
+   "name": "Freedom 250x Boost Hold And Win",
+   "provider": "Octoplay",
+   "providerKey": "octoplay",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 6,
+     "value": "Theo Win Index 28.41x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "running",
+     "started": "2026-11-27T09:48:39Z",
+     "run": null
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
+   "id": "octoplay-mainline-riches-hold-and-win",
+   "name": "Mainline Riches Hold And Win",
+   "provider": "Octoplay",
+   "providerKey": "octoplay",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 15,
+     "value": "Theo Win Index 15.46x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 23,
+     "value": "Theo Win Index 13.04x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "octoplay-mega-cash-boost-hold-and-win",
@@ -3048,6 +3915,27 @@
      "rank": 11,
      "value": "0.62% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 13,
+     "value": "Theo Win Index 16.55x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 11,
+     "value": "Theo Win Index 17.71x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 12,
+     "value": "Theo Win Index 17.67x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -3163,7 +4051,9 @@
    "provider": "White Hat Studios",
    "providerKey": "whitehat",
    "type": "slot",
-   "aliases": [],
+   "aliases": [
+    "7s Fire Blitz Hotstepper"
+   ],
    "demo": null,
    "appearances": [
     {
@@ -3193,6 +4083,14 @@
      "rank": 22,
      "value": "0.52% of total GGR",
      "page": 43
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 25,
+     "value": "Theo Win Index 12.84x",
+     "page": 46,
+     "as": "7s Fire Blitz Hotstepper"
     }
    ],
    "existing": [],
@@ -3253,6 +4151,13 @@
      "rank": 8,
      "value": "Theo Win Index 18.65x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 22,
+     "value": "Theo Win Index 12.80x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -3327,6 +4232,27 @@
      "rank": 4,
      "value": "Theo Win Index 24.67x",
      "page": 57
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 6,
+     "value": "Theo Win Index 19.30x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 17,
+     "value": "Theo Win Index 14.81x",
+     "page": 46
+    },
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 20,
+     "value": "Theo Win Index 14.05x",
+     "page": 46
     }
    ],
    "existing": [],
@@ -3339,6 +4265,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "whitehat-7s-fire-blitz-x-cash",
+   "name": "7s Fire Blitz X Cash",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 22,
+     "value": "Theo Win Index 13.42x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
   },
   {
    "id": "whitehat-almighty-mustang-express",
@@ -3385,6 +4336,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "whitehat-bankin-bacon-pigs-might-fly-jackpot-royale-express",
+   "name": "Bankin Bacon Pigs Might Fly Jackpot Royale Express",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 14,
+     "value": "Theo Win Index 15.51x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
   },
   {
    "id": "whitehat-big-catch-even-bigger-bass-3-megaways-jackpot-royale-express",
@@ -3435,6 +4411,31 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "whitehat-frankensteins-fortune",
+   "name": "Frankensteins Fortune",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 6,
+     "value": "Theo Win Index 27.04x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   },
   {
    "id": "whitehat-lucky-fire-blitz-power-5",
@@ -3524,6 +4525,81 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "whitehat-the-goonies-quest-for-treasure-2",
+   "name": "The Goonies Quest For Treasure 2",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+     "list": "slots",
+     "rank": 8,
+     "value": "Theo Win Index 18.56x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:17Z"
+  },
+  {
+   "id": "whitehat-the-goonies-quest-for-treasure-2-jackpot-royale",
+   "name": "The Goonies Quest For Treasure 2 Jackpot Royale",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-october",
+     "list": "slots",
+     "rank": 5,
+     "value": "Theo Win Index 30.44x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:23Z"
+  },
+  {
+   "id": "whitehat-triple-action-7s-fire-blitz",
+   "name": "Triple Action 7s Fire Blitz",
+   "provider": "White Hat Studios",
+   "providerKey": "whitehat",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [
+    {
+     "report": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+     "list": "slots",
+     "rank": 7,
+     "value": "Theo Win Index 22.26x",
+     "page": 46
+    }
+   ],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T09:48:18Z"
   }
  ]
 }

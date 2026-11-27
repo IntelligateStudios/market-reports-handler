@@ -1,0 +1,231 @@
+{
+ "id": "2026-11-27-eilers-fantini-us-online-game-performance-september",
+ "file": "c0c113c2-EILERS-FANTINI_U.S._Online_Game_Performance_Report_-_Septemb.pdf",
+ "sha256": "a32eb544ca38e19c3274054885a3db49748773ffc93124135f5fb3af1e14ff3e",
+ "bytes": 6022014,
+ "pages": 81,
+ "received": "2026-11-27",
+ "taken": "2026-11-27T09:47:00Z",
+ "status": "unified",
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, September 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through August 2026",
+ "published": "2026-09-24",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "unified": "2026-11-27T09:48:18Z",
+ "leaders": [
+  {
+   "game": "aristocrat-lightning-link-high-stakes",
+   "points": 20,
+   "best": {
+    "list": "slots",
+    "rank": 1
+   },
+   "lists": 1,
+   "position": 1
+  },
+  {
+   "game": "igt-cash-eruption",
+   "points": 19,
+   "best": {
+    "list": "slots",
+    "rank": 2
+   },
+   "lists": 1,
+   "position": 2
+  },
+  {
+   "game": "lnw-huff-n-even-more-puff-grand",
+   "points": 18,
+   "best": {
+    "list": "slots",
+    "rank": 3
+   },
+   "lists": 1,
+   "position": 3
+  },
+  {
+   "game": "igt-money-gong-empress",
+   "points": 17,
+   "best": {
+    "list": "slots",
+    "rank": 4
+   },
+   "lists": 1,
+   "position": 4
+  },
+  {
+   "game": "evolution-divine-fortune-gold",
+   "points": 16,
+   "best": {
+    "list": "slots",
+    "rank": 5
+   },
+   "lists": 1,
+   "position": 5
+  },
+  {
+   "game": "whitehat-7s-fire-blitz-power-force-5",
+   "points": 15,
+   "best": {
+    "list": "slots",
+    "rank": 6
+   },
+   "lists": 1,
+   "position": 6
+  },
+  {
+   "game": "octoplay-3-blazing-chilis-hold-and-win",
+   "points": 14,
+   "best": {
+    "list": "slots",
+    "rank": 7
+   },
+   "lists": 1,
+   "position": 7
+  },
+  {
+   "game": "whitehat-the-goonies-quest-for-treasure-2",
+   "points": 13,
+   "best": {
+    "list": "slots",
+    "rank": 8
+   },
+   "lists": 1,
+   "position": 8
+  },
+  {
+   "game": "octoplay-fire-rail-express-hold-and-win",
+   "points": 12,
+   "best": {
+    "list": "slots",
+    "rank": 9
+   },
+   "lists": 1,
+   "position": 9
+  },
+  {
+   "game": "igt-triple-cash-eruption",
+   "points": 11,
+   "best": {
+    "list": "slots",
+    "rank": 10
+   },
+   "lists": 1,
+   "position": 10
+  },
+  {
+   "game": "lnw-dancing-drums-tower",
+   "points": 10,
+   "best": {
+    "list": "slots",
+    "rank": 11
+   },
+   "lists": 1,
+   "position": 11
+  },
+  {
+   "game": "gamesglobal-333-boom-banks-2-power-combo",
+   "points": 9,
+   "best": {
+    "list": "slots",
+    "rank": 12
+   },
+   "lists": 1,
+   "position": 12
+  },
+  {
+   "game": "reelplay-hypernova-megaways",
+   "points": 8,
+   "best": {
+    "list": "slots",
+    "rank": 13
+   },
+   "lists": 1,
+   "position": 13
+  },
+  {
+   "game": "ags-capital-gains",
+   "points": 7,
+   "best": {
+    "list": "slots",
+    "rank": 14
+   },
+   "lists": 1,
+   "position": 14
+  },
+  {
+   "game": "igt-cleopatra",
+   "points": 6,
+   "best": {
+    "list": "slots",
+    "rank": 15
+   },
+   "lists": 1,
+   "position": 15
+  },
+  {
+   "game": "octoplay-break-more-piggy-banks",
+   "points": 5,
+   "best": {
+    "list": "slots",
+    "rank": 16
+   },
+   "lists": 1,
+   "position": 16
+  },
+  {
+   "game": "ags-money-stacks",
+   "points": 4,
+   "best": {
+    "list": "slots",
+    "rank": 17
+   },
+   "lists": 1,
+   "position": 17
+  },
+  {
+   "game": "octoplay-777-hot-reels-megacharged",
+   "points": 3,
+   "best": {
+    "list": "slots",
+    "rank": 18
+   },
+   "lists": 1,
+   "position": 18
+  },
+  {
+   "game": "igt-money-gong-emperor",
+   "points": 2,
+   "best": {
+    "list": "slots",
+    "rank": 19
+   },
+   "lists": 1,
+   "position": 19
+  },
+  {
+   "game": "igt-mystery-of-the-lamp-desert-veil",
+   "points": 1,
+   "best": {
+    "list": "slots",
+    "rank": 20
+   },
+   "lists": 1,
+   "position": 20
+  }
+ ],
+ "lists": 1,
+ "games": 25,
+ "newGames": [
+  "ags-money-stacks",
+  "gamesglobal-333-boom-banks-2-power-combo",
+  "igt-money-gong-empress",
+  "igt-mystery-of-the-lamp-desert-veil",
+  "lnw-dancing-drums-tower",
+  "octoplay-3-blazing-chilis-hold-and-win",
+  "whitehat-the-goonies-quest-for-treasure-2"
+ ]
+}

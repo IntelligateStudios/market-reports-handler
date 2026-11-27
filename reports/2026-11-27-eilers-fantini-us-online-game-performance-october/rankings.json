@@ -1,0 +1,173 @@
+{
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, October 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through September 2026",
+ "published": "2026-10-22",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "notes": "Read from the page picture: the ranking table is an image. Taken: the first page of the slot ranking, ranks 1 to 25 (page 46), which holds the 20 leaders. Not taken this time: ranks 26 to 50 (page 47), the overall GGR ranking (page 44) and the new-slots ranking (page 58 or 59), which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
+ "lists": [
+  {
+   "id": "slots",
+   "title": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "market": "United States",
+   "page": 46,
+   "weight": 1,
+   "entries": [
+    {
+     "rank": 1,
+     "game": "Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 47.49x"
+    },
+    {
+     "rank": 2,
+     "game": "Lightning Link High Stakes",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 45.16x"
+    },
+    {
+     "rank": 3,
+     "game": "Lightning Link Tiki Fire",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 38.92x"
+    },
+    {
+     "rank": 4,
+     "game": "Huff N Even More Puff Grand",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 37.92x"
+    },
+    {
+     "rank": 5,
+     "game": "The Goonies Quest For Treasure 2 Jackpot Royale",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 30.44x",
+     "new": true
+    },
+    {
+     "rank": 6,
+     "game": "Freedom 250x Boost Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 28.41x"
+    },
+    {
+     "rank": 7,
+     "game": "Divine Fortune Gold",
+     "provider": "Evolution",
+     "value": "Theo Win Index 25.81x"
+    },
+    {
+     "rank": 8,
+     "game": "Quick Hit Link 888",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 20.07x"
+    },
+    {
+     "rank": 9,
+     "game": "Jewel Boom Xxx",
+     "provider": "Atlantic Digital",
+     "value": "Theo Win Index 19.08x"
+    },
+    {
+     "rank": 10,
+     "game": "Triple Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 17.73x"
+    },
+    {
+     "rank": 11,
+     "game": "Hypernova Megaways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 17.71x"
+    },
+    {
+     "rank": 12,
+     "game": "Fire Rail Express Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 16.59x"
+    },
+    {
+     "rank": 13,
+     "game": "Capital Gains",
+     "provider": "Ags",
+     "value": "Theo Win Index 16.13x"
+    },
+    {
+     "rank": 14,
+     "game": "Bankin Bacon Pigs Might Fly Jackpot Royale Express",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 15.51x"
+    },
+    {
+     "rank": 15,
+     "game": "Mainline Riches Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 15.46x"
+    },
+    {
+     "rank": 16,
+     "game": "Golden Winner Bonus Cherries",
+     "provider": "Inspired",
+     "value": "Theo Win Index 14.97x"
+    },
+    {
+     "rank": 17,
+     "game": "7s Fire Blitz Power Force 5",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 14.81x"
+    },
+    {
+     "rank": 18,
+     "game": "Cleopatra",
+     "provider": "Igt",
+     "value": "Theo Win Index 14.48x"
+    },
+    {
+     "rank": 19,
+     "game": "5 Perfect Diamonds",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 14.18x"
+    },
+    {
+     "rank": 20,
+     "game": "Super Crystal 7s",
+     "provider": "Ainsworth",
+     "value": "Theo Win Index 14.17x"
+    },
+    {
+     "rank": 21,
+     "game": "Super Hot Flaming Pots Mr Lee",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 13.48x"
+    },
+    {
+     "rank": 22,
+     "game": "7s Fire Blitz X Cash",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 13.42x"
+    },
+    {
+     "rank": 23,
+     "game": "3 Blazing Chilis Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 13.10x"
+    },
+    {
+     "rank": 24,
+     "game": "Cash Eruption High Stakes",
+     "provider": "Igt",
+     "value": "Theo Win Index 12.81x"
+    },
+    {
+     "rank": 25,
+     "game": "Wolf It Up Again",
+     "provider": "Inspired",
+     "value": "Theo Win Index 12.15x"
+    }
+   ]
+  }
+ ]
+}

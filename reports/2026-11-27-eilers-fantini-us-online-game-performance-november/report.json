@@ -1,0 +1,223 @@
+{
+ "id": "2026-11-27-eilers-fantini-us-online-game-performance-november",
+ "file": "c544e4bb-EILERS-FANTINI_U.S._Online_Game_Performance_Report_-_Novembe.pdf",
+ "sha256": "27c2d3836aae3ad53f0876b462e2b8d3d6c397db7d43a66c3fba70f66ca14aac",
+ "bytes": 6039573,
+ "pages": 82,
+ "received": "2026-11-27",
+ "taken": "2026-11-27T09:47:31Z",
+ "status": "unified",
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, November 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through October 2026",
+ "published": "2026-11-23",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "unified": "2026-11-27T09:48:23Z",
+ "leaders": [
+  {
+   "game": "igt-cash-eruption",
+   "points": 20,
+   "best": {
+    "list": "slots",
+    "rank": 1
+   },
+   "lists": 1,
+   "position": 1
+  },
+  {
+   "game": "aristocrat-lightning-link-high-stakes",
+   "points": 19,
+   "best": {
+    "list": "slots",
+    "rank": 2
+   },
+   "lists": 1,
+   "position": 2
+  },
+  {
+   "game": "aristocrat-spooky-link-go-ghost",
+   "points": 18,
+   "best": {
+    "list": "slots",
+    "rank": 3
+   },
+   "lists": 1,
+   "position": 3
+  },
+  {
+   "game": "lnw-huff-n-even-more-puff-grand",
+   "points": 17,
+   "best": {
+    "list": "slots",
+    "rank": 4
+   },
+   "lists": 1,
+   "position": 4
+  },
+  {
+   "game": "aristocrat-lightning-link-tiki-fire",
+   "points": 16,
+   "best": {
+    "list": "slots",
+    "rank": 5
+   },
+   "lists": 1,
+   "position": 5
+  },
+  {
+   "game": "whitehat-frankensteins-fortune",
+   "points": 15,
+   "best": {
+    "list": "slots",
+    "rank": 6
+   },
+   "lists": 1,
+   "position": 6
+  },
+  {
+   "game": "whitehat-triple-action-7s-fire-blitz",
+   "points": 14,
+   "best": {
+    "list": "slots",
+    "rank": 7
+   },
+   "lists": 1,
+   "position": 7
+  },
+  {
+   "game": "lnw-huff-n-puff-haunted-mansion",
+   "points": 13,
+   "best": {
+    "list": "slots",
+    "rank": 8
+   },
+   "lists": 1,
+   "position": 8
+  },
+  {
+   "game": "evolution-divine-fortune-gold",
+   "points": 12,
+   "best": {
+    "list": "slots",
+    "rank": 9
+   },
+   "lists": 1,
+   "position": 9
+  },
+  {
+   "game": "octoplay-break-the-diamond-piggy",
+   "points": 11,
+   "best": {
+    "list": "slots",
+    "rank": 10
+   },
+   "lists": 1,
+   "position": 10
+  },
+  {
+   "game": "igt-triple-cash-eruption",
+   "points": 10,
+   "best": {
+    "list": "slots",
+    "rank": 11
+   },
+   "lists": 1,
+   "position": 11
+  },
+  {
+   "game": "reelplay-hypernova-megaways",
+   "points": 9,
+   "best": {
+    "list": "slots",
+    "rank": 12
+   },
+   "lists": 1,
+   "position": 12
+  },
+  {
+   "game": "igt-cleopatra",
+   "points": 8,
+   "best": {
+    "list": "slots",
+    "rank": 13
+   },
+   "lists": 1,
+   "position": 13
+  },
+  {
+   "game": "gamesglobal-bison-ridge-power-combo",
+   "points": 7,
+   "best": {
+    "list": "slots",
+    "rank": 14
+   },
+   "lists": 1,
+   "position": 14
+  },
+  {
+   "game": "inspired-halloween-golden-winner-grand-chance",
+   "points": 6,
+   "best": {
+    "list": "slots",
+    "rank": 15
+   },
+   "lists": 1,
+   "position": 15
+  },
+  {
+   "game": "bragg-mummy-reel-riches",
+   "points": 5,
+   "best": {
+    "list": "slots",
+    "rank": 16
+   },
+   "lists": 1,
+   "position": 16
+  },
+  {
+   "game": "octoplay-fire-rail-express-hold-and-win",
+   "points": 4,
+   "best": {
+    "list": "slots",
+    "rank": 17
+   },
+   "lists": 1,
+   "position": 17
+  },
+  {
+   "game": "ags-capital-gains",
+   "points": 3,
+   "best": {
+    "list": "slots",
+    "rank": 18
+   },
+   "lists": 1,
+   "position": 18
+  },
+  {
+   "game": "greentube-piggy-prizes-lock-and-spin-ghost-of-gambini",
+   "points": 2,
+   "best": {
+    "list": "slots",
+    "rank": 19
+   },
+   "lists": 1,
+   "position": 19
+  },
+  {
+   "game": "whitehat-7s-fire-blitz-power-force-5",
+   "points": 1,
+   "best": {
+    "list": "slots",
+    "rank": 20
+   },
+   "lists": 1,
+   "position": 20
+  }
+ ],
+ "lists": 1,
+ "games": 25,
+ "newGames": []
+}

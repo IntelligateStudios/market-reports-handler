@@ -1,0 +1,174 @@
+{
+ "title": "Eilers-Fantini U.S. Online Game Performance Report, November 2026 edition",
+ "publisher": "Eilers & Krejcik Gaming and Fantini Research",
+ "period": "Data through October 2026",
+ "published": "2026-11-23",
+ "markets": [
+  "United States online casino (the operators taking part in the publisher's database)"
+ ],
+ "notes": "Read from the page picture: the ranking table is an image. Taken: the first page of the slot ranking, ranks 1 to 25 (page 46), which holds the 20 leaders. Not taken this time: ranks 26 to 50 (page 47), the overall GGR ranking (page 44) and the new-slots ranking (page 58 or 59), which counted for nothing towards the leaders in the July and August editions; they stay in pages/ and source.pdf. The publisher states that its data is a sample and may not represent the whole market. Theo Win Index is the publisher's measure of a game's theoretical win per site against the average game.",
+ "lists": [
+  {
+   "id": "slots",
+   "title": "Top Game Ranks – Slots",
+   "metric": "Rank by Theo Win Index",
+   "market": "United States",
+   "page": 46,
+   "weight": 1,
+   "entries": [
+    {
+     "rank": 1,
+     "game": "Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 48.53x"
+    },
+    {
+     "rank": 2,
+     "game": "Lightning Link High Stakes",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 41.67x"
+    },
+    {
+     "rank": 3,
+     "game": "Spooky Link Go Ghost",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 37.42x"
+    },
+    {
+     "rank": 4,
+     "game": "Huff N Even More Puff Grand",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 36.65x"
+    },
+    {
+     "rank": 5,
+     "game": "Lightning Link Tiki Fire",
+     "provider": "Aristocrat",
+     "value": "Theo Win Index 34.97x"
+    },
+    {
+     "rank": 6,
+     "game": "Frankensteins Fortune",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 27.04x"
+    },
+    {
+     "rank": 7,
+     "game": "Triple Action 7s Fire Blitz",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 22.26x"
+    },
+    {
+     "rank": 8,
+     "game": "Huff N Puff Haunted Mansion",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 21.77x",
+     "new": true
+    },
+    {
+     "rank": 9,
+     "game": "Divine Fortune Gold",
+     "provider": "Evolution",
+     "value": "Theo Win Index 21.65x"
+    },
+    {
+     "rank": 10,
+     "game": "Break The Diamond Piggy",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 18.42x"
+    },
+    {
+     "rank": 11,
+     "game": "Triple Cash Eruption",
+     "provider": "Igt",
+     "value": "Theo Win Index 18.24x"
+    },
+    {
+     "rank": 12,
+     "game": "Hypernova Megaways",
+     "provider": "Reel Play",
+     "value": "Theo Win Index 17.67x"
+    },
+    {
+     "rank": 13,
+     "game": "Cleopatra",
+     "provider": "Igt",
+     "value": "Theo Win Index 17.07x"
+    },
+    {
+     "rank": 14,
+     "game": "Bison Ridge Power Combo",
+     "provider": "Games Global",
+     "value": "Theo Win Index 15.97x"
+    },
+    {
+     "rank": 15,
+     "game": "Halloween Golden Winner Grand Chance",
+     "provider": "Inspired",
+     "value": "Theo Win Index 15.55x"
+    },
+    {
+     "rank": 16,
+     "game": "Mummy Reel Riches",
+     "provider": "Bragg Gaming Group",
+     "value": "Theo Win Index 15.53x"
+    },
+    {
+     "rank": 17,
+     "game": "Fire Rail Express Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 15.29x"
+    },
+    {
+     "rank": 18,
+     "game": "Capital Gains",
+     "provider": "Ags",
+     "value": "Theo Win Index 15.02x"
+    },
+    {
+     "rank": 19,
+     "game": "Piggy Prizes Lock And Spin Ghost Of Gambini",
+     "provider": "Greentube",
+     "value": "Theo Win Index 14.75x"
+    },
+    {
+     "rank": 20,
+     "game": "7s Fire Blitz Power Force 5",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 14.05x"
+    },
+    {
+     "rank": 21,
+     "game": "Bigger Piggy Halloween Bank",
+     "provider": "Inspired",
+     "value": "Theo Win Index 13.82x"
+    },
+    {
+     "rank": 22,
+     "game": "12 Loaded Pots Drum Frenzy",
+     "provider": "Games Global",
+     "value": "Theo Win Index 13.69x"
+    },
+    {
+     "rank": 23,
+     "game": "Mainline Riches Hold And Win",
+     "provider": "Octoplay",
+     "value": "Theo Win Index 13.04x"
+    },
+    {
+     "rank": 24,
+     "game": "88 Fortunes",
+     "provider": "Light & Wonder",
+     "value": "Theo Win Index 12.91x"
+    },
+    {
+     "rank": 25,
+     "game": "7s Fire Blitz Hotstepper",
+     "provider": "White Hat Studios",
+     "value": "Theo Win Index 12.84x",
+     "is": "whitehat-7s-fire-blitz-hot-stepper"
+    }
+   ]
+  }
+ ]
+}

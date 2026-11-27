@@ -1,0 +1,40 @@
+U.S. Online Game Performance Report | September 2026
+
+
+Overview – Participation Information
+          DATA SECURITY                                                               PARTICIPATION BENEFITS
+      • The EILERS-FANTINI partnership is a trusted brand                           • Participating online gaming operators will receive our monthly
+        within the Gaming industry and understands the                                online game performance report for free ($15,000 annual list
+        need for strict data security.                                                value).
+      • We are not collecting sensitive data like actual win                        • Operating partners have the ability to benchmark individual
+        or hold %. Rather, we are only asking for relative                            gaming operations against the broader gaming industry with the
+        performance indexing vs average.                                              ability to sort and filter data by multiple game characteristics.
+      • Individual operator data will be transferred via a                          • Online Operators can run top new game reports for individual
+        secure protocol and will be stored in a secure Oracle                         game performance metrics on games recently introduced to the
+        database.                                                                     market to aide in purchasing decisions and to utilize your sites
+      • No individual operator data metrics will be viewable                          more efficiently.
+        by anyone who accesses the database. Only
+        summary level data will be available.
+      • Oracle Cloud operates an advanced intrusion
+        detection system (IDS) for both internal and external
+        customer facing networks.
+                                                                                     PARTICIPATION DETAILS
+          DATA COLLECTION MATRIX
+                                                                                     This database service is free to
+        Site                                 Start Date                              qualified online gaming operators
+        Device                               Games Played                            who participate and provide               Rick Eckert
+                                                                                     monthly performance data. If you          Managing Director, Analytics
+        Supplier                             Average Bet
+                                                                                     are not currently participating, but      Eilers & Krejcik Gaming, LLC
+        Game Name                            Coin in Index                           are interested, please contact            reckert@ekgamingllc.com
+        Game Type                            Theo Win Index                          Rick Eckert
+                                                                                     at reckert@ekgamingllc.com
+
+
+
+                                                                                                                                            Back to Contents
+
+
+
+
+Source: EILERS-FANTINI Online Game Performance Database – Data Through August '26                                                                              Back to Contents   7

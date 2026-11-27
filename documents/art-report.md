@@ -1,3 +1,5 @@
+> Three more reports (September, October and November 2026 editions) were handled after this was written. They add 27 leaders that are being analysed now. This text still describes the sixteen games analysed from the July and August editions and is written again when the new leaders are settled.
+
 Written 27 Nov 2026 from the sixteen finished art analyses. Every statement names the games it rests on; each game's own report holds the sheets, the real screens and the measured figures behind it.
 
 ## What this covers, and what it does not

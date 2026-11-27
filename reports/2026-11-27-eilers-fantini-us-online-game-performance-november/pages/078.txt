@@ -1,0 +1,48 @@
+U.S. Online Game Performance Report | November 2026
+
+
+Glossary
+Devices (Desktop/Mobile/Tablet):
+Device level performance and metrics are directly reported from each individual operator. While the majority of Operator provide this level there are some who elect to roll
+their databases into aggregated performance at the Theme level. Mobile is inclusive of Phones while Tablet is segmented separately.
+
+Operating System:
+Where the data set is available, we also ask supplier to provide performance by operating system segmenting iOS devices (iPhones & iPads) from Android based phones and
+tablets.
+
+NEW Game Themes:
+The classification of NEW consists of all game themes that are new to the OGPD in the past 180 days, we tag each game with a timestamp as it enters our database.
+
+Fair Share:
+Comparing the percent of total Themes from a Supplier to the percent of Total Theo Win generated fair share is calculation representing if a supplier is generating the Theo to
+justify the number of Themes.
+
+          TABLE LEGENDS
+                                       Trending Number Format:
+        Trending Index From
+                                       Represents the Theo Win Index delta from the previous month. Note if an operator joins the OGPD and uploads historical data the previous
+          Previous Month
+                                       month indexing can change from what was previously reported.
+       # > .25
+       # < .25 and > -.25              95% Confidence Interval:
+       # < -.25                        The confidence interval demonstrates how close the grouping of all individual Theo Win Indexes are to the games overall average. We display
+                                       this metric, and how likely the game is to perform, by one to four signal strength bars next to the game theme - more bars equates to closer
+       95% Confidence                  grouping and higher confidence the game will perform to the average index reported.
+       Interval
+
+            <3
+                                       Coin In & Theo Win Index:
+            > 3 and < 6
+                                       Coin Index is a representation of the Handle (Avg Bet * Games Played) each theme generates relative to the sites average. If the site average is
+            > 6 and < 10
+                                       $100 and a theme does $200, the themes index is 2.00x. Theo Win is the same relative performance calculation with Hold%/RTP included.
+            > 10
+
+          Rank       Prev              Previous Rank:
+           1           1               Prev. represents the game themes’ rank for the previous reporting period. Note that these can differ from the prior Monthly Online Game
+           2           4               Performance Report as new operators to the OGPD upload historical data. NR = Not Ranked, either the game is new or didn’t meet the prior
+           3          NR               reporting qualifications to be ranked.
+
+ Game Categories:
+ Currently we segment game performance into Slots, Table Games, Video Poker, Live Casino, Lottery, Virtual Sports, Instant Win, Bingo/Keno, Crash, and Arcade. We will add more
+ segments as needed offering additional insights and more rankings.

@@ -1,0 +1,67 @@
+[
+ [
+  [
+   "",
+   "U.S. Online Game Performance Report | September 2026",
+   ""
+  ],
+  [
+   null,
+   null,
+   ""
+  ],
+  [
+   "Glossary\nDevices (Desktop/Mobile/Tablet):\nDevice level performance and metrics are directly reported from each individual operator. While the majority of Operator provide this level there are some who elect to roll\ntheir databases into aggregated performance at the Theme level. Mobile is inclusive of Phones while Tablet is segmented separately.\nOperating System:\nWhere the data set is available, we also ask supplier to provide performance by operating system segmenting iOS devices (iPhones & iPads) from Android based phones and\ntablets.\nNEW Game Themes:\nThe classification of NEW consists of all game themes that are new to the OGPD in the past 180 days, we tag each game with a timestamp as it enters our database.\nFair Share:\nComparing the percent of total Themes from a Supplier to the percent of Total Theo Win generated fair share is calculation representing if a supplier is generating the Theo to\njustify the number of Themes.\nTABLE LEGENDS\nTrending Number Format:\nTrending Index From\nRepresents the Theo Win Index delta from the previous month. Note if an operator joins the OGPD and uploads historical data the previous\nPrevious Month\nmonth indexing can change from what was previously reported.\n# > .25\n# < .25 and > -.25\n95% Confidence Interval:\n# < -.25\nThe confidence interval demonstrates how close the grouping of all individual Theo Win Indexes are to the games overall average. We display\nthis metric, and how likely the game is to perform, by one to four signal strength bars next to the game theme - more bars equates to closer\n95% Confidence grouping and higher confidence the game will perform to the average index reported.\nInterval\n< 3\nCoin In & Theo Win Index:\n> 3 and < 6\nCoin Index is a representation of the Handle (Avg Bet * Games Played) each theme generates relative to the sites average. If the site average is\n> 6 and < 10\n$100 and a theme does $200, the themes index is 2.00x. Theo Win is the same relative performance calculation with Hold%/RTP included.\n> 10\nRank Prev Previous Rank:\n1 1 Prev. represents the game themes’ rank for the previous reporting period. Note that these can differ from the prior Monthly Online Game\n2 4 Performance Report as new operators to the OGPD upload historical data. NR = Not Ranked, either the game is new or didn’t meet the prior\n3 NR reporting qualifications to be ranked.\nGame Categories:\nCurrently we segment game performance into Slots, Table Games, Video Poker, Live Casino, Lottery, Virtual Sports, Instant Win, Bingo/Keno, Crash, and Arcade. We will add more\nsegments as needed offering additional insights and more rankings.",
+   null,
+   null
+  ]
+ ],
+ [
+  [
+   "",
+   "TABLE LEGENDS\nTrending Index From\nPrevious Month",
+   "",
+   "Trending Number Format:\nRepresents the Theo Win Index delta from the previous month. Note if an operator joins the OGPD and uploads historical data the previous\nmonth indexing can change from what was previously reported."
+  ],
+  [
+   "",
+   "# > .25\n# < .25 and > -.25\n# < -.25",
+   "",
+   "95% Confidence Interval:\nThe confidence interval demonstrates how close the grouping of all individual Theo Win Indexes are to the games overall average. We display\nthis metric, and how likely the game is to perform, by one to four signal strength bars next to the game theme - more bars equates to closer\ngrouping and higher confidence the game will perform to the average index reported.\nCoin In & Theo Win Index:"
+  ],
+  [
+   null,
+   "95% Confidence\nInterval\n< 3\n> 3 and < 6",
+   null,
+   null
+  ],
+  [
+   "",
+   "> 6 and < 10\n> 10",
+   "",
+   "Coin Index is a representation of the Handle (Avg Bet * Games Played) each theme generates relative to the sites average. If the site average is\n$100 and a theme does $200, the themes index is 2.00x. Theo Win is the same relative performance calculation with Hold%/RTP included."
+  ],
+  [
+   "Rank Prev\n1 1\n2 4\n3 NR",
+   null,
+   null,
+   "Previous Rank:\nPrev. represents the game themes’ rank for the previous reporting period. Note that these can differ from the prior Monthly Online Game\nPerformance Report as new operators to the OGPD upload historical data. NR = Not Ranked, either the game is new or didn’t meet the prior\nreporting qualifications to be ranked."
+  ],
+  [
+   "Game Categories:\nCurrently we segment game performance into Slots, Table Games, Video Poker, Live Casino, Lottery, Virtual Sports, Instant Win, Bingo/Keno, Crash, and Arcade. We will add more\nsegments as needed offering additional insights and more rankings.",
+   null,
+   null,
+   null
+  ]
+ ],
+ [
+  [
+   null,
+   "1"
+  ],
+  [
+   "2",
+   "4"
+  ]
+ ]
+]
