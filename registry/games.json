@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T04:38:18Z",
+ "updated": "2026-11-27T04:42:46Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -814,8 +814,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:38:18Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens from this container, the same case as the other Games Global leaders. Slotslaunch has the game under Just For The Win (https://slotslaunch.com/just-for-the-win/dark-waters-3-the-cursed-voyage, game 41678), but its Free Play redirects to a forbidden-geo page for the United States. VegasSlotsOnline's Play for Free opens Games Global's practice-play client (mobile3.gameassists.co.uk), which shows 'Unable to connect to the server' (the cause, a US or data-centre address, is inference). gamesglobal.com and other demo hosts gave no playable demo. It can be run from a machine outside the restricted countries, or with a demo link from Games Global or the product team.",
+     "at": "2026-11-27T04:42:46Z",
      "run": null
     }
    },
