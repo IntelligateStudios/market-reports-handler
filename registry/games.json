@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T09:51:34Z",
+ "updated": "2026-11-27T09:52:41Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -462,8 +462,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T09:51:34Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo of this exact game was found. Slotslaunch lists no Aristocrat game (0 demos; the game's addresses answer 404). casinos.com has only a review of the Spooky Link family, with no demo. Aristocrat Interactive's site and other demo hosts gave nothing; three hosts answered a bot challenge that was not worked around. Needs a demo link from Roei or the product team.",
+     "at": "2026-11-27T09:52:41Z",
      "run": null
     }
    },
@@ -3251,7 +3252,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T09:52:41Z",
+     "run": null
     }
    },
    "added": "2026-11-27T09:48:18Z"
