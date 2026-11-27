@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T08:49:05Z",
+ "updated": "2026-11-27T09:06:14Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1986,7 +1986,11 @@
    "providerKey": "lnw",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://nogs-gl.nyxmalta.com/game/?clienttype=flash&nogscurrency=USD&nogsgameid=72039&nogslang=en_us&nogsmode=demo&nogsoperatorid=961",
+    "from": "set by hand",
+    "at": "2026-11-27T09:06:14Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2031,12 +2035,22 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-0814-lnw-huff-n-lots-of-goals"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T08:14:30Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-0814-lnw-huff-n-lots-of-goals",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/V9FR1mxuTTUAwTTtdVpH2D",
+     "completed": "2026-11-27T09:06:14Z",
+     "commit": "1702922",
+     "started": "2026-11-27T08:14:30Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"

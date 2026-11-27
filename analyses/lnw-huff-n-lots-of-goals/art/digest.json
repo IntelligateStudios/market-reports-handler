@@ -1,0 +1,611 @@
+{
+ "run": "2026-11-27-0814-lnw-huff-n-lots-of-goals",
+ "game": "Huff N Lots Of Goals",
+ "started": "2026-11-27T08:14:30.469Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 168,
+  "components": 1702,
+  "spines": 12,
+  "fonts": 8
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 23
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 7
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 19
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 3
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.645,
+  "saturation": 0.491,
+  "contrast": 0.484,
+  "warm": 0.429,
+  "cool": 0.333,
+  "colourShare": 0.6,
+  "softEdge": 0.271,
+  "highlights": 0.238,
+  "palette": [
+   {
+    "hex": "#f9f7ea",
+    "share": 0.199,
+    "name": "light gold"
+   },
+   {
+    "hex": "#ead5bc",
+    "share": 0.104,
+    "name": "light orange"
+   },
+   {
+    "hex": "#86c70c",
+    "share": 0.095,
+    "name": "green"
+   },
+   {
+    "hex": "#b2a789",
+    "share": 0.075,
+    "name": "orange"
+   },
+   {
+    "hex": "#0a0f0b",
+    "share": 0.055,
+    "name": "black"
+   },
+   {
+    "hex": "#565b82",
+    "share": 0.05,
+    "name": "blue"
+   },
+   {
+    "hex": "#f4ec13",
+    "share": 0.031,
+    "name": "gold"
+   }
+  ],
+  "hues": {
+   "green": 0.426,
+   "orange": 0.187,
+   "yellow": 0.144,
+   "blue": 0.118
+  },
+  "lightFrom": {
+   "top": 102,
+   "top-left": 39,
+   "bottom": 37
+  },
+  "words": [
+   "bright",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast",
+   "strong highlights"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.536,
+   "saturation": 0.219,
+   "contrast": 0.177,
+   "warm": 0.236,
+   "cool": 0.362,
+   "palette": [
+    {
+     "hex": "#848583",
+     "share": 0.397,
+     "name": "grey"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.182,
+     "name": "light blue"
+    },
+    {
+     "hex": "#555558",
+     "share": 0.116,
+     "name": "grey"
+    },
+    {
+     "hex": "#19191a",
+     "share": 0.098,
+     "name": "black"
+    },
+    {
+     "hex": "#6bc66b",
+     "share": 0.031,
+     "name": "green"
+    },
+    {
+     "hex": "#cc6e6e",
+     "share": 0.026,
+     "name": "red"
+    },
+    {
+     "hex": "#44ea44",
+     "share": 0.022,
+     "name": "green"
+    },
+    {
+     "hex": "#1a41f3",
+     "share": 0.019,
+     "name": "blue"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.425,
+   "saturation": 0.463,
+   "contrast": 0.867,
+   "warm": 0.201,
+   "cool": 0.399,
+   "palette": [
+    {
+     "hex": "#070b07",
+     "share": 0.226,
+     "name": "black"
+    },
+    {
+     "hex": "#344233",
+     "share": 0.182,
+     "name": "dark green"
+    },
+    {
+     "hex": "#27c11e",
+     "share": 0.109,
+     "name": "green"
+    },
+    {
+     "hex": "#c2c8bf",
+     "share": 0.085,
+     "name": "grey"
+    },
+    {
+     "hex": "#7c7d7b",
+     "share": 0.077,
+     "name": "grey"
+    },
+    {
+     "hex": "#f0f6ef",
+     "share": 0.074,
+     "name": "light green"
+    },
+    {
+     "hex": "#21761f",
+     "share": 0.042,
+     "name": "dark green"
+    },
+    {
+     "hex": "#e0b50f",
+     "share": 0.023,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.624,
+   "saturation": 0.611,
+   "contrast": 0.561,
+   "warm": 0.461,
+   "cool": 0.32,
+   "palette": [
+    {
+     "hex": "#fcfbf9",
+     "share": 0.197,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#faeb0e",
+     "share": 0.112,
+     "name": "gold"
+    },
+    {
+     "hex": "#eb6e0b",
+     "share": 0.077,
+     "name": "orange"
+    },
+    {
+     "hex": "#edb00f",
+     "share": 0.044,
+     "name": "orange"
+    },
+    {
+     "hex": "#11940b",
+     "share": 0.039,
+     "name": "green"
+    },
+    {
+     "hex": "#067fe9",
+     "share": 0.037,
+     "name": "blue"
+    },
+    {
+     "hex": "#0e0f10",
+     "share": 0.035,
+     "name": "black"
+    },
+    {
+     "hex": "#f908f3",
+     "share": 0.019,
+     "name": "magenta"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.845,
+   "saturation": 0.282,
+   "contrast": 0.207,
+   "warm": 0.871,
+   "cool": 0.037,
+   "palette": [
+    {
+     "hex": "#fef9f1",
+     "share": 0.397,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f3d7b8",
+     "share": 0.243,
+     "name": "light orange"
+    },
+    {
+     "hex": "#baaa84",
+     "share": 0.134,
+     "name": "orange"
+    },
+    {
+     "hex": "#fdeb27",
+     "share": 0.052,
+     "name": "gold"
+    },
+    {
+     "hex": "#faa72e",
+     "share": 0.048,
+     "name": "orange"
+    },
+    {
+     "hex": "#f03918",
+     "share": 0.023,
+     "name": "red"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.61,
+   "saturation": 0.644,
+   "contrast": 0.478,
+   "warm": 0.318,
+   "cool": 0.412,
+   "palette": [
+    {
+     "hex": "#82c00f",
+     "share": 0.298,
+     "name": "green"
+    },
+    {
+     "hex": "#e9ead5",
+     "share": 0.154,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#555b88",
+     "share": 0.069,
+     "name": "blue"
+    },
+    {
+     "hex": "#1a161b",
+     "share": 0.053,
+     "name": "black"
+    },
+    {
+     "hex": "#abb3b7",
+     "share": 0.047,
+     "name": "grey"
+    },
+    {
+     "hex": "#598b0b",
+     "share": 0.035,
+     "name": "dark green"
+    },
+    {
+     "hex": "#064f71",
+     "share": 0.026,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#91927e",
+     "share": 0.019,
+     "name": "grey"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.646,
+   "saturation": 0.429,
+   "contrast": 0.527,
+   "warm": 0.023,
+   "cool": 0.669,
+   "palette": [
+    {
+     "hex": "#e2e3d2",
+     "share": 0.346,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#85c403",
+     "share": 0.213,
+     "name": "green"
+    },
+    {
+     "hex": "#58578a",
+     "share": 0.211,
+     "name": "blue"
+    },
+    {
+     "hex": "#aaa9bf",
+     "share": 0.073,
+     "name": "blue"
+    },
+    {
+     "hex": "#aed556",
+     "share": 0.04,
+     "name": "green"
+    },
+    {
+     "hex": "#191932",
+     "share": 0.037,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#548703",
+     "share": 0.031,
+     "name": "dark green"
+    },
+    {
+     "hex": "#909084",
+     "share": 0.023,
+     "name": "grey"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.622,
+   "saturation": 0.583,
+   "contrast": 0.42,
+   "warm": 0.035,
+   "cool": 0.541,
+   "palette": [
+    {
+     "hex": "#66c558",
+     "share": 0.332,
+     "name": "green"
+    },
+    {
+     "hex": "#a1e211",
+     "share": 0.161,
+     "name": "green"
+    },
+    {
+     "hex": "#ebedd0",
+     "share": 0.151,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#08160c",
+     "share": 0.104,
+     "name": "black"
+    },
+    {
+     "hex": "#339170",
+     "share": 0.068,
+     "name": "green"
+    },
+    {
+     "hex": "#97de48",
+     "share": 0.036,
+     "name": "green"
+    },
+    {
+     "hex": "#8b877e",
+     "share": 0.029,
+     "name": "grey"
+    },
+    {
+     "hex": "#6fb108",
+     "share": 0.025,
+     "name": "green"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.417,
+   "saturation": 0.682,
+   "contrast": 0.74,
+   "warm": 0.537,
+   "cool": 0.363,
+   "palette": [
+    {
+     "hex": "#0f140c",
+     "share": 0.098,
+     "name": "black"
+    },
+    {
+     "hex": "#a85617",
+     "share": 0.075,
+     "name": "brown"
+    },
+    {
+     "hex": "#f8dd60",
+     "share": 0.059,
+     "name": "gold"
+    },
+    {
+     "hex": "#54140b",
+     "share": 0.057,
+     "name": "dark red"
+    },
+    {
+     "hex": "#e3e5db",
+     "share": 0.057,
+     "name": "light green"
+    },
+    {
+     "hex": "#a7150a",
+     "share": 0.047,
+     "name": "red"
+    },
+    {
+     "hex": "#0f5a10",
+     "share": 0.043,
+     "name": "dark green"
+    },
+    {
+     "hex": "#111b51",
+     "share": 0.036,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.537,
+   "saturation": 0.629,
+   "contrast": 0.686,
+   "warm": 0.268,
+   "cool": 0.47,
+   "palette": [
+    {
+     "hex": "#87ca0b",
+     "share": 0.226,
+     "name": "green"
+    },
+    {
+     "hex": "#213c50",
+     "share": 0.141,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#c4b3a9",
+     "share": 0.081,
+     "name": "orange"
+    },
+    {
+     "hex": "#28963c",
+     "share": 0.074,
+     "name": "green"
+    },
+    {
+     "hex": "#c8f002",
+     "share": 0.056,
+     "name": "green"
+    },
+    {
+     "hex": "#52970e",
+     "share": 0.054,
+     "name": "green"
+    },
+    {
+     "hex": "#adf2e7",
+     "share": 0.038,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#1b956e",
+     "share": 0.027,
+     "name": "cyan"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets, the measured palettes, the skeleton files and real frames of the game: the loading screen, the base game at rest, 54 played spins (8 from the capture, the rest from a second session on the same public link), one win, red balls being collected into the red goal, a wheel symbol upgrading a wedge of the prize wheel, the menu and the first paytable page. Not reached: any feature (Kick Ball, Mega Ball, Cup, Wheel), free spins, a big win, the wolf's pop-up and blow, the transition and the later paytable pages; those readings rest on the files alone (parts, animation names, lengths measured from the skeleton files) and mark what is inference. The demo link serves the UK build of the game (folder huffnlotsofpuffgoalsuk); that its art is the same as the US game the market report ranks as 'Huff N Lots Of Goals' is inference. The client's whole English desktop art set is in the run.",
+  "summary": "The Three Little Pigs as a football match: a glossy cartoon cast in the two team colours, red and blue, on see-through reels cut into a sunlit green pitch, with two goals to fill above the reels, a pennant prize wheel turning behind them and a wolf in a referee's shirt.",
+  "style": "Family-animation cartoon. Pigs are rounded mascots with big heads (a face-painted fan, a player, a piglet); the wolf is a hand-drawn comic villain dressed as the referee; boots, whistle, ball and trophies are chunky toys. Around them the game uses sports-sticker graphics: halftone dots, torn brush bands, slanted italic titles.",
+  "rendering": "Smooth digital painting with airbrushed gradients, white gloss, a thin darker outline and a pale rim so pieces lift off the dark reel window. Lettering is fat, bevelled, outlined. The wolf's faces and all smoke, wind and sparkle are flat hand-drawn frames. The stadium is opaque brushwork with a crowd made of dabs.",
+  "colour": "Green field, red and blue teams, gold prizes. Measured over the game's own captured art: cream-white #f9f7ea 19%, pale orange #ead5bc 10% (smoke and cream fills weigh heavily), grass green #86c70c 9%, black #0a0f0b 5%, wolf blue #565b82 5%, yellow #f4ec13 3%. The background is 61% green hues with a red and pink crowd; the feature balls sit on pure red and royal blue squares; royals are one emerald green (#1c6c38); the coin is 96% warm. Prize tiers keep one colour each on plaque and wedge: magenta Mini, green Minor, blue Major, red Grand, gold Super.",
+  "lighting": "Daylight, even and shadowless, for the base game; the file named for the free game is the same stadium at night under six floodlights. Objects are top-lit with hard gloss. Glow is kept as separate layers and outline sprites. On screen the reel window is the darkest area and the pitch the brightest.",
+  "ambience": "Match day with a full house: cheerful, loud, busy. The wheel, two goals, five plaques and an animated logo crowd the top of the screen around a calm dark reel window. The villain is a joke: the wolf's threat is a whistle. A win of ten times the bet was marked by a gold light burst and a one-line caption, no more.",
+  "shapes": "Round everywhere: balls, coins, cups, domed buttons, bubble letters, puffs of smoke. Points are kept for the wolf's muzzle and ears, the pennant wedges of the wheel and star ornaments.",
+  "materials": "Stitched leather (ball), brushed steel (whistle), glossy boots, bronze, silver and gold (trophies, coin, frames), mown turf used as a frame material, netting and tube steel (goals), dark glass (plaques), enamel lettering, soap bubbles, riveted wood and hazard tape in the logo, cream cartoon smoke.",
+  "typography": "Display lettering is drawn art. The logo gives each word its own material and strikes PUFF out with a black brush stroke in favour of GOALS!. Prize and feature words are heavy rounded or slanted italic capitals with bevel, outline and rim, coloured by tier. Words are swapped as whole pictures for Spanish. Running text on screen is the provider's: Noto Sans as distance-field pages, with Jost and Outfit also shipped and Frutiger Neue in the provider's frame.",
+  "motion": "Seen in the real frames: the wheel stands at a different wedge in every frame; the logo animates (a ball rolls through GOALS!, PUFF pops under its strike); reels blur on the spin and the spin button becomes a stop square; a win flashes a wide gold burst behind the amount and dims the losing symbols; a collected red ball sends a rope of cream smoke diagonally up the reels to the red goal, with a puff where it leaves and a brighter puff where it arrives; a wheel symbol sends rainbow sparks up to the wheel, where a wedge flares gold. Read from the files only: twelve Spine skeletons (4.1.24, three exported from 4.2.43) with ball landings of 3.25 s, a 1.67 s wolf win, the wolf's pop-up (3.1 s in, 6.8 s loop) and blow (1.5 s in, 4.2 s loop), trophies that build in 1.2 s, feature panels of 1.8 s, a 1.4 s transition and a four-tier big win whose intro grows from 0.7 to 3.1 s. Effects are drawn sequences at the 24 frames a second the sheets state, the longest a 165-frame dust blast. No skeleton frame is shown in this report: the project's drawing tool does not read Spine 4.1 correctly.",
+  "variants": "Two team colours on shared rigs: blue and red ball, blue and red goal. Three metals on one trophy rig and one frame set. Gold and super versions of the wheel wedges. The red ball as a 1x1, 2x2, 3x3 and 3x5 block. Day and night stadium on one drawing. English and Spanish versions of worded pictures. Landscape and portrait versions of most animations. Two control sets: the provider's grey one, used on the desktop screens, and a game-coloured one not seen in play.",
+  "construction": "PixiJS client. In this run: 168 textures, 1,702 named sprites, 12 skeletons, 8 fonts, 57 frame sequences holding 1,288 of the sprites. Sprite sheets are 'Red 7 Exporter' packs; skeletons are Spine 4.1 with few meshes (the wolf symbol has 19, most rigs none). Parts of one rig share a canvas size so colours and grades swap one for one (ball parts 336 to 338 px, trophy parts 278 px, goal parts 517x476). Each background is one square 1920x1920 picture for both orientations. The reel window is a plain see-through dark rectangle. File and animation names are those of the building-site Huff N' Puff games (woodcutter, hardhat, megahat, buzzsaw, houses, toolboxes): inference, this game was built by re-dressing that game's structure piece for piece.",
+  "consistency": "High: one outline-and-gloss treatment on every object, one lettering system, one colour per prize tier, one cream smoke for every puff, and red against blue carried from the symbols to the goals, the pig's face paint and the transition. The wolf is drawn flatter than the painted symbols, a deliberate cel-cartoon register. The provider's grey controls and help pages are the one part outside the theme.",
+  "takeaways": [
+   "A new theme on an old frame: every piece here answers a piece of the building-site Huff N' Puff games (saw and hard hat became blue and red balls, toolboxes became goals, houses became trophies, caution tape became team-colour bands), and the files keep the old names. The mechanics, rigs and timings were kept; only the pictures changed. That is the cheapest route to a sequel, and a clear brief for an art package: the list of pieces is already known.",
+   "Let the theme supply the meters: the two collection pots are goals that fill with balls, and each collected ball visibly travels there on a smoke trail. The player sees progress as an object, not a number.",
+   "Two team colours do the work of a whole palette: red and blue mark the two feature symbols, the two goals, the fan's face and the transition, on a green field that never competes with them.",
+   "Keep the bonus in sight: the prize wheel turns permanently behind and above see-through reels, and a wheel symbol visibly upgrades a wedge. The plain dark reel window is what keeps the symbols readable in a crowded screen.",
+   "Give each prize tier one colour and use it on every surface that names it: plaque title, plaque rim, wheel wedge.",
+   "Rig what moves mechanically and draw what is chaotic: goals, trophies, coins and panels are rigged from parts; the wolf's faces, the logo's letters and all smoke, wind and sparkle are drawn frames. The drawn sequences are where the texture budget goes (22 pages for one dust blast, 11 for the logo).",
+   "Make the celebration from the cast: the big win stages the wolf and the three trophies, and its particles are the game's coin, star, boot and ball.",
+   "Small wins are quiet: ten times the bet got a gold burst and a caption. The spectacle is saved for features and tiers.",
+   "For an AI art package on this model the static pieces are few: two square backgrounds (one a relight of the other), 16 symbol stills at about 300 px, one trophy in three metals with frames and backings, two goals, a coin, 16 wedges, a logo. The cost sits in the drawn sequences, which is where generated art would need the most hand work.",
+   "Limits of this report: no feature, free spin, big win, wolf pop-up, transition or later paytable page was reached, so those are read from the files alone. The demo is the UK build; that its art matches the US game is inference. No skeleton is drawn here, whatever the method notes below say: the project's drawing tool does not read Spine 4.1 correctly."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-base-at-rest.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest, 1280x720: five jackpot plaques down the left (SUPER $7,500.00, GRAND $5,000.00, MAJOR $1,000.00, MINOR $100.00, MINI $20.00), the 5x3 reels on a see-through dark window, the blue and the red goal on grass islands above them with the prize wheel between (CUP FEATURE, MAJOR JACKPOT), the logo top right, the provider's grey controls. Reel 5 is a column of red balls; the wheel symbol, the wolf and a blue ball are on the reels. Balance $1,000.00, Bet $1.00."
+  },
+  {
+   "file": "02-base-whistles.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Base game, a board of whistles",
+   "caption": "A landed board from the capture: seven whistles, two aces, the fan pig and the piglet; the wheel stands at MINOR JACKPOT and MEGA BALL FEATURE and a ball sits in the logo's GOALS!."
+  },
+  {
+   "file": "00-loading-end.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Loading screen, finished",
+   "caption": "End of loading: the logo on its soap bubbles over the daytime stadium, a reel sample with empty bronze and silver star frames and the caption COLLECT (blue ball) TO TRIGGER THE KICK BALL FEATURE!, the Light & Wonder mark and the full load bar."
+  }
+ ]
+}
