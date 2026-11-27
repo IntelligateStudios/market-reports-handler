@@ -43,3 +43,7 @@ Read with the Miro connector, read-only: 98 items. Eleven headings each name a g
 ## Order changed
 
 Roei, 27 Nov 2026 (evening): "Enough with games from report for now, let's do the miro board games". From here the board's 13 games are analysed first. The five report leaders already in analysis are finished, not dropped (Jewel Boom Xxx, Mainline Riches Hold And Win, Break More Piggy Banks, Money Stacks, Huff N Puff Haunted Mansion); Dancing Drums Tower is captured and its reading waits; the seven report leaders not started wait until Roei says. First three board games started, one per provider, so each provider's client is learnt once: Coin Strike (Playson), 4 Gold Cards (Kendoo), Lucky Penny 3 Pots (3 Oaks Gaming).
+
+## One at a time
+
+Roei, 27 Nov 2026 (evening): "Reduce to 1 at the time." Seven of the eight running analysts were stopped with their work saved; Coin Strike (Playson) keeps running. The order from here: the board's games one by one (Coin Strike, then 4 Gold Cards and Lucky Penny 3 Pots, which were started and stopped, then the other ten), then the five stopped report leaders (Jewel Boom Xxx, Mainline Riches Hold And Win, Break More Piggy Banks, Money Stacks, Huff N Puff Haunted Mansion) and Dancing Drums Tower, resumed from where they stopped. The skill now says one analyst at a time.

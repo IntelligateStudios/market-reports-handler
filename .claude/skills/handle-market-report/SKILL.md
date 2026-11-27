@@ -27,7 +27,7 @@ Read `CLAUDE.md` and `README.md` first. Every step leaves its state in the repos
    - Build and publish the summary (step 6) now, so Roei sees the leaders and what is waiting.
 
 5. **Analyse each waiting leader, best position first** (`ledger.py queue`).
-   - **One analyst per game**, as a background sub-agent given `analyst-brief.md` (beside this file) and the game's ledger id, title, provider, provider key and Roei's request. Four at a time on a 4-core container; start the next as each ends. `ledger.py start <game id>` as you launch one.
+   - **One analyst per game**, as a background sub-agent given `analyst-brief.md` (beside this file) and the game's ledger id, title, provider, provider key and Roei's request. One at a time (Roei, 27 Nov 2026: "Reduce to 1 at the time."; several at once ran the usage allowance out again and again); start the next as each ends. `ledger.py start <game id>` as you launch one.
    - The analyst finds the demo (slotslaunch.com's Free Play opens the provider's own free-play client; `tools/find_demo.js "<page>"` prints its address), runs the `extract-game-art` skill of `../Games-AI-art` with the `generic` reader's extra steps, and publishes the art report as its own private artifact. It touches only its run folder and its record, and never the ledger or git: analysts run side by side, so the caller does both.
    - When an analyst ends: `ledger.py set <game id> demo=<link>` (refuses a session key), then `complete` or `block` from its final message, add the run's row to Games-AI-art's `README.md`, and commit and push both repositories.
    - Drive and Miro for each run are part of `extract-game-art` (Roei, 25 Nov 2026) but are not made by analysts; do them afterwards for the batch, or say they are still owed.
