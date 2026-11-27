@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T03:16:21Z",
+ "updated": "2026-11-27T04:21:25Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -2553,7 +2553,11 @@
    "providerKey": "octoplay",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://lobby-api.octoplay.com/platform/public/launch/super-cash-boost-big-bad-bonus",
+    "from": "set by hand",
+    "at": "2026-11-27T04:21:25Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -2570,12 +2574,22 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T23:40:50Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/Ebs9Sa7fe6boyETWoh7NKi",
+     "completed": "2026-11-27T04:21:25Z",
+     "commit": "10face5",
+     "started": "2026-11-26T23:40:50Z"
     }
    },
    "added": "2026-11-25T16:50:31Z"

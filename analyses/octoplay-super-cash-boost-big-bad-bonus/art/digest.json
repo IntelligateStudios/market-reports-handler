@@ -1,0 +1,625 @@
+{
+ "run": "2026-11-26-2343-octoplay-super-cash-boost-big-bad-bonus",
+ "game": "Super Cash Boost Big Bad Bonus",
+ "started": "2026-11-26T23:43:25.758Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 37,
+  "components": 518,
+  "spines": 41,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 6
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 2
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 2
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 2
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 5
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.508,
+  "saturation": 0.506,
+  "contrast": 0.67,
+  "warm": 0.416,
+  "cool": 0.442,
+  "colourShare": 0.753,
+  "softEdge": 0.057,
+  "highlights": 0.111,
+  "palette": [
+   {
+    "hex": "#192f29",
+    "share": 0.196,
+    "name": "dark cyan"
+   },
+   {
+    "hex": "#375d56",
+    "share": 0.105,
+    "name": "dark cyan"
+   },
+   {
+    "hex": "#eef2f0",
+    "share": 0.095,
+    "name": "light green"
+   },
+   {
+    "hex": "#8d3d17",
+    "share": 0.068,
+    "name": "brown"
+   },
+   {
+    "hex": "#f3d07a",
+    "share": 0.062,
+    "name": "orange"
+   },
+   {
+    "hex": "#6498bd",
+    "share": 0.06,
+    "name": "blue"
+   },
+   {
+    "hex": "#a7cfe1",
+    "share": 0.046,
+    "name": "light cyan"
+   },
+   {
+    "hex": "#efdaae",
+    "share": 0.029,
+    "name": "light orange"
+   }
+  ],
+  "hues": {
+   "orange": 0.272,
+   "cyan": 0.237,
+   "green": 0.184,
+   "yellow": 0.125
+  },
+  "lightFrom": {
+   "top-left": 65,
+   "top": 58,
+   "top-right": 19
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "high contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.523,
+   "saturation": 0.96,
+   "contrast": 0.738,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#e48305",
+     "share": 0.505,
+     "name": "orange"
+    },
+    {
+     "hex": "#b13a02",
+     "share": 0.169,
+     "name": "brown"
+    },
+    {
+     "hex": "#fbd812",
+     "share": 0.168,
+     "name": "gold"
+    },
+    {
+     "hex": "#7f1002",
+     "share": 0.124,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fcec58",
+     "share": 0.028,
+     "name": "gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.479,
+   "saturation": 0.639,
+   "contrast": 0.667,
+   "warm": 0.702,
+   "cool": 0.221,
+   "palette": [
+    {
+     "hex": "#f8c191",
+     "share": 0.129,
+     "name": "light orange"
+    },
+    {
+     "hex": "#32150d",
+     "share": 0.118,
+     "name": "dark red"
+    },
+    {
+     "hex": "#1b453b",
+     "share": 0.115,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#7a2f10",
+     "share": 0.089,
+     "name": "brown"
+    },
+    {
+     "hex": "#fcd534",
+     "share": 0.057,
+     "name": "gold"
+    },
+    {
+     "hex": "#f7f3e9",
+     "share": 0.042,
+     "name": "light orange"
+    },
+    {
+     "hex": "#456c59",
+     "share": 0.037,
+     "name": "green"
+    },
+    {
+     "hex": "#67949f",
+     "share": 0.034,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.593,
+   "saturation": 0.654,
+   "contrast": 0.757,
+   "warm": 0.744,
+   "cool": 0.25,
+   "palette": [
+    {
+     "hex": "#fde623",
+     "share": 0.147,
+     "name": "gold"
+    },
+    {
+     "hex": "#fbecc4",
+     "share": 0.127,
+     "name": "light orange"
+    },
+    {
+     "hex": "#ed0c04",
+     "share": 0.094,
+     "name": "red"
+    },
+    {
+     "hex": "#f59617",
+     "share": 0.085,
+     "name": "orange"
+    },
+    {
+     "hex": "#eea76a",
+     "share": 0.067,
+     "name": "orange"
+    },
+    {
+     "hex": "#4ecff0",
+     "share": 0.057,
+     "name": "cyan"
+    },
+    {
+     "hex": "#88ebf8",
+     "share": 0.049,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#15080a",
+     "share": 0.04,
+     "name": "black"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.591,
+   "saturation": 0.231,
+   "contrast": 0.83,
+   "warm": 0.176,
+   "cool": 0.821,
+   "palette": [
+    {
+     "hex": "#e8e1da",
+     "share": 0.522,
+     "name": "light orange"
+    },
+    {
+     "hex": "#1a1717",
+     "share": 0.349,
+     "name": "black"
+    },
+    {
+     "hex": "#f9d94c",
+     "share": 0.078,
+     "name": "gold"
+    },
+    {
+     "hex": "#f3b821",
+     "share": 0.024,
+     "name": "orange"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.46,
+   "saturation": 0.719,
+   "contrast": 0.561,
+   "warm": 0.7,
+   "cool": 0.228,
+   "palette": [
+    {
+     "hex": "#8d3614",
+     "share": 0.258,
+     "name": "brown"
+    },
+    {
+     "hex": "#d2954c",
+     "share": 0.119,
+     "name": "orange"
+    },
+    {
+     "hex": "#491108",
+     "share": 0.076,
+     "name": "dark red"
+    },
+    {
+     "hex": "#9bc6e8",
+     "share": 0.039,
+     "name": "light blue"
+    },
+    {
+     "hex": "#135704",
+     "share": 0.028,
+     "name": "dark green"
+    },
+    {
+     "hex": "#6795e2",
+     "share": 0.026,
+     "name": "blue"
+    },
+    {
+     "hex": "#0d386a",
+     "share": 0.025,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#560867",
+     "share": 0.019,
+     "name": "dark purple"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.472,
+   "saturation": 0.506,
+   "contrast": 0.756,
+   "warm": 0.337,
+   "cool": 0.54,
+   "palette": [
+    {
+     "hex": "#19332c",
+     "share": 0.258,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#385e54",
+     "share": 0.153,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#f0d183",
+     "share": 0.089,
+     "name": "orange"
+    },
+    {
+     "hex": "#6899ba",
+     "share": 0.078,
+     "name": "blue"
+    },
+    {
+     "hex": "#d4eef4",
+     "share": 0.057,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#9ac9df",
+     "share": 0.04,
+     "name": "cyan"
+    },
+    {
+     "hex": "#3b7f9e",
+     "share": 0.032,
+     "name": "cyan"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.454,
+   "saturation": 0.307,
+   "contrast": 0.563,
+   "warm": 0.12,
+   "cool": 0.777,
+   "palette": [
+    {
+     "hex": "#2d3646",
+     "share": 0.334,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#4b85a4",
+     "share": 0.244,
+     "name": "blue"
+    },
+    {
+     "hex": "#f4f5f4",
+     "share": 0.121,
+     "name": "white"
+    },
+    {
+     "hex": "#77787a",
+     "share": 0.121,
+     "name": "grey"
+    },
+    {
+     "hex": "#cbcdcb",
+     "share": 0.072,
+     "name": "grey"
+    },
+    {
+     "hex": "#2c527b",
+     "share": 0.036,
+     "name": "blue"
+    },
+    {
+     "hex": "#0b0c11",
+     "share": 0.032,
+     "name": "black"
+    },
+    {
+     "hex": "#a2aba9",
+     "share": 0.021,
+     "name": "grey"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.524,
+   "saturation": 0.432,
+   "contrast": 0.29,
+   "warm": 0.46,
+   "cool": 0.043,
+   "palette": [
+    {
+     "hex": "#7f7f7f",
+     "share": 0.382,
+     "name": "grey"
+    },
+    {
+     "hex": "#873e16",
+     "share": 0.184,
+     "name": "brown"
+    },
+    {
+     "hex": "#e6b353",
+     "share": 0.139,
+     "name": "orange"
+    },
+    {
+     "hex": "#2afe01",
+     "share": 0.085,
+     "name": "green"
+    },
+    {
+     "hex": "#c27932",
+     "share": 0.079,
+     "name": "orange"
+    },
+    {
+     "hex": "#a7a7a7",
+     "share": 0.051,
+     "name": "grey"
+    },
+    {
+     "hex": "#fefdfa",
+     "share": 0.022,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f7d38b",
+     "share": 0.019,
+     "name": "light orange"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.803,
+   "saturation": 0.324,
+   "contrast": 0.272,
+   "warm": 0.399,
+   "cool": 0.06,
+   "palette": [
+    {
+     "hex": "#fdfdfc",
+     "share": 0.427,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#f7bb05",
+     "share": 0.188,
+     "name": "gold"
+    },
+    {
+     "hex": "#a9a9a8",
+     "share": 0.132,
+     "name": "grey"
+    },
+    {
+     "hex": "#fee973",
+     "share": 0.052,
+     "name": "gold"
+    },
+    {
+     "hex": "#883f1a",
+     "share": 0.048,
+     "name": "brown"
+    },
+    {
+     "hex": "#726f6c",
+     "share": 0.039,
+     "name": "grey"
+    },
+    {
+     "hex": "#e0d6ce",
+     "share": 0.03,
+     "name": "light orange"
+    },
+    {
+     "hex": "#18ff00",
+     "share": 0.018,
+     "name": "green"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.823,
+   "saturation": 0.409,
+   "contrast": 0.224,
+   "warm": 0.972,
+   "cool": 0.005,
+   "palette": [
+    {
+     "hex": "#fdf6c1",
+     "share": 0.552,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fcfcfa",
+     "share": 0.141,
+     "name": "light green"
+    },
+    {
+     "hex": "#f6ba09",
+     "share": 0.141,
+     "name": "orange"
+    },
+    {
+     "hex": "#3d1005",
+     "share": 0.096,
+     "name": "dark red"
+    },
+    {
+     "hex": "#eebd49",
+     "share": 0.019,
+     "name": "orange"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, from the run's contact sheets (every unit outside the provider's shared interface opened), the two atlas pages seen whole, the game's own files and real screens of three played free-play sessions (about 280 base spins and the help pages). One reader wrote all units; there were no sub-reviewers. Frame sequences were seen as three frames each on the sheets. The Hold & Win bonus did not trigger and the demo shows no Buy Feature button (EXTRA CHANCE stands in its place), so everything about the bonus is read from the files and the help page and is marked as such.",
+  "summary": "The Three Little Pigs told through building materials: straw, wood and brick are at once the three Wild pigs, the three houses, the three prize ladders and the three win tiers, in a painted storybook valley with the wolf kept back for the bonus.",
+  "style": "Storybook cartoon in two registers: painted animation-background landscapes and feature-film style characters (the wolf, three pigs), against inflated glossy letters and toy tools with a pig's snout worked into each. Interface plates are the materials themselves, a straw bale, a plank, a brick panel.",
+  "rendering": "Backgrounds and props are painterly with visible brushwork; characters are smoothly blended with sharp speculars and a light rim; letters, tools, logo and numerals are flat gradients with gloss bands and thick dark outlines. Effects are flat white hand-drawn smoke, dust and wind, with soft white glows added on top.",
+  "colour": "Measured over the game's art: dark forest greens #192f29 19% and #375d56 10%, near-white #eef2f0 9% (smoke, numerals), brick brown #8d3d17 6%, warm yellow #f3d07a 6%, sky blues #6498bd 6% and #a7cfe1 4%, straw #efdaae 2%. The scene is green and blue, the interface warm brown, tan and gold, and the symbols take one saturated hue each. Jackpots are coded by colour: MINI magenta, MINOR blue, MAJOR green, MEGA red-orange, GRAND gold. Frame metal ranks the pigs: steel, copper, gold.",
+  "lighting": "Daylight from the upper right in the base scene and a low sunset behind the hills in the special scene; props and plates are lit from the upper left; characters have a warm key and a thin cool rim. Nothing glows by itself except a plate being boosted.",
+  "ambience": "Sunny, rustic and good-humoured. The base game is a building site in a meadow at midday; the intro shows the finished village at sunset with the wolf waiting. Threat is played as comedy.",
+  "shapes": "Round and soft everywhere: balloon letters, fat tools, plump pigs, puffed clouds and bushes. The pig's snout (an oval with two dots) is the repeated mark, on every letter, the tape measure, the hard hat, the toolbox, the coin and the reel panel's watermark. Square frames are kept for the Wilds and houses only.",
+  "materials": "Straw, rough timber, fired brick, glossy enamel and plastic, gold coin, denim, fur, skin; flat white smoke and dust.",
+  "typography": "Two voices. Drawn balloon capitals with uneven baselines for the logo, the jackpot names and the win tiers, each word in its own colour; a fat rounded numeral face from the provider's shared font store in white (MarvinRound, on the ladders) and gold (MarvinRoundYellow, for jackpots and wins). HOLD & WIN and its rule line use the rounded face. The help, buttons and balance line are the shell's Poppins.",
+  "motion": "All motion is Spine: 41 skeletons in one bundle file (38 in 4.2.43; BonusSpinsSplash, ForegroundEffects and Foregrounds in 4.1.24) moving still pictures and cut-up characters, with 20 hand-drawn frame sequences (283 frames: the piggy coin's turn, plate bursts and sweeps in three materials, dust, wind, the wolf's breath, air rings and swirls on the tools, a frame glint, butterflies). Seen in play: the logo's words dropping in, the Boost sign growing across bleached reels and its word flying to a plate that flares and rises, a reel flashing pink under a landing Wild, winning symbols growing with a gold line, an air ring round the tape measure, a BIG WIN presented by the Straw Farmer pig. Not seen: the bonus, in which by the files the wolf inhales and blows (3.23 s) and the houses burst open. No skeleton frame is shown in this report, because the project's renderer cannot draw Spine 4; assembled and motion pictures are absent for that reason only.",
+  "variants": "Two scenes on one composition (day building site, sunset village). Three pigs on one portrait layout and, by their parts, one rig. Three houses, each whole and destroyed. Three prize plates and three plate effects on one timing. Five jackpot names and five sets of coloured brick strips. Three win tiers and a total on one lettering. One numeral face in two colourings.",
+  "construction": "Two 4096 px atlas pages hold 453 sprites, each page carrying one 2750 px scene; four lettering files are localised (en-GB). Characters and houses are cut into parts for Spine (the wolf 43 sprites with breath, the pigs 32, the houses 33). The reel backing and its pig watermark are grey and tinted by the engine. The flat symbol pictures, the flat logo, the numeral fonts, the Extra Chance card, the controls and Poppins come from the provider's shared store, outside the game bundle.",
+  "consistency": "Very consistent: one idea (three materials in rising strength) orders the Wilds, houses, ladders, win tiers and effects, and one mark (the snout) themes every filler symbol. The joins that show are between the painted characters and the flat glossy letters, which are two different finishes on the same reel, and the plain gold reel frame, which belongs to neither. Shared with the other Octoplay runs (Fire Rail Express, 777 Hot Reels): the shell, Poppins, the Extra Chance card `buyChances2x` (the same file) and three light sprites (circularWhiteRays2, glowSquare, whiteGlow, pixel for pixel); 22 and 24 of the 41 skeleton names also appear in those runs, one scene template (inference). A sprite reading BOILERPLATE is left in the atlas.",
+  "takeaways": [
+   "Pick one ordering idea from the theme and use it for everything that has ranks. Here straw, wood and brick rank the Wilds (x1, x2, x3), the houses, the prize ladders and the win tiers, so the player learns the scale once.",
+   "Theme the filler symbols with one small mark instead of new drawings: a snout on each letter and tool was enough to make 10 to A belong to the tale.",
+   "Make interface plates out of the theme's materials. The prize cells are a bale, a plank and a brick panel, each one sprite repeated five times, and they give the screen its character more than the reel frame does.",
+   "Hold the best character back. The wolf is the largest drawing in the game (740x1374 px body, three heads) and appears only on the intro and in the bonus.",
+   "Let a character present the win: the BIG WIN reuses the Wild pig's bust and the scene's props (hay bale, board, daisies) rather than a separate celebration set.",
+   "One effect language keeps a cartoon coherent: every effect here is flat white smoke, dust or wind, drawn by hand in 5 to 27 frames, with generic soft glows for light.",
+   "For AI art work: the scenes are two paintings on one composition (same path, same framing trees, different hour and state), a clear brief for a day and sunset pair; the three pigs are one portrait layout with costume, prop and frame metal changed, a clear brief for consistent character variants.",
+   "Cut characters and breakable props into parts from the start: each house exists whole and destroyed in loose pieces so one skeleton can stage the collapse on any cell.",
+   "Grey art tinted in the engine (the reel backing and watermark) is a cheap way to recolour a board per mode.",
+   "Draw words separately from what they label and keep them in localised files; the logo's four words and the BOOST word are separate sprites so they can animate and travel."
+  ]
+ },
+ "screens": [
+  {
+   "file": "03-main-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game: 5x3 reels in a thin gold frame on the meadow path. Five brick plates across the top hold MINI, MAJOR, GRAND, MEGA and MINOR; five hay plates at the left and five wood plates at the right hold cash multipliers and two jackpots; the logo with the wolf's head sits on a heap of coins. The shell's menu, autoplay, stake, EXTRA CHANCE and spin buttons are at the lower right."
+  },
+  {
+   "file": "04-base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Spin in motion",
+   "caption": "A spin: the reels turning, toolboxes passing."
+  },
+  {
+   "file": "00-intro-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Intro screen",
+   "caption": "Intro: the wolf in dungarees, hands on hips, before the village at sunset (straw house and plank house at the left, brick house at the right), the logo above, the three Wild pigs in their frames (Builder x3, Woodworker x2, Straw Farmer) and the shell's START button."
+  }
+ ]
+}
