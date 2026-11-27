@@ -1,0 +1,585 @@
+{
+ "run": "2026-11-26-1842-lnw-huff-n-even-more-puff-grand",
+ "game": "Huff N Even More Puff Grand",
+ "started": "2026-11-26T18:42:37.783Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 140,
+  "components": 1535,
+  "spines": 11,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 22
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 5
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 5
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 13
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 3
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 2
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.432,
+  "saturation": 0.6,
+  "contrast": 0.455,
+  "warm": 0.534,
+  "cool": 0.309,
+  "colourShare": 0.733,
+  "softEdge": 0.204,
+  "highlights": 0.113,
+  "palette": [
+   {
+    "hex": "#0c0c09",
+    "share": 0.135,
+    "name": "black"
+   },
+   {
+    "hex": "#fafaf7",
+    "share": 0.077,
+    "name": "light yellow"
+   },
+   {
+    "hex": "#172846",
+    "share": 0.069,
+    "name": "dark blue"
+   },
+   {
+    "hex": "#f1a915",
+    "share": 0.068,
+    "name": "orange"
+   },
+   {
+    "hex": "#b4a386",
+    "share": 0.062,
+    "name": "orange"
+   },
+   {
+    "hex": "#d0530c",
+    "share": 0.059,
+    "name": "orange"
+   },
+   {
+    "hex": "#c4c8d8",
+    "share": 0.041,
+    "name": "light blue"
+   },
+   {
+    "hex": "#fbe80d",
+    "share": 0.03,
+    "name": "gold"
+   }
+  ],
+  "hues": {
+   "orange": 0.248,
+   "red": 0.195,
+   "blue": 0.184,
+   "yellow": 0.15
+  },
+  "lightFrom": {
+   "top": 113,
+   "bottom": 50,
+   "top-left": 23
+  },
+  "words": [
+   "mid-tone",
+   "saturated",
+   "warm and cool mixed",
+   "medium contrast"
+  ]
+ },
+ "byComponent": {
+  "Provider interface (shared)": {
+   "brightness": 0.546,
+   "saturation": 0.207,
+   "contrast": 0.163,
+   "warm": 0.217,
+   "cool": 0.342,
+   "palette": [
+    {
+     "hex": "#838481",
+     "share": 0.365,
+     "name": "grey"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.218,
+     "name": "light blue"
+    },
+    {
+     "hex": "#181819",
+     "share": 0.114,
+     "name": "black"
+    },
+    {
+     "hex": "#555557",
+     "share": 0.11,
+     "name": "grey"
+    },
+    {
+     "hex": "#62cc62",
+     "share": 0.037,
+     "name": "green"
+    },
+    {
+     "hex": "#1941f2",
+     "share": 0.022,
+     "name": "blue"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.356,
+   "saturation": 0.723,
+   "contrast": 0.644,
+   "warm": 0.634,
+   "cool": 0.259,
+   "palette": [
+    {
+     "hex": "#2a130e",
+     "share": 0.263,
+     "name": "black"
+    },
+    {
+     "hex": "#891712",
+     "share": 0.072,
+     "name": "red"
+    },
+    {
+     "hex": "#e66c0e",
+     "share": 0.068,
+     "name": "orange"
+    },
+    {
+     "hex": "#bd4114",
+     "share": 0.056,
+     "name": "orange"
+    },
+    {
+     "hex": "#edbd26",
+     "share": 0.054,
+     "name": "gold"
+    },
+    {
+     "hex": "#18541d",
+     "share": 0.043,
+     "name": "dark green"
+    },
+    {
+     "hex": "#f2eddf",
+     "share": 0.036,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#f8e789",
+     "share": 0.028,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.464,
+   "saturation": 0.739,
+   "contrast": 0.4,
+   "warm": 0.804,
+   "cool": 0.121,
+   "palette": [
+    {
+     "hex": "#8e2314",
+     "share": 0.212,
+     "name": "red"
+    },
+    {
+     "hex": "#f7ad0d",
+     "share": 0.15,
+     "name": "orange"
+    },
+    {
+     "hex": "#54092f",
+     "share": 0.11,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#d75009",
+     "share": 0.097,
+     "name": "orange"
+    },
+    {
+     "hex": "#fbf6f2",
+     "share": 0.088,
+     "name": "light orange"
+    },
+    {
+     "hex": "#74727e",
+     "share": 0.047,
+     "name": "grey"
+    },
+    {
+     "hex": "#fef70e",
+     "share": 0.043,
+     "name": "gold"
+    },
+    {
+     "hex": "#d81514",
+     "share": 0.033,
+     "name": "red"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.548,
+   "saturation": 0.258,
+   "contrast": 0.282,
+   "warm": 0.459,
+   "cool": 0.199,
+   "palette": [
+    {
+     "hex": "#010101",
+     "share": 0.267,
+     "name": "black"
+    },
+    {
+     "hex": "#fbfefd",
+     "share": 0.22,
+     "name": "light cyan"
+    },
+    {
+     "hex": "#b1a583",
+     "share": 0.187,
+     "name": "orange"
+    },
+    {
+     "hex": "#f6bd30",
+     "share": 0.082,
+     "name": "orange"
+    },
+    {
+     "hex": "#fcf68a",
+     "share": 0.058,
+     "name": "light gold"
+    },
+    {
+     "hex": "#7c7867",
+     "share": 0.032,
+     "name": "grey"
+    },
+    {
+     "hex": "#b0d0e9",
+     "share": 0.027,
+     "name": "light blue"
+    },
+    {
+     "hex": "#2187fe",
+     "share": 0.017,
+     "name": "blue"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.447,
+   "saturation": 0.599,
+   "contrast": 0.535,
+   "warm": 0.605,
+   "cool": 0.321,
+   "palette": [
+    {
+     "hex": "#0d0a0e",
+     "share": 0.121,
+     "name": "black"
+    },
+    {
+     "hex": "#cc730d",
+     "share": 0.106,
+     "name": "orange"
+    },
+    {
+     "hex": "#651e10",
+     "share": 0.091,
+     "name": "dark red"
+    },
+    {
+     "hex": "#575786",
+     "share": 0.086,
+     "name": "blue"
+    },
+    {
+     "hex": "#c9c4c3",
+     "share": 0.066,
+     "name": "grey"
+    },
+    {
+     "hex": "#315733",
+     "share": 0.059,
+     "name": "dark green"
+    },
+    {
+     "hex": "#f0f0e7",
+     "share": 0.051,
+     "name": "light yellow"
+    },
+    {
+     "hex": "#192443",
+     "share": 0.042,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.362,
+   "saturation": 0.577,
+   "contrast": 0.495,
+   "warm": 0.193,
+   "cool": 0.683,
+   "palette": [
+    {
+     "hex": "#13233a",
+     "share": 0.216,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#56558c",
+     "share": 0.195,
+     "name": "blue"
+    },
+    {
+     "hex": "#c4c4d8",
+     "share": 0.162,
+     "name": "light blue"
+    },
+    {
+     "hex": "#59170f",
+     "share": 0.158,
+     "name": "dark red"
+    },
+    {
+     "hex": "#689327",
+     "share": 0.084,
+     "name": "green"
+    },
+    {
+     "hex": "#1c6508",
+     "share": 0.076,
+     "name": "dark green"
+    },
+    {
+     "hex": "#385433",
+     "share": 0.016,
+     "name": "dark green"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.342,
+   "saturation": 0.609,
+   "contrast": 0.661,
+   "warm": 0.551,
+   "cool": 0.308,
+   "palette": [
+    {
+     "hex": "#191c11",
+     "share": 0.231,
+     "name": "black"
+    },
+    {
+     "hex": "#23632b",
+     "share": 0.132,
+     "name": "dark green"
+    },
+    {
+     "hex": "#56251b",
+     "share": 0.109,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f4f5f6",
+     "share": 0.022,
+     "name": "light cyan"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.384,
+   "saturation": 0.732,
+   "contrast": 0.388,
+   "warm": 0.243,
+   "cool": 0.494,
+   "palette": [
+    {
+     "hex": "#091909",
+     "share": 0.253,
+     "name": "black"
+    },
+    {
+     "hex": "#305c55",
+     "share": 0.213,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#366315",
+     "share": 0.13,
+     "name": "dark green"
+    },
+    {
+     "hex": "#649328",
+     "share": 0.118,
+     "name": "green"
+    },
+    {
+     "hex": "#f5e909",
+     "share": 0.071,
+     "name": "gold"
+    },
+    {
+     "hex": "#bfd4e0",
+     "share": 0.034,
+     "name": "light blue"
+    },
+    {
+     "hex": "#cb6008",
+     "share": 0.032,
+     "name": "orange"
+    },
+    {
+     "hex": "#ebaa12",
+     "share": 0.029,
+     "name": "orange"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.289,
+   "saturation": 0.632,
+   "contrast": 0.525,
+   "warm": 0.033,
+   "cool": 0.835,
+   "palette": [
+    {
+     "hex": "#143240",
+     "share": 0.463,
+     "name": "dark cyan"
+    },
+    {
+     "hex": "#2f7040",
+     "share": 0.153,
+     "name": "green"
+    },
+    {
+     "hex": "#455787",
+     "share": 0.107,
+     "name": "blue"
+    },
+    {
+     "hex": "#8e8ebd",
+     "share": 0.077,
+     "name": "blue"
+    },
+    {
+     "hex": "#0d1a88",
+     "share": 0.074,
+     "name": "dark blue"
+    },
+    {
+     "hex": "#656da3",
+     "share": 0.044,
+     "name": "blue"
+    },
+    {
+     "hex": "#5cab3b",
+     "share": 0.036,
+     "name": "green"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 26 and 27 Nov 2026, from the run's contact sheets, the measured palettes, the skeleton files and six real frames of the game: the end of the loading screen, four of the base game at rest and one spin. Seen on a real screen: the loading screen, the base-game layout, the reels with eleven of the eighteen symbols, the turning wheel, the rolling sign, the wolf's tail. Resting on the files alone (parts, animation names, lengths measured from the skeleton files), because the free-play session expired after one spin: every win, the hard hat and buzz saw features, the wolf's pop-up and blow, the houses, the wheel feature, free spins, the big win, the transition, the Buy Pass panel and the paytable. Those readings mark what is inference. The client's whole English desktop art set is in the run.",
+  "summary": "The Three Little Pigs on a building site at night: a glossy, toy-bright cartoon cast in gold, red and orange on see-through reels, with a two-ring fairground prize wheel turning behind them, six jackpot plaques down the side and a cool blue-green storybook garden around it all.",
+  "style": "Family-animation cartoon. Pigs and wolf are rounded mascots with big heads and readable expressions; tools (saw, hard hat, tape, toolbox) are chunky and simplified; houses are doll's-house fronts whose material is exaggerated (straw, logs, brick, pale stone). Prize art borrows from fairground and work-site signage.",
+  "rendering": "Smooth digital painting with airbrushed gradients, strong white gloss highlights, a thin outline of a darker tone and often a pale rim so pieces lift off the dark reel backing. Lettering is fat, bevelled, outlined and rimmed. Effects are flat hand-drawn frames with glow. The background is the one finely textured painting.",
+  "colour": "Warm cast on a cool stage. Feature and prize art is gold, orange and red (hat and saw rig: #8e2215, #f8ae0c, #d84f07, 88% warm); the background is 84% cool (#143240, #2f7040, #455787, #0d1a88) and the wolf is blue-violet (#56558c). Royals are a single emerald green (#1a6348). Prize tiers keep one colour each wherever they appear: magenta Mini, green Minor, blue Major, red Grand, white-blue Ultra. Measured over the game's own captured art: black #080907 13%, dark blue #162946 7%, orange #f4aa14 7%, dark red #590e23 6%.",
+  "lighting": "Night scene lit from inside the picture by lamps; objects are top-lit with hard gloss. Glow is kept as separate additive layers and outline sprites (hat glow, wedge glow, row highlight), not painted in. On screen the reel window is the darkest area and the wheel and lawn the brightest.",
+  "ambience": "Cheerful, loud and crowded, as the base-game screens show: the wheel, the rolling sign, six plaques and the logo all compete around a dark reel window, and the calm garden is reduced to a green and blue margin. The wolf is a comic villain, present in the base game only as a tail swishing under the reels. The pace of wins and features is not known from this run.",
+  "shapes": "Round and chunky everywhere: domed hats, circular saws and coins, rounded topiary, bubble letters. Sharpness is kept for the saw teeth, the wolf's muzzle and ears, and spark bursts.",
+  "materials": "Glossy plastic (hard hats, button), steel, gem-set steel and gold (saws, coins), straw, logs, brick and stone (houses and their frames), fur, clipped hedge and cobbles, varnished wood and brass (the wheel drum), hazard tape, soap bubbles and chrome in the logo.",
+  "typography": "Display lettering is drawn art: the logo gives each word its own material (wood HUFF, bubble PUFF, chrome GRAND), and prize and feature words are heavy rounded capitals with bevel, outline and rim, coloured by tier. Words are swapped as whole sprites for Spanish (PREMIO for JACKPOT). Running text is Noto Sans as twelve distance-field font pages, with Frutiger Neue in the provider's frame; both are the provider's.",
+  "motion": "Seen in the real frames: the two wheel rings turn slowly, the 3D sign above rolls from plate to plate, the wolf's tail swishes under the reels (1.33 s animations in the file), and on the one spin the spin button becomes a white stop square. Everything else is read from the files: eleven Spine 4.1.24 skeletons with symbol landings of 1.3 to 3.3 s and wins of 2 to 3 s, the wolf's pop-up (3.1 s in, 6.8 s loop) and blow (1.5 s in, 4.2 s loop), houses that build in 1.2 s and are blown away in 1.0 s, feature banners of 1.8 s, a 1.75 s caution-tape transition and a four-tier big win whose intro grows from 0.4 to 3.1 s. Faces, destruction and wind are drawn frame sequences (up to 89 frames; the three wind sheets total 137). Sprite sheets state 24 frames a second. No skeleton frame is shown in this report: the project's drawing tool does not read Spine 4.1 correctly.",
+  "variants": "Grades by recolour on shared rigs: the saw in steel, diamond and gold; the wheel in silver and gold; features in plain, Super and Ultra; four houses on one rig. The hat and mansion blocks in 2x2, 3x3 and 3x5. English and Spanish versions of every worded picture. Landscape and portrait versions of most animations and plaques.",
+  "construction": "PixiJS client. In this run: 140 textures, 1,535 named sprites, 11 skeletons, 3 fonts, 48 frame sequences. Sprite sheets are 'Red 7 Exporter' packs; skeletons are Spine 4.1.24 with few meshes and many additive slots; parts of one rig share one canvas size so grades, houses and banners swap part for part (saw parts 360x374, house parts 360x360, banner parts 1148x720). The background is one square 1920x1920 picture for both orientations. The reel board is a plain see-through dark rectangle with no drawn frame. The sign is a glTF model with a 1024x1024 texture; the wheel is assembled from wedge sprites.",
+  "consistency": "High: one outline-and-gloss treatment on every object, one lettering system, one colour per prize tier (blue-white for the top: Ultra, diamond saw, mansion frame), and the building-site motif carried into signs, stripes and the transition. The Buy Pass dialog's buttons are the one generic-looking set. The wolf's howling-moon win picture is a deliberate change of register.",
+  "takeaways": [
+   "Keep the bonus in sight: the prize wheel turns permanently behind see-through reels and the sign above rolls through the features, so the top prizes are on screen on every spin. It costs a busy picture; the plain dark reel window is what keeps the symbols readable.",
+   "Set a warm, glossy cast on a cool, dark stage: the background measures 84% cool, the feature symbols 88% warm.",
+   "Tell the premium tier apart three ways at once: gold, a glowing patterned backing, and size beyond the cell. The royals are one colour and sit inside the cell.",
+   "Give each prize tier one colour and use it on every surface that names the tier: coin, plaque title, wheel wedge, halo. Reserve blue-white for the top.",
+   "Build grades as swaps on a shared rig and a shared canvas size: three saws from one animation set, four houses from one rig, eleven feature banners from one skeleton.",
+   "Rig what moves mechanically and draw what is chaotic: houses build from rigged parts and are destroyed in drawn frames; the wolf's body is rigged and his face is drawn.",
+   "Make the celebration from the cast: the big win is the wolf blowing down a better house per tier, and its particles are the game's own coin, hat and saw.",
+   "Carry the theme into the system art: hazard stripes for Super and Ultra, a road-sign diamond for the wheel, caution tape for the transition.",
+   "For an AI art package on this model the static pieces are few and large: one square background, about 18 symbol stills at 300 px, four houses with matching frames and backings, a coin with swappable words, wedges and plates with words, a logo. The cost sits in the drawn sequences (destruction, wind, swirls), which is where generated art would need the most hand work.",
+   "Limits of this report: seen on real screens are the loading screen, the base-game layout, eleven of the eighteen symbols, the turning wheel, the rolling sign, the wolf's tail and one spin. The free-play session expired after that spin, so every win, the hard hat and buzz saw features, the wolf's pop-up and blow, the houses, the wheel feature, free spins, the big win, the transition, the Buy Pass panel and the paytable are read from the files alone (parts, animation names, lengths measured from the skeleton files). No skeleton is drawn here, whatever the method notes below say: the project's drawing tool does not read Spine 4.1 correctly."
+  ]
+ },
+ "screens": [
+  {
+   "file": "01-base-at-rest.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "main",
+   "screen": "Base game at rest",
+   "caption": "Base game at rest, 1280x720: six jackpot plaques down the left (ULTRA $20,000, SUPER $15,000, GRAND $10,000, MAJOR $2,000, MINOR $200.00, MINI $40.00), BUY PASS, the 5x3 reels on a see-through dark window with the two-ring prize wheel turning behind it, the wooden sign above reading SUPER MANSIONS FEATURE, the logo top right, the spin, autoplay and bet controls right. The wolf's tail swishes across the bottom-left symbol. Balance $1,000.00, Bet $2.00."
+  },
+  {
+   "file": "02-base-ultra-palaces-sign.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Base game, sign on Ultra Palaces",
+   "caption": "The same board a little later: the sign above the wheel has rolled to ULTRA PALACES FEATURE, the outer wheel shows UPGRADE and SUPER wedges, and the wolf's tail is at the lower left edge of the reels."
+  },
+  {
+   "file": "00-loading-end.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Loading screen, finished",
+   "caption": "End of loading: the logo on its soap bubbles over the blurred avenue, a reel sample full of gold hard hats with the caption '6 OR MORE … TRIGGERS THE FREE SPINS FEATURE!', the Light & Wonder mark and CLICK ANYWHERE TO CONTINUE over the full load bar."
+  }
+ ]
+}

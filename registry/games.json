@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T23:40:50Z",
+ "updated": "2026-11-27T03:16:21Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -1888,7 +1888,11 @@
    "providerKey": "lnw",
    "type": "slot",
    "aliases": [],
-   "demo": null,
+   "demo": {
+    "url": "https://ogs-gl-usnj.nyxop.net/game/?nogsoperatorid=386&nogsgameid=71871&nogsmode=demo&nogslang=EN_EN&nogscurrency=USD&clienttype=flash",
+    "from": "set by hand",
+    "at": "2026-11-27T03:16:21Z"
+   },
    "appearances": [
     {
      "report": "2026-11-25-eilers-fantini-us-online-game-performance-july",
@@ -1933,15 +1937,25 @@
      "page": 57
     }
    ],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-26-1842-lnw-huff-n-even-more-puff-grand"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-26T18:41:30Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-26-1842-lnw-huff-n-even-more-puff-grand",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/UbSMSaNsfKCDbo96ADfWmp",
+     "completed": "2026-11-27T03:16:21Z",
+     "started": "2026-11-26T18:41:30Z"
     }
    },
-   "added": "2026-11-25T16:50:31Z"
+   "added": "2026-11-25T16:50:31Z",
+   "notes": "Six real screens: loading, the base game at rest and one spin. The client took about 35 minutes to load here and the demo session expired after one spin, so wins, features, free spins, big win and paytable are read from the files only."
   },
   {
    "id": "lnw-huff-n-lots-of-goals",
