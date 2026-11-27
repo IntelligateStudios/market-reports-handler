@@ -191,6 +191,16 @@ def meter(value):
 # ── pages ────────────────────────────────────────────────────────────────────
 
 
+def source_cell(g):
+    """Where the game came from: every source that put it on the ledger."""
+    return esc(", ".join(L.sources_of(g))) or '<span class="muted">—</span>'
+
+
+def boards():
+    """Every board joined to the ledger, newest first."""
+    return [json.loads(p.read_text()) for p in sorted(L.BOARDS.glob("*/board.json"), reverse=True)]
+
+
 def page_summary(ledger, games, reports, digests, leaders):
     done = [g for g in leaders if games[g]["analysis"]["art"]["status"] == "complete"]
     analysed_all = [g for g in games.values() if g["analysis"]["art"]["status"] == "complete"]
@@ -207,22 +217,35 @@ def page_summary(ledger, games, reports, digests, leaders):
         for gid, info in sorted(leaders.items(), key=lambda kv: (kv[1]["position"], kv[0])):
             g = games[gid]
             named = sorted({a["report"] for a in g["appearances"]})
-            rows.append([f'<span class="num">{info["position"]}</span>', game_link(g), esc(g["provider"] or ""), " ".join(link(f"#report-{r}", f"#{p}", "chip") for r, p in info["reports"]) + (f' <span class="muted">in {len(named)} reports</span>' if len(named) > 1 else ""), pill(g["analysis"]["art"]["status"]), art_links(g) or '<span class="muted">—</span>'])
+            rows.append([f'<span class="num">{info["position"]}</span>', game_link(g), esc(g["provider"] or ""), source_cell(g), " ".join(link(f"#report-{r}", f"#{p}", "chip") for r, p in info["reports"]) + (f' <span class="muted">in {len(named)} reports</span>' if len(named) > 1 else ""), pill(g["analysis"]["art"]["status"]), art_links(g) or '<span class="muted">—</span>'])
         out.append("<h3>The leading games</h3>")
         out.append('<p class="note">Position is the game\'s best place among any report\'s 20 leaders. A report\'s own order is on its page.</p>')
-        out.append(table(["Best", "Game", "Provider", "Leader in", "Art analysis", "Open"], rows, "summary"))
+        out.append(table(["Best", "Game", "Provider", "Source", "Leader in", "Art analysis", "Open"], rows, "summary"))
     else:
         out.append('<div class="empty"><strong>No market report has been taken yet.</strong> When a PDF arrives its ranked games are read, joined to the games below, and the 20 leading slot games that have no art analysis are analysed.</div>')
-    others = [g for g in games.values() if g["id"] not in leaders and (g["existing"] or g["analysis"]["art"]["status"] != "none")]
+    for b in boards():
+        picked = [g for g in games.values() if any(k["board"] == b["id"] for k in g.get("picks", []))]
+        if not picked:
+            continue
+        order = {L.norm(e["game"]): i for i, e in enumerate(b["games"])}
+        place = lambda g: min([order.get(L.norm(n), 999) for n in [g["name"], *g.get("aliases", [])]])
+        rows = []
+        for g in sorted(picked, key=place):
+            k = next(k for k in g["picks"] if k["board"] == b["id"])
+            rows.append([game_link(g), esc(g["provider"] or "") or '<span class="muted">not named</span>', source_cell(g), esc(k.get("market", "")), pill(g["analysis"]["art"]["status"]), art_links(g) or '<span class="muted">—</span>'])
+        out.append(f'<h3>From the {esc(b["title"])}</h3>')
+        out.append(f'<p class="note">Games the studio picked on {link(b["url"], "its Miro board", "ext")}, read {day(b["read"])}. They are analysed once, like the leaders. The market is the board\'s own note, not a report\'s figure.</p>')
+        out.append(table(["Game", "Provider", "Source", "Market, as the board notes", "Art analysis", "Open"], rows))
+    others = [g for g in games.values() if g["id"] not in leaders and not g.get("picks") and (g["existing"] or g["analysis"]["art"]["status"] != "none")]
     if others:
         rows = []
         for g in sorted(others, key=lambda g: (g["analysis"]["art"]["status"] != "complete", g["name"])):
             kinds = sorted({e["kind"] for e in g["existing"]})
             words = {"gdd": "PRD and GDD in Intelligate HQ", "research": "Our web research, 21 Nov 2026", "art": "Art run"}
-            rows.append([game_link(g), esc(g["provider"] or ""), esc(g["type"]), "; ".join(words[k] for k in kinds), pill(g["analysis"]["art"]["status"]), art_links(g) or '<span class="muted">—</span>'])
+            rows.append([game_link(g), esc(g["provider"] or ""), esc(g["type"]), source_cell(g), "; ".join(words[k] for k in kinds), pill(g["analysis"]["art"]["status"]), art_links(g) or '<span class="muted">—</span>'])
         out.append("<h3>Already on the studio's record</h3>")
         out.append('<p class="note">Games known before any report named them. A report that ranks one of them finds it here and does not analyse it a second time.</p>')
-        out.append(table(["Game", "Provider", "Type", "On record as", "Art analysis", "Open"], rows))
+        out.append(table(["Game", "Provider", "Type", "Source", "On record as", "Art analysis", "Open"], rows))
     return "Summary", "".join(out)
 
 
@@ -261,9 +284,9 @@ def page_games(games, leaders):
     rows = []
     for g in sorted(games.values(), key=lambda g: (leaders.get(g["id"], {}).get("position", 999), g["name"])):
         reports = sorted({a["report"] for a in g["appearances"]})
-        rows.append([game_link(g), esc(g["provider"] or ""), esc(g["type"]), f'<span class="num">{leaders[g["id"]]["position"]}</span>' if g["id"] in leaders else "", f'<span class="num">{len(reports)}</span>', pill(g["analysis"]["art"]["status"]), art_links(g)])
+        rows.append([game_link(g), esc(g["provider"] or ""), esc(g["type"]), source_cell(g), f'<span class="num">{leaders[g["id"]]["position"]}</span>' if g["id"] in leaders else "", f'<span class="num">{len(reports)}</span>', pill(g["analysis"]["art"]["status"]), art_links(g)])
     control = '<label class="filter" for="game-filter">Find a game or provider <input id="game-filter" type="search" autocomplete="off"></label>'
-    return "Games", control + table(["Game", "Provider", "Type", "Best position", "Reports", "Art analysis", "Open"], rows, "filterable")
+    return "Games", control + table(["Game", "Provider", "Type", "Source", "Best position", "Reports", "Art analysis", "Open"], rows, "filterable")
 
 
 def page_game(g, digests, reports):
@@ -274,7 +297,8 @@ def page_game(g, digests, reports):
         where = {"gdd": "PRD and GDD run", "research": "Web research run", "art": "Art run"}[e["kind"]]
         existing.append(f'{where} <code>{esc(e["run"])}</code> in {esc(e["repo"])}' + (f' (as "{esc(e["as"])}")' if e.get("as") else ""))
     demo = (g.get("demo") or {}).get("url")
-    out = [kv([("Provider", esc(g["provider"] or "")), ("Type", esc(g["type"])), ("Also written", esc(", ".join(g.get("aliases", [])))), ("Ledger id", f'<code>{esc(g["id"])}</code>'), ("Demo", link(demo, "The provider's free-play demo", "ext") if demo else ""), ("On record", "<br>".join(existing)), ("Notes", esc(g.get("notes", "")))])]
+    picks = "<br>".join(f'Miro board <code>{esc(k["board"])}</code>' + (f', market as the board notes: {esc(k["market"])}' if k.get("market") else "") + (f'. {esc(k["note"])}' if k.get("note") else "") for k in g.get("picks", []))
+    out = [kv([("Provider", esc(g["provider"] or "")), ("Type", esc(g["type"])), ("Source", source_cell(g)), ("Picked on", picks), ("Also written", esc(", ".join(g.get("aliases", [])))), ("Ledger id", f'<code>{esc(g["id"])}</code>'), ("Demo", link(demo, "The provider's free-play demo", "ext") if demo else ""), ("On record", "<br>".join(existing)), ("Notes", esc(g.get("notes", "")))])]
     out.append("<h3>In the market reports</h3>")
     if g["appearances"]:
         rows = [[link(f"#report-{a['report']}", titles.get(a["report"], esc(a["report"]))), esc(a["list"]), f'<span class="num">{a.get("rank") or ""}</span>', esc(str(a.get("value") or "")), esc(a.get("as", "")), f'{a["page"]}' if a.get("page") else ""] for a in g["appearances"]]

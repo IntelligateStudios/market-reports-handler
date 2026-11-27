@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T15:18:19Z",
+ "updated": "2026-11-27T15:22:15Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -65,6 +65,54 @@
     }
    },
    "added": "2026-11-25T16:50:31Z"
+  },
+  {
+   "id": "3oaks-lucky-penny-3-pots",
+   "name": "Lucky Penny 3 Pots",
+   "provider": "3 Oaks Gaming",
+   "providerKey": "3oaks",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU",
+     "note": "Written on the board as \"Lucky penny 3 pots\"."
+    }
+   ]
+  },
+  {
+   "id": "3oaks-more-magic-apples",
+   "name": "More Magic Apples",
+   "provider": "3 Oaks Gaming",
+   "providerKey": "3oaks",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "EU",
+     "note": "Written on the board as \"More magic Apples\"."
+    }
+   ]
   },
   {
    "id": "ags-3x-ultra-diamond",
@@ -2972,6 +3020,98 @@
    "added": "2026-11-25T16:38:13Z"
   },
   {
+   "id": "kendoo-4-gold-cards",
+   "name": "4 Gold Cards",
+   "provider": "Kendoo",
+   "providerKey": "kendoo",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU"
+    }
+   ]
+  },
+  {
+   "id": "kendoo-locomoto",
+   "name": "Locomoto",
+   "provider": "Kendoo",
+   "providerKey": "kendoo",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU"
+    }
+   ]
+  },
+  {
+   "id": "kendoo-zeus-power",
+   "name": "Zeus Power",
+   "provider": "Kendoo",
+   "providerKey": "kendoo",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU"
+    }
+   ]
+  },
+  {
+   "id": "koala-voltage-blitz",
+   "name": "Voltage Blitz",
+   "provider": "Koala",
+   "providerKey": "koala",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "note": "The board gives no market note for this game."
+    }
+   ]
+  },
+  {
    "id": "lnw-88-fortunes",
    "name": "88 Fortunes",
    "provider": "Light & Wonder",
@@ -4469,6 +4609,160 @@
    "added": "2026-11-27T10:42:24Z"
   },
   {
+   "id": "playson-4-pots-riches",
+   "name": "4 Pots Riches",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU"
+    }
+   ]
+  },
+  {
+   "id": "playson-coin-strike",
+   "name": "Coin Strike",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://playson.com/game/coin-strike-hold-and-win",
+    "from": "boards/2026-11-27-miro-reference-games",
+    "at": "2026-11-27T15:22:15Z"
+   },
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU",
+     "note": "Heading on the board: \"Coin Strike series\"."
+    }
+   ]
+  },
+  {
+   "id": "playson-coin-strike-2",
+   "name": "Coin Strike 2",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://playson.com/game/coin-strike-2-hold-and-win",
+    "from": "boards/2026-11-27-miro-reference-games",
+    "at": "2026-11-27T15:22:15Z"
+   },
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU",
+     "note": "Heading on the board: \"Coin Strike series\"."
+    }
+   ]
+  },
+  {
+   "id": "playson-coin-strike-xxl",
+   "name": "Coin Strike XXL",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": {
+    "url": "https://playson.com/game/coin-strike-xxl-hold-and-win",
+    "from": "boards/2026-11-27-miro-reference-games",
+    "at": "2026-11-27T15:22:15Z"
+   },
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU",
+     "note": "Heading on the board: \"Coin Strike series\"."
+    }
+   ]
+  },
+  {
+   "id": "playson-king-of-the-sky",
+   "name": "King Of The Sky",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US",
+     "note": "Written on the board as \"King of the sky\"."
+    }
+   ]
+  },
+  {
+   "id": "playson-sugar-teddy",
+   "name": "Sugar Teddy",
+   "provider": "Playson",
+   "providerKey": "playson",
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US"
+    }
+   ]
+  },
+  {
    "id": "playtech-casino-branded-goal-goal-goal-cash-collect",
    "name": "(Casino Branded) Goal Goal Goal Cash Collect",
    "provider": "Playtech",
@@ -4998,6 +5292,30 @@
     }
    },
    "added": "2026-11-25T16:38:13Z"
+  },
+  {
+   "id": "unknown-lucky-penny-2",
+   "name": "Lucky Penny 2",
+   "provider": null,
+   "providerKey": null,
+   "type": "slot",
+   "aliases": [],
+   "demo": null,
+   "appearances": [],
+   "existing": [],
+   "analysis": {
+    "art": {
+     "status": "none"
+    }
+   },
+   "added": "2026-11-27T15:22:15Z",
+   "picks": [
+    {
+     "board": "2026-11-27-miro-reference-games",
+     "market": "US/EU",
+     "note": "The board's note: \"Most GGR comes from Turkey\". The board names no provider for this game."
+    }
+   ]
   },
   {
    "id": "whitehat-7s-fire-blitz-hot-stepper",

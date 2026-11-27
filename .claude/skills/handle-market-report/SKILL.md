@@ -44,3 +44,7 @@ Read `CLAUDE.md` and `README.md` first. Every step leaves its state in the repos
    Then step 6 once more.
 
 8. **Report to Roei** in the chat: the summary's link, the report's leaders, which were new and which were known, each new art report's link, what is blocked and why, and the two documents' main points.
+
+## A Miro board of games
+
+When Roei names a Miro board of reference games instead of (or beside) a PDF: read it with the Miro connector (read-only; nothing is written to Miro), type its games into `boards/<date>-<slug>/board.json` as the README's Boards part says, record the request first, and join with `ledger.py board <id>`. The board's games are picks: analysed once like leaders, after them in the queue. A market on the board is the board's note. Every game's source shows in `ledger.py status` and the summary.

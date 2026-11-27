@@ -64,6 +64,47 @@ class Leaders(unittest.TestCase):
         self.assertEqual(order[0]["points"], 36)
 
 
+class Board(unittest.TestCase):
+    """A board's games join the ledger as picks: queued after the leaders, once, with their source."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        root = Path(self.tmp.name)
+        self.old = (L.REGISTRY, L.REPORTS, L.BOARDS)
+        L.REGISTRY, L.REPORTS, L.BOARDS = root / "registry" / "games.json", root / "reports", root / "boards"
+        folder = L.BOARDS / "2026-01-01-board"
+        folder.mkdir(parents=True)
+        self.board = folder / "board.json"
+        ledger = {"version": 1, "games": [L.new_game("Sweet Bonanza", "Pragmatic Play", "pragmatic")]}
+        ledger["games"][0]["analysis"]["art"] = {"status": "complete", "report": "https://claude.ai/artifact/x"}
+        L.save(ledger)
+
+    def tearDown(self):
+        L.REGISTRY, L.REPORTS, L.BOARDS = self.old
+        self.tmp.cleanup()
+
+    def join(self, games):
+        self.board.write_text(json.dumps({"id": "2026-01-01-board", "title": "Board", "url": "https://miro.com/app/board/x/", "read": "2026-01-01", "games": games}))
+        L.cmd_board(SimpleNamespace(board="2026-01-01-board", dry_run=False))
+
+    def test_picks_are_queued_once_with_their_source(self):
+        games = [{"game": "sweet bonanza", "provider": "Pragmatic", "market": "EU"}, {"game": "Coin Strike", "provider": "Playson", "market": "US/EU", "link": "https://playson.com/game/coin-strike-hold-and-win"}]
+        self.join(games)
+        self.join(games)  # a second time changes nothing
+        ledger = L.load()
+        self.assertEqual(len(ledger["games"]), 2)
+        sweet, coin = L.by_id(ledger, "pragmatic-sweet-bonanza"), L.by_id(ledger, "playson-coin-strike")
+        self.assertEqual(len(sweet["picks"]), 1)
+        self.assertEqual(L.sources_of(coin), ["Miro board"])
+        self.assertEqual(coin["demo"]["url"], "https://playson.com/game/coin-strike-hold-and-win")
+        self.assertEqual([(r["game"], r["position"]) for r in L.queue(ledger)], [("playson-coin-strike", 99)])  # the analysed game is not queued again
+
+    def test_a_version_on_a_board_is_asked(self):
+        with self.assertRaises(SystemExit):
+            self.join([{"game": "Sweet Bonanza 1000", "provider": "Pragmatic Play"}])
+        self.assertEqual(len(L.load()["games"]), 1)
+
+
 class Unify(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

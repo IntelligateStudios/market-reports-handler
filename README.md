@@ -85,6 +85,12 @@ Python 3 with pdfplumber and Pillow; `pdftotext` and `pdftoppm` (poppler) when p
 
 Only slot games. A game earns `weight × (21 − rank)` points in each list that ranks it 1 to 20, and the 20 highest totals are the report's leaders (ties: the better best rank, then the name). With one list this is its first 20. The rule is the handler's way to join a report's lists; it is said to be so wherever the order is shown, and each report's lists are shown unchanged beside it.
 
+## Boards
+
+A Miro board on which the studio collects reference games is a second kind of input beside a report. Its games are typed into `boards/<YYYY-MM-DD>-<slug>/board.json` (`id`, `title`, `url`, `read`, `about`, and `games`: each with `game`, `provider`, and where the board gives them `market`, `note`, `link`; `"is": "<game id>"` or `"new": true` answers a name the ledger asks about) and joined with `python3 -I tools/ledger.py board <board id>`. A board's games are picks: they are analysed once like leaders, and wait in the queue after them (position 99). A market written on a board is the board's note, not a report's figure.
+
+Every game has a **source**, shown by `ledger.py status` and in the summary's tables: Market report, Miro board, Intelligate HQ, Web research, Games AI art, as many as apply (`sources_of` in `tools/ledger.py`).
+
 ## Where things stand
 
 27 Nov 2026: two reports are handled (Eilers-Fantini, U.S. Online Game Performance, July and August 2026 editions). They name 30 leading slot games between them; the ledger holds 93 games.

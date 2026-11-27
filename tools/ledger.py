@@ -13,7 +13,8 @@ Commands (python3 -I tools/ledger.py <command> …):
   unify <report id> [--top 20] [--dry-run]
                                        match the report's ranked games to the ledger, add the new ones, and fix
                                        the report's leaders; stops, writing nothing, on a name it cannot place
-  queue [--json]                       leaders of any report whose art analysis is not complete, best first
+  board <board id> [--dry-run]         join the games a board names (boards/<id>/board.json) as picks to analyse
+  queue [--json]                       leaders of any report, then board picks, whose art analysis is not complete
   start <game id> [--run <run id>]     an art run has begun
   complete <game id> --run <run dir> --report <url> [--drive <url>] [--miro <url>] [--commit <sha>]
   block <game id> --reason "<why>"     the analysis cannot run (no public demo, a client the tools cannot read…)
@@ -36,6 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REGISTRY = ROOT / "registry" / "games.json"
 PROVIDERS = ROOT / "registry" / "providers.json"
 REPORTS = ROOT / "reports"
+BOARDS = ROOT / "boards"
 ANALYSES = ROOT / "analyses"
 SECRET = re.compile(r"(mgckey|token|session|sessionid|sid|key)=", re.I)
 TOP = 20
@@ -333,8 +335,86 @@ def cmd_unify(args):
 # ── the queue and an analysis's state ────────────────────────────────────────
 
 
+# ── where a game comes from ──────────────────────────────────────────────────
+
+
+def sources_of(game):
+    """The short names of everything that put this game on the ledger, in a fixed order."""
+    out = []
+    if game["appearances"]:
+        out.append("Market report")
+    if game.get("picks"):
+        out.append("Miro board")
+    kinds = {e["kind"] for e in game["existing"]}
+    if "gdd" in kinds:
+        out.append("Intelligate HQ")
+    if "research" in kinds:
+        out.append("Web research")
+    if not out and "art" in kinds:
+        out.append("Games AI art")
+    return out
+
+
+def cmd_board(args):
+    """Join the games a board names (boards/<id>/board.json) to the ledger, as picks to analyse."""
+    path = BOARDS / args.board / "board.json"
+    if not path.exists():
+        sys.exit(f"boards/{args.board}/board.json is not written yet (schema in README.md).")
+    board = json.loads(path.read_text())
+    ledger = load()
+    table, lookup = load_providers()
+    for g in ledger["games"]:  # a second join of the same board replaces its first
+        if g.get("picks"):
+            g["picks"] = [k for k in g["picks"] if k["board"] != args.board]
+    asks, unknown, placed = [], set(), []
+    for e in board["games"]:
+        key, known = provider_key(e.get("provider"), lookup)
+        if e.get("provider") and not known:
+            unknown.add(e["provider"])
+        if e.get("is"):
+            verdict, game = "match", by_id(ledger, e["is"])
+        elif e.get("new"):
+            verdict, game = "new", None
+        else:
+            verdict, game = place(ledger, e["game"], key)
+        if verdict == "ask":
+            asks.append((e, game))
+            continue
+        if verdict == "new":
+            game = new_game(e["game"], table[key][0] if key in table else e.get("provider"), key, e.get("type", "slot"))
+            made = next((g for g in ledger["games"] if g["id"] == game["id"]), None)
+            if made:
+                game = made
+            else:
+                ledger["games"].append(game)
+        elif norm(e["game"]) not in names_of(game):
+            game["aliases"].append(e["game"])
+        pick = {"board": args.board, "market": e.get("market"), "note": e.get("note")}
+        if norm(e["game"]) != norm(game["name"]):
+            pick["as"] = e["game"]
+        game.setdefault("picks", []).append({k: v for k, v in pick.items() if v})
+        if e.get("link") and not game.get("demo"):
+            game["demo"] = {"url": clean_url(e["link"]), "from": f"boards/{args.board}", "at": now()}
+        placed.append(game)
+    if unknown:
+        print("Providers not in registry/providers.json (add their spellings, then join again): " + ", ".join(sorted(unknown)))
+    if asks:
+        print(f"{len(asks)} name(s) could not be placed. In board.json give each entry \"is\": \"<game id>\" or \"new\": true:")
+        for e, candidates in asks:
+            print(f"  {e['game']} ({e.get('provider')})  →  " + ", ".join(f"{c['id']} ({c['name']}, {c['provider']})" for c in candidates))
+        sys.exit(1)
+    print(f"{args.board}: {len(placed)} games.")
+    for g in placed:
+        print(f"  {g['name']} ({g['provider']})  art: {g['analysis']['art']['status']}")
+    if args.dry_run:
+        print("Dry run: nothing written.")
+        return
+    save(ledger)
+
+
 def queue(ledger):
-    """Every report's leaders whose art analysis is not complete: each game once, by its best position."""
+    """Every report's leaders and every board's picks whose art analysis is not complete: each game once,
+    leaders by their best position, then the picks (position 99) in the board's order."""
     best = {}
     for header in sorted(REPORTS.glob("*/report.json")):
         report = json.loads(header.read_text())
@@ -347,7 +427,11 @@ def queue(ledger):
         status = g["analysis"]["art"]["status"]
         if status != "complete":
             rows.append({"game": game_id, "name": g["name"], "provider": g["provider"], "status": status, "demo": (g["demo"] or {}).get("url"), **where})
-    return sorted(rows, key=lambda r: (r["position"], r["game"]))
+    rows.sort(key=lambda r: (r["position"], r["game"]))
+    for g in ledger["games"]:
+        if g.get("picks") and g["id"] not in best and g["analysis"]["art"]["status"] != "complete":
+            rows.append({"game": g["id"], "name": g["name"], "provider": g["provider"], "status": g["analysis"]["art"]["status"], "demo": (g.get("demo") or {}).get("url"), "position": 99, "report": g["picks"][0]["board"]})
+    return rows
 
 
 def cmd_queue(args):
@@ -486,8 +570,8 @@ def cmd_status(_):
         status = g["analysis"]["art"]["status"]
         counts[status] = counts.get(status, 0) + 1
         reports = sorted({a["report"] for a in g["appearances"]})
-        mark = f"leader #{waiting[g['id']]['position']}" if g["id"] in waiting else ""
-        print(f"{g['id']:<46} {g['type']:<10} art: {status:<9} reports: {len(reports)}  existing: {','.join(sorted({e['kind'] for e in g['existing']})) or '-':<16} {mark}")
+        mark = ("board pick" if waiting[g["id"]]["position"] == 99 else f"leader #{waiting[g['id']]['position']}") if g["id"] in waiting else ""
+        print(f"{g['id']:<46} {g['type']:<10} art: {status:<9} reports: {len(reports)}  source: {', '.join(sources_of(g)) or '-':<28} {mark}")
     print(f"\n{len(ledger['games'])} games. " + ", ".join(f"{n} {s}" for s, n in sorted(counts.items())) + f". {len(waiting)} waiting in the queue.")
 
 
@@ -503,6 +587,10 @@ def main():
     p.add_argument("--top", type=int, default=TOP)
     p.add_argument("--dry-run", action="store_true")
     p.set_defaults(func=cmd_unify)
+    p = sub.add_parser("board")
+    p.add_argument("board")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(func=cmd_board)
     p = sub.add_parser("queue")
     p.add_argument("--json", action="store_true")
     p.set_defaults(func=cmd_queue)

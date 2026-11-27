@@ -1,0 +1,85 @@
+{
+ "id": "2026-11-27-miro-reference-games",
+ "title": "Miro board of reference games",
+ "url": "https://miro.com/app/board/uXjVEJ-AMw8=/",
+ "read": "2026-11-27",
+ "about": "Read with the Miro connector on 27 Nov 2026: 98 items, of which 14 texts (11 headings, 3 linked game names), 11 market notes on yellow stickies and 72 screenshots. Each heading names a game or a series and, in red, its provider; the sticky beside it gives the market as the board writes it. The screenshots were not opened.",
+ "games": [
+  {
+   "game": "Coin Strike",
+   "provider": "Playson",
+   "market": "US/EU",
+   "note": "Heading on the board: \"Coin Strike series\".",
+   "link": "https://playson.com/game/coin-strike-hold-and-win"
+  },
+  {
+   "game": "Coin Strike 2",
+   "provider": "Playson",
+   "market": "US/EU",
+   "note": "Heading on the board: \"Coin Strike series\".",
+   "link": "https://playson.com/game/coin-strike-2-hold-and-win",
+   "new": true
+  },
+  {
+   "game": "Coin Strike XXL",
+   "provider": "Playson",
+   "market": "US/EU",
+   "note": "Heading on the board: \"Coin Strike series\".",
+   "link": "https://playson.com/game/coin-strike-xxl-hold-and-win",
+   "new": true
+  },
+  {
+   "game": "King Of The Sky",
+   "provider": "Playson",
+   "market": "US",
+   "note": "Written on the board as \"King of the sky\"."
+  },
+  {
+   "game": "4 Pots Riches",
+   "provider": "Playson",
+   "market": "US/EU"
+  },
+  {
+   "game": "Sugar Teddy",
+   "provider": "Playson",
+   "market": "US"
+  },
+  {
+   "game": "4 Gold Cards",
+   "provider": "Kendoo",
+   "market": "US/EU"
+  },
+  {
+   "game": "Locomoto",
+   "provider": "Kendoo",
+   "market": "US/EU"
+  },
+  {
+   "game": "Zeus Power",
+   "provider": "Kendoo",
+   "market": "US/EU"
+  },
+  {
+   "game": "Lucky Penny 3 Pots",
+   "provider": "3 Oaks Gaming",
+   "market": "US/EU",
+   "note": "Written on the board as \"Lucky penny 3 pots\"."
+  },
+  {
+   "game": "Lucky Penny 2",
+   "market": "US/EU",
+   "note": "The board's note: \"Most GGR comes from Turkey\". The board names no provider for this game."
+  },
+  {
+   "game": "More Magic Apples",
+   "provider": "3 Oaks Gaming",
+   "market": "EU",
+   "note": "Written on the board as \"More magic Apples\"."
+  },
+  {
+   "game": "Voltage Blitz",
+   "provider": "Koala",
+   "note": "The board gives no market note for this game."
+  }
+ ]
+}
