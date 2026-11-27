@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T09:48:39Z",
+ "updated": "2026-11-27T09:51:34Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -402,8 +402,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T09:48:39Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo opens without an account. Slotslaunch lists no Aristocrat game (its Aristocrat page shows 0 demos; the game's addresses answer 404). casinos.com has a demo of this exact title behind a free account and an 18+ confirmation, not used. That page's source names the guest free-play address its player opens after those gates (Aristocrat Interactive's game server); it was not opened, because the site shows it only after a login and an age confirmation. Aristocrat Interactive's own site and other demo hosts gave nothing. Needs a demo link, or Roei's word on the guest address or on a casinos.com free account; the same answer would probably unblock Lightning Link High Stakes (inference).",
+     "at": "2026-11-27T09:51:34Z",
      "run": null
     }
    },
@@ -461,7 +462,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "none"
+     "status": "running",
+     "started": "2026-11-27T09:51:34Z",
+     "run": null
     }
    },
    "added": "2026-11-27T09:48:18Z"
