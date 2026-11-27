@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T04:26:08Z",
+ "updated": "2026-11-27T04:28:25Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -3178,8 +3178,9 @@
    "existing": [],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T04:26:08Z",
+     "status": "blocked",
+     "reason": "27 Nov 2026: no public free-play demo of this exact game. Slotslaunch has no page (404; its sitemap lists no 7s Fire Blitz title). White Hat Studios' own page exists but Play Now leads to a client login. Other demo hosts have no page or refuse automated clients. A sibling opens: Cash Strike Hotstepper 2 (Blueprint Gaming) on Slotslaunch; that it is the European counterpart is inference, so it was not analysed in this game's name. Needs Roei's choice: the sibling as a labelled stand-in, or a demo link from White Hat's client space.",
+     "at": "2026-11-27T04:28:25Z",
      "run": null
     }
    },
