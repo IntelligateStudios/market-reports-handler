@@ -33,3 +33,4 @@ In each report the slot ranking's table is a picture, so it was read from the pa
 ## Result
 
 The ledger holds 123 games. The five reports name 57 different leaders: 16 analysed, 14 blocked, 27 new and waiting. Analyses started 27 Nov, four at a time.
+- Page pictures are kept only for pages 42 to 62, the rankings; `source.pdf` holds the rest.
