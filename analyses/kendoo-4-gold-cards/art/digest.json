@@ -1,0 +1,615 @@
+{
+ "run": "2026-11-27-2126-kendoo-4-gold-carts",
+ "game": "4 Gold Carts",
+ "started": "2026-11-27T21:26:31.000Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 132,
+  "components": 3299,
+  "spines": 84,
+  "fonts": 6
+ },
+ "units": [
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 11
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 25
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 14
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 8
+  },
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 8
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 26
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 20
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 4
+  },
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 3
+  }
+ ],
+ "measured": {
+  "brightness": 0.301,
+  "saturation": 0.822,
+  "contrast": 0.374,
+  "warm": 0.441,
+  "cool": 0.465,
+  "colourShare": 0.914,
+  "softEdge": 0.137,
+  "highlights": 0.086,
+  "palette": [
+   {
+    "hex": "#24083b",
+    "share": 0.479,
+    "name": "dark purple"
+   },
+   {
+    "hex": "#5d0e27",
+    "share": 0.075,
+    "name": "dark red"
+   },
+   {
+    "hex": "#fcdd21",
+    "share": 0.075,
+    "name": "gold"
+   },
+   {
+    "hex": "#f5790f",
+    "share": 0.07,
+    "name": "orange"
+   },
+   {
+    "hex": "#a21111",
+    "share": 0.049,
+    "name": "red"
+   },
+   {
+    "hex": "#fbfaf4",
+    "share": 0.044,
+    "name": "light gold"
+   }
+  ],
+  "hues": {
+   "purple": 0.384,
+   "red": 0.155,
+   "magenta": 0.13,
+   "orange": 0.119
+  },
+  "lightFrom": {
+   "top": 238,
+   "top-left": 113,
+   "top-right": 106
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Typography": {
+   "brightness": 0.416,
+   "saturation": 0.833,
+   "contrast": 0.907,
+   "warm": 0.84,
+   "cool": 0.122,
+   "palette": [
+    {
+     "hex": "#480303",
+     "share": 0.256,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fbaa07",
+     "share": 0.136,
+     "name": "orange"
+    },
+    {
+     "hex": "#981704",
+     "share": 0.132,
+     "name": "red"
+    },
+    {
+     "hex": "#fdf2a5",
+     "share": 0.081,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fff517",
+     "share": 0.054,
+     "name": "gold"
+    },
+    {
+     "hex": "#c81a03",
+     "share": 0.047,
+     "name": "red"
+    },
+    {
+     "hex": "#05200c",
+     "share": 0.037,
+     "name": "black"
+    },
+    {
+     "hex": "#fff04f",
+     "share": 0.017,
+     "name": "gold"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.418,
+   "saturation": 0.81,
+   "contrast": 0.473,
+   "warm": 0.578,
+   "cool": 0.304,
+   "palette": [
+    {
+     "hex": "#9f0705",
+     "share": 0.143,
+     "name": "red"
+    },
+    {
+     "hex": "#37024a",
+     "share": 0.119,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#fcc60f",
+     "share": 0.091,
+     "name": "gold"
+    },
+    {
+     "hex": "#fdfaf7",
+     "share": 0.071,
+     "name": "light orange"
+    },
+    {
+     "hex": "#fcf469",
+     "share": 0.066,
+     "name": "gold"
+    },
+    {
+     "hex": "#9109c0",
+     "share": 0.046,
+     "name": "purple"
+    },
+    {
+     "hex": "#170705",
+     "share": 0.044,
+     "name": "black"
+    },
+    {
+     "hex": "#053980",
+     "share": 0.04,
+     "name": "dark blue"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.414,
+   "saturation": 0.819,
+   "contrast": 0.31,
+   "warm": 0.811,
+   "cool": 0.144,
+   "palette": [
+    {
+     "hex": "#35050f",
+     "share": 0.378,
+     "name": "black"
+    },
+    {
+     "hex": "#feaf18",
+     "share": 0.211,
+     "name": "orange"
+    },
+    {
+     "hex": "#fef565",
+     "share": 0.073,
+     "name": "gold"
+    },
+    {
+     "hex": "#fefef0",
+     "share": 0.05,
+     "name": "light gold"
+    },
+    {
+     "hex": "#de0809",
+     "share": 0.035,
+     "name": "red"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.138,
+   "saturation": 0.865,
+   "contrast": 0.249,
+   "warm": 0.29,
+   "cool": 0.622,
+   "palette": [
+    {
+     "hex": "#24083d",
+     "share": 0.765,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#630e2e",
+     "share": 0.106,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f9d820",
+     "share": 0.043,
+     "name": "gold"
+    },
+    {
+     "hex": "#f47618",
+     "share": 0.043,
+     "name": "orange"
+    },
+    {
+     "hex": "#b31d20",
+     "share": 0.032,
+     "name": "red"
+    }
+   ]
+  },
+  "Win celebrations and banners": {
+   "brightness": 0.588,
+   "saturation": 0.757,
+   "contrast": 0.661,
+   "warm": 0.832,
+   "cool": 0.12,
+   "palette": [
+    {
+     "hex": "#fdbc0f",
+     "share": 0.174,
+     "name": "orange"
+    },
+    {
+     "hex": "#fdf9ed",
+     "share": 0.119,
+     "name": "light gold"
+    },
+    {
+     "hex": "#461105",
+     "share": 0.111,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fef836",
+     "share": 0.095,
+     "name": "gold"
+    },
+    {
+     "hex": "#ed5f06",
+     "share": 0.093,
+     "name": "orange"
+    },
+    {
+     "hex": "#f2150b",
+     "share": 0.063,
+     "name": "red"
+    },
+    {
+     "hex": "#fef994",
+     "share": 0.06,
+     "name": "light gold"
+    },
+    {
+     "hex": "#a93a09",
+     "share": 0.054,
+     "name": "brown"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.553,
+   "saturation": 0.757,
+   "contrast": 0.648,
+   "warm": 0.467,
+   "cool": 0.382,
+   "palette": [
+    {
+     "hex": "#da1f0e",
+     "share": 0.121,
+     "name": "red"
+    },
+    {
+     "hex": "#fc730c",
+     "share": 0.105,
+     "name": "orange"
+    },
+    {
+     "hex": "#f5f5f5",
+     "share": 0.089,
+     "name": "white"
+    },
+    {
+     "hex": "#0a74ef",
+     "share": 0.085,
+     "name": "blue"
+    },
+    {
+     "hex": "#03881b",
+     "share": 0.054,
+     "name": "dark green"
+    },
+    {
+     "hex": "#fec126",
+     "share": 0.052,
+     "name": "orange"
+    },
+    {
+     "hex": "#51fe03",
+     "share": 0.017,
+     "name": "green"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.543,
+   "saturation": 0.725,
+   "contrast": 0.504,
+   "warm": 0.513,
+   "cool": 0.32,
+   "palette": [
+    {
+     "hex": "#fafcfa",
+     "share": 0.101,
+     "name": "light green"
+    },
+    {
+     "hex": "#94280a",
+     "share": 0.097,
+     "name": "red"
+    },
+    {
+     "hex": "#f69c13",
+     "share": 0.069,
+     "name": "orange"
+    },
+    {
+     "hex": "#e708f2",
+     "share": 0.044,
+     "name": "magenta"
+    },
+    {
+     "hex": "#fcf591",
+     "share": 0.043,
+     "name": "light gold"
+    },
+    {
+     "hex": "#130f0d",
+     "share": 0.041,
+     "name": "black"
+    },
+    {
+     "hex": "#f9f114",
+     "share": 0.034,
+     "name": "gold"
+    },
+    {
+     "hex": "#0ff12f",
+     "share": 0.021,
+     "name": "green"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.623,
+   "saturation": 0.633,
+   "contrast": 0.62,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fce43e",
+     "share": 0.184,
+     "name": "gold"
+    },
+    {
+     "hex": "#e95628",
+     "share": 0.163,
+     "name": "red"
+    },
+    {
+     "hex": "#fdf5e6",
+     "share": 0.093,
+     "name": "light orange"
+    },
+    {
+     "hex": "#f8dea2",
+     "share": 0.093,
+     "name": "light orange"
+    },
+    {
+     "hex": "#581a07",
+     "share": 0.091,
+     "name": "dark red"
+    },
+    {
+     "hex": "#efb171",
+     "share": 0.091,
+     "name": "orange"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.688,
+   "saturation": 0.676,
+   "contrast": 0.487,
+   "warm": 0.753,
+   "cool": 0.155,
+   "palette": [
+    {
+     "hex": "#fefdf8",
+     "share": 0.225,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fae50f",
+     "share": 0.183,
+     "name": "gold"
+    },
+    {
+     "hex": "#f68a06",
+     "share": 0.18,
+     "name": "orange"
+    },
+    {
+     "hex": "#c1410e",
+     "share": 0.057,
+     "name": "orange"
+    },
+    {
+     "hex": "#faf158",
+     "share": 0.042,
+     "name": "gold"
+    },
+    {
+     "hex": "#faf8a4",
+     "share": 0.036,
+     "name": "light gold"
+    },
+    {
+     "hex": "#260913",
+     "share": 0.034,
+     "name": "black"
+    },
+    {
+     "hex": "#f71e11",
+     "share": 0.022,
+     "name": "red"
+    }
+   ]
+  },
+  "Provider interface (shared)": {
+   "brightness": 0.656,
+   "saturation": 0.622,
+   "contrast": 0.091,
+   "warm": 0.609,
+   "cool": 0.068,
+   "palette": [
+    {
+     "hex": "#ef9106",
+     "share": 0.412,
+     "name": "orange"
+    },
+    {
+     "hex": "#ffffff",
+     "share": 0.266,
+     "name": "white"
+    },
+    {
+     "hex": "#e5547c",
+     "share": 0.084,
+     "name": "red"
+    },
+    {
+     "hex": "#fccb17",
+     "share": 0.077,
+     "name": "gold"
+    },
+    {
+     "hex": "#070110",
+     "share": 0.045,
+     "name": "black"
+    },
+    {
+     "hex": "#8874f6",
+     "share": 0.036,
+     "name": "blue"
+    },
+    {
+     "hex": "#35013b",
+     "share": 0.027,
+     "name": "black"
+    },
+    {
+     "hex": "#be3f11",
+     "share": 0.026,
+     "name": "orange"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, 27 Nov 2026, alone (no sub-reviewers), from this run's 117 contact sheets, the motion sheets, the frames drawn from the skeletons and the real game screens of a played free-play session. Measured figures come from tools/measure.py and are labelled as measured.",
+  "summary": "A mine of hot gold on dark violet: four toy-like carts in red, blue, green and violet, each heaped with nuggets, stand over a deliberately plain dark reel board, and those four colours code every feature, label, gem, trail and font in the game.",
+  "style": "Stylised 3D-look digital painting in a casual, toy-like manner. Objects are short, wide and rounded (carts, pots, helmet, satchel), the one human and the donkey are jolly cartoon heads, low symbols are fat extruded letters, and the environment is a theatre set of flat rock layers. Nothing is realistic or worn: everything looks new, polished and collectable.",
+  "rendering": "Smooth render-like gradients with clean hard silhouettes and no outlines; a bright rim on almost every form. Glow is never painted into an object: halos, flares, rings and rays are separate soft sprites on additive slots. Backdrops are fully soft gradients; the drawn rock is broad brushwork cut into layers. Lettering is flat-faced with a dark extrusion and a stroke.",
+  "colour": "Measured over the game's own art: dark violet #24083b is 48% of all pixels, then dark red #5d0e27 (8%), gold #fcdd21 (8%), orange #f5790f (7%), red #a21111 (5%) and near-white #fbfaf4 (4%); saturation 0.82 (vivid), brightness 0.30. Read: a dark violet and maroon ground carries hot gold and orange, and four accent colours are kept strictly for the four features: red for Expand, blue for Power, green for Collect, violet for Multi. Jackpots re-use three of them (green Mini, blue Minor, purple Major) and take orange-red for Grand and Royal.",
+  "lighting": "Light comes from the treasure and from inside the mountain: carts, nuggets, gems and lamps glow, an orange heat patch sits behind the board, and the tunnel is lit by embers. Objects are top- and top-left-lit with strong specular highlights (measured light direction over the parts: top 238, top-left 113, top-right 106). The bonus board is framed by the brightest edge in the game, a yellow-white glow line.",
+  "ambience": "Warm, loud and generous: a forge-like underground where everything valuable shines. Friendly instead of adventurous; the miner laughs, the donkey grins. The bonus turns hotter (red rock, glowing board) and the intro card is close to a sunrise.",
+  "shapes": "Rounded and chunky objects; trapezoid sign plates (wider at the top) for every label and jackpot panel; circles for nuggets, gems, coins and the Power wheel; thin straight gold lines for the reel frame. Sharp shapes appear only in light: star flares, rays, comet trails.",
+  "materials": "Polished gold (nuggets, coins, rims), glossy enamelled metal in the four feature colours, cut crystal gems, glass lamps, leather and brass on the mid symbols, rough timber and rock in the scene, and light itself as a material (halos, fire lines, neon-like rails).",
+  "typography": "All display words are drawn art in one family of heavy rounded capitals with a dark stroke and extrusion: the logo, the feature labels, the jackpot words, NICE, GREAT and the big win words. Numbers are eleven bitmap fonts of one rounded numeral, each coloured for its place (gold for wins, cream for nugget values, blue, green, red and pink for the four features). Six font files are embedded for running text: League Spartan and Myriad Pro (game), Gilroy (Kendoo's game runner).",
+  "motion": "Spine 3.8.99 throughout: 84 skeletons with 950 animations between them, and 175 frame sequences (1,785 frames) for flashes, sweeps, fire lines and trails. The carts are the most animated things in the game (46 to 49 animations each, ten fill levels with idle, win, impact and level-up). Symbols have a 1 s win; the miner and the nugget also have fall and idle. All 84 rigs bind to their own atlas and 80 were drawn by this project's tool; frames it drew are secondary to the game screens.",
+  "variants": "Almost every interface rig carries a base-game (mg) and a bonus (bg) set, and most scene rigs a portrait and a landscape set. The scene exists in two colourings of the same layers (base and bonus). The cart exists three times at three sizes (above the reels, on the intro card, in the shop cards) and again as a pot symbol, a line badge and a coin emblem.",
+  "construction": "132 pictures hold 3,299 named sprites. Every skeleton has its own small atlas (one to four pages) and nothing is shared between rigs; loose sprites sit in eight TexturePacker sheets by game state (preloader, main, symbols, bonus, power, gamble, paytable, bigwin). The art is small: symbols are about 140x106 px, the largest cart part 262x158 px, the largest scene layer 838x672 px, the backdrops 1860x2144 px soft gradients. A resource map lists a half-size 'A1' variant of every picture; this run read the full-size 'default' set as PNG.",
+  "consistency": "Very high. One lettering family, one numeral, one plate shape, one gold, and a four-colour code applied without exception from cart to trail to font. The only pieces outside it are the white helper glyphs and Kendoo's shared button set.",
+  "takeaways": [
+   "Pick the feature colours first and spend them everywhere: here red, blue, green and violet each own a cart, a label, a pot symbol, a rail, a trail, a landing light and a number font, so a player reads which feature is acting from colour alone.",
+   "Make the prize the hero. There is no mascot on stage; four carts of gold take that place and get the animation budget (about 190 parts and 46 to 49 animations each, ten fill levels).",
+   "Keep the reel board plain. A flat dark maroon panel with a thin gold line lets small, saturated symbols and the carts above carry the screen.",
+   "Build the environment as a few rock layers over a soft gradient and repaint the same layers for the bonus: two moods from one drawing.",
+   "Treat glow as parts, not paint: every halo, ring and flare is its own additive sprite, which is why one cart rig can show ten levels, a win flash and a gold version.",
+   "One numeral, many colourings: eleven bitmap number fonts share one rounded digit design; a new game needs the digits drawn once.",
+   "Re-use the hero at every scale (scene, intro card, shop card, pot symbol, badge, coin): the game feels rich while showing one object.",
+   "For AI art work: this package is a good target for a prompt-and-assemble pipeline because the pieces are small, isolated on clear ground and strictly colour-coded; the hard part is the rigging (hundreds of small parts per cart), not the painting."
+  ]
+ },
+ "screens": [
+  {
+   "file": "base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Base game at rest",
+   "caption": "The base game as it opens: logo and five jackpot panels at the left, the four carts over the EXPAND, POWER, COLLECT and MULTI labels, the 5x3 board with a stack of Wilds."
+  },
+  {
+   "file": "intro-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Opening card",
+   "caption": "The opening card: the logo, BONUS GAME FEATURES and the four carts with a diagram of each feature."
+  }
+ ]
+}

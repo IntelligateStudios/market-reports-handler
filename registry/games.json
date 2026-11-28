@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T21:05:19Z",
+ "updated": "2026-11-28T08:48:54Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -3023,19 +3023,35 @@
   },
   {
    "id": "kendoo-4-gold-cards",
-   "name": "4 Gold Cards",
+   "name": "4 Gold Carts",
    "provider": "Kendoo",
    "providerKey": "kendoo",
    "type": "slot",
-   "aliases": [],
-   "demo": null,
+   "aliases": [
+    "4 Gold Cards"
+   ],
+   "demo": {
+    "url": "https://kendoo.com/games/4-gold-carts",
+    "from": "set by hand",
+    "at": "2026-11-28T08:48:53Z"
+   },
    "appearances": [],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-27-2126-kendoo-4-gold-carts"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T20:51:12Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-27-2126-kendoo-4-gold-carts",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/JttcdrEk7hc33bDryUcddS",
+     "completed": "2026-11-28T08:48:54Z",
+     "commit": "fc0a0ec",
+     "started": "2026-11-27T20:51:12Z"
     }
    },
    "added": "2026-11-27T15:22:15Z",
@@ -3044,7 +3060,8 @@
      "board": "2026-11-27-miro-reference-games",
      "market": "US/EU"
     }
-   ]
+   ],
+   "notes": "The studio's Miro board writes this game '4 Gold Cards'; Kendoo's title is 4 Gold Carts, and the board's own picture under that heading shows the 4 GOLD CARTS opening card (the analyst's reading, 27 Nov 2026)."
   },
   {
    "id": "kendoo-locomoto",
