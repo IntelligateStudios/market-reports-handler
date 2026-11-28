@@ -1,0 +1,582 @@
+{
+ "run": "2026-11-28-1022-3oaks-lucky-penny-3-pots-super-wheel",
+ "game": "Lucky Penny 3 Pots: Super Wheel",
+ "started": "2026-11-28T10:22:28.000Z",
+ "reader": "generic",
+ "counts": {
+  "textures": 76,
+  "components": 1151,
+  "spines": 27,
+  "fonts": 3
+ },
+ "units": [
+  {
+   "id": "celebrations",
+   "title": "Win celebrations and banners",
+   "units": 6
+  },
+  {
+   "id": "effects",
+   "title": "Effects",
+   "units": 12
+  },
+  {
+   "id": "backgrounds",
+   "title": "Backgrounds and environment",
+   "units": 9
+  },
+  {
+   "id": "typography",
+   "title": "Typography",
+   "units": 5
+  },
+  {
+   "id": "reels",
+   "title": "Reel board",
+   "units": 14
+  },
+  {
+   "id": "characters",
+   "title": "Characters",
+   "units": 1
+  },
+  {
+   "id": "symbols",
+   "title": "Symbols",
+   "units": 5
+  },
+  {
+   "id": "ui",
+   "title": "Game interface",
+   "units": 2
+  },
+  {
+   "id": "logo",
+   "title": "Logo and title",
+   "units": 1
+  },
+  {
+   "id": "provider-ui",
+   "title": "Provider interface (shared)",
+   "units": 1
+  }
+ ],
+ "measured": {
+  "brightness": 0.385,
+  "saturation": 0.681,
+  "contrast": 0.491,
+  "warm": 0.609,
+  "cool": 0.198,
+  "colourShare": 0.708,
+  "softEdge": 0.105,
+  "highlights": 0.064,
+  "palette": [
+   {
+    "hex": "#0a0a0c",
+    "share": 0.274,
+    "name": "black"
+   },
+   {
+    "hex": "#edaa0a",
+    "share": 0.169,
+    "name": "orange"
+   },
+   {
+    "hex": "#312d2a",
+    "share": 0.091,
+    "name": "grey"
+   },
+   {
+    "hex": "#7e3b0a",
+    "share": 0.065,
+    "name": "brown"
+   },
+   {
+    "hex": "#c1710d",
+    "share": 0.06,
+    "name": "orange"
+   },
+   {
+    "hex": "#fcee0f",
+    "share": 0.053,
+    "name": "gold"
+   },
+   {
+    "hex": "#f9f5e9",
+    "share": 0.019,
+    "name": "light gold"
+   },
+   {
+    "hex": "#e80e05",
+    "share": 0.016,
+    "name": "red"
+   }
+  ],
+  "hues": {
+   "orange": 0.38,
+   "yellow": 0.24,
+   "green": 0.118,
+   "blue": 0.114
+  },
+  "lightFrom": {
+   "top": 83,
+   "top-right": 75,
+   "top-left": 72
+  },
+  "words": [
+   "mid-tone",
+   "vivid",
+   "warm and cool mixed",
+   "medium contrast",
+   "hard-edged"
+  ]
+ },
+ "byComponent": {
+  "Win celebrations and banners": {
+   "brightness": 0.415,
+   "saturation": 0.755,
+   "contrast": 0.643,
+   "warm": 0.861,
+   "cool": 0.095,
+   "palette": [
+    {
+     "hex": "#100803",
+     "share": 0.201,
+     "name": "black"
+    },
+    {
+     "hex": "#eda71f",
+     "share": 0.103,
+     "name": "orange"
+    },
+    {
+     "hex": "#fbe412",
+     "share": 0.088,
+     "name": "gold"
+    },
+    {
+     "hex": "#572a09",
+     "share": 0.082,
+     "name": "brown"
+    },
+    {
+     "hex": "#e60503",
+     "share": 0.08,
+     "name": "red"
+    },
+    {
+     "hex": "#a60a04",
+     "share": 0.052,
+     "name": "red"
+    },
+    {
+     "hex": "#f9ef90",
+     "share": 0.039,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fefce8",
+     "share": 0.036,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Effects": {
+   "brightness": 0.426,
+   "saturation": 0.674,
+   "contrast": 0.457,
+   "warm": 0.64,
+   "cool": 0.191,
+   "palette": [
+    {
+     "hex": "#080606",
+     "share": 0.244,
+     "name": "black"
+    },
+    {
+     "hex": "#fbe41d",
+     "share": 0.114,
+     "name": "gold"
+    },
+    {
+     "hex": "#313228",
+     "share": 0.064,
+     "name": "grey"
+    }
+   ]
+  },
+  "Backgrounds and environment": {
+   "brightness": 0.379,
+   "saturation": 0.702,
+   "contrast": 0.472,
+   "warm": 0.551,
+   "cool": 0.232,
+   "palette": [
+    {
+     "hex": "#080b0e",
+     "share": 0.311,
+     "name": "black"
+    },
+    {
+     "hex": "#eea904",
+     "share": 0.233,
+     "name": "orange"
+    },
+    {
+     "hex": "#2c302c",
+     "share": 0.103,
+     "name": "grey"
+    },
+    {
+     "hex": "#fcef07",
+     "share": 0.063,
+     "name": "gold"
+    },
+    {
+     "hex": "#ce6408",
+     "share": 0.046,
+     "name": "orange"
+    },
+    {
+     "hex": "#7248bb",
+     "share": 0.037,
+     "name": "purple"
+    },
+    {
+     "hex": "#a29404",
+     "share": 0.037,
+     "name": "brown"
+    },
+    {
+     "hex": "#79dc4e",
+     "share": 0.016,
+     "name": "green"
+    }
+   ]
+  },
+  "Typography": {
+   "brightness": 0.558,
+   "saturation": 0.764,
+   "contrast": 0.882,
+   "warm": 1.0,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#fddb0d",
+     "share": 0.188,
+     "name": "gold"
+    },
+    {
+     "hex": "#a50e05",
+     "share": 0.158,
+     "name": "red"
+    },
+    {
+     "hex": "#230201",
+     "share": 0.102,
+     "name": "black"
+    },
+    {
+     "hex": "#f2960d",
+     "share": 0.102,
+     "name": "orange"
+    },
+    {
+     "hex": "#f8e68b",
+     "share": 0.102,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fbf6d8",
+     "share": 0.094,
+     "name": "light gold"
+    },
+    {
+     "hex": "#f5d053",
+     "share": 0.068,
+     "name": "gold"
+    },
+    {
+     "hex": "#5e0c04",
+     "share": 0.04,
+     "name": "dark red"
+    }
+   ]
+  },
+  "Reel board": {
+   "brightness": 0.391,
+   "saturation": 0.713,
+   "contrast": 0.463,
+   "warm": 0.545,
+   "cool": 0.26,
+   "palette": [
+    {
+     "hex": "#0c0a0b",
+     "share": 0.18,
+     "name": "black"
+    },
+    {
+     "hex": "#773009",
+     "share": 0.111,
+     "name": "brown"
+    },
+    {
+     "hex": "#e6a715",
+     "share": 0.105,
+     "name": "orange"
+    },
+    {
+     "hex": "#35113e",
+     "share": 0.074,
+     "name": "dark purple"
+    },
+    {
+     "hex": "#f5f1e9",
+     "share": 0.064,
+     "name": "light orange"
+    },
+    {
+     "hex": "#dfcfba",
+     "share": 0.057,
+     "name": "light orange"
+    },
+    {
+     "hex": "#0c5f0a",
+     "share": 0.039,
+     "name": "dark green"
+    },
+    {
+     "hex": "#faf316",
+     "share": 0.02,
+     "name": "gold"
+    }
+   ]
+  },
+  "Characters": {
+   "brightness": 0.506,
+   "saturation": 0.725,
+   "contrast": 0.537,
+   "warm": 0.861,
+   "cool": 0.073,
+   "palette": [
+    {
+     "hex": "#fad819",
+     "share": 0.191,
+     "name": "gold"
+    },
+    {
+     "hex": "#e08e14",
+     "share": 0.183,
+     "name": "orange"
+    },
+    {
+     "hex": "#070603",
+     "share": 0.163,
+     "name": "black"
+    },
+    {
+     "hex": "#ac4b0c",
+     "share": 0.103,
+     "name": "brown"
+    },
+    {
+     "hex": "#fae65a",
+     "share": 0.091,
+     "name": "gold"
+    },
+    {
+     "hex": "#7a2408",
+     "share": 0.051,
+     "name": "dark red"
+    },
+    {
+     "hex": "#fefef5",
+     "share": 0.024,
+     "name": "light gold"
+    }
+   ]
+  },
+  "Symbols": {
+   "brightness": 0.308,
+   "saturation": 0.51,
+   "contrast": 0.393,
+   "warm": 0.537,
+   "cool": 0.155,
+   "palette": [
+    {
+     "hex": "#0d0c0b",
+     "share": 0.331,
+     "name": "black"
+    },
+    {
+     "hex": "#312f2b",
+     "share": 0.142,
+     "name": "grey"
+    },
+    {
+     "hex": "#f8d71b",
+     "share": 0.058,
+     "name": "gold"
+    }
+   ]
+  },
+  "Game interface": {
+   "brightness": 0.4,
+   "saturation": 0.755,
+   "contrast": 0.708,
+   "warm": 0.719,
+   "cool": 0.174,
+   "palette": [
+    {
+     "hex": "#0e050f",
+     "share": 0.143,
+     "name": "black"
+    },
+    {
+     "hex": "#f0c01f",
+     "share": 0.143,
+     "name": "gold"
+    },
+    {
+     "hex": "#3d0a3c",
+     "share": 0.117,
+     "name": "dark magenta"
+    },
+    {
+     "hex": "#d37813",
+     "share": 0.085,
+     "name": "orange"
+    },
+    {
+     "hex": "#7e3a0e",
+     "share": 0.072,
+     "name": "brown"
+    },
+    {
+     "hex": "#741c3f",
+     "share": 0.066,
+     "name": "dark red"
+    },
+    {
+     "hex": "#f6e691",
+     "share": 0.059,
+     "name": "light gold"
+    },
+    {
+     "hex": "#ee1503",
+     "share": 0.022,
+     "name": "red"
+    }
+   ]
+  },
+  "Logo and title": {
+   "brightness": 0.302,
+   "saturation": 0.497,
+   "contrast": 0.662,
+   "warm": 0.796,
+   "cool": 0.077,
+   "palette": [
+    {
+     "hex": "#050303",
+     "share": 0.468,
+     "name": "black"
+    },
+    {
+     "hex": "#fcf9ec",
+     "share": 0.068,
+     "name": "light gold"
+    },
+    {
+     "hex": "#fda3fd",
+     "share": 0.057,
+     "name": "light magenta"
+    },
+    {
+     "hex": "#fdee0a",
+     "share": 0.052,
+     "name": "gold"
+    },
+    {
+     "hex": "#ec16ee",
+     "share": 0.047,
+     "name": "magenta"
+    },
+    {
+     "hex": "#f70202",
+     "share": 0.043,
+     "name": "red"
+    }
+   ]
+  },
+  "Provider interface (shared)": {
+   "brightness": 0.789,
+   "saturation": 0.293,
+   "contrast": 0.151,
+   "warm": 0.326,
+   "cool": 0.0,
+   "palette": [
+    {
+     "hex": "#ffffff",
+     "share": 0.625,
+     "name": "light orange"
+    },
+    {
+     "hex": "#ed6604",
+     "share": 0.198,
+     "name": "orange"
+    },
+    {
+     "hex": "#0b0907",
+     "share": 0.083,
+     "name": "black"
+    },
+    {
+     "hex": "#f3be07",
+     "share": 0.077,
+     "name": "gold"
+    }
+   ]
+  }
+ },
+ "direction": {
+  "analyst": "Claude, from the run's contact sheets, the skeleton frames drawn with Spine's own 4.1 runtime (prep/skel.js), the motion strips and the real game screens of a played free-play session (28 Nov 2026). The per-unit readings were drafted on 28 Nov by a first analyst, who stopped at a usage limit, and checked against their sheets by a second; there were no separate reviewers.",
+  "summary": "An Irish-luck slot drawn as one big gold-and-rainbow toy: three glossy cauldrons heaped with clover coins sit on the reel board in front of a fairground Super Wheel, all in a clean casual 3D-look cartoon manner, against a dusk forest painted cool at the edges and blazing orange at the centre.",
+  "style": "Casual 3D-look cartoon, the manner of a casual mobile game more than of a classic Vegas slot: short, wide, toy-like objects (pots, mug, sack, harp, horseshoe, watch, pipe), a friendly leprechaun portrait with a large head and no caricature edge, coins drawn as jewellery. Lettering is casino-poster slab-serif capitals with big first letters (logo, pots, wheel words, win banners). The backdrop is a storybook painting of big scalloped leaf masses with no small detail.",
+  "rendering": "Smooth enamel gradients with a bright specular patch and a light rim, no line outline anywhere on the game art. The reel board is kept flat and quiet (cream reels, a thin wooden frame, a knot pattern at very low contrast) so the symbols carry the colour. Every glow, ray, rainbow, sparkle and win frame is a separate additive layer on a black ground, so the light is a layer, not paint.",
+  "colour": "Gold first: measured over the game's own art, orange #edaa0a 17%, gold #fcee0f 5%, orange #c1710d 6% and brown #7e3b0a 7% (black #0a0a0c 27% is mostly the ground of additive parts); hues orange 38%, yellow 24%, green 12%, blue 11%; vivid (saturation 0.68), warm 61% against cool 20%. Read: one saturated feature colour per piece on top of the gold, blue for Double, red for Multi, green for Extra and Mini, purple for Major, repeated on the pots, the coloured bonus coins, the wheel slices and the jackpot panels. The rainbow is the game's accent for wins and transitions. The background is the cool counterweight (dark blue #13192a 48% and purple #7148ba 11% around an orange core).",
+  "lighting": "Top light throughout (measured light direction over the game's art: top 83, top-right 75, top-left 72), with highlights high on bellies and rims and soft drop shadows as separate parts. The scene has one hot centre: a blaze of yellow-orange light behind the pots and the wheel (bg_animation), so in play the whole screen reads far warmer than the backdrop file. Feature moments add coloured light columns from the pots, rainbow rings and neon win frames.",
+  "ambience": "Cheerful abundance and luck: heaps of coins that never sit still, pots that visibly fill, a grinning leprechaun, a fairground wheel. Bright and friendly rather than mysterious; the dusk forest is only a frame for the gold.",
+  "shapes": "Round and chunky: fat cauldrons, round coins, clover pads, rounded tiles, ball-terminal numerals. The only straight-edged pieces are the long wheel wedges and the flat reel board.",
+  "materials": "Polished gold (coins, badges, rims, trims), glossy enamelled metal (pot bodies, coin rims), glazed ceramic and beer foam, cloth (sack, hat), carved wood (pipe, low letters, reel frame), enamel symbol tiles, and neon light for win frames.",
+  "typography": "Display words are drawn art in one family of heavy slab-serif capitals with a contrasting stroke and a bevel: the logo, the pot plates, the wheel words, the big-win banners (BIG, HUGE, MEGA, EPIC WIN, BONUS WIN, GRAND WIN) and the BONUS GAME title. Numbers are five bitmap fonts of the same ball-terminal numeral (big win, jackpots, coin values, multipliers in red, line wins). The interface uses Roboto Black and Gilroy, the platform's faces.",
+  "motion": "All 27 rigs are Spine 4.1.24 binary skeletons (.skel), drawn here with Spine's own runtime. The pots carry the most motion (76 animations: eleven fill levels with idle variants, a collect for each level, trigger start and loop); symbols have one 1 s win animation each, the Wild bends its hat and head on meshes; the big-win rig runs 6 to 11 s per tier. Sparkle, coin turns, sweeps and win-frame pulses are frame sequences (37 found) inside the rigs; small sparks are thrown by the client's particle emitters.",
+  "variants": "Variety comes from recolouring one design: one pot rig with three skins (blue Double, green Extra, red Multi), a gold bonus coin with blue, green and red feature versions and green Mini, blue Minor and purple Major jackpot coins, seven wheel slices from one rig, four jackpot panels from one plate. Every symbol ships as a still, a reel-blur copy and a skeleton frame.",
+  "construction": "1,151 named sprites on 76 textures, 27 skeletons, 5 bitmap font pages and 3 embedded typefaces. Pieces are built in layers: a top symbol is tile, object, tile frame top, shadow and glint, so the object can pop out of its frame; a pot is body, plate, badge, front and back coin heaps and separate light. Eleven paying symbols share one skeleton and one atlas. The Super Wheel is the largest art (rim 1616x1616 px), and the start screen has its own scene of five large pictures.",
+  "consistency": "Tight: one rendering manner, one gold, one lettering family and one colour code for the features across pots, coins, wheel and panels. Two things sit apart: the backdrop is a looser painting than the clean 3D-look pieces, and the interface (spin button, menu, balance) is the platform's flat white-on-dark set, shared with Kendoo's game on the same demo server (inference from the shared gr_ rules and Gilroy files).",
+  "takeaways": [
+   "A colour code carries the game design: each feature owns one colour, and that colour is repeated on every piece that belongs to it (pot, coin, wheel slice, panel), always on the same gold. A player reads the feature before reading the word.",
+   "The feature collectors are the stars of the screen: three pots stand where a mascot would, and their fill levels are drawn as eleven separate states, so progress is shown by the art itself.",
+   "Light is a separate layer everywhere (additive rays, glows, rainbows and neon frames on black grounds). That is what keeps the painted pieces reusable and what an image model does not give by itself.",
+   "The board is kept plain so the symbols and the pots carry the detail; the backdrop is cool and dark at the edges so the gold centre reads first.",
+   "One rig per family with skins (pots, coins, wheel slices, eleven symbols in one skeleton) keeps a lot of visible variety on little art."
+  ]
+ },
+ "screens": [
+  {
+   "file": "base-02.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "base",
+   "screen": "Base game at rest",
+   "caption": "The base game after the start card: logo and the four jackpot panels (GRAND, MAJOR, MINOR, MINI) at the left, the pots standing on the 5x3 board with the wheel behind them, bonus coins (5.00, MINOR, 10.00) and stacked leprechaun Wilds on the cream reels."
+  },
+  {
+   "file": "base-01.webp",
+   "width": 420,
+   "height": 236,
+   "stage": "intro",
+   "screen": "Start screen",
+   "caption": "The start card: the logo top left, the Super Wheel behind the three pots (DOUBLE blue, MULTI red, EXTRA green) heaped with clover coins, three feature hints (a board pattern, a x2 MAJOR coin, a 1 2 3 4 level bar) and TAP ANYWHERE TO START!"
+  }
+ ]
+}

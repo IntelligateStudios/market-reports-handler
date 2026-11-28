@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T17:51:48Z",
+ "updated": "2026-11-28T18:14:13Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -68,19 +68,35 @@
   },
   {
    "id": "3oaks-lucky-penny-3-pots",
-   "name": "Lucky Penny 3 Pots",
+   "name": "Lucky Penny 3 Pots: Super Wheel",
    "provider": "3 Oaks Gaming",
    "providerKey": "3oaks",
    "type": "slot",
-   "aliases": [],
-   "demo": null,
+   "aliases": [
+    "Lucky Penny 3 Pots"
+   ],
+   "demo": {
+    "url": "https://slotslaunch.com/3-oaks-gaming/lucky-penny-3-pots-super-wheel",
+    "from": "set by hand",
+    "at": "2026-11-28T18:14:13Z"
+   },
    "appearances": [],
-   "existing": [],
+   "existing": [
+    {
+     "kind": "art",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "run": "2026-11-28-1022-3oaks-lucky-penny-3-pots-super-wheel"
+    }
+   ],
    "analysis": {
     "art": {
-     "status": "running",
-     "started": "2026-11-27T20:51:12Z",
-     "run": null
+     "status": "complete",
+     "run": "2026-11-28-1022-3oaks-lucky-penny-3-pots-super-wheel",
+     "repo": "IntelligateStudios/Games-AI-art",
+     "report": "https://claude.ai/artifact/XGcs5eANrTjqQ2hpVqUEh8",
+     "completed": "2026-11-28T18:14:13Z",
+     "commit": "7756029",
+     "started": "2026-11-27T20:51:12Z"
     }
    },
    "added": "2026-11-27T15:22:15Z",
