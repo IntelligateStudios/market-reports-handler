@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T08:48:54Z",
+ "updated": "2026-11-28T17:51:48Z",
  "games": [
   {
    "id": "1x2-3-apex-treasures",
@@ -5337,8 +5337,8 @@
   {
    "id": "unknown-lucky-penny-2",
    "name": "Lucky Penny 2",
-   "provider": null,
-   "providerKey": null,
+   "provider": "3 Oaks Gaming",
+   "providerKey": "3oaks",
    "type": "slot",
    "aliases": [],
    "demo": null,
@@ -5356,7 +5356,8 @@
      "market": "US/EU",
      "note": "The board's note: \"Most GGR comes from Turkey\". The board names no provider for this game."
     }
-   ]
+   ],
+   "notes": "The Miro board names no provider for this game. Slotslaunch lists it in 3 Oaks Gaming's catalogue as 'Lucky Penny 2 Demo Slot by 3 Oaks Gaming' (https://slotslaunch.com/3-oaks-gaming/lucky-penny-2), read by the Lucky Penny 3 Pots analyst on 27 Nov 2026."
   },
   {
    "id": "whitehat-7s-fire-blitz-hot-stepper",
